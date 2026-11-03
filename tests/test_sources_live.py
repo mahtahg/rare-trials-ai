@@ -59,15 +59,18 @@ async def test_opentargets_search_disease_and_targets():
 async def test_opentargets_drug_metformin():
     d = await opentargets.drug("CHEMBL1431")
     assert d["data"]["name"].upper() == "METFORMIN"
+    print("OT metformin stage:", d["data"]["max_clinical_stage"])
     assert d["data"]["is_approved"] is True
     assert d["data"]["indications"]
 
 
 async def test_opentargets_disease_drugs():
     s = await opentargets.search("cystic fibrosis", "disease", 1)
-    out = await opentargets.disease_drugs(s["data"][0]["id"], size=50)
+    out = await opentargets.disease_drugs(s["data"][0]["id"], size=200)
     names = {r["drug"].upper() for r in out["data"]["rows"]}
     assert "IVACAFTOR" in names
+    stages = {r["max_stage_for_disease"] for r in out["data"]["rows"]}
+    print("OT stage values:", sorted(s for s in stages if s))
 
 
 async def test_chembl_metformin():

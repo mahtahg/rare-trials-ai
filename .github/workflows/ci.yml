@@ -33,7 +33,7 @@ jobs:
       - name: Live contract tests (records cassettes)
         env: { BIOMCP_CASSETTE_MODE: record }
         shell: bash
-        run: pytest -m live -q -rA 2>&1 | tee live-tests.txt
+        run: pytest -m live -q -rA -s 2>&1 | tee live-tests.txt
       - name: Commit cassettes + report
         if: always()
         run: |

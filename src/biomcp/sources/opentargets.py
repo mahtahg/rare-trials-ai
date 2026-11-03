@@ -100,12 +100,20 @@ async def disease_targets(disease_id: str, size: int = 25, page: int = 0, client
 DRUG_Q = """
 query Drug($id: String!) {
   drug(chemblId: $id) {
-    id name drugType maximumClinicalTrialPhase isApproved yearOfFirstApproval hasBeenWithdrawn
-    synonyms tradeNames
+    id name drugType maximumClinicalStage synonyms tradeNames description
+    drugWarnings { warningType toxicityClass country year description }
     mechanismsOfAction { rows { mechanismOfAction actionType targets { id approvedSymbol } } }
-    indications { count rows { maxPhaseForIndication disease { id name } } }
+    indications { count rows { maxClinicalStage disease { id name } } }
   }
 }"""
+
+# Open Targets clinical stages, ordered (values outside this list sort first)
+STAGE_ORDER = ["PRECLINICAL", "EARLY_PHASE_1", "PHASE_1", "PHASE_1_2", "PHASE_2", "PHASE_2_3", "PHASE_3", "PHASE_4", "APPROVAL"]
+
+
+def stage_rank(stage: str | None) -> int:
+    s = (stage or "").upper()
+    return STAGE_ORDER.index(s) if s in STAGE_ORDER else -1
 
 
 async def drug(chembl_id: str, client: HttpClient | None = None):
@@ -114,14 +122,18 @@ async def drug(chembl_id: str, client: HttpClient | None = None):
     d = r.body["data"]["drug"]
     if d is None:
         return {"data": None, "notes": [f"no drug {chembl_id} in Open Targets"], "provenance": [(await _stamp(r, client)).to_dict()]}
+    warnings = d.get("drugWarnings") or []
     out = {
         "chembl_id": d["id"],
         "name": d["name"],
         "drug_type": d.get("drugType"),
-        "max_phase": d.get("maximumClinicalTrialPhase"),
-        "is_approved": d.get("isApproved"),
-        "year_first_approval": d.get("yearOfFirstApproval"),
-        "withdrawn": d.get("hasBeenWithdrawn"),
+        "max_clinical_stage": d.get("maximumClinicalStage"),
+        "is_approved": (d.get("maximumClinicalStage") or "").upper() in {"APPROVAL", "PHASE_4"},
+        "withdrawn_or_warned": [
+            {"type": w.get("warningType"), "class": w.get("toxicityClass"), "country": w.get("country"), "year": w.get("year")}
+            for w in warnings
+        ][:10],
+        "description": clip(d.get("description"), 600),
         "synonyms": (d.get("synonyms") or [])[:15],
         "trade_names": (d.get("tradeNames") or [])[:15],
         "mechanisms": [
@@ -134,49 +146,64 @@ async def drug(chembl_id: str, client: HttpClient | None = None):
         ],
         "indications": sorted(
             (
-                {"disease_id": i["disease"]["id"], "disease": i["disease"]["name"], "max_phase": i.get("maxPhaseForIndication")}
+                {"disease_id": i["disease"]["id"], "disease": i["disease"]["name"], "max_clinical_stage": i.get("maxClinicalStage")}
                 for i in (d.get("indications") or {}).get("rows", [])
             ),
-            key=lambda x: -(x["max_phase"] or 0),
+            key=lambda x: -stage_rank(x["max_clinical_stage"]),
         ),
     }
-    return envelope(out, await _stamp(r, client), total=(d.get("indications") or {}).get("count"))
+    return envelope(out, await _stamp(r, client), total=(d.get("indications") or {}).get("count"),
+                    notes=["is_approved = maximumClinicalStage is APPROVAL or PHASE_4 (Open Targets)."])
 
 
-KNOWN_DRUGS_Q = """
-query KD($id: String!, $size: Int!) {
+DISEASE_DRUGS_Q = """
+query DD($id: String!) {
   disease(efoId: $id) {
     id name
-    knownDrugs(size: $size) {
-      uniqueDrugs count
-      rows { drug { id name isApproved } phase status mechanismOfAction ctIds targetId }
+    drugAndClinicalCandidates {
+      count
+      rows {
+        maxClinicalStage
+        drug { id name drugType maximumClinicalStage mechanismsOfAction { rows { actionType targets { approvedSymbol } } } }
+        clinicalReports { id source trialPhase trialOverallStatus trialWhyStopped trialStopReasonCategories year url }
+      }
     }
   }
 }"""
 
 
-async def disease_drugs(disease_id: str, size: int = 50, client: HttpClient | None = None):
-    """Drugs with clinical evidence for this disease (Open Targets 'known drugs' / ChEMBL evidence)."""
-    r = await _gql(KNOWN_DRUGS_Q, {"id": disease_id, "size": max(1, min(size, 200))}, client)
+async def disease_drugs(disease_id: str, size: int = 50, min_stage: str | None = None, client: HttpClient | None = None):
+    """Drugs and clinical candidates for a disease, with the trials (clinical reports) behind each."""
+    r = await _gql(DISEASE_DRUGS_Q, {"id": disease_id}, client)
     d = r.body["data"]["disease"]
     if d is None:
         return {"data": None, "notes": [f"no disease with id {disease_id}"], "provenance": [(await _stamp(r, client)).to_dict()]}
-    kd = d.get("knownDrugs") or {}
-    rows = [
-        {
-            "chembl_id": x["drug"]["id"],
-            "drug": x["drug"]["name"],
-            "drug_approved": x["drug"].get("isApproved"),
-            "phase": x.get("phase"),
-            "trial_status": x.get("status"),
-            "mechanism": x.get("mechanismOfAction"),
-            "target_id": x.get("targetId"),
-            "nct_ids": x.get("ctIds") or [],
-        }
-        for x in kd.get("rows", [])
-    ]
-    return envelope(
-        {"disease_id": d["id"], "disease_name": d["name"], "unique_drugs": kd.get("uniqueDrugs"), "rows": rows},
-        await _stamp(r, client),
-        total=kd.get("count"),
-    )
+    dc = d.get("drugAndClinicalCandidates") or {}
+    rows = []
+    for x in dc.get("rows", []):
+        if min_stage and stage_rank(x.get("maxClinicalStage")) < stage_rank(min_stage):
+            continue
+        reps = x.get("clinicalReports") or []
+        dr = x.get("drug") or {}
+        rows.append({
+            "chembl_id": dr.get("id"),
+            "drug": dr.get("name"),
+            "drug_type": dr.get("drugType"),
+            "max_stage_for_disease": x.get("maxClinicalStage"),
+            "drug_max_stage_any_indication": dr.get("maximumClinicalStage"),
+            "targets": sorted({t["approvedSymbol"] for m in (dr.get("mechanismsOfAction") or {}).get("rows", [])
+                               for t in m.get("targets") or []}),
+            "n_reports": len(reps),
+            "trials": [
+                {"id": c.get("id"), "source": c.get("source"), "phase": c.get("trialPhase"), "status": c.get("trialOverallStatus"),
+                 "why_stopped": clip(c.get("trialWhyStopped"), 200), "stop_categories": c.get("trialStopReasonCategories"),
+                 "year": c.get("year")}
+                for c in reps[:8]
+            ],
+        })
+    rows.sort(key=lambda x: (-stage_rank(x["max_stage_for_disease"]), x["drug"] or ""))
+    total = len(rows)
+    rows = rows[: max(1, min(size, 200))]
+    notes = [f"{total} drugs after filtering" + (f" (min_stage={min_stage})" if min_stage else "") + f"; showing {len(rows)}"]
+    return envelope({"disease_id": d["id"], "disease_name": d["name"], "rows": rows}, await _stamp(r, client),
+                    total=dc.get("count"), notes=notes)

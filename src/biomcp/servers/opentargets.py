@@ -39,13 +39,15 @@ def register(server) -> None:
     async def opentargets_disease_drugs(
         disease_id: Annotated[str, Field(description="EFO/MONDO/Orphanet disease ID")],
         size: Annotated[int, Field(ge=1, le=200)] = 50,
+        min_stage: Annotated[str | None, Field(description="Minimum clinical stage, e.g. PHASE_3 or APPROVAL")] = None,
     ) -> dict:
-        """Drugs with clinical-stage evidence for this disease (phase, trial status, mechanism, NCT IDs)."""
-        return await ot.disease_drugs(disease_id, size)
+        """Drugs and clinical candidates for this disease: max stage, targets, and the trials behind them
+        (phase, status, why stopped, stop-reason categories)."""
+        return await ot.disease_drugs(disease_id, size, min_stage)
 
     @tool(server)
     async def opentargets_drug(chembl_id: Annotated[str, Field(description="ChEMBL ID, e.g. CHEMBL1431")]) -> dict:
-        """Drug profile: approval, first approval year, withdrawn flag, mechanisms with targets, all indications."""
+        """Drug profile: max clinical stage, approval flag, warnings/withdrawals, mechanisms with targets, all indications."""
         return await ot.drug(chembl_id)
 
 
