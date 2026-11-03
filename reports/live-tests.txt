@@ -1,103 +1,10 @@
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pytest_asyncio/plugin.py:300: PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
 The event loop scope for asynchronous fixtures will default to the "fixture" caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to "function" scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", "class", "module", "package", "session"
 
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
-.....FOT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
-.FF...
-=================================== FAILURES ===================================
-_______________________ test_opentargets_drug_metformin ________________________
-
-    async def test_opentargets_drug_metformin():
->       d = await opentargets.drug("CHEMBL1431")
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-tests/test_sources_live.py:60: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-src/biomcp/sources/opentargets.py:121: in drug
-    r = await _gql(DRUG_Q, {"id": chembl_id}, client)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-src/biomcp/sources/opentargets.py:22: in _gql
-    r = await c.post_json(SOURCE, URL, {"query": query, "variables": variables})
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-src/biomcp/core/http.py:256: in post_json
-    return await self.request(source, "POST", url, json_body=json_body, **kw)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <biomcp.core.http.HttpClient object at 0x7f312a0c4680>
-source = 'opentargets', method = 'POST'
-url = 'https://api.platform.opentargets.org/api/v4/graphql', params = None
-json_body = {'query': '\nquery Drug($id: String!) {\n  drug(chemblId: $id) {\n    id name drugType maximumClinicalStage synonyms t...}\n    indications { count rows { maxClinicalStage disease { id name } } }\n  }\n}', 'variables': {'id': 'CHEMBL1431'}}
-headers = None, ok_statuses = frozenset({200})
-
-    async def request(
-        self,
-        source: str,
-        method: str,
-        url: str,
-        *,
-        params: dict[str, Any] | None = None,
-        json_body: Any = None,
-        headers: dict[str, str] | None = None,
-        ok_statuses: frozenset[int] = frozenset({200}),
-    ) -> Response:
-        full_url = _canonical_url(url, params)
-        key = _cassette_key(method, full_url, json_body)
-    
-        if self.cassette_mode in {"replay", "auto"}:
-            rec = self._load_cassette(source, key)
-            if rec is not None:
-                return self._from_record(source, rec, from_cassette=True)
-            if self.cassette_mode == "replay":
-                raise CassetteMiss(f"no cassette for {method} {full_url}", url=full_url)
-    
-        status, text = await self._fetch(method, url, params, json_body, headers)
-        rec = {
-            "method": method.upper(),
-            "url": full_url,
-            "json_body": json_body,
-            "status": status,
-            "retrieved_at": _now(),
-            "text": text,
-        }
-        if self.cassette_mode in {"record", "auto"} and status in ok_statuses | {404}:
-            self._save_cassette(source, key, rec)
-        resp = self._from_record(source, rec, from_cassette=False)
-        if status not in ok_statuses:
-            msg = text[:500] if isinstance(text, str) else str(text)[:500]
->           raise SourceError(f"{source} HTTP {status}: {msg}", status=status, url=full_url)
-E           biomcp.core.http.SourceError: opentargets HTTP 400: {"errors":[{"message":"Field 'synonyms' of type '[DrugLabelAndSource!]!' must have a sub selection. (line 4, column 43):\n    id name drugType maximumClinicalStage synonyms tradeNames description\n                                          ^","locations":[{"line":4,"column":43}]},{"message":"Field 'tradeNames' of type '[DrugLabelAndSource!]!' must have a sub selection. (line 4, column 52):\n    id name drugType maximumClinicalStage synonyms tradeNames description\n
-
-src/biomcp/core/http.py:202: SourceError
-____________________________ test_chembl_metformin _____________________________
-
-    async def test_chembl_metformin():
-        s = await chembl.search_molecules("metformin", 5)
-        _prov_ok(s)
-        assert s["data"][0]["pref_name"] == "METFORMIN"
-        m = await chembl.get_molecule("CHEMBL1431")
-        assert float(m["data"]["max_phase"]) == 4
-        assert m["provenance"][0]["source_version"].startswith("ChEMBL_")
-        mech = await chembl.mechanisms("CHEMBL941")  # imatinib: curated kinase-inhibitor mechanisms
->       assert any(r["action_type"] == "INHIBITOR" for r in mech["data"])
-E       assert False
-E        +  where False = any(<generator object test_chembl_metformin.<locals>.<genexpr> at 0x7f3129f69f20>)
-
-tests/test_sources_live.py:84: AssertionError
-__________________________ test_fda_generic_and_label __________________________
-
-    async def test_fda_generic_and_label():
-        g = await fda.generic_availability("metformin hydrochloride")
-        _prov_ok(g)
-        assert g["data"]["generic_available_us"] is True
-        assert g["data"]["n_anda"] > 10
-        lab = await fda.label("sirolimus")
->       assert "lymphangioleiomyomatosis" in (lab["data"]["indications_and_usage"] or "").lower()
-E       AssertionError: assert 'lymphangioleiomyomatosis' in '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…'
-E        +  where '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…' = <built-in method lower of str object at 0x55f39bac6570>()
-E        +    where <built-in method lower of str object at 0x55f39bac6570> = ('1 INDICATIONS AND USAGE • Sirolimus tablets are an mTOR inhibitor immunosuppressant indicated for the prophylaxis of ... ]. In pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…').lower
-
-tests/test_sources_live.py:95: AssertionError
+.....OT metformin stage: APPROVAL
+.OT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
+......
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -105,14 +12,11 @@ PASSED tests/test_sources_live.py::test_ctgov_filters_phase_and_dates
 PASSED tests/test_sources_live.py::test_ctgov_missing_trial
 PASSED tests/test_sources_live.py::test_ctgov_version
 PASSED tests/test_sources_live.py::test_opentargets_search_disease_and_targets
+PASSED tests/test_sources_live.py::test_opentargets_drug_metformin
 PASSED tests/test_sources_live.py::test_opentargets_disease_drugs
+PASSED tests/test_sources_live.py::test_chembl_metformin
+PASSED tests/test_sources_live.py::test_fda_generic_and_label
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-FAILED tests/test_sources_live.py::test_opentargets_drug_metformin - biomcp.core.http.SourceError: opentargets HTTP 400: {"errors":[{"message":"Field 'synonyms' of type '[DrugLabelAndSource!]!' must have a sub selection. (line 4, column 43):\n    id name drugType maximumClinicalStage synonyms tradeNames description\n                                          ^","locations":[{"line":4,"column":43}]},{"message":"Field 'tradeNames' of type '[DrugLabelAndSource!]!' must have a sub selection. (line 4, column 52):\n    id name drugType maximumClinicalStage synonyms tradeNames description\n
-FAILED tests/test_sources_live.py::test_chembl_metformin - assert False
- +  where False = any(<generator object test_chembl_metformin.<locals>.<genexpr> at 0x7f3129f69f20>)
-FAILED tests/test_sources_live.py::test_fda_generic_and_label - AssertionError: assert 'lymphangioleiomyomatosis' in '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…'
- +  where '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…' = <built-in method lower of str object at 0x55f39bac6570>()
- +    where <built-in method lower of str object at 0x55f39bac6570> = ('1 INDICATIONS AND USAGE • Sirolimus tablets are an mTOR inhibitor immunosuppressant indicated for the prophylaxis of ... ]. In pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…').lower
-3 failed, 9 passed, 16 deselected in 10.34s
+12 passed, 16 deselected in 8.98s
