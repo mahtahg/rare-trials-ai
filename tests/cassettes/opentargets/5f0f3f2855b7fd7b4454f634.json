@@ -1,0 +1,11 @@
+{
+ "json_body": {
+  "query": "{ meta { dataVersion { year month iteration } apiVersion { x y z } } }",
+  "variables": {}
+ },
+ "method": "POST",
+ "retrieved_at": "2026-11-03T19:35:54+00:00",
+ "status": 200,
+ "text": "{\"data\":{\"meta\":{\"dataVersion\":{\"year\":\"26\",\"month\":\"09\",\"iteration\":null},\"apiVersion\":{\"x\":\"26\",\"y\":\"9\",\"z\":\"0\"}}}}",
+ "url": "https://api.platform.opentargets.org/api/v4/graphql"
+}
