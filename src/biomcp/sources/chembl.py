@@ -74,7 +74,10 @@ async def get_molecule(chembl_id: str, client: HttpClient | None = None):
 
 async def mechanisms(chembl_id: str, client: HttpClient | None = None):
     cid = chembl_id.strip().upper()
-    r = await _get("mechanism.json", {"molecule_chembl_id": cid, "limit": 100}, client)
+    # ChEMBL files mechanisms against the parent compound; query by parent, fall back to the exact molecule
+    r = await _get("mechanism.json", {"parent_molecule_chembl_id": cid, "limit": 100}, client)
+    if not r.body.get("mechanisms"):
+        r = await _get("mechanism.json", {"molecule_chembl_id": cid, "limit": 100}, client)
     rows = [
         {
             "mechanism": m.get("mechanism_of_action"),
@@ -90,7 +93,10 @@ async def mechanisms(chembl_id: str, client: HttpClient | None = None):
 
 async def indications(chembl_id: str, limit: int = 100, client: HttpClient | None = None):
     cid = chembl_id.strip().upper()
-    r = await _get("drug_indication.json", {"molecule_chembl_id": cid, "limit": max(1, min(limit, 1000))}, client)
+    lim = max(1, min(limit, 1000))
+    r = await _get("drug_indication.json", {"parent_molecule_chembl_id": cid, "limit": lim}, client)
+    if not r.body.get("drug_indications"):
+        r = await _get("drug_indication.json", {"molecule_chembl_id": cid, "limit": lim}, client)
     rows = [
         {
             "mesh_id": i.get("mesh_id"),

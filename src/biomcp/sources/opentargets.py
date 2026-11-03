@@ -100,7 +100,7 @@ async def disease_targets(disease_id: str, size: int = 25, page: int = 0, client
 DRUG_Q = """
 query Drug($id: String!) {
   drug(chemblId: $id) {
-    id name drugType maximumClinicalStage synonyms tradeNames description
+    id name drugType maximumClinicalStage synonyms { label source } tradeNames { label source } description
     drugWarnings { warningType toxicityClass country year description }
     mechanismsOfAction { rows { mechanismOfAction actionType targets { id approvedSymbol } } }
     indications { count rows { maxClinicalStage disease { id name } } }
@@ -134,8 +134,8 @@ async def drug(chembl_id: str, client: HttpClient | None = None):
             for w in warnings
         ][:10],
         "description": clip(d.get("description"), 600),
-        "synonyms": (d.get("synonyms") or [])[:15],
-        "trade_names": (d.get("tradeNames") or [])[:15],
+        "synonyms": sorted({x["label"] for x in d.get("synonyms") or [] if x.get("label")})[:15],
+        "trade_names": sorted({x["label"] for x in d.get("tradeNames") or [] if x.get("label")})[:15],
         "mechanisms": [
             {
                 "mechanism": m["mechanismOfAction"],
