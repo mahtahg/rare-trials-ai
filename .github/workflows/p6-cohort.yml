@@ -15,11 +15,14 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -e ".[dev]"
       - shell: bash
-        run: python project6/pipeline/build_cohort.py --max-pages ${{ inputs.max_pages }} 2>&1 | tail -400 > project6/data/cohort_build.log; tail -40 project6/data/cohort_build.log
+        run: mkdir -p project6/data && python project6/pipeline/build_cohort.py --max-pages ${{ inputs.max_pages }} 2>&1 | tail -400 > project6/data/cohort_build.log; tail -40 project6/data/cohort_build.log
+      - name: Normalise drugs to ChEMBL / FDA
+        shell: bash
+        run: python project6/pipeline/normalize_drugs.py 2>&1 | tail -50
       - name: Commit
         if: always()
         run: |
           git config user.name "p6-bot"; git config user.email "p6-bot@users.noreply.github.com"
-          for f in project6/data/cohort_ctgov.jsonl.gz project6/data/cohort_ctgov.manifest.json project6/data/cohort_build.log; do [ -f "$f" ] && git add "$f"; done
+          for f in project6/data/cohort_ctgov.jsonl.gz project6/data/cohort_ctgov.manifest.json project6/data/cohort_build.log project6/data/drug_map.json; do [ -f "$f" ] && git add "$f"; done
           git commit -m "p6: ClinicalTrials.gov candidate cohort [skip ci]" || echo "no changes"
           for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done
