@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       run_id: { description: "Run id (reuse to resume)", required: true, default: "pilot" }
+      questions: { description: "Question file", default: "eval/questions.jsonl" }
       models: { description: "Comma-separated model ids", default: "claude-sonnet-5-5" }
       conditions: { description: "no_tools,web_search,biomcp", default: "no_tools,web_search,biomcp" }
       limit: { description: "0 = all questions", default: "0" }
@@ -40,12 +41,12 @@ jobs:
         shell: bash
         run: |
           SAMPLE=""; [ "${{ inputs.sample }}" = "true" ] && SAMPLE="--sample"
-          python eval/harness.py --run-id "${{ inputs.run_id }}" --models "${{ inputs.models }}" \
+          python eval/harness.py --questions "${{ inputs.questions }}" --run-id "${{ inputs.run_id }}" --models "${{ inputs.models }}" \
             --conditions "${{ inputs.conditions }}" --limit ${{ inputs.limit }} $SAMPLE \
             --repeats ${{ inputs.repeats }} --max-minutes ${{ inputs.max_minutes }} --concurrency ${{ inputs.concurrency }}
       - name: Score (with live identifier validation)
         if: always()
-        run: python eval/score.py --run "eval/results/${{ inputs.run_id }}" --validate-ids || true
+        run: python eval/score.py --questions "${{ inputs.questions }}" --run "eval/results/${{ inputs.run_id }}" --validate-ids || true
       - name: Commit results
         if: always()
         run: |

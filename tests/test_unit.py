@@ -55,3 +55,17 @@ def test_helpers():
     assert clip("x" * 10, 5) == "xxxx…"
     assert dig({"a": [{"b": 1}]}, "a", 0, "b") == 1
     assert dig({"a": []}, "a", 0, "b", default="z") == "z"
+
+
+def test_orphanet_rarity_rule():
+    from biomcp.sources.orphanet import classify_rarity
+
+    pv = lambda c, g="Worldwide", t="Point prevalence": {
+        "PrevalenceType": t, "PrevalenceClass": c, "PrevalenceGeographic": g, "PrevalenceValidationStatus": "Validated"}
+    assert classify_rarity([pv("1-9 / 100 000")])["rare_eu"] is True
+    assert classify_rarity([pv("6-9 / 10 000")])["rare_eu"] is False
+    # Worldwide preferred over a national estimate
+    assert classify_rarity([pv("6-9 / 10 000", "Italy"), pv("1-5 / 10 000")])["rare_eu"] is True
+    # birth prevalence ignored; no point prevalence -> presumed rare, low confidence
+    r = classify_rarity([pv(">1 / 1000", t="Prevalence at birth")])
+    assert r["rare_eu"] is True and r["confidence"] == "low"

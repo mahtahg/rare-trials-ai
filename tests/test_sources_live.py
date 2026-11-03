@@ -105,3 +105,16 @@ async def test_europepmc_search_and_get():
     a = await europepmc.get_article(first["pmid"])
     assert a["data"]["pmid"] == first["pmid"]
     assert a["data"]["title"] == first["title"]
+
+
+async def test_orphanet_lookup_and_prevalence():
+    from biomcp.sources import orphanet
+
+    a = await orphanet.lookup("ORPHA:98896")
+    _prov_ok(a)
+    assert a["data"]["name"] == "Duchenne muscular dystrophy"
+    assert "MONDO" in a["data"]["xrefs"]
+    p = await orphanet.prevalence("98896")
+    assert p["data"]["eu_rarity"]["rare_eu"] is True
+    b = await orphanet.lookup("Duchenne muscular dystrophy")
+    assert b["data"]["orpha_code"] == 98896
