@@ -23,7 +23,7 @@ src/biomcp/core/http.py:256: in post_json
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <biomcp.core.http.HttpClient object at 0x7fa3acff0440>
+self = <biomcp.core.http.HttpClient object at 0x7ff0340ae240>
 source = 'opentargets', method = 'POST'
 url = 'https://api.platform.opentargets.org/api/v4/graphql', params = None
 json_body = {'query': '\nquery Drug($id: String!) {\n  drug(chemblId: $id) {\n    id name drugType maximumClinicalTrialPhase isApp...  indications { count rows { maxPhaseForIndication disease { id name } } }\n  }\n}', 'variables': {'id': 'CHEMBL1431'}}
@@ -88,7 +88,7 @@ src/biomcp/core/http.py:256: in post_json
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <biomcp.core.http.HttpClient object at 0x7fa3acff1760>
+self = <biomcp.core.http.HttpClient object at 0x7ff0340adee0>
 source = 'opentargets', method = 'POST'
 url = 'https://api.platform.opentargets.org/api/v4/graphql', params = None
 json_body = {'query': '\nquery KD($id: String!, $size: Int!) {\n  disease(efoId: $id) {\n    id name\n    knownDrugs(size: $size) ...ed } phase status mechanismOfAction ctIds targetId }\n    }\n  }\n}', 'variables': {'id': 'MONDO_0009061', 'size': 50}}
@@ -142,9 +142,10 @@ ____________________________ test_chembl_metformin _____________________________
         m = await chembl.get_molecule("CHEMBL1431")
         assert float(m["data"]["max_phase"]) == 4
         assert m["provenance"][0]["source_version"].startswith("ChEMBL_")
-        mech = await chembl.mechanisms("CHEMBL1431")
->       assert mech["data"]
-E       assert []
+        mech = await chembl.mechanisms("CHEMBL941")  # imatinib: curated kinase-inhibitor mechanisms
+>       assert any(r["action_type"] == "INHIBITOR" for r in mech["data"])
+E       assert False
+E        +  where False = any(<generator object test_chembl_metformin.<locals>.<genexpr> at 0x7ff033fc6a80>)
 
 tests/test_sources_live.py:81: AssertionError
 __________________________ test_fda_generic_and_label __________________________
@@ -152,10 +153,15 @@ __________________________ test_fda_generic_and_label __________________________
     async def test_fda_generic_and_label():
         g = await fda.generic_availability("metformin hydrochloride")
         _prov_ok(g)
->       assert g["data"]["generic_available_us"] is True
-E       assert False is True
+        assert g["data"]["generic_available_us"] is True
+        assert g["data"]["n_anda"] > 10
+        lab = await fda.label("sirolimus")
+>       assert "lymphangioleiomyomatosis" in (lab["data"]["indications_and_usage"] or "").lower()
+E       AssertionError: assert 'lymphangioleiomyomatosis' in '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…'
+E        +  where '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…' = <built-in method lower of str object at 0x562074efd570>()
+E        +    where <built-in method lower of str object at 0x562074efd570> = ('1 INDICATIONS AND USAGE • Sirolimus tablets are an mTOR inhibitor immunosuppressant indicated for the prophylaxis of ... ]. In pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…').lower
 
-tests/test_sources_live.py:89: AssertionError
+tests/test_sources_live.py:92: AssertionError
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -167,6 +173,9 @@ PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 FAILED tests/test_sources_live.py::test_opentargets_drug_metformin - biomcp.core.http.SourceError: opentargets HTTP 400: {"errors":[{"message":"Cannot query field 'maximumClinicalTrialPhase' on type 'Drug'. Did you mean 'maximumClinicalStage'? (line 4, column 22):\n    id name drugType maximumClinicalTrialPhase isApproved yearOfFirstApproval hasBeenWithdrawn\n                     ^","locations":[{"line":4,"column":22}]},{"message":"Cannot query field 'isApproved' on type 'Drug'. (line 4, column 48):\n    id name drugType maximumClinicalTrialPhase isApproved yearOfFirstApproval hasBeenWithdrawn\n
 FAILED tests/test_sources_live.py::test_opentargets_disease_drugs - biomcp.core.http.SourceError: opentargets HTTP 400: {"errors":[{"message":"Cannot query field 'knownDrugs' on type 'Disease'. (line 5, column 5):\n    knownDrugs(size: $size) {\n    ^","locations":[{"line":5,"column":5}]}]}
-FAILED tests/test_sources_live.py::test_chembl_metformin - assert []
-FAILED tests/test_sources_live.py::test_fda_generic_and_label - assert False is True
-4 failed, 7 passed, 15 deselected in 7.79s
+FAILED tests/test_sources_live.py::test_chembl_metformin - assert False
+ +  where False = any(<generator object test_chembl_metformin.<locals>.<genexpr> at 0x7ff033fc6a80>)
+FAILED tests/test_sources_live.py::test_fda_generic_and_label - AssertionError: assert 'lymphangioleiomyomatosis' in '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…'
+ +  where '1 indications and usage • sirolimus tablets are an mtor inhibitor immunosuppressant indicated for the prophylaxis of ... ]. in pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…' = <built-in method lower of str object at 0x562074efd570>()
+ +    where <built-in method lower of str object at 0x562074efd570> = ('1 INDICATIONS AND USAGE • Sirolimus tablets are an mTOR inhibitor immunosuppressant indicated for the prophylaxis of ... ]. In pediatric patients , the safety and efficacy of sirolimus tablets have not been established in patients <13 ye…').lower
+4 failed, 7 passed, 15 deselected in 9.15s
