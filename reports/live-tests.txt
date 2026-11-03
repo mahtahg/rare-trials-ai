@@ -23,7 +23,7 @@ src/biomcp/core/http.py:256: in post_json
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <biomcp.core.http.HttpClient object at 0x7f376183b530>
+self = <biomcp.core.http.HttpClient object at 0x7fa3acff0440>
 source = 'opentargets', method = 'POST'
 url = 'https://api.platform.opentargets.org/api/v4/graphql', params = None
 json_body = {'query': '\nquery Drug($id: String!) {\n  drug(chemblId: $id) {\n    id name drugType maximumClinicalTrialPhase isApp...  indications { count rows { maxPhaseForIndication disease { id name } } }\n  }\n}', 'variables': {'id': 'CHEMBL1431'}}
@@ -88,7 +88,7 @@ src/biomcp/core/http.py:256: in post_json
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <biomcp.core.http.HttpClient object at 0x7f37618cb0e0>
+self = <biomcp.core.http.HttpClient object at 0x7fa3acff1760>
 source = 'opentargets', method = 'POST'
 url = 'https://api.platform.opentargets.org/api/v4/graphql', params = None
 json_body = {'query': '\nquery KD($id: String!, $size: Int!) {\n  disease(efoId: $id) {\n    id name\n    knownDrugs(size: $size) ...ed } phase status mechanismOfAction ctIds targetId }\n    }\n  }\n}', 'variables': {'id': 'MONDO_0009061', 'size': 50}}
@@ -169,4 +169,4 @@ FAILED tests/test_sources_live.py::test_opentargets_drug_metformin - biomcp.core
 FAILED tests/test_sources_live.py::test_opentargets_disease_drugs - biomcp.core.http.SourceError: opentargets HTTP 400: {"errors":[{"message":"Cannot query field 'knownDrugs' on type 'Disease'. (line 5, column 5):\n    knownDrugs(size: $size) {\n    ^","locations":[{"line":5,"column":5}]}]}
 FAILED tests/test_sources_live.py::test_chembl_metformin - assert []
 FAILED tests/test_sources_live.py::test_fda_generic_and_label - assert False is True
-4 failed, 7 passed, 15 deselected in 6.92s
+4 failed, 7 passed, 15 deselected in 7.79s
