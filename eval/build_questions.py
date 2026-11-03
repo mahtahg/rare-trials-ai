@@ -349,7 +349,8 @@ def gen_drugs(s: Src, pool: list[dict], rng: random.Random, n: int) -> list[dict
         if len(out["drug_targets"]) < n:
             od = s.gql(oq, {"id": cid}).get("drug")
             if od:
-                syms = sorted({t["approvedSymbol"] for row in od["mechanismsOfAction"]["rows"] for t in row.get("targets") or []})
+                syms = sorted({t["approvedSymbol"] for row in (od.get("mechanismsOfAction") or {}).get("rows", [])
+                               for t in row.get("targets") or []})
                 if 1 <= len(syms) <= 8:
                     out["drug_targets"].append(q(f"targets-{cid}", "drug_targets",
                         f"Which human gene targets does {pref} ({cid}) act on, according to its mechanism-of-action annotations in Open Targets?",
@@ -414,16 +415,29 @@ def main() -> int:
     rng.shuffle(diseases)
 
     qs: list[dict] = []
+    errors: list[str] = []
     pool = trial_pool(s, diseases, rng)
     print(f"trial pool: {len(pool)}", flush=True)
-    qs += gen_trials(s, pool, n)
-    qs += gen_counts(s, diseases, n)
-    dq = gen_disease(s, diseases, n)
+
+    def step(name, fn, *args):
+        try:
+            out = fn(*args)
+            print(f"{name}: {len(out)} questions", flush=True)
+            return out
+        except Exception as exc:  # noqa: BLE001 - one failing template must not lose the others
+            import traceback
+            traceback.print_exc()
+            errors.append(f"{name}: {exc!r}")
+            return []
+
+    qs += step("trials", gen_trials, s, pool, n)
+    qs += step("counts", gen_counts, s, diseases, n)
+    dq = step("disease", gen_disease, s, diseases, n)
     qs += dq
-    qs += gen_rarity(frame, rng, n)
-    qs += gen_drugs(s, pool, rng, n)
-    qs += gen_multihop([x for x in dq if x["template"] == "disease_late_stage_drugs"], s, n)
-    qs += gen_notfound(s, rng, n)
+    qs += step("rarity", gen_rarity, frame, rng, n)
+    qs += step("drugs", gen_drugs, s, pool, rng, n)
+    qs += step("multihop", gen_multihop, [x for x in dq if x["template"] == "disease_late_stage_drugs"], s, n)
+    qs += step("notfound", gen_notfound, s, rng, n)
 
     for x in qs:
         x.setdefault("difficulty", "standard")
@@ -433,10 +447,10 @@ def main() -> int:
     for x in qs:
         counts[x["template"]] = counts.get(x["template"], 0) + 1
     manifest = {"built_at": now(), "seed": a.seed, "n_questions": len(qs), "per_template": counts,
-                "orphanet_files": meta, "n_rare_frame": len(rare), "ntds": ntds}
+                "orphanet_files": meta, "n_rare_frame": len(rare), "ntds": ntds, "errors": errors}
     Path(a.out).with_suffix(".manifest.json").write_text(json.dumps(manifest, indent=1))
     print(json.dumps(counts, indent=1))
-    return 0
+    return 1 if errors else 0
 
 
 if __name__ == "__main__":
