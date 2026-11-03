@@ -17,7 +17,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6"]
-eval = ["anthropic>=0.40", "pandas>=2.0", "scipy>=1.11"]
+eval = ["pandas>=2.0"]
 
 [project.scripts]
 biomcp-ctgov = "biomcp.servers.ctgov:main"

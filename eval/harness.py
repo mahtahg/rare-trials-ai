@@ -1,16 +1,21 @@
-"""Run the biomcp eval: each question x condition x model x repeat.
+"""Run the biomcp eval through headless Claude Code (`claude -p`).
 
-Conditions
-  no_tools    model answers from parametric knowledge only
-  web_search  Anthropic server-side web search (strong generic baseline)
-  biomcp      the biomcp MCP tools, executed in-process via the same MCPServer the stdio server uses
+Authentication is the Claude subscription OAuth token (CLAUDE_CODE_OAUTH_TOKEN,
+from `claude setup-token`), so runs draw on subscription usage, not API billing.
+If ANTHROPIC_API_KEY is present the harness refuses to start, so a stray key can
+never silently switch billing.
 
-Outputs one JSON record per run in eval/results/<run_id>/raw.jsonl with the full
-transcript, tool calls, token usage, latency and the parsed final answer.
+Conditions (identical system prompt, model and turn cap; only the tools differ)
+  no_tools    no built-in tools, no MCP servers
+  web_search  Claude Code's WebSearch + WebFetch only
+  biomcp      the biomcp MCP server only (stdio, same code users install)
 
-Usage
-  python eval/harness.py --questions eval/questions.jsonl --models claude-sonnet-5-5 \
-      --conditions no_tools,web_search,biomcp --repeats 1 --max-usd 20
+Each run is recorded as one JSON line in eval/results/<run_id>/raw.jsonl with
+the full event stream (tool calls + results), turns, latency, the model that
+actually served the run, and Claude Code's API-equivalent cost estimate (not billed).
+
+Usage limits: when the subscription limit is hit the harness stops cleanly;
+re-running with the same --run-id resumes where it left off.
 """
 
 from __future__ import annotations
@@ -21,72 +26,25 @@ import json
 import os
 import random
 import re
+import shutil
 import sys
+import tempfile
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-import anthropic
-
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
-
-from biomcp.servers.all import server as BIOMCP
-
-# USD per million tokens (input, output); https://platform.claude.com/docs/en/about-claude/pricing (Nov 2026)
-PRICES = {
-    "claude-opus-5-5": (4.0, 20.0),
-    "claude-sonnet-5-5": (2.0, 10.0),
-    "claude-haiku-5-5": (0.10, 0.50),
-    "claude-fable-5-1": (10.0, 50.0),
-}
-CACHE_READ_MULT = 0.05
-CACHE_WRITE_MULT = 1.25
-WEB_SEARCH_USD = 0.01
-WEB_SEARCH_TOOL = {"type": "web_search_20260318", "name": "web_search", "max_uses": 5}
-
-MAX_TURNS = 16
-MAX_TOOL_RESULT_CHARS = 20_000
 
 SYSTEM = """You are assisting a clinical-development team working on rare and neglected diseases.
-Answer the question accurately. Use tools when they are available and helpful.
-If you cannot determine the answer, or the entity does not exist, say so: set "not_found": true or a low confidence. Never invent identifiers.
+Answer the question accurately. Use the tools available to you when they help; do not use tools you were not given.
+If you cannot determine the answer, or the entity does not exist, say so: set "not_found": true or give a low confidence. Never invent identifiers.
 
 End your reply with exactly one block:
 <answer>{"answer": <value in the requested format>, "identifiers": [<every NCT/CHEMBL/PMID/EFO/MONDO/ORPHA/Ensembl ID you relied on>], "not_found": <true|false>, "confidence": <0.0-1.0>}</answer>"""
 
-
-def cost_usd(model: str, usage: dict, n_web: int) -> float:
-    pin, pout = PRICES.get(model, (5.0, 25.0))
-    inp = usage.get("input_tokens", 0)
-    cr = usage.get("cache_read_input_tokens", 0) or 0
-    cw = usage.get("cache_creation_input_tokens", 0) or 0
-    out = usage.get("output_tokens", 0)
-    return (inp * pin + cr * pin * CACHE_READ_MULT + cw * pin * CACHE_WRITE_MULT + out * pout) / 1e6 + n_web * WEB_SEARCH_USD
-
-
-async def biomcp_tool_defs() -> list[dict]:
-    tools = await BIOMCP.list_tools()
-    defs = [{"name": t.name, "description": (t.description or "")[:1024], "input_schema": t.input_schema} for t in tools]
-    defs[-1]["cache_control"] = {"type": "ephemeral"}  # cache the (large, static) tool block
-    return defs
-
-
-async def exec_biomcp(name: str, args: dict) -> tuple[str, bool]:
-    try:
-        res = await BIOMCP.call_tool(name, args)
-    except Exception as exc:  # noqa: BLE001 - ToolError carries a model-readable message
-        return f"ERROR: {exc}", True
-    if getattr(res, "structured_content", None) is not None:
-        text = json.dumps(res.structured_content, ensure_ascii=False)
-    else:
-        parts = [getattr(c, "text", "") for c in getattr(res, "content", []) or []]
-        text = "\n".join(parts)
-    if len(text) > MAX_TOOL_RESULT_CHARS:
-        text = text[:MAX_TOOL_RESULT_CHARS] + "…[truncated]"
-    return text, bool(getattr(res, "is_error", False))
-
-
+MAX_TURNS = 20
+TIMEOUT_S = 600
+LIMIT_PATTERNS = re.compile(r"usage limit|rate limit|limit reached|too many requests|overloaded|429", re.IGNORECASE)
 ANSWER_RE = re.compile(r"<answer>\s*(\{.*?\})\s*</answer>", re.DOTALL)
 
 
@@ -100,62 +58,107 @@ def parse_answer(text: str) -> dict | None:
         return None
 
 
-def block_to_dict(b) -> dict:
-    return b.model_dump(exclude_none=True) if hasattr(b, "model_dump") else dict(b)
+def mcp_config(path: Path) -> Path:
+    exe = shutil.which("biomcp-all") or str(Path(sys.executable).parent / "biomcp-all")
+    path.write_text(json.dumps({"mcpServers": {"biomcp": {"command": exe, "args": []}}}))
+    return path
 
 
-async def run_one(client: anthropic.AsyncAnthropic, q: dict, model: str, condition: str, rep: int, tools: list[dict]) -> dict:
-    prompt = q["question"] + (f"\n\nAnswer format: {q['answer_format']}" if q.get("answer_format") else "")
-    messages: list[dict] = [{"role": "user", "content": prompt}]
-    tool_calls: list[dict] = []
-    usage_tot: dict[str, int] = {}
-    n_web = 0
-    t0 = time.monotonic()
-    kwargs: dict = {"model": model, "max_tokens": 4096, "system": SYSTEM}
-    if condition == "biomcp":
-        kwargs["tools"] = tools
+def build_cmd(prompt: str, model: str, condition: str, cfg: Path) -> list[str]:
+    cmd = [
+        "claude", "-p", prompt,
+        "--model", model,
+        "--output-format", "stream-json", "--verbose",
+        "--append-system-prompt", SYSTEM,
+        "--max-turns", str(MAX_TURNS),
+        "--no-session-persistence",
+        "--permission-prompts", "none",
+        "--strict-mcp-config",
+        "--setting-sources", "",
+    ]
+    if condition == "no_tools":
+        cmd += ["--tools", "", "--disallowedTools", "mcp__*"]
     elif condition == "web_search":
-        kwargs["tools"] = [WEB_SEARCH_TOOL]
-    final_text, stop, error = "", None, None
-    for _turn in range(MAX_TURNS):
-        try:
-            resp = await client.messages.create(messages=messages, **kwargs)
-        except anthropic.APIError as exc:
-            error = f"{type(exc).__name__}: {exc}"
-            break
-        for k, v in (resp.usage.model_dump() if resp.usage else {}).items():
-            if isinstance(v, int):
-                usage_tot[k] = usage_tot.get(k, 0) + v
-        stu = getattr(resp.usage, "server_tool_use", None)
-        if stu is not None:
-            n_web += getattr(stu, "web_search_requests", 0) or 0
-        content = [block_to_dict(b) for b in resp.content]
-        messages.append({"role": "assistant", "content": content})
-        stop = resp.stop_reason
-        final_text = "\n".join(b.get("text", "") for b in content if b.get("type") == "text")
-        if stop == "tool_use":
-            results = []
-            for b in content:
-                if b.get("type") != "tool_use":
-                    continue
-                t1 = time.monotonic()
-                out, is_err = await exec_biomcp(b["name"], b.get("input") or {})
-                tool_calls.append({"name": b["name"], "input": b.get("input"), "is_error": is_err,
-                                   "latency_s": round(time.monotonic() - t1, 3), "output_chars": len(out)})
-                results.append({"type": "tool_result", "tool_use_id": b["id"], "content": out, "is_error": is_err})
-            messages.append({"role": "user", "content": results})
-            continue
-        if stop == "pause_turn":  # server tool (web search) paused a long turn; resume
-            continue
-        break
+        cmd += ["--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch"]
+    elif condition == "biomcp":
+        cmd += ["--tools", "", "--mcp-config", str(cfg), "--allowedTools", "mcp__biomcp__*"]
     else:
-        error = "max_turns"
+        raise ValueError(condition)
+    return cmd
+
+
+def summarize_events(events: list[dict]) -> dict:
+    tool_calls, tool_results = [], {}
+    final, result_ev, models = "", None, set()
+    for ev in events:
+        t = ev.get("type")
+        if t == "assistant":
+            msg = ev.get("message", {})
+            if msg.get("model"):
+                models.add(msg["model"])
+            for b in msg.get("content", []) or []:
+                if b.get("type") == "tool_use":
+                    tool_calls.append({"id": b.get("id"), "name": b.get("name"), "input": b.get("input")})
+                elif b.get("type") == "text":
+                    final = b.get("text", "")
+        elif t == "user":
+            for b in (ev.get("message", {}) or {}).get("content", []) or []:
+                if isinstance(b, dict) and b.get("type") == "tool_result":
+                    c = b.get("content")
+                    if isinstance(c, list):
+                        c = "\n".join(x.get("text", "") for x in c if isinstance(x, dict))
+                    tool_results[b.get("tool_use_id")] = {"is_error": bool(b.get("is_error")), "content": c}
+        elif t == "result":
+            result_ev = ev
+    for tc in tool_calls:
+        r = tool_results.get(tc["id"], {})
+        tc["is_error"] = r.get("is_error", False)
+        tc["output"] = r.get("content")
+    if result_ev and result_ev.get("result"):
+        final = result_ev["result"]
+    return {"tool_calls": tool_calls, "final_text": final, "result": result_ev, "models": sorted(models)}
+
+
+async def run_one(q: dict, model: str, condition: str, rep: int, cfg: Path, workdir: Path) -> dict:
+    prompt = q["question"] + (f"\n\nAnswer format: {q['answer_format']}" if q.get("answer_format") else "")
+    cmd = build_cmd(prompt, model, condition, cfg)
+    env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}
+    t0 = time.monotonic()
+    proc = await asyncio.create_subprocess_exec(*cmd, cwd=workdir, env=env,
+                                                stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE)
+    try:
+        out, err = await asyncio.wait_for(proc.communicate(), TIMEOUT_S)
+        timed_out = False
+    except asyncio.TimeoutError:
+        proc.kill()
+        out, err = await proc.communicate()
+        timed_out = True
+    events = []
+    for line in out.decode("utf-8", "replace").splitlines():
+        try:
+            events.append(json.loads(line))
+        except json.JSONDecodeError:
+            pass
+    s = summarize_events(events)
+    res = s["result"] or {}
+    err_txt = err.decode("utf-8", "replace")[-2000:]
+    error = None
+    if timed_out:
+        error = "timeout"
+    elif res.get("is_error") or proc.returncode != 0:
+        error = (res.get("subtype") or "error") + ": " + str(res.get("result") or err_txt)[:500]
+    limited = bool(error and LIMIT_PATTERNS.search(error + err_txt))
     return {
         "qid": q["id"], "template": q["template"], "model": model, "condition": condition, "rep": rep,
-        "parsed": parse_answer(final_text), "final_text": final_text[-4000:], "stop_reason": stop, "error": error,
-        "tool_calls": tool_calls, "n_web_searches": n_web, "usage": usage_tot,
-        "cost_usd": round(cost_usd(model, usage_tot, n_web), 5), "latency_s": round(time.monotonic() - t0, 2),
-        "transcript": messages if os.getenv("EVAL_KEEP_TRANSCRIPT", "1") == "1" else None,
+        "served_models": s["models"], "parsed": parse_answer(s["final_text"]), "final_text": (s["final_text"] or "")[-4000:],
+        "error": error, "usage_limited": limited,
+        "tool_calls": [{k: tc.get(k) for k in ("name", "input", "is_error")} | {"output_chars": len(tc.get("output") or "")}
+                       for tc in s["tool_calls"]],
+        "tool_outputs": [tc.get("output") for tc in s["tool_calls"]],
+        "n_web_searches": sum(1 for tc in s["tool_calls"] if tc["name"] == "WebSearch"),
+        "num_turns": res.get("num_turns"), "usage": res.get("usage"),
+        "api_equivalent_cost_usd": res.get("total_cost_usd"),  # Claude Code's estimate; NOT billed on subscription
+        "latency_s": round(time.monotonic() - t0, 2),
         "finished_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -166,13 +169,21 @@ async def main() -> int:
     ap.add_argument("--models", default="claude-sonnet-5-5")
     ap.add_argument("--conditions", default="no_tools,web_search,biomcp")
     ap.add_argument("--repeats", type=int, default=1)
-    ap.add_argument("--limit", type=int, default=0, help="first N questions (stratified sample if --sample)")
-    ap.add_argument("--sample", action="store_true", help="stratified random sample of --limit questions")
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--sample", action="store_true", help="stratified sample of --limit questions")
     ap.add_argument("--seed", type=int, default=20261103)
-    ap.add_argument("--concurrency", type=int, default=6)
-    ap.add_argument("--max-usd", type=float, default=float(os.getenv("EVAL_MAX_USD", "20")))
+    ap.add_argument("--concurrency", type=int, default=2)
+    ap.add_argument("--max-runs", type=int, default=0, help="stop after this many runs in this invocation")
+    ap.add_argument("--max-minutes", type=float, default=300)
     ap.add_argument("--run-id", default=datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ"))
     a = ap.parse_args()
+
+    if os.getenv("ANTHROPIC_API_KEY"):
+        print("Refusing to run: ANTHROPIC_API_KEY is set (would bill the API). Use CLAUDE_CODE_OAUTH_TOKEN.", file=sys.stderr)
+        return 2
+    if not os.getenv("CLAUDE_CODE_OAUTH_TOKEN"):
+        print("CLAUDE_CODE_OAUTH_TOKEN not set", file=sys.stderr)
+        return 2
 
     qs = [json.loads(line) for line in Path(a.questions).read_text().splitlines() if line.strip()]
     qs = [q for q in qs if q.get("status", "active") == "active"]
@@ -191,48 +202,60 @@ async def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     raw = out_dir / "raw.jsonl"
     done = set()
-    if raw.exists():  # resume
+    if raw.exists():
         for line in raw.read_text().splitlines():
             r = json.loads(line)
             if not r.get("error"):
                 done.add((r["qid"], r["model"], r["condition"], r["rep"]))
 
-    jobs = [(q, m, c, r) for r in range(a.repeats) for m in a.models.split(",") for c in a.conditions.split(",") for q in qs
+    # interleave conditions per question so a usage-limit stop leaves balanced, paired data
+    jobs = [(q, m, c, r) for r in range(a.repeats) for q in qs for m in a.models.split(",") for c in a.conditions.split(",")
             if (q["id"], m, c, r) not in done]
-    meta = {"run_id": a.run_id, "args": vars(a), "n_questions": len(qs), "n_jobs": len(jobs),
-            "biomcp_version": __import__("biomcp").__version__, "started_at": datetime.now(timezone.utc).isoformat()}
-    (out_dir / "meta.json").write_text(json.dumps(meta, indent=1))
-    print(f"{len(jobs)} jobs -> {raw}", flush=True)
+    if a.max_runs:
+        jobs = jobs[: a.max_runs]
+    meta_p = out_dir / "meta.json"
+    meta = json.loads(meta_p.read_text()) if meta_p.exists() else {"run_id": a.run_id, "sessions": []}
+    meta.update({"args": vars(a), "n_questions": len(qs), "auth": "claude-subscription-oauth",
+                 "system_prompt": SYSTEM, "max_turns": MAX_TURNS})
+    sess = {"started_at": datetime.now(timezone.utc).isoformat(), "pending_jobs": len(jobs)}
+    meta["sessions"].append(sess)
+    meta_p.write_text(json.dumps(meta, indent=1))
+    print(f"{len(jobs)} pending jobs -> {raw}", flush=True)
 
-    client = anthropic.AsyncAnthropic(max_retries=6)
-    tools = await biomcp_tool_defs()
+    workdir = Path(tempfile.mkdtemp(prefix="biomcp-eval-"))  # empty cwd: no repo CLAUDE.md or files leak in
+    cfg = mcp_config(workdir.parent / "biomcp-mcp.json")
     sem = asyncio.Semaphore(a.concurrency)
-    spent = 0.0
     lock = asyncio.Lock()
-    stop_flag = asyncio.Event()
+    stop = asyncio.Event()
+    deadline = time.monotonic() + a.max_minutes * 60
+    n_done = 0
 
     async def worker(job):
-        nonlocal spent
-        if stop_flag.is_set():
+        nonlocal n_done
+        if stop.is_set() or time.monotonic() > deadline:
             return
         async with sem:
-            if stop_flag.is_set():
+            if stop.is_set() or time.monotonic() > deadline:
                 return
-            rec = await run_one(client, *job, tools)
+            rec = await run_one(*job, cfg, workdir)
         async with lock:
-            spent += rec["cost_usd"]
+            if rec["usage_limited"]:
+                stop.set()
+                print(f"USAGE LIMIT reached ({rec['error'][:120]}); stopping. Re-run with --run-id {a.run_id} to resume.", flush=True)
+                return  # not recorded: will be retried on resume
             with raw.open("a") as f:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            print(f"${spent:7.3f}  {rec['condition']:<10} {rec['qid']:<28} parsed={rec['parsed'] is not None} err={rec['error']}", flush=True)
-            if spent >= a.max_usd:
-                print(f"BUDGET CAP ${a.max_usd} reached; stopping", flush=True)
-                stop_flag.set()
+            n_done += 1
+            print(f"{n_done:4d} {rec['condition']:<10} {rec['qid']:<30} parsed={rec['parsed'] is not None} "
+                  f"tools={len(rec['tool_calls'])} err={rec['error']}", flush=True)
 
     await asyncio.gather(*(worker(j) for j in jobs))
-    meta["spent_usd"] = round(spent, 4)
-    meta["finished_at"] = datetime.now(timezone.utc).isoformat()
-    meta["budget_capped"] = stop_flag.is_set()
-    (out_dir / "meta.json").write_text(json.dumps(meta, indent=1))
+    sess.update({"finished_at": datetime.now(timezone.utc).isoformat(), "completed_runs": n_done,
+                 "stopped_for_usage_limit": stop.is_set()})
+    meta_p.write_text(json.dumps(meta, indent=1))
+    remaining = len(jobs) - n_done
+    print(f"done {n_done}, remaining {remaining}", flush=True)
+    (out_dir / "REMAINING").write_text(str(remaining))
     return 0
 
 

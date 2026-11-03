@@ -1,0 +1,56 @@
+name: eval
+# Runs the biomcp eval through headless Claude Code on the Claude *subscription*
+# (CLAUDE_CODE_OAUTH_TOKEN from `claude setup-token`). No API key is used or accepted.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: { description: "Run id (reuse to resume)", required: true, default: "pilot" }
+      models: { description: "Comma-separated model ids", default: "claude-sonnet-5-5" }
+      conditions: { description: "no_tools,web_search,biomcp", default: "no_tools,web_search,biomcp" }
+      limit: { description: "0 = all questions", default: "0" }
+      sample: { description: "stratified sample when limit>0", type: boolean, default: true }
+      repeats: { default: "1" }
+      max_minutes: { default: "300" }
+      concurrency: { default: "2" }
+permissions:
+  contents: write
+concurrency:
+  group: eval-${{ inputs.run_id }}
+  cancel-in-progress: false
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm install -g @anthropic-ai/claude-code && claude --version
+      - run: pip install -e ".[dev]"
+      - name: Check auth is subscription, not API
+        run: |
+          test -n "$CLAUDE_CODE_OAUTH_TOKEN" || { echo "::error::CLAUDE_CODE_OAUTH_TOKEN secret missing"; exit 1; }
+          unset ANTHROPIC_API_KEY
+          claude auth status || true
+      - name: Run eval
+        shell: bash
+        run: |
+          SAMPLE=""; [ "${{ inputs.sample }}" = "true" ] && SAMPLE="--sample"
+          python eval/harness.py --run-id "${{ inputs.run_id }}" --models "${{ inputs.models }}" \
+            --conditions "${{ inputs.conditions }}" --limit ${{ inputs.limit }} $SAMPLE \
+            --repeats ${{ inputs.repeats }} --max-minutes ${{ inputs.max_minutes }} --concurrency ${{ inputs.concurrency }}
+      - name: Score (with live identifier validation)
+        if: always()
+        run: python eval/score.py --run "eval/results/${{ inputs.run_id }}" --validate-ids || true
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "eval-bot"
+          git config user.email "eval-bot@users.noreply.github.com"
+          git add eval/results
+          git commit -m "eval: ${{ inputs.run_id }} results [skip ci]" || echo "no changes"
+          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done

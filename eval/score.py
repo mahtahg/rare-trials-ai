@@ -154,15 +154,11 @@ def extract_ids(rec: dict) -> dict[str, set[str]]:
 def grounded_ids(rec: dict) -> set[str]:
     """IDs that appeared in tool outputs during the run (i.e. not produced from memory)."""
     seen = set()
-    for msg in rec.get("transcript") or []:
-        if msg["role"] != "user" or isinstance(msg["content"], str):
-            continue
-        for b in msg["content"]:
-            c = b.get("content")
-            if isinstance(c, str):
-                for pat in ID_PATTERNS.values():
-                    seen |= {m.group(1) if m.groups() else m.group() for m in pat.finditer(c)}
-                seen |= set(re.findall(r'"pmid":\s*"(\d+)"', c))
+    for c in rec.get("tool_outputs") or []:
+        if isinstance(c, str):
+            for pat in ID_PATTERNS.values():
+                seen |= {m.group(1) if m.groups() else m.group() for m in pat.finditer(c)}
+            seen |= set(re.findall(r'"pmid":\s*"(\d+)"', c))
     return seen
 
 
@@ -272,7 +268,8 @@ def main() -> int:
             "n_ids_ungrounded": sum(1 for i in ids if i not in g) if r["condition"] == "biomcp" else None,
             "confidence": (r["parsed"] or {}).get("confidence"),
         })
-        scored.append({k: r[k] for k in ("qid", "template", "model", "condition", "rep", "cost_usd", "latency_s", "n_web_searches", "error")}
+        scored.append({k: r[k] for k in ("qid", "template", "model", "condition", "rep", "latency_s", "n_web_searches", "error")}
+                      | {"cost_usd": r.get("api_equivalent_cost_usd") or 0.0, "num_turns": r.get("num_turns")}
                       | {"n_tool_calls": len(r["tool_calls"]), "n_tool_errors": sum(t["is_error"] for t in r["tool_calls"]), **s,
                          "difficulty": q.get("difficulty")})
     (run / "scored.jsonl").write_text("\n".join(json.dumps(x) for x in scored) + "\n")
@@ -296,8 +293,8 @@ def main() -> int:
             "ungrounded_id_rate": round(sum(x["n_ids_ungrounded"] or 0 for x in xs) / nid, 4) if (c == "biomcp" and nid) else None,
             "ece": ece([cf for cf, _ in conf], [ok for _, ok in conf]),
             "brier": round(sum((cf - ok) ** 2 for cf, ok in conf) / len(conf), 4) if conf else None,
-            "mean_cost_usd": round(sum(x["cost_usd"] for x in xs) / n, 5),
-            "total_cost_usd": round(sum(x["cost_usd"] for x in xs), 3),
+            "mean_api_equiv_cost_usd": round(sum(x["cost_usd"] for x in xs) / n, 5),
+            "total_api_equiv_cost_usd": round(sum(x["cost_usd"] for x in xs), 3),
             "median_latency_s": sorted(x["latency_s"] for x in xs)[n // 2],
             "mean_tool_calls": round(sum(x["n_tool_calls"] for x in xs) / n, 2),
             "tool_error_rate": round(sum(x["n_tool_errors"] for x in xs) / max(1, sum(x["n_tool_calls"] for x in xs)), 4),
@@ -329,13 +326,13 @@ def main() -> int:
             }
     (run / "summary.json").write_text(json.dumps(summary, indent=1))
 
-    lines = ["| model | condition | n | accuracy (95% CI) | mean score | abstain | invalid IDs | ungrounded IDs | ECE | $/q | median s | tool calls |",
+    lines = ["| model | condition | n | accuracy (95% CI) | mean score | abstain | invalid IDs | ungrounded IDs | ECE | API-equiv $/q (not billed) | median s | tool calls |",
              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for key, v in summary["by_condition"].items():
         m, c = key.split("|")
         lines.append(f"| {m} | {c} | {v['n']} | {v['accuracy']:.3f} ({v['accuracy_ci95'][0]:.3f}–{v['accuracy_ci95'][1]:.3f}) | "
                      f"{v['mean_score']:.3f} | {v['abstain_rate']:.3f} | {v['invalid_id_rate']} | {v['ungrounded_id_rate']} | "
-                     f"{v['ece']} | {v['mean_cost_usd']:.4f} | {v['median_latency_s']} | {v['mean_tool_calls']} |")
+                     f"{v['ece']} | {v['mean_api_equiv_cost_usd']:.4f} | {v['median_latency_s']} | {v['mean_tool_calls']} |")
     lines += ["", "| comparison | n | biomcp-only correct | other-only correct | McNemar p | Δacc (95% CI) |", "|---|---|---|---|---|---|"]
     for key, v in summary["paired"].items():
         d = v["acc_diff_ci95"]
