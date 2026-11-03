@@ -260,7 +260,8 @@ def main() -> int:
     for r in recs:
         q = qs[r["qid"]]
         s = score_answer(q, r["parsed"])
-        ids = [i for v in r["ids"].values() for i in v]
+        qtext = q["question"]
+        ids = [i for v in r["ids"].values() for i in v if i not in qtext]  # IDs given in the question don't count
         g = grounded_ids(r)
         s.update({
             "n_ids": len(ids),
