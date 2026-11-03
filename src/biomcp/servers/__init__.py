@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+import functools
 
 from mcp.server.mcpserver import MCPServer
+from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 from biomcp import __version__
@@ -17,6 +19,24 @@ COMMON_INSTRUCTIONS = (
     "If data is null, the entity was not found: say so rather than guessing. "
     "Read 'notes' for caveats about proxies and truncation."
 )
+
+
+def tool(server: MCPServer):
+    """Like @server.tool, but turns input/source errors into ToolErrors whose message reaches the model."""
+
+    def deco(fn):
+        @functools.wraps(fn)
+        async def wrapped(*args, **kwargs):
+            from biomcp.core.http import SourceError
+
+            try:
+                return await fn(*args, **kwargs)
+            except (ValueError, SourceError) as exc:
+                raise ToolError(f"{type(exc).__name__}: {exc}") from exc
+
+        return server.tool(annotations=READ_ONLY)(wrapped)
+
+    return deco
 
 
 def make_server(name: str, instructions: str) -> MCPServer:

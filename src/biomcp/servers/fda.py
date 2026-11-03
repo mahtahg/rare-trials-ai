@@ -4,7 +4,7 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import READ_ONLY, make_server, run
+from biomcp.servers import make_server, run, tool
 from biomcp.sources import fda
 
 INSTRUCTIONS = (
@@ -16,12 +16,12 @@ INSTRUCTIONS = (
 
 
 def register(server) -> None:
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def fda_generic_availability(ingredient: Annotated[str, Field(description="Active ingredient / generic name")]) -> dict:
         """Counts of NDA/ANDA/BLA applications and whether a marketed generic (ANDA) exists in the US."""
         return await fda.generic_availability(ingredient)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def fda_label(ingredient: Annotated[str, Field(description="Active ingredient / generic name")]) -> dict:
         """Newest FDA label (SPL): indications, boxed warning, contraindications, pregnancy, pediatric use."""
         return await fda.label(ingredient)

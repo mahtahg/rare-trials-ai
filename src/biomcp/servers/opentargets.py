@@ -4,7 +4,7 @@ from typing import Annotated, Literal
 
 from pydantic import Field
 
-from biomcp.servers import READ_ONLY, make_server, run
+from biomcp.servers import make_server, run, tool
 from biomcp.sources import opentargets as ot
 
 INSTRUCTIONS = (
@@ -17,7 +17,7 @@ INSTRUCTIONS = (
 
 
 def register(server) -> None:
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def opentargets_search(
         query: Annotated[str, Field(description="Name or synonym, e.g. 'Fabry disease', 'sirolimus', 'GLA'")],
         entity: Annotated[Literal["disease", "drug", "target"] | None, Field()] = None,
@@ -26,7 +26,7 @@ def register(server) -> None:
         """Resolve a disease, drug or target name to Open Targets identifiers."""
         return await ot.search(query, entity, size)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def opentargets_disease_targets(
         disease_id: Annotated[str, Field(description="EFO/MONDO/Orphanet ID, e.g. MONDO_0010679 or Orphanet_98896")],
         size: Annotated[int, Field(ge=1, le=100)] = 25,
@@ -35,7 +35,7 @@ def register(server) -> None:
         """Targets associated with a disease, ranked by overall association score, with per-datatype scores."""
         return await ot.disease_targets(disease_id, size, page)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def opentargets_disease_drugs(
         disease_id: Annotated[str, Field(description="EFO/MONDO/Orphanet disease ID")],
         size: Annotated[int, Field(ge=1, le=200)] = 50,
@@ -43,7 +43,7 @@ def register(server) -> None:
         """Drugs with clinical-stage evidence for this disease (phase, trial status, mechanism, NCT IDs)."""
         return await ot.disease_drugs(disease_id, size)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def opentargets_drug(chembl_id: Annotated[str, Field(description="ChEMBL ID, e.g. CHEMBL1431")]) -> dict:
         """Drug profile: approval, first approval year, withdrawn flag, mechanisms with targets, all indications."""
         return await ot.drug(chembl_id)

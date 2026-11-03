@@ -4,7 +4,7 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import READ_ONLY, make_server, run
+from biomcp.servers import make_server, run, tool
 from biomcp.sources import europepmc
 
 INSTRUCTIONS = (
@@ -15,7 +15,7 @@ INSTRUCTIONS = (
 
 
 def register(server) -> None:
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def europepmc_search(
         query: Annotated[str, Field(description="Europe PMC query, e.g. 'sirolimus AND \"lymphangioleiomyomatosis\"'")],
         page_size: Annotated[int, Field(ge=1, le=100)] = 10,
@@ -29,7 +29,7 @@ def register(server) -> None:
             query, page_size=page_size, cursor=cursor, from_year=from_year, to_year=to_year, abstract_chars=abstract_chars
         )
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def europepmc_get_article(identifier: Annotated[str, Field(description="PMID, PMCID or DOI")]) -> dict:
         """One article with full abstract."""
         return await europepmc.get_article(identifier)

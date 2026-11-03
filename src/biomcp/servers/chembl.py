@@ -4,7 +4,7 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import READ_ONLY, make_server, run
+from biomcp.servers import make_server, run, tool
 from biomcp.sources import chembl
 
 INSTRUCTIONS = (
@@ -15,7 +15,7 @@ INSTRUCTIONS = (
 
 
 def register(server) -> None:
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def chembl_search_molecules(
         query: Annotated[str, Field(description="Drug name or synonym")],
         limit: Annotated[int, Field(ge=1, le=50)] = 10,
@@ -23,17 +23,17 @@ def register(server) -> None:
         """Find ChEMBL molecules by name/synonym."""
         return await chembl.search_molecules(query, limit)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def chembl_get_molecule(chembl_id: Annotated[str, Field(description="e.g. CHEMBL1431")]) -> dict:
         """Molecule card: max phase, first approval, type, oral, black-box warning, withdrawn, synonyms, ATC."""
         return await chembl.get_molecule(chembl_id)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def chembl_mechanisms(chembl_id: str) -> dict:
         """Curated mechanisms of action and target ChEMBL IDs for a molecule."""
         return await chembl.mechanisms(chembl_id)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def chembl_indications(chembl_id: str, limit: Annotated[int, Field(ge=1, le=1000)] = 100) -> dict:
         """Indications (MeSH/EFO) with the maximum phase reached for each, sorted by phase."""
         return await chembl.indications(chembl_id, limit)

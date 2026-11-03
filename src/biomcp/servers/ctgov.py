@@ -4,7 +4,7 @@ from typing import Annotated, Literal
 
 from pydantic import Field
 
-from biomcp.servers import READ_ONLY, make_server, run
+from biomcp.servers import make_server, run, tool
 from biomcp.sources import ctgov
 
 Status = Literal[
@@ -23,7 +23,7 @@ INSTRUCTIONS = (
 
 
 def register(server) -> None:
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def ctgov_search_trials(
         condition: Annotated[str | None, Field(description="Disease/condition text, e.g. 'Duchenne muscular dystrophy'")] = None,
         intervention: Annotated[str | None, Field(description="Drug or intervention name, e.g. 'sirolimus'")] = None,
@@ -46,7 +46,7 @@ def register(server) -> None:
             start_to=start_to, has_sap=has_sap, page_size=page_size, page_token=page_token,
         )
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def ctgov_get_trial(
         nct_id: Annotated[str, Field(description="NCT identifier, e.g. NCT01908426")],
         include_eligibility: bool = True,
@@ -54,7 +54,7 @@ def register(server) -> None:
         """Full summary of one registered trial, including eligibility text and protocol/SAP document links."""
         return await ctgov.get_trial(nct_id, include_eligibility=include_eligibility)
 
-    @server.tool(annotations=READ_ONLY)
+    @tool(server)
     async def ctgov_data_version() -> dict:
         """ClinicalTrials.gov API version and data timestamp (cite this when reporting counts)."""
         return await ctgov.version()
