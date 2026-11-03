@@ -8,6 +8,7 @@ reproducible proxy, not a patent search; tool output says so.
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 from biomcp.core.envelope import clip, envelope
@@ -49,7 +50,7 @@ async def applications(ingredient: str, *, max_records: int = 300, client: HttpC
             prods = a.get("products") or []
             rows.append({
                 "application_number": a.get("application_number"),
-                "kind": (a.get("application_number") or "")[:3].rstrip("0123456789"),
+                "kind": re.match(r"[A-Z]*", a.get("application_number") or "").group(),
                 "sponsor": a.get("sponsor_name"),
                 "products": [
                     {

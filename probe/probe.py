@@ -16,6 +16,7 @@ OUT = Path(__file__).parent / "out"
 OUT.mkdir(parents=True, exist_ok=True)
 UA = {"User-Agent": "biomcp-probe/0.1 (+https://github.com/mahtahg/rare-trials-ai)"}
 LIMIT = 150_000
+BIG = {"ot_schema_full": 3_000_000}
 
 OT = "https://api.platform.opentargets.org/api/v4/graphql"
 
@@ -30,6 +31,8 @@ GQL = {
     "ot_target_knowndrugs": '{ target(ensemblId: "ENSG00000198947") { id approvedSymbol knownDrugs(size: 5) { count rows { drug { id name isApproved } phase disease { id name } } } } }',
     "ot_drug_knowndrugs": '{ drug(chemblId: "CHEMBL1431") { knownDrugs(size: 3) { count rows { disease { id name } phase status } } } }',
     "ot_introspect_query": '{ __type(name: "Query") { fields { name } } }',
+    "ot_schema_full": '{ __schema { types { name kind fields { name args { name } type { name kind ofType { name kind ofType { name kind ofType { name } } } } } } } }',
+    "ot_disease_dacc": '{ disease(efoId: "MONDO_0009061") { id name drugAndClinicalCandidates { count } } }',
     "ot_introspect_disease": '{ __type(name: "Disease") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
     "ot_introspect_drug": '{ __type(name: "Drug") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
     "ot_introspect_target": '{ __type(name: "Target") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
@@ -82,6 +85,14 @@ GETS = {
     "ctri": "https://ctri.nic.in/Clinicaltrials/advsearch.php",
     "aact_downloads": "https://aact.ctti-clinicaltrials.org/downloads",
     "aact_snapshots": "https://aact.ctti-clinicaltrials.org/pipe_files",
+    "who_ictrp_dl_page": "https://www.who.int/tools/clinical-trials-registry-platform/network/who-data-set/downloading-records-from-the-ictrp-database",
+    "who_ictrp_providers": "https://www.who.int/tools/clinical-trials-registry-platform/network/data-providers",
+    "aact_home": "https://aact.ctti-clinicaltrials.org/",
+    "euctr_search": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=malaria",
+    "drks_api": "https://drks.de/search/en",
+    "pactr": "https://pactr.samrc.ac.za/",
+    "jrct": "https://jrct.mhlw.go.jp/en-latest-list",
+    "chictr": "https://www.chictr.org.cn/searchprojEN.html",
     # WHO NTD list
     "who_ntd": "https://www.who.int/health-topics/neglected-tropical-diseases",
     # MONDO / EBI OLS for mappings
@@ -90,13 +101,14 @@ GETS = {
 
 
 def save(name: str, status: int | str, headers: dict, text: str) -> None:
+    lim = BIG.get(name, LIMIT)
     rec = {
         "name": name,
         "status": status,
         "content_type": headers.get("content-type"),
         "content_length": headers.get("content-length"),
         "bytes": len(text),
-        "text": text[:LIMIT],
+        "text": text[:lim],
     }
     (OUT / f"{name}.json").write_text(json.dumps(rec, indent=1, ensure_ascii=False))
     print(f"{status!s:>5}  {len(text):>9}B  {name}")

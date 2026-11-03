@@ -77,8 +77,8 @@ async def test_chembl_metformin():
     m = await chembl.get_molecule("CHEMBL1431")
     assert float(m["data"]["max_phase"]) == 4
     assert m["provenance"][0]["source_version"].startswith("ChEMBL_")
-    mech = await chembl.mechanisms("CHEMBL1431")
-    assert mech["data"]
+    mech = await chembl.mechanisms("CHEMBL941")  # imatinib: curated kinase-inhibitor mechanisms
+    assert any(r["action_type"] == "INHIBITOR" for r in mech["data"])
     ind = await chembl.indications("CHEMBL1431")
     assert any("diabetes" in (r["mesh_heading"] or "").lower() for r in ind["data"])
 
