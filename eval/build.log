@@ -1,0 +1,25 @@
+orphanet frame: 5446 disorders with exact MONDO; 4014 rare (non-low confidence)
+NTDs resolved: 24
+trial pool: 972
+trials: 80 questions
+counts: 20 questions
+disease: 40 questions
+rarity: 11 questions
+drugs: 60 questions
+multihop: 14 questions
+notfound: 20 questions
+{
+ "trial_why_stopped": 20,
+ "trial_enrollment": 20,
+ "trial_has_sap": 20,
+ "trial_n_sites": 20,
+ "trial_count": 20,
+ "disease_top_targets": 20,
+ "disease_late_stage_drugs": 20,
+ "disease_rarity": 11,
+ "drug_generic_us": 20,
+ "drug_first_approval": 20,
+ "drug_targets": 20,
+ "multihop_generic_late_stage": 14,
+ "not_found": 20
+}

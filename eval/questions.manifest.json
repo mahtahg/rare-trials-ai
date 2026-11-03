@@ -1,0 +1,178 @@
+{
+ "built_at": "2026-11-03T20:07:03+00:00",
+ "seed": 20261103,
+ "n_questions": 245,
+ "per_template": {
+  "trial_why_stopped": 20,
+  "trial_enrollment": 20,
+  "trial_has_sap": 20,
+  "trial_n_sites": 20,
+  "trial_count": 20,
+  "disease_top_targets": 20,
+  "disease_late_stage_drugs": 20,
+  "disease_rarity": 11,
+  "drug_generic_us": 20,
+  "drug_first_approval": 20,
+  "drug_targets": 20,
+  "multihop_generic_late_stage": 14,
+  "not_found": 20
+ },
+ "orphanet_files": {
+  "https://www.orphadata.com/data/xml/en_product1.xml": {
+   "retrieved_at": "2026-11-03T20:00:22+00:00",
+   "bytes": 54026799
+  },
+  "https://www.orphadata.com/data/xml/en_product9_prev.xml": {
+   "retrieved_at": "2026-11-03T20:00:24+00:00",
+   "bytes": 16178169
+  }
+ },
+ "n_rare_frame": 4014,
+ "ntds": [
+  {
+   "name": "Buruli ulcer disease",
+   "ot_id": "MONDO_0000327",
+   "ntd": true,
+   "query_name": "Buruli ulcer"
+  },
+  {
+   "name": "American trypanosomiasis",
+   "ot_id": "EFO_0008559",
+   "ntd": true,
+   "query_name": "Chagas disease"
+  },
+  {
+   "name": "dengue disease",
+   "ot_id": "MONDO_0005502",
+   "ntd": true,
+   "query_name": "dengue"
+  },
+  {
+   "name": "dracunculiasis",
+   "ot_id": "MONDO_0016472",
+   "ntd": true,
+   "query_name": "dracunculiasis"
+  },
+  {
+   "name": "echinococcosis",
+   "ot_id": "MONDO_0005738",
+   "ntd": true,
+   "query_name": "echinococcosis"
+  },
+  {
+   "name": "fascioliasis",
+   "ot_id": "MONDO_0004668",
+   "ntd": true,
+   "query_name": "fascioliasis"
+  },
+  {
+   "name": "human African trypanosomiasis",
+   "ot_id": "MONDO_0005459",
+   "ntd": true,
+   "query_name": "human African trypanosomiasis"
+  },
+  {
+   "name": "visceral leishmaniasis",
+   "ot_id": "MONDO_0005445",
+   "ntd": true,
+   "query_name": "visceral leishmaniasis"
+  },
+  {
+   "name": "cutaneous leishmaniasis",
+   "ot_id": "MONDO_0005446",
+   "ntd": true,
+   "query_name": "cutaneous leishmaniasis"
+  },
+  {
+   "name": "leprosy",
+   "ot_id": "MONDO_0005124",
+   "ntd": true,
+   "query_name": "leprosy"
+  },
+  {
+   "name": "filariasis",
+   "ot_id": "MONDO_0016075",
+   "ntd": true,
+   "query_name": "lymphatic filariasis"
+  },
+  {
+   "name": "eumycotic mycetoma",
+   "ot_id": "MONDO_0005757",
+   "ntd": true,
+   "query_name": "mycetoma"
+  },
+  {
+   "name": "chromomycosis",
+   "ot_id": "MONDO_0015908",
+   "ntd": true,
+   "query_name": "chromoblastomycosis"
+  },
+  {
+   "name": "noma",
+   "ot_id": "MONDO_0017124",
+   "ntd": true,
+   "query_name": "noma"
+  },
+  {
+   "name": "onchocerciasis",
+   "ot_id": "MONDO_0017137",
+   "ntd": true,
+   "query_name": "onchocerciasis"
+  },
+  {
+   "name": "Rhabdoviridae infectious disease",
+   "ot_id": "MONDO_0005944",
+   "ntd": true,
+   "query_name": "rabies"
+  },
+  {
+   "name": "skin infection",
+   "ot_id": "MONDO_0021201",
+   "ntd": true,
+   "query_name": "scabies"
+  },
+  {
+   "name": "schistosomiasis",
+   "ot_id": "MONDO_0015254",
+   "ntd": true,
+   "query_name": "schistosomiasis"
+  },
+  {
+   "name": "ascariasis",
+   "ot_id": "MONDO_0005654",
+   "ntd": true,
+   "query_name": "ascariasis"
+  },
+  {
+   "name": "hookworm infectious disease",
+   "ot_id": "MONDO_0005799",
+   "ntd": true,
+   "query_name": "hookworm infection"
+  },
+  {
+   "name": "trichuriasis",
+   "ot_id": "MONDO_0005996",
+   "ntd": true,
+   "query_name": "trichuriasis"
+  },
+  {
+   "name": "cysticercosis",
+   "ot_id": "MONDO_0015484",
+   "ntd": true,
+   "query_name": "cysticercosis"
+  },
+  {
+   "name": "chlamydia trachomatis infectious disease",
+   "ot_id": "MONDO_0005701",
+   "ntd": true,
+   "query_name": "trachoma"
+  },
+  {
+   "name": "yaws",
+   "ot_id": "MONDO_0006019",
+   "ntd": true,
+   "query_name": "yaws"
+  }
+ ],
+ "errors": []
+}
