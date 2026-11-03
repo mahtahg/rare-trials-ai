@@ -42,4 +42,4 @@ jobs:
           git config user.email "ci-bot@users.noreply.github.com"
           git add tests/cassettes reports
           git commit -m "ci: refresh cassettes [skip ci]" || echo "no changes"
-          git pull --rebase origin ${{ github.ref_name }} && git push
+          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done

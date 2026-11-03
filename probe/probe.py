@@ -30,8 +30,9 @@ GQL = {
     "ot_target_knowndrugs": '{ target(ensemblId: "ENSG00000198947") { id approvedSymbol knownDrugs(size: 5) { count rows { drug { id name isApproved } phase disease { id name } } } } }',
     "ot_drug_knowndrugs": '{ drug(chemblId: "CHEMBL1431") { knownDrugs(size: 3) { count rows { disease { id name } phase status } } } }',
     "ot_introspect_query": '{ __type(name: "Query") { fields { name } } }',
-    "ot_introspect_disease": '{ __type(name: "Disease") { fields { name } } }',
-    "ot_introspect_drug": '{ __type(name: "Drug") { fields { name } } }',
+    "ot_introspect_disease": '{ __type(name: "Disease") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
+    "ot_introspect_drug": '{ __type(name: "Drug") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
+    "ot_introspect_target": '{ __type(name: "Target") { fields { name args { name } type { name kind ofType { name kind ofType { name } } } } } }',
 }
 
 GETS = {
