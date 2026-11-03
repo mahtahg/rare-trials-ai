@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "eval"))
-from score import mcnemar_exact, score_answer, token_f1, wilson  # noqa: E402
+from score import mcnemar_exact, score_answer, token_f1, wilson
 
 
 def q(t, gold, **kw):

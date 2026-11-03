@@ -31,7 +31,7 @@ import anthropic
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from biomcp.servers.all import server as BIOMCP  # noqa: E402
+from biomcp.servers.all import server as BIOMCP
 
 # USD per million tokens (input, output); https://platform.claude.com/docs/en/about-claude/pricing (Nov 2026)
 PRICES = {
@@ -75,7 +75,7 @@ async def biomcp_tool_defs() -> list[dict]:
 async def exec_biomcp(name: str, args: dict) -> tuple[str, bool]:
     try:
         res = await BIOMCP.call_tool(name, args)
-    except Exception as exc:  # ToolError carries a model-readable message
+    except Exception as exc:  # noqa: BLE001 - ToolError carries a model-readable message
         return f"ERROR: {exc}", True
     if getattr(res, "structured_content", None) is not None:
         text = json.dumps(res.structured_content, ensure_ascii=False)
@@ -87,7 +87,7 @@ async def exec_biomcp(name: str, args: dict) -> tuple[str, bool]:
     return text, bool(getattr(res, "is_error", False))
 
 
-ANSWER_RE = re.compile(r"<answer>\s*(\{.*?\})\s*</answer>", re.S)
+ANSWER_RE = re.compile(r"<answer>\s*(\{.*?\})\s*</answer>", re.DOTALL)
 
 
 def parse_answer(text: str) -> dict | None:

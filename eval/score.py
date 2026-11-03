@@ -25,7 +25,7 @@ sys.path.insert(0, str(ROOT / "src"))
 ID_PATTERNS = {
     "nct": re.compile(r"\bNCT\d{8}\b"),
     "chembl": re.compile(r"\bCHEMBL\d+\b"),
-    "pmid": re.compile(r"\bPMID:?\s*(\d{5,9})\b", re.I),
+    "pmid": re.compile(r"\bPMID:?\s*(\d{5,9})\b", re.IGNORECASE),
 }
 
 YES = {"yes", "true", "y", "1"}
@@ -209,7 +209,7 @@ def mcnemar_exact(b: int, c: int) -> float:
     if n == 0:
         return 1.0
     k = min(b, c)
-    p = sum(math.comb(n, i) for i in range(0, k + 1)) / 2**n
+    p = sum(math.comb(n, i) for i in range(k + 1)) / 2**n
     return min(1.0, 2 * p)
 
 
