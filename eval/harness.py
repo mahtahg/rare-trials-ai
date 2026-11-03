@@ -44,7 +44,7 @@ End your reply with exactly one block:
 
 MAX_TURNS = 20
 TIMEOUT_S = 600
-LIMIT_PATTERNS = re.compile(r"usage limit|rate limit|limit reached|too many requests|overloaded|429", re.IGNORECASE)
+LIMIT_PATTERNS = re.compile(r"usage limit|rate limit|limit reached|hit your .{0,20}limit|resets \d|too many requests|overloaded|429", re.IGNORECASE)
 ANSWER_RE = re.compile(r"<answer>\s*(\{.*?\})\s*</answer>", re.DOTALL)
 
 

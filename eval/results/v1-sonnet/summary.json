@@ -1,66 +1,66 @@
 {
  "by_condition": {
   "claude-sonnet-5-5|biomcp": {
-   "n": 254,
-   "accuracy": 0.7795,
+   "n": 198,
+   "accuracy": 1.0,
    "accuracy_ci95": [
-    0.7246,
-    0.8261
+    0.981,
+    1.0
    ],
-   "mean_score": 0.7791,
+   "mean_score": 0.9995,
    "abstain_rate": 0.0,
-   "parse_fail_rate": 0.2205,
+   "parse_fail_rate": 0.0,
    "ids_emitted": 153,
-   "invalid_id_rate": 0.0,
+   "invalid_id_rate": null,
    "ungrounded_id_rate": 0.0654,
    "ece": 0.0441,
    "brier": 0.0039,
-   "mean_api_equiv_cost_usd": 0.01229,
+   "mean_api_equiv_cost_usd": 0.01577,
    "total_api_equiv_cost_usd": 3.123,
-   "median_latency_s": 7.44,
-   "mean_tool_calls": 0.81,
+   "median_latency_s": 8.28,
+   "mean_tool_calls": 1.04,
    "tool_error_rate": 0.0098
   },
   "claude-sonnet-5-5|no_tools": {
-   "n": 254,
-   "accuracy": 0.315,
+   "n": 199,
+   "accuracy": 0.402,
    "accuracy_ci95": [
-    0.261,
-    0.3745
+    0.3364,
+    0.4714
    ],
-   "mean_score": 0.313,
-   "abstain_rate": 0.2638,
-   "parse_fail_rate": 0.2717,
+   "mean_score": 0.3994,
+   "abstain_rate": 0.3367,
+   "parse_fail_rate": 0.0704,
    "ids_emitted": 6,
-   "invalid_id_rate": 0.1667,
+   "invalid_id_rate": null,
    "ungrounded_id_rate": null,
    "ece": 0.0955,
    "brier": 0.0937,
-   "mean_api_equiv_cost_usd": 0.01115,
+   "mean_api_equiv_cost_usd": 0.01423,
    "total_api_equiv_cost_usd": 2.832,
-   "median_latency_s": 5.41,
+   "median_latency_s": 5.88,
    "mean_tool_calls": 0.0,
    "tool_error_rate": 0.0
   },
   "claude-sonnet-5-5|web_search": {
-   "n": 254,
-   "accuracy": 0.6614,
+   "n": 198,
+   "accuracy": 0.8485,
    "accuracy_ci95": [
-    0.6012,
-    0.7168
+    0.7919,
+    0.8918
    ],
-   "mean_score": 0.6615,
-   "abstain_rate": 0.0236,
-   "parse_fail_rate": 0.2205,
+   "mean_score": 0.8486,
+   "abstain_rate": 0.0303,
+   "parse_fail_rate": 0.0,
    "ids_emitted": 105,
-   "invalid_id_rate": 0.0381,
+   "invalid_id_rate": null,
    "ungrounded_id_rate": null,
    "ece": 0.1229,
    "brier": 0.0543,
-   "mean_api_equiv_cost_usd": 0.00806,
+   "mean_api_equiv_cost_usd": 0.01034,
    "total_api_equiv_cost_usd": 2.047,
-   "median_latency_s": 7.87,
-   "mean_tool_calls": 1.0,
+   "median_latency_s": 10.02,
+   "mean_tool_calls": 1.28,
    "tool_error_rate": 0.0039
   }
  },
@@ -80,23 +80,6 @@
     "n": 20,
     "accuracy": 0.55,
     "mean_score": 0.4786
-   }
-  },
-  "disease_rarity": {
-   "claude-sonnet-5-5|biomcp": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|no_tools": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|web_search": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
    }
   },
   "disease_top_targets": {
@@ -152,53 +135,19 @@
   },
   "drug_targets": {
    "claude-sonnet-5-5|biomcp": {
-    "n": 20,
-    "accuracy": 0.9,
-    "mean_score": 0.9
+    "n": 18,
+    "accuracy": 1.0,
+    "mean_score": 1.0
    },
    "claude-sonnet-5-5|no_tools": {
-    "n": 20,
-    "accuracy": 0.9,
-    "mean_score": 0.8962
+    "n": 19,
+    "accuracy": 0.9474,
+    "mean_score": 0.9434
    },
    "claude-sonnet-5-5|web_search": {
-    "n": 20,
-    "accuracy": 0.9,
-    "mean_score": 0.8833
-   }
-  },
-  "multihop_generic_late_stage": {
-   "claude-sonnet-5-5|biomcp": {
-    "n": 14,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|no_tools": {
-    "n": 14,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|web_search": {
-    "n": 14,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   }
-  },
-  "not_found": {
-   "claude-sonnet-5-5|biomcp": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|no_tools": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
-   },
-   "claude-sonnet-5-5|web_search": {
-    "n": 20,
-    "accuracy": 0.0,
-    "mean_score": 0.0
+    "n": 18,
+    "accuracy": 1.0,
+    "mean_score": 0.9815
    }
   },
   "trial_count": {
@@ -289,37 +238,39 @@
  },
  "paired": {
   "claude-sonnet-5-5|biomcp_vs_no_tools": {
-   "n": 254,
+   "n": 198,
    "biomcp_only_correct": 119,
-   "other_only_correct": 1,
+   "other_only_correct": 0,
    "mcnemar_p": 0.0,
    "acc_diff_ci95": [
-    0.4646,
-    0.4016,
-    0.5276
+    0.601,
+    0.5303,
+    0.6717
    ],
    "score_diff_ci95": [
-    0.4662,
-    0.4071,
-    0.5248
+    0.6031,
+    0.5404,
+    0.6681
    ]
   },
   "claude-sonnet-5-5|biomcp_vs_web_search": {
-   "n": 254,
+   "n": 198,
    "biomcp_only_correct": 30,
    "other_only_correct": 0,
    "mcnemar_p": 0.0,
    "acc_diff_ci95": [
-    0.1181,
-    0.0787,
-    0.1575
+    0.1515,
+    0.1061,
+    0.202
    ],
    "score_diff_ci95": [
-    0.1177,
-    0.0833,
-    0.1539
+    0.1509,
+    0.1083,
+    0.1957
    ]
   }
  },
- "id_validation": true
+ "id_validation": false,
+ "n_errored_runs_excluded": 167,
+ "n_questions_excluded_by_review": 0
 }

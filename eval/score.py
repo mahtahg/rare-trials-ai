@@ -251,6 +251,7 @@ def main() -> int:
     ap.add_argument("--run", required=True)
     ap.add_argument("--questions", default=str(ROOT / "eval/questions.jsonl"))
     ap.add_argument("--validate-ids", action="store_true")
+    ap.add_argument("--exclude", default=str(ROOT / "eval/excluded_questions.json"), help="JSON list of question ids dropped in review")
     a = ap.parse_args()
     run = Path(a.run)
     qs = {json.loads(line)["id"]: json.loads(line) for line in Path(a.questions).read_text().splitlines() if line.strip()}
@@ -260,6 +261,12 @@ def main() -> int:
     for r in recs:
         dedup[(r["qid"], r["model"], r["condition"], r["rep"])] = r
     recs = [r for r in dedup.values() if r["qid"] in qs]
+    errored = [r for r in recs if r.get("error")]
+    recs = [r for r in recs if not r.get("error")]  # infrastructure failures (usage limits, timeouts) are not model answers
+    excluded = set()
+    if a.exclude and Path(a.exclude).exists():
+        excluded = set(json.loads(Path(a.exclude).read_text()))
+        recs = [r for r in recs if r["qid"] not in excluded]
 
     all_ids: dict[str, set[str]] = {k: set() for k in ID_PATTERNS}
     for r in recs:
@@ -287,7 +294,8 @@ def main() -> int:
                          "difficulty": q.get("difficulty")})
     (run / "scored.jsonl").write_text("\n".join(json.dumps(x) for x in scored) + "\n")
 
-    summary: dict = {"by_condition": {}, "by_template": {}, "paired": {}, "id_validation": bool(valid)}
+    summary: dict = {"by_condition": {}, "by_template": {}, "paired": {}, "id_validation": bool(valid),
+                     "n_errored_runs_excluded": len(errored), "n_questions_excluded_by_review": len(excluded)}
     groups = defaultdict(list)
     for s in scored:
         groups[(s["model"], s["condition"])].append(s)

@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PROMPT_FILE = ROOT / "project6/prompts/extract_v1.md"
-LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|too many requests|429", re.IGNORECASE)
+LIMIT_RE = re.compile(r"usage limit|rate limit|limit reached|hit your .{0,20}limit|resets \d|too many requests|429", re.IGNORECASE)
 
 STOP = ["insufficient_accrual", "funding", "sponsor_business_decision", "drug_supply", "efficacy_futility", "safety",
         "regulatory_ethics_contractual", "logistics_site_investigator", "covid19", "scientific_landscape_changed", "other"]
