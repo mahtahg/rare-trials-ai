@@ -1,0 +1,8 @@
+{
+ "name": "ot_disease_dacc",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 110,
+ "text": "{\"data\":{\"disease\":{\"id\":\"MONDO_0009061\",\"name\":\"cystic fibrosis\",\"drugAndClinicalCandidates\":{\"count\":148}}}}"
+}
