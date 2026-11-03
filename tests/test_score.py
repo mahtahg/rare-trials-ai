@@ -45,3 +45,8 @@ def test_stats():
 
 def test_parse_fail():
     assert score_answer(q("bool", True), None)["parse_fail"]
+
+
+def test_drug_salt_normalisation():
+    qq = {"answer_type": "set", "gold": ["DOXORUBICIN HYDROCHLORIDE", "VINCRISTINE SULFATE"], "template": "disease_late_stage_drugs"}
+    assert score_answer(qq, {"answer": ["doxorubicin", "vincristine"]})["f1"] == 1.0

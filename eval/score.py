@@ -74,7 +74,16 @@ def to_num(x):
     return float(m.group().replace(",", "")) if m else None
 
 
-def to_set(x, aliases: dict[str, str] | None = None) -> set[str]:
+SALT_RE = re.compile(r"\b(HYDROCHLORIDE|HYDROBROMIDE|HCL|SODIUM|POTASSIUM|CALCIUM|MAGNESIUM|MESYLATE|MESILATE|SULFATE|SULPHATE|"
+                     r"ACETATE|MALEATE|TARTRATE|BITARTRATE|CITRATE|PHOSPHATE|FUMARATE|SUCCINATE|BESYLATE|TOSYLATE|"
+                     r"DIHYDRATE|MONOHYDRATE|HYDRATE|ANHYDROUS|DISODIUM|DIPROPIONATE|PROPIONATE|BROMIDE|CHLORIDE|NITRATE)\b")
+
+
+def drug_norm(k: str) -> str:
+    return re.sub(r"\s+", " ", SALT_RE.sub(" ", k)).strip()
+
+
+def to_set(x, aliases: dict[str, str] | None = None, drug: bool = False) -> set[str]:
     if x is None:
         return set()
     items = x if isinstance(x, list) else re.split(r"[,;\n]| and ", str(x))
@@ -83,6 +92,8 @@ def to_set(x, aliases: dict[str, str] | None = None) -> set[str]:
         if isinstance(it, dict):
             it = it.get("name") or it.get("symbol") or it.get("id") or ""
         k = norm_token(it).upper()
+        if drug:
+            k = drug_norm(k)
         if k:
             out.add((aliases or {}).get(k, k))
     return out
@@ -121,7 +132,8 @@ def score_answer(q: dict, parsed: dict | None) -> dict:
         return {"score": (ok_n + ok_t) / 2, "correct": ok_n and ok_t, "abstained": False}
     if kind == "set":
         aliases = q.get("aliases", {})
-        p, g = to_set(ans, aliases), to_set(gold, aliases)
+        drug = q.get("template") in {"disease_late_stage_drugs", "multihop_generic_late_stage"}
+        p, g = to_set(ans, aliases, drug), to_set(gold, aliases, drug)
         if not g:
             ok = not p
             return {"score": float(ok), "correct": ok, "abstained": False}

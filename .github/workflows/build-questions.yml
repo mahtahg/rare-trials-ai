@@ -4,6 +4,7 @@ on:
     inputs:
       per_template: { default: "20" }
       seed: { default: "20261103" }
+      only: { description: "space-separated templates to rebuild (blank = all)", default: "" }
 permissions:
   contents: write
 jobs:
@@ -16,7 +17,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -e ".[dev]"
       - shell: bash
-        run: python eval/build_questions.py --per-template ${{ inputs.per_template }} --seed ${{ inputs.seed }} 2>&1 | tee eval/build.log
+        run: python eval/build_questions.py --per-template ${{ inputs.per_template }} --seed ${{ inputs.seed }} ${{ inputs.only && format('--only {0}', inputs.only) || '' }} 2>&1 | tee eval/build.log
       - name: Commit
         if: always()
         run: |

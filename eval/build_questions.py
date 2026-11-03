@@ -278,7 +278,8 @@ def gen_disease(s: Src, diseases: list[dict], n: int) -> list[dict]:
 def gen_rarity(frame: list[dict], rng: random.Random, n: int) -> list[dict]:
     hi = [f for f in frame if f["rarity"]["confidence"] == "high"]
     rare = [f for f in hi if f["rarity"]["rare_eu"]]
-    common = [f for f in hi if not f["rarity"]["rare_eu"]]
+    # non-rare entities are scarce in Orphanet; accept medium-confidence (national-estimate) ones to balance
+    common = [f for f in frame if not f["rarity"]["rare_eu"] and f["rarity"]["confidence"] in ("high", "medium")]
     picks = rng.sample(rare, min(n - n // 2, len(rare))) + rng.sample(common, min(n // 2, len(common)))
     return [q(f"rarity-{f['orpha']}", "disease_rarity",
               f"According to Orphanet's point-prevalence estimates, is {f['name']} (ORPHA:{f['orpha']}) a rare disease under the EU definition (point prevalence of at most 5 per 10,000)?",
@@ -400,6 +401,7 @@ def main() -> int:
     ap.add_argument("--per-template", type=int, default=20)
     ap.add_argument("--seed", type=int, default=20261103)
     ap.add_argument("--n-diseases", type=int, default=160)
+    ap.add_argument("--only", nargs="*", default=[], help="rebuild only these templates (currently: disease_rarity)")
     a = ap.parse_args()
     rng = random.Random(a.seed)
     s = Src()
@@ -416,7 +418,7 @@ def main() -> int:
 
     qs: list[dict] = []
     errors: list[str] = []
-    pool = trial_pool(s, diseases, rng)
+    pool = [] if a.only else trial_pool(s, diseases, rng)
     print(f"trial pool: {len(pool)}", flush=True)
 
     def step(name, fn, *args):
@@ -430,6 +432,15 @@ def main() -> int:
             errors.append(f"{name}: {exc!r}")
             return []
 
+    if a.only:  # rebuild selected templates and merge into the existing bank
+        keep = [json.loads(line) for line in Path(a.out).read_text().splitlines() if line.strip()]
+        fresh = []
+        if "disease_rarity" in a.only:
+            fresh += step("rarity", gen_rarity, frame, rng, n)
+        keep = [x for x in keep if x["template"] not in a.only] + fresh
+        Path(a.out).write_text("\n".join(json.dumps(x, ensure_ascii=False) for x in keep) + "\n")
+        print(f"merged {len(fresh)} rebuilt questions; bank now {len(keep)}")
+        return 1 if errors else 0
     qs += step("trials", gen_trials, s, pool, n)
     qs += step("counts", gen_counts, s, diseases, n)
     dq = step("disease", gen_disease, s, diseases, n)
