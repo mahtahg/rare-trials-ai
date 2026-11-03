@@ -31,7 +31,7 @@ Cross-sectional meta-research study of trial registry records. No human particip
 
 ### 4.1 Sources (snapshot date fixed at download and reported)
 - **ClinicalTrials.gov:** API v2, full download of interventional studies.
-- **WHO ICTRP:** full dataset covering all primary registries. If bulk access is not granted, the fallback is primary registries with machine-readable access (ISRCTN, EU CTR/CTIS, ANZCTR, CTRI, PACTR, DRKS, jRCT, ChiCTR), with coverage reported.
+- **WHO ICTRP:** full dataset covering all primary registries, obtained as WHO's weekly ZIP-compressed CSV by institutional request (requested November 2026). If access is not granted in time, the fallback is per-query CSV/XML export from the ICTRP Search Portal for the disease lexicon, with coverage reported.
 - **Orphanet/Orphadata:**
   - Product 9: point prevalence.
   - Product 1: cross-references to MeSH, ICD-10, OMIM and MONDO.
@@ -119,7 +119,7 @@ The model is given only registry text and the supplied reference data, never the
 ### 6.3 Human validation
 - **Sample:** stratified random sample of **n = 350** candidate records, drawn by a seeded script after prompts are frozen. Strata are registry source × status × disease group. Records near the inclusion boundary (LLM confidence < 0.7) are over-sampled at a ratio of 2:1, and estimates are re-weighted.
 - **Calibration:** 30 records extracted jointly by both reviewers to align on definitions. These are excluded from agreement statistics.
-- **Independent extraction:** the remaining **320 records** are extracted independently by two reviewers using a web form. Reviewers are blinded to each other and to LLM output.
+- **Independent extraction:** the remaining **320 records** are extracted independently by two reviewers using a web form. Reviewers are blinded to each other and to LLM output. Blinding is enforced by the form's access rules: each reviewer writes only their own extraction subtree, and a second reviewer with Contributor access cannot read the first reviewer's entries. The study lead, as owner, could technically read both, so the form never displays the other reviewer's entries or any LLM output, and the lead will not query them before adjudication.
 - **Adjudication:** disagreements are resolved by discussion. Persisting disagreements go to a senior advisor. The adjudicated label is the reference standard.
 - **Sample-size rationale:** 320 records give a 95% CI half-width of about ±0.04 for LLM accuracy near 0.90, and about ±0.07 for Cohen's κ near 0.75 on binary items.
 
