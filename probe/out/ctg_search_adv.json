@@ -1,0 +1,8 @@
+{
+ "name": "ctg_search_adv",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 453,
+ "text": "{\"totalCount\":29,\"studies\":[\n{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT02696928\"},\"statusModule\":{\"overallStatus\":\"WITHDRAWN\",\"whyStopped\":\"Lack of ethical approval in Ethiopia\"},\"designModule\":{\"phases\":[\"PHASE2\"]}}},\n{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT02836002\"},\"statusModule\":{\"overallStatus\":\"COMPLETED\"},\"designModule\":{\"phases\":[\"PHASE1\",\"PHASE2\"]}}}\n],\"nextPageToken\":\"ZVNj7o2Elu8o3lpyDNCk5rLumpOQJJxpbfmk1Pg\"}"
+}

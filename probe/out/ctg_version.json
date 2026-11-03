@@ -1,0 +1,8 @@
+{
+ "name": "ctg_version",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 71,
+ "text": "{\n  \"apiVersion\" : \"2.0.5\",\n  \"dataTimestamp\" : \"2026-11-03T10:00:05\"\n}"
+}

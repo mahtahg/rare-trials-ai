@@ -1,0 +1,8 @@
+{
+ "name": "ot_target_knowndrugs",
+ "status": 400,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 355,
+ "text": "{\"errors\":[{\"message\":\"Cannot query field 'knownDrugs' on type 'Target'. (line 1, column 60):\\n{ target(ensemblId: \\\"ENSG00000198947\\\") { id approvedSymbol knownDrugs(size: 5) { count rows { drug { id name isApproved } phase disease { id name } } } } }\\n                                                           ^\",\"locations\":[{\"line\":1,\"column\":60}]}]}"
+}

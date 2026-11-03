@@ -1,0 +1,8 @@
+{
+ "name": "euctr_ctis",
+ "status": 403,
+ "content_type": "application/json",
+ "content_length": "42",
+ "bytes": 42,
+ "text": "{\"message\":\"Missing Authentication Token\"}"
+}

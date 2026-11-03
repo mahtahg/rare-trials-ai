@@ -1,0 +1,8 @@
+{
+ "name": "ot_introspect_query",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 461,
+ "text": "{\"data\":{\"__type\":{\"fields\":[{\"name\":\"meta\"},{\"name\":\"target\"},{\"name\":\"targets\"},{\"name\":\"disease\"},{\"name\":\"diseases\"},{\"name\":\"drug\"},{\"name\":\"drugs\"},{\"name\":\"search\"},{\"name\":\"facets\"},{\"name\":\"mapIds\"},{\"name\":\"associationDatasources\"},{\"name\":\"interactionResources\"},{\"name\":\"geneOntologyTerms\"},{\"name\":\"variant\"},{\"name\":\"study\"},{\"name\":\"studies\"},{\"name\":\"credibleSet\"},{\"name\":\"credibleSets\"},{\"name\":\"clinicalReport\"},{\"name\":\"clinicalReports\"}]}}}"
+}

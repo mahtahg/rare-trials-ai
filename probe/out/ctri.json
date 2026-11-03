@@ -1,0 +1,8 @@
+{
+ "name": "ctri",
+ "status": "ERR ConnectError",
+ "content_type": null,
+ "content_length": null,
+ "bytes": 30,
+ "text": "[Errno 111] Connection refused"
+}

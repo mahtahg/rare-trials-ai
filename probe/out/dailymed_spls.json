@@ -1,0 +1,8 @@
+{
+ "name": "dailymed_spls",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": "775",
+ "bytes": 775,
+ "text": "{\"data\": [{\"spl_version\": 2, \"published_date\": \"Oct 30, 2026\", \"title\": \"SIROLIMUS TABLET, FILM COATED [REMEDYREPACK INC.]\", \"setid\": \"09f24e7a-0bea-4e02-b557-c60eb842d41a\"}, {\"spl_version\": 1, \"published_date\": \"Oct 30, 2026\", \"title\": \"SIROLIMUS TABLET, FILM COATED [AVPAK]\", \"setid\": \"5ed39652-9289-fd12-e063-6294a90aebfa\"}], \"metadata\": {\"db_published_date\": \"Nov 02, 2026 11:49:20PM EST\", \"elements_per_page\": 2, \"current_url\": \"https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=sirolimus&pagesize=2\", \"next_page_url\": \"https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=sirolimus&pagesize=2&page=2\", \"total_elements\": 29, \"total_pages\": 15, \"current_page\": 1, \"previous_page\": \"null\", \"previous_page_url\": \"null\", \"next_page\": 2}}"
+}

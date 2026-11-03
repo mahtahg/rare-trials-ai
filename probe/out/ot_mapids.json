@@ -1,0 +1,8 @@
+{
+ "name": "ot_mapids",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 101,
+ "text": "{\"data\":{\"mapIds\":{\"mappings\":[{\"term\":\"Orphanet:98896\",\"hits\":[]},{\"term\":\"ORPHA:324\",\"hits\":[]}]}}}"
+}

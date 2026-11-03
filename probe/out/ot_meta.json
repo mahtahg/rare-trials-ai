@@ -1,0 +1,8 @@
+{
+ "name": "ot_meta",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 163,
+ "text": "{\"data\":{\"meta\":{\"name\":\"Open Targets GraphQL & REST API Beta\",\"apiVersion\":{\"x\":\"26\",\"y\":\"9\",\"z\":\"0\"},\"dataVersion\":{\"year\":\"26\",\"month\":\"09\",\"iteration\":null}}}}"
+}

@@ -1,0 +1,8 @@
+{
+ "name": "ctg_study_docs",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 420,
+ "text": "{\"studies\":[\n{\"protocolSection\":{\"identificationModule\":{\"nctId\":\"NCT06731166\"}},\"documentSection\":{\"largeDocumentModule\":{\"largeDocs\":[{\"typeAbbrev\":\"Prot_SAP\",\"hasProtocol\":true,\"hasSap\":true,\"hasIcf\":false,\"label\":\"Study Protocol and Statistical Analysis Plan\",\"date\":\"2025-01-15\",\"uploadDate\":\"2025-01-15T09:57\",\"filename\":\"Prot_SAP_000.pdf\",\"size\":980866}]}}}\n],\"nextPageToken\":\"ZVNj7o2Elu8o3lpyDNCk5rLumpOQJJxpaQ\"}"
+}

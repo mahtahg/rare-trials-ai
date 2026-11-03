@@ -1,0 +1,8 @@
+{
+ "name": "ot_drug_knowndrugs",
+ "status": 400,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 280,
+ "text": "{\"errors\":[{\"message\":\"Cannot query field 'knownDrugs' on type 'Drug'. (line 1, column 34):\\n{ drug(chemblId: \\\"CHEMBL1431\\\") { knownDrugs(size: 3) { count rows { disease { id name } phase status } } } }\\n                                 ^\",\"locations\":[{\"line\":1,\"column\":34}]}]}"
+}

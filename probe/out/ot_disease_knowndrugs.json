@@ -1,0 +1,8 @@
+{
+ "name": "ot_disease_knowndrugs",
+ "status": 400,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 338,
+ "text": "{\"errors\":[{\"message\":\"Cannot query field 'knownDrugs' on type 'Disease'. (line 1, column 45):\\n{ disease(efoId: \\\"MONDO_0010679\\\") { id name knownDrugs(size: 5) { uniqueDrugs count rows { drug { id name } phase status mechanismOfAction ctIds } } } }\\n                                            ^\",\"locations\":[{\"line\":1,\"column\":45}]}]}"
+}

@@ -1,0 +1,8 @@
+{
+ "name": "orpha_api_epi_all",
+ "status": 404,
+ "content_type": "application/problem+json",
+ "content_length": "205",
+ "bytes": 205,
+ "text": "{\n  \"detail\": \"The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\",\n  \"status\": 404,\n  \"title\": \"Not Found\",\n  \"type\": \"about:blank\"\n}\n"
+}

@@ -1,0 +1,8 @@
+{
+ "name": "ot_disease_targets",
+ "status": 200,
+ "content_type": "application/json",
+ "content_length": null,
+ "bytes": 1033,
+ "text": "{\"data\":{\"disease\":{\"id\":\"MONDO_0010679\",\"name\":\"Duchenne muscular dystrophy\",\"dbXRefs\":[\"DOID:11723\",\"GARD:0006291\",\"MEDGEN:3925\",\"MESH:D020388\",\"MedDRA:10013801\",\"NANDO:1200488\",\"NANDO:2200856\",\"NCIT:C75482\",\"NORD:1065\",\"OMIM:310200\",\"Orphanet:98896\",\"SCTID:76670001\",\"UMLS:C0013264\",\"icd11.foundation:1479561744\"],\"associatedTargets\":{\"count\":2530,\"rows\":[{\"score\":0.8683877887777448,\"target\":{\"id\":\"ENSG00000198947\",\"approvedSymbol\":\"DMD\",\"approvedName\":\"dystrophin\"}},{\"score\":0.5868338886074015,\"target\":{\"id\":\"ENSG00000113580\",\"approvedSymbol\":\"NR3C1\",\"approvedName\":\"nuclear receptor subfamily 3 group C member 1\"}},{\"score\":0.5581630533410797,\"target\":{\"id\":\"ENSG00000151623\",\"approvedSymbol\":\"NR3C2\",\"approvedName\":\"nuclear receptor subfamily 3 group C member 2\"}},{\"score\":0.5332019780574652,\"target\":{\"id\":\"ENSG00000068024\",\"approvedSymbol\":\"HDAC4\",\"approvedName\":\"histone deacetylase 4\"}},{\"score\":0.5259158986905159,\"target\":{\"id\":\"ENSG00000048052\",\"approvedSymbol\":\"HDAC9\",\"approvedName\":\"histone deacetylase 9\"}}]}}}}"
+}
