@@ -1,0 +1,27 @@
+name: probe-endpoints
+on:
+  workflow_dispatch:
+  push:
+    paths: ["probe/probe.py", ".github/workflows/probe.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: probe
+  cancel-in-progress: true
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install httpx==0.28.1
+      - run: python probe/probe.py | tee probe/summary.txt
+      - name: Commit probe output
+        run: |
+          git config user.name "probe-bot"
+          git config user.email "probe-bot@users.noreply.github.com"
+          git add probe/out probe/summary.txt
+          git commit -m "probe: record endpoint responses [skip ci]" || echo "nothing to commit"
+          git pull --rebase origin ${{ github.ref_name }} && git push
