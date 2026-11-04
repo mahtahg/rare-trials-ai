@@ -1,7 +1,7 @@
 # Stalled drug-repurposing trials in rare and neglected tropical diseases: a cross-registry meta-research study with validated LLM-assisted data extraction
 
 **Status:** draft protocol for OSF pre-registration (v0.1, 2026-11-03). Not yet registered.
-**Lead:** Mahta Haghighat Ghahfarokhi (King's College London). Second reviewer: TBC. Senior advisor: TBC.
+**Lead:** Mahta Haghighat Ghahfarokhi (King's College London). Second reviewer: named before registration. Senior advisor: TBC.
 **Code and data:** github.com/mahtahg/rare-trials-ai (`project6/`), released under MIT/CC-BY at publication.
 
 ---
@@ -15,6 +15,8 @@ Large language models (LLMs) could make this kind of registry-scale meta-researc
 ## 2. Objectives
 
 **Primary.** Estimate the proportion of interventional drug-repurposing trials in rare diseases and NTDs, registered 2010–2026, that stall (definition §5.1). Report it overall and by region, funder type, phase and disease group.
+
+**Oncology stratum (pre-specified).** Rare cancers meet the EU rarity definition and are retained, but they make up about 58% of candidate trials and differ structurally (industry share, accrual patterns). All estimates are reported separately for the non-oncology stratum (the headline result) and the rare-oncology stratum, with the pooled estimate as secondary. Oncology is identified by a version-controlled condition lexicon (cancer, carcinoma, neoplasm, tumour, leukaemia, lymphoma, myeloma, sarcoma, glioma, -blastoma, melanoma, malignant, myelodysplastic, metastatic) applied to condition text and MeSH terms, verified in the validation sample.
 
 **Secondary.**
 1. Describe the stated reasons for stopping, using a pre-specified taxonomy (§5.3).
@@ -94,6 +96,7 @@ Multiple categories may be assigned. The **primary reason** is the first stated.
 - Disease group (rare vs NTD) and prevalence class
 - Paediatric inclusion
 - Start year
+- Oncology vs non-oncology stratum
 - Off-patent proxy (marketed US generic at trial start)
 - Registry of origin
 
