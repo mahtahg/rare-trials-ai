@@ -195,7 +195,7 @@ async def disease_drugs(disease_id: str, size: int = 50, min_stage: str | None =
                                for t in m.get("targets") or []}),
             "n_reports": len(reps),
             "trials": [
-                {"id": c.get("id"), "source": c.get("source"), "phase": c.get("trialPhase"), "status": c.get("trialOverallStatus"),
+                {"id": (c.get("id") or "").upper() if (c.get("id") or "").lower().startswith("nct") else c.get("id"), "source": c.get("source"), "phase": c.get("trialPhase"), "status": c.get("trialOverallStatus"),
                  "why_stopped": clip(c.get("trialWhyStopped"), 200), "stop_categories": c.get("trialStopReasonCategories"),
                  "year": c.get("year")}
                 for c in reps[:8]

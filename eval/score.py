@@ -168,9 +168,11 @@ def grounded_ids(rec: dict) -> set[str]:
     seen = set()
     for c in rec.get("tool_outputs") or []:
         if isinstance(c, str):
+            cu = c.upper()  # sources differ in case (Open Targets returns 'nct01234567')
             for pat in ID_PATTERNS.values():
-                seen |= {m.group(1) if m.groups() else m.group() for m in pat.finditer(c)}
-            seen |= set(re.findall(r'"pmid":\s*"(\d+)"', c))
+                seen |= {m.group(1) if m.groups() else m.group() for m in pat.finditer(cu)}
+            seen |= set(re.findall(r'"PMID":\s*"(\d+)"', cu))
+            seen |= set(re.findall(r"(\d{5,9})\[PMID\]", cu))  # Orphanet source citations
     return seen
 
 
