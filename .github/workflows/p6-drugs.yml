@@ -1,0 +1,27 @@
+name: p6-drugs
+on:
+  workflow_dispatch:
+    inputs:
+      max_minutes: { default: "200" }
+      concurrency: { default: "8" }
+permissions:
+  contents: write
+concurrency: { group: p6-drugs, cancel-in-progress: false }
+jobs:
+  drugs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e ".[dev]"
+      - shell: bash
+        run: python project6/pipeline/normalize_drugs.py --max-minutes ${{ inputs.max_minutes }} --concurrency ${{ inputs.concurrency }} 2>&1 | tail -60
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "p6-bot"; git config user.email "p6-bot@users.noreply.github.com"
+          git add project6/data/drug_map.json
+          git commit -m "p6: drug normalisation progress [skip ci]" || echo "no changes"
+          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done
