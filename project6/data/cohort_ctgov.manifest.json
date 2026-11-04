@@ -1,0 +1,38 @@
+{
+ "built_at": "2026-11-03T20:17:59.995409+00:00",
+ "ctgov_version": {
+  "apiVersion": "2.0.5",
+  "dataTimestamp": "2026-11-03T10:00:05"
+ },
+ "from_date": "2010-01-01",
+ "scanned": 396340,
+ "total_reported": 396340,
+ "candidates": 31275,
+ "ntd_lexicon": {
+  "Buruli ulcer": "buruli|mycobacterium ulcerans",
+  "Chagas disease": "chagas|trypanosoma cruzi",
+  "Dengue": "\\bdengue",
+  "Dracunculiasis": "dracuncul|guinea.worm",
+  "Echinococcosis": "echinococc|hydatid",
+  "Foodborne trematodiases": "fasciol|clonorch|opisthorch|paragonim",
+  "Human African trypanosomiasis": "african trypanosomiasis|sleeping sickness|trypanosoma brucei",
+  "Leishmaniasis": "leishmania|kala.azar",
+  "Leprosy": "lepros|leprosy|hansen'?s disease|mycobacterium leprae",
+  "Lymphatic filariasis": "lymphatic filariasis|wuchereria|brugia|elephantiasis, filarial",
+  "Mycetoma, chromoblastomycosis and other deep mycoses": "mycetoma|chromoblastomycosis|sporotrich|paracoccidioid|histoplasmosis",
+  "Noma": "\\bnoma\\b|cancrum oris",
+  "Onchocerciasis": "onchocerc|river blindness",
+  "Rabies": "\\brabies",
+  "Scabies and other ectoparasitoses": "scabies|tungiasis",
+  "Schistosomiasis": "schistosom|bilharzi",
+  "Soil-transmitted helminthiases": "ascari|hookworm|ancylostom|necator|trichuri|strongyloid|soil.transmitted helminth",
+  "Snakebite envenoming": "snake ?bite|snake venom|envenom",
+  "Taeniasis/cysticercosis": "taenia|cysticerc",
+  "Trachoma": "trachoma",
+  "Yaws": "\\byaws\\b|treponema pertenue"
+ },
+ "orphanet_files": [
+  "https://www.orphadata.com/data/xml/en_product1.xml",
+  "https://www.orphadata.com/data/xml/en_product9_prev.xml"
+ ]
+}
