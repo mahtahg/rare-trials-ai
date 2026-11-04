@@ -1,0 +1,58 @@
+name: nightly
+# Overnight UK only (Mahta's choice): uses the Claude subscription 23:05-04:40 London time.
+# GitHub cron is UTC: 23:05 UTC = 23:05 GMT (Nov-Mar). Change to "5 22 * * *" when BST starts (29 Mar 2027).
+# Each step is resumable and stops cleanly at a usage limit; the next night picks up where it stopped.
+on:
+  schedule:
+    - cron: "5 23 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: nightly, cancel-in-progress: false }
+jobs:
+  night:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm install -g @anthropic-ai/claude-code && claude --version
+      - run: pip install -e ".[dev]"
+      - name: Eval — finish Sonnet run
+        continue-on-error: true
+        run: python eval/harness.py --run-id v1-sonnet --models claude-sonnet-5-5 --max-minutes 60 --concurrency 2
+      - name: Eval — Haiku run
+        continue-on-error: true
+        run: python eval/harness.py --run-id v1-haiku --models claude-haiku-5-5 --max-minutes 90 --concurrency 2
+      - name: Eval — hard tier (if built)
+        continue-on-error: true
+        run: |
+          if [ -f eval/questions_hard.jsonl ]; then
+            python eval/harness.py --questions eval/questions_hard.jsonl --run-id hard-sonnet --models claude-sonnet-5-5 --max-minutes 45 --concurrency 2
+            python eval/harness.py --questions eval/questions_hard.jsonl --run-id hard-haiku --models claude-haiku-5-5 --max-minutes 30 --concurrency 2
+          fi
+      - name: Project 6 — LLM extraction
+        continue-on-error: true
+        run: |
+          if [ -f project6/data/drug_map.json ] && python -c "import json,sys; d=json.load(open('project6/data/drug_map.json')); sys.exit(0 if d.get('complete') else 1)"; then
+            python project6/pipeline/llm_extract.py --model claude-sonnet-5-5 --batch 16 --max-minutes 90
+          else echo "drug map not complete yet; skipping extraction"; fi
+      - name: Score
+        if: always()
+        run: |
+          for r in v1-sonnet v1-haiku hard-sonnet hard-haiku; do
+            q=eval/questions.jsonl; case $r in hard-*) q=eval/questions_hard.jsonl;; esac
+            [ -d eval/results/$r ] && python eval/score.py --questions $q --run eval/results/$r --validate-ids || true
+          done
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "nightly-bot"; git config user.email "nightly-bot@users.noreply.github.com"
+          git add eval/results project6/data/llm_extract_v1.jsonl project6/data/llm_extract_v1.REMAINING 2>/dev/null || true
+          git commit -m "nightly: eval + extraction progress [skip ci]" || echo "no changes"
+          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done

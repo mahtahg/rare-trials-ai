@@ -141,6 +141,8 @@ async def amain(a) -> int:
         if a.max_minutes and el > a.max_minutes * 60:
             print("time budget reached; resume later", flush=True)
             break
+    done["complete"] = all(n in done["names"] for n in names)
+    out_p.write_text(json.dumps(done))
     matched = sum(1 for v in done["names"].values() if not v.get("unmatched"))
     print(f"matched {matched}/{len(done['names'])} names to {len(done['parents'])} parent compounds")
     return 0

@@ -115,6 +115,9 @@ def main() -> int:
             r = json.loads(line)
             if r["trial_id"] not in done:
                 recs.append(record_view(r, drug_map))
+    onc = re.compile(r"cancer|carcinoma|neoplasm|tumou?r|leuk(a)?emia|lymphoma|myeloma|sarcoma|glioma|blastoma|melanoma|"
+                     r"malignan|myelodysplas|metasta", re.IGNORECASE)
+    recs.sort(key=lambda v: bool(onc.search(" ".join(v["conditions"] + v["condition_mesh"]))))  # stable: non-oncology first
     print(f"{len(recs)} trials to extract (prompt {prompt_sha}, model {a.model})", flush=True)
     deadline = time.monotonic() + a.max_minutes * 60
     n = 0
