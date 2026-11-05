@@ -1,7 +1,7 @@
 name: nightly
-# Overnight UK only (Mahta's choice): uses the Claude subscription 23:05-04:40 London time.
-# GitHub cron is UTC: 23:05 UTC = 23:05 GMT (Nov-Mar). Change to "5 22 * * *" when BST starts (29 Mar 2027).
-# Each step is resumable and stops cleanly at a usage limit; the next night picks up where it stopped.
+# Overnight UK only (Mahta's choice). Every step gets a time budget that ends by 06:45 Europe/London,
+# whenever GitHub actually starts the scheduled run (cron start times are often delayed by hours).
+# Results are committed after EACH step and also uploaded as a workflow artifact, so nothing is lost.
 on:
   schedule:
     - cron: "5 23 * * *"
@@ -12,7 +12,7 @@ concurrency: { group: nightly, cancel-in-progress: false }
 jobs:
   night:
     runs-on: ubuntu-latest
-    timeout-minutes: 345
+    timeout-minutes: 350
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
     steps:
@@ -23,36 +23,74 @@ jobs:
         with: { node-version: "22" }
       - run: npm install -g @anthropic-ai/claude-code && claude --version
       - run: pip install -e ".[dev]"
-      - name: Eval — finish Sonnet run
-        continue-on-error: true
-        run: python eval/harness.py --run-id v1-sonnet --models claude-sonnet-5-5 --max-minutes 60 --concurrency 2
-      - name: Eval — Haiku run
-        continue-on-error: true
-        run: python eval/harness.py --run-id v1-haiku --models claude-haiku-5-5 --max-minutes 90 --concurrency 2
-      - name: Eval — hard tier (if built)
-        continue-on-error: true
-        run: |
-          if [ -f eval/questions_hard.jsonl ]; then
-            python eval/harness.py --questions eval/questions_hard.jsonl --run-id hard-sonnet --models claude-sonnet-5-5 --max-minutes 45 --concurrency 2
-            python eval/harness.py --questions eval/questions_hard.jsonl --run-id hard-haiku --models claude-haiku-5-5 --max-minutes 30 --concurrency 2
-          fi
-      - name: Project 6 — LLM extraction
-        continue-on-error: true
-        run: |
-          if [ -f project6/data/drug_map.json ] && python -c "import json,sys; d=json.load(open('project6/data/drug_map.json')); sys.exit(0 if d.get('complete') else 1)"; then
-            python project6/pipeline/llm_extract.py --model claude-sonnet-5-5 --batch 16 --max-minutes 90
-          else echo "drug map not complete yet; skipping extraction"; fi
-      - name: Score
-        if: always()
-        run: |
-          for r in v1-sonnet v1-haiku hard-sonnet hard-haiku; do
-            q=eval/questions.jsonl; case $r in hard-*) q=eval/questions_hard.jsonl;; esac
-            [ -d eval/results/$r ] && python eval/score.py --questions $q --run eval/results/$r --validate-ids || true
-          done
-      - name: Commit
-        if: always()
+      - name: Configure git + helpers
         run: |
           git config user.name "nightly-bot"; git config user.email "nightly-bot@users.noreply.github.com"
-          git add eval/results project6/data/llm_extract_v1.jsonl project6/data/llm_extract_v1.REMAINING 2>/dev/null || true
-          git commit -m "nightly: eval + extraction progress [skip ci]" || echo "no changes"
-          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done
+          cat > /tmp/save.sh <<'SH'
+          #!/usr/bin/env bash
+          # commit whatever result files exist; never let one missing path block the rest
+          cd "$GITHUB_WORKSPACE"
+          for p in eval/results project6/data/llm_extract_v1.jsonl project6/data/llm_extract_v1.REMAINING; do
+            [ -e "$p" ] && git add "$p"
+          done
+          git commit -qm "nightly: ${1:-progress} [skip ci]" || { echo "nothing new to commit"; exit 0; }
+          for i in 1 2 3 4 5; do git pull -q --rebase -X theirs origin "$GITHUB_REF_NAME" && git push -q && { echo "saved: $1"; exit 0; }; sleep $((i*5)); done
+          echo "::error::could not push results"; exit 1
+          SH
+          chmod +x /tmp/save.sh
+          cat > /tmp/budget.sh <<'SH'
+          #!/usr/bin/env bash
+          # minutes left until 06:45 London, minus a 10-minute margin; prints 0 outside the 22:30-06:45 window
+          python3 - <<'PY'
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo("Europe/London"))
+          if now.hour >= 7 and (now.hour, now.minute) < (22, 30):
+              print(0); raise SystemExit
+          end = now.replace(hour=6, minute=45, second=0, microsecond=0)
+          if now > end:
+              end += timedelta(days=1)
+          print(max(0, int((end - now).total_seconds() // 60) - 10))
+          PY
+          SH
+          chmod +x /tmp/budget.sh; echo "budget now: $(/tmp/budget.sh) min"
+      - name: Eval — Haiku base tier
+        continue-on-error: true
+        run: |
+          B=$(/tmp/budget.sh); [ "$B" -lt 15 ] && { echo "outside overnight window"; exit 0; }
+          python eval/harness.py --run-id v1-haiku --models claude-haiku-5-5 --max-minutes $(( B < 120 ? B : 120 )) --concurrency 2
+          python eval/score.py --run eval/results/v1-haiku --validate-ids || true
+          /tmp/save.sh "eval v1-haiku"
+      - name: Eval — hard tier (Sonnet, Haiku)
+        continue-on-error: true
+        run: |
+          for m in sonnet haiku; do
+            B=$(/tmp/budget.sh); [ "$B" -lt 15 ] && { echo "outside overnight window"; break; }
+            python eval/harness.py --questions eval/questions_hard.jsonl --run-id hard-$m --models claude-$m-5-5 --max-minutes $(( B < 60 ? B : 60 )) --concurrency 2
+            python eval/score.py --questions eval/questions_hard.jsonl --run eval/results/hard-$m --validate-ids || true
+            /tmp/save.sh "eval hard-$m"
+          done
+      - name: Project 6 — LLM extraction (in 30-minute slices, saved after each)
+        continue-on-error: true
+        run: |
+          python -c "import json,sys; sys.exit(0 if json.load(open('project6/data/drug_map.json')).get('complete') else 1)" || { echo "drug map not complete"; exit 0; }
+          while true; do
+            B=$(/tmp/budget.sh); [ "$B" -lt 20 ] && { echo "window closing"; break; }
+            python project6/pipeline/llm_extract.py --model claude-sonnet-5-5 --batch 16 --max-minutes 30 | tee /tmp/ext.log
+            /tmp/save.sh "p6 extraction slice"
+            grep -q "USAGE LIMIT" /tmp/ext.log && break
+            [ "$(cat project6/data/llm_extract_v1.REMAINING 2>/dev/null || echo 1)" = "0" ] && break
+          done
+      - name: Final save
+        if: always()
+        run: /tmp/save.sh "final" || true
+      - name: Backup results as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nightly-results-${{ github.run_id }}
+          path: |
+            eval/results
+            project6/data/llm_extract_v1.jsonl
+          if-no-files-found: ignore
+          retention-days: 30
