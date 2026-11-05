@@ -2,6 +2,39 @@
  "cells": [
   {
    "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "no_tools",
+   "n": 214,
+   "acc": 0.3318,
+   "ci": [
+    0.2721,
+    0.3973
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "web_search",
+   "n": 214,
+   "acc": 0.7897,
+   "ci": [
+    0.7303,
+    0.839
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp",
+   "n": 214,
+   "acc": 0.9907,
+   "ci": [
+    0.9666,
+    0.9974
+   ]
+  },
+  {
+   "tier": "base",
    "model": "claude-sonnet-5-5",
    "condition": "no_tools",
    "n": 254,
@@ -103,6 +136,34 @@
  "benefit": [
   {
    "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "no_tools",
+   "n": 213,
+   "b": 141,
+   "c": 0,
+   "p": 7.174648137343064e-43,
+   "delta": [
+    0.662,
+    0.6009,
+    0.7277
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "web_search",
+   "n": 214,
+   "b": 45,
+   "c": 2,
+   "p": 1.6044054973463062e-11,
+   "delta": [
+    0.2009,
+    0.1449,
+    0.257
+   ]
+  },
+  {
+   "tier": "base",
    "model": "claude-sonnet-5-5",
    "vs": "no_tools",
    "n": 254,
@@ -188,6 +249,26 @@
  ],
  "benefit_gap": [
   {
+   "tier": "base",
+   "vs": "no_tools",
+   "n": 213,
+   "did": [
+    0.0798,
+    0.0282,
+    0.1315
+   ]
+  },
+  {
+   "tier": "base",
+   "vs": "web_search",
+   "n": 214,
+   "did": [
+    0.0327,
+    -0.0093,
+    0.0794
+   ]
+  },
+  {
    "tier": "hard",
    "vs": "no_tools",
    "n": 58,
@@ -209,6 +290,45 @@
   }
  ],
  "model_paired": [
+  {
+   "tier": "base",
+   "condition": "no_tools",
+   "n": 214,
+   "haiku_only": 5,
+   "sonnet_only": 24,
+   "p": 0.0005461126565933228,
+   "delta": [
+    -0.0888,
+    -0.1355,
+    -0.0421
+   ]
+  },
+  {
+   "tier": "base",
+   "condition": "web_search",
+   "n": 214,
+   "haiku_only": 6,
+   "sonnet_only": 15,
+   "p": 0.0783538818359375,
+   "delta": [
+    -0.0421,
+    -0.0841,
+    0.0
+   ]
+  },
+  {
+   "tier": "base",
+   "condition": "biomcp",
+   "n": 214,
+   "haiku_only": 0,
+   "sonnet_only": 2,
+   "p": 0.5,
+   "delta": [
+    -0.0093,
+    -0.0234,
+    0.0
+   ]
+  },
   {
    "tier": "hard",
    "condition": "no_tools",
