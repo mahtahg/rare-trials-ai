@@ -1,0 +1,29 @@
+{
+ "run_id": "v1-haiku",
+ "sessions": [
+  {
+   "started_at": "2026-11-05T09:55:55.687468+00:00",
+   "pending_jobs": 762,
+   "finished_at": "2026-11-05T12:55:59.297077+00:00",
+   "completed_runs": 603,
+   "stopped_for_usage_limit": false
+  }
+ ],
+ "args": {
+  "questions": "eval/questions.jsonl",
+  "models": "claude-haiku-5-5",
+  "conditions": "no_tools,web_search,biomcp",
+  "repeats": 1,
+  "limit": 0,
+  "sample": false,
+  "seed": 20261103,
+  "concurrency": 1,
+  "max_runs": 0,
+  "max_minutes": 180.0,
+  "run_id": "v1-haiku"
+ },
+ "n_questions": 254,
+ "auth": "claude-subscription-oauth",
+ "system_prompt": "You are assisting a clinical-development team working on rare and neglected diseases.\nAnswer the question accurately. Use the tools available to you when they help; do not use tools you were not given.\nIf you cannot determine the answer, or the entity does not exist, say so: set \"not_found\": true or give a low confidence. Never invent identifiers.\n\nEnd your reply with exactly one block:\n<answer>{\"answer\": <value in the requested format>, \"identifiers\": [<every NCT/CHEMBL/PMID/EFO/MONDO/ORPHA/Ensembl ID you relied on>], \"not_found\": <true|false>, \"confidence\": <0.0-1.0>}</answer>",
+ "max_turns": 20
+}

@@ -1,0 +1,293 @@
+{
+ "by_condition": {
+  "claude-haiku-5-5|biomcp": {
+   "n": 201,
+   "accuracy": 0.99,
+   "accuracy_ci95": [
+    0.9645,
+    0.9973
+   ],
+   "mean_score": 0.9871,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 245,
+   "invalid_id_rate": 0.0857,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.0708,
+   "brier": 0.0161,
+   "mean_api_equiv_cost_usd": 0.00114,
+   "total_api_equiv_cost_usd": 0.229,
+   "median_latency_s": 6.03,
+   "mean_tool_calls": 1.35,
+   "tool_error_rate": 0.0
+  },
+  "claude-haiku-5-5|no_tools": {
+   "n": 198,
+   "accuracy": 0.3131,
+   "accuracy_ci95": [
+    0.2526,
+    0.3808
+   ],
+   "mean_score": 0.3073,
+   "abstain_rate": 0.5152,
+   "parse_fail_rate": 0.101,
+   "ids_emitted": 1,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": null,
+   "ece": 0.0865,
+   "brier": 0.0694,
+   "mean_api_equiv_cost_usd": 0.00635,
+   "total_api_equiv_cost_usd": 1.257,
+   "median_latency_s": 5.63,
+   "mean_tool_calls": 0.0,
+   "tool_error_rate": 0.0
+  },
+  "claude-haiku-5-5|web_search": {
+   "n": 201,
+   "accuracy": 0.796,
+   "accuracy_ci95": [
+    0.735,
+    0.8459
+   ],
+   "mean_score": 0.7964,
+   "abstain_rate": 0.1642,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 157,
+   "invalid_id_rate": 0.0701,
+   "ungrounded_id_rate": null,
+   "ece": 0.1257,
+   "brier": 0.0479,
+   "mean_api_equiv_cost_usd": 0.0076,
+   "total_api_equiv_cost_usd": 1.527,
+   "median_latency_s": 15.24,
+   "mean_tool_calls": 2.93,
+   "tool_error_rate": 0.0068
+  }
+ },
+ "by_template": {
+  "disease_late_stage_drugs": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 0.99
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.45,
+    "mean_score": 0.3518
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.15,
+    "mean_score": 0.161
+   }
+  },
+  "disease_top_targets": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 0.98
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.05,
+    "mean_score": 0.0567
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.0,
+    "mean_score": 0.0167
+   }
+  },
+  "drug_first_approval": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.8,
+    "mean_score": 0.8
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "drug_generic_us": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.85,
+    "mean_score": 0.85
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.95
+   }
+  },
+  "drug_targets": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 19,
+    "accuracy": 0.9474,
+    "mean_score": 0.9298
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.9262
+   }
+  },
+  "multihop_generic_late_stage": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   }
+  },
+  "trial_count": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 0.9,
+    "mean_score": 0.9
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.95
+   }
+  },
+  "trial_enrollment": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 19,
+    "accuracy": 0.0,
+    "mean_score": 0.0526
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_has_sap": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_n_sites": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.05,
+    "mean_score": 0.05
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_why_stopped": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 19,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  }
+ },
+ "paired": {
+  "claude-haiku-5-5|biomcp_vs_web_search": {
+   "n": 201,
+   "biomcp_only_correct": 41,
+   "other_only_correct": 2,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.194,
+    0.1343,
+    0.2537
+   ],
+   "score_diff_ci95": [
+    0.1907,
+    0.1346,
+    0.2473
+   ]
+  },
+  "claude-haiku-5-5|biomcp_vs_no_tools": {
+   "n": 198,
+   "biomcp_only_correct": 134,
+   "other_only_correct": 0,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.6768,
+    0.6111,
+    0.7424
+   ],
+   "score_diff_ci95": [
+    0.6796,
+    0.6172,
+    0.7422
+   ]
+  }
+ },
+ "id_validation": true,
+ "n_errored_runs_excluded": 3,
+ "n_questions_excluded_by_review": 0
+}
