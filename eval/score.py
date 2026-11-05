@@ -192,6 +192,14 @@ async def validate_ids(all_ids: dict[str, set[str]]) -> dict[str, bool]:
                     r = await ctgov.get_trial(i, include_eligibility=False)
                 elif kind == "chembl":
                     r = await chembl.get_molecule(i)
+                    if r["data"] is None:  # ChEMBL ids also name targets/assays (e.g. CHEMBL3729 = CA IV)
+                        for ent in ("target", "assay", "document"):
+                            try:
+                                await chembl._get(f"{ent}/{i}.json", None, None)
+                                out[i] = True
+                                return
+                            except Exception:  # noqa: BLE001, S112 - not this entity type
+                                continue
                 else:
                     r = await europepmc.get_article(i)
                 out[i] = r["data"] is not None
