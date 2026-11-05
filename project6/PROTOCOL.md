@@ -1,7 +1,7 @@
 # Stalled drug-repurposing trials in rare and neglected tropical diseases: a cross-registry meta-research study with validated LLM-assisted data extraction
 
 **Status:** draft protocol for OSF pre-registration (v0.1, 2026-11-03). Not yet registered.
-**Lead:** Mahta Haghighat Ghahfarokhi (King's College London). Second reviewer: named before registration. Senior advisor: TBC.
+**Lead:** Mahta Haghighat Ghahfarokhi (King's College London). **Second reviewer:** Amin Arshi. Senior advisor (adjudication of persisting disagreements): TBC.
 **Code and data:** github.com/mahtahg/rare-trials-ai (`project6/`), released under MIT/CC-BY at publication.
 
 ---
