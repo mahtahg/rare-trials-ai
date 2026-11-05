@@ -183,6 +183,7 @@ async def validate_ids(all_ids: dict[str, set[str]]) -> dict[str, bool]:
     c = HttpClient(cassette_mode="off")
     set_shared_client(c)
     out: dict[str, bool] = {}
+    kinds: dict[str, str] = {}
     sem = asyncio.Semaphore(4)
 
     async def chk(kind, i):
@@ -191,15 +192,20 @@ async def validate_ids(all_ids: dict[str, set[str]]) -> dict[str, bool]:
                 if kind == "nct":
                     r = await ctgov.get_trial(i, include_eligibility=False)
                 elif kind == "chembl":
+                    # ChEMBL ids share one namespace (molecules, targets, assays, documents...). Models cite
+                    # molecules and targets, so only those count; an id that only resolves to an assay or
+                    # document would make almost any fabricated number "valid".
                     r = await chembl.get_molecule(i)
-                    if r["data"] is None:  # ChEMBL ids also name targets/assays (e.g. CHEMBL3729 = CA IV)
-                        for ent in ("target", "assay", "document"):
-                            try:
-                                await chembl._get(f"{ent}/{i}.json", None, None)
-                                out[i] = True
-                                return
-                            except Exception:  # noqa: BLE001, S112 - not this entity type
-                                continue
+                    kinds[i] = "molecule"
+                    if r["data"] is None:
+                        try:
+                            await chembl._get(f"target/{i}.json", None, None)
+                            kinds[i] = "target"
+                            out[i] = True
+                        except Exception:  # noqa: BLE001
+                            kinds[i] = "none"
+                            out[i] = False
+                        return
                 else:
                     r = await europepmc.get_article(i)
                 out[i] = r["data"] is not None
@@ -208,6 +214,7 @@ async def validate_ids(all_ids: dict[str, set[str]]) -> dict[str, bool]:
 
     await asyncio.gather(*(chk(k, i) for k, s in all_ids.items() for i in s))
     await c.aclose()
+    validate_ids.kinds = kinds  # type: ignore[attr-defined]
     return out
 
 
@@ -284,6 +291,9 @@ def main() -> int:
         for k, v in r["ids"].items():
             all_ids[k] |= set(v)
     valid = asyncio.run(validate_ids(all_ids)) if a.validate_ids else {}
+    if valid:
+        (run / "id_validation.json").write_text(json.dumps(
+            {i: {"valid": v, "chembl_entity": getattr(validate_ids, "kinds", {}).get(i)} for i, v in sorted(valid.items())}, indent=0))
 
     scored = []
     for r in recs:
