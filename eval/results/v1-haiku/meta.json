@@ -7,6 +7,13 @@
    "finished_at": "2026-11-05T12:55:59.297077+00:00",
    "completed_runs": 603,
    "stopped_for_usage_limit": false
+  },
+  {
+   "started_at": "2026-11-05T12:59:14.674031+00:00",
+   "pending_jobs": 162,
+   "finished_at": "2026-11-05T13:08:37.680074+00:00",
+   "completed_runs": 42,
+   "stopped_for_usage_limit": true
   }
  ],
  "args": {
@@ -15,11 +22,11 @@
   "conditions": "no_tools,web_search,biomcp",
   "repeats": 1,
   "limit": 0,
-  "sample": false,
+  "sample": true,
   "seed": 20261103,
-  "concurrency": 1,
+  "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 180.0,
+  "max_minutes": 100.0,
   "run_id": "v1-haiku"
  },
  "n_questions": 254,
