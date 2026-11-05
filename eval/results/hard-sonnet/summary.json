@@ -11,7 +11,7 @@
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 205,
-   "invalid_id_rate": 0.0098,
+   "invalid_id_rate": 0.0049,
    "ungrounded_id_rate": 0.0,
    "ece": 0.0927,
    "brier": 0.0614,

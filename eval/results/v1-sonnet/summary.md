@@ -1,13 +1,13 @@
 | model | condition | n | accuracy (95% CI) | mean score | abstain | invalid IDs | ungrounded IDs | ECE | API-equiv $/q (not billed) | median s | tool calls |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| claude-sonnet-5-5 | biomcp | 254 | 1.000 (0.985–1.000) | 1.000 | 0.079 | 0.0 | 0.0849 | 0.0544 | 0.0159 | 8.14 | 1.34 |
-| claude-sonnet-5-5 | no_tools | 254 | 0.469 (0.408–0.530) | 0.460 | 0.343 | 0.0909 | None | 0.1339 | 0.0125 | 5.74 | 0.0 |
-| claude-sonnet-5-5 | web_search | 254 | 0.819 (0.767–0.861) | 0.815 | 0.102 | 0.0364 | None | 0.0861 | 0.0101 | 8.71 | 1.15 |
+| claude-sonnet-5-5 | biomcp | 254 | 1.000 (0.985–1.000) | 1.000 | 0.079 | 0.0 | 0.0 | 0.0544 | 0.0159 | 8.14 | 1.34 |
+| claude-sonnet-5-5 | no_tools | 254 | 0.469 (0.408–0.530) | 0.460 | 0.343 | 0.0 | None | 0.1339 | 0.0125 | 5.74 | 0.0 |
+| claude-sonnet-5-5 | web_search | 254 | 0.819 (0.767–0.861) | 0.815 | 0.102 | 0.0 | None | 0.0861 | 0.0101 | 8.71 | 1.15 |
 
 | comparison | n | biomcp-only correct | other-only correct | McNemar p | Δacc (95% CI) |
 |---|---|---|---|---|---|
-| claude-sonnet-5-5|biomcp_vs_no_tools | 254 | 135 | 0 | 0.0 | +0.531 (+0.469, +0.595) |
 | claude-sonnet-5-5|biomcp_vs_web_search | 254 | 46 | 0 | 0.0 | +0.181 (+0.134, +0.232) |
+| claude-sonnet-5-5|biomcp_vs_no_tools | 254 | 135 | 0 | 0.0 | +0.531 (+0.469, +0.595) |
 
 | template | claude-sonnet-5-5|biomcp | claude-sonnet-5-5|no_tools | claude-sonnet-5-5|web_search |
 |---|---|---|---|
