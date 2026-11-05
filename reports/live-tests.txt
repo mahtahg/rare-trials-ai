@@ -19,4 +19,4 @@ PASSED tests/test_sources_live.py::test_fda_generic_and_label
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-12 passed, 17 deselected in 9.83s
+12 passed, 17 deselected in 10.50s
