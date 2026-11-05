@@ -1,0 +1,29 @@
+{
+ "run_id": "hard-sonnet",
+ "sessions": [
+  {
+   "started_at": "2026-11-05T09:56:02.152924+00:00",
+   "pending_jobs": 180,
+   "finished_at": "2026-11-05T10:29:28.970319+00:00",
+   "completed_runs": 180,
+   "stopped_for_usage_limit": false
+  }
+ ],
+ "args": {
+  "questions": "eval/questions_hard.jsonl",
+  "models": "claude-sonnet-5-5",
+  "conditions": "no_tools,web_search,biomcp",
+  "repeats": 1,
+  "limit": 0,
+  "sample": false,
+  "seed": 20261103,
+  "concurrency": 1,
+  "max_runs": 0,
+  "max_minutes": 180.0,
+  "run_id": "hard-sonnet"
+ },
+ "n_questions": 60,
+ "auth": "claude-subscription-oauth",
+ "system_prompt": "You are assisting a clinical-development team working on rare and neglected diseases.\nAnswer the question accurately. Use the tools available to you when they help; do not use tools you were not given.\nIf you cannot determine the answer, or the entity does not exist, say so: set \"not_found\": true or give a low confidence. Never invent identifiers.\n\nEnd your reply with exactly one block:\n<answer>{\"answer\": <value in the requested format>, \"identifiers\": [<every NCT/CHEMBL/PMID/EFO/MONDO/ORPHA/Ensembl ID you relied on>], \"not_found\": <true|false>, \"confidence\": <0.0-1.0>}</answer>",
+ "max_turns": 20
+}
