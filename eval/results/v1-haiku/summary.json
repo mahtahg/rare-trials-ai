@@ -1,67 +1,67 @@
 {
  "by_condition": {
   "claude-haiku-5-5|biomcp": {
-   "n": 214,
-   "accuracy": 0.9907,
+   "n": 254,
+   "accuracy": 0.9724,
    "accuracy_ci95": [
-    0.9666,
-    0.9974
+    0.9442,
+    0.9866
    ],
-   "mean_score": 0.9879,
-   "abstain_rate": 0.0,
+   "mean_score": 0.9701,
+   "abstain_rate": 0.0787,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 304,
+   "ids_emitted": 339,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.0758,
-   "brier": 0.0166,
-   "mean_api_equiv_cost_usd": 0.0012,
-   "total_api_equiv_cost_usd": 0.257,
+   "ece": 0.0689,
+   "brier": 0.0245,
+   "mean_api_equiv_cost_usd": 0.00116,
+   "total_api_equiv_cost_usd": 0.295,
    "median_latency_s": 6.25,
-   "mean_tool_calls": 1.6,
+   "mean_tool_calls": 1.7,
    "tool_error_rate": 0.0
   },
   "claude-haiku-5-5|no_tools": {
-   "n": 214,
-   "accuracy": 0.3318,
+   "n": 254,
+   "accuracy": 0.3858,
    "accuracy_ci95": [
-    0.2721,
-    0.3973
+    0.3281,
+    0.447
    ],
-   "mean_score": 0.3148,
-   "abstain_rate": 0.4953,
-   "parse_fail_rate": 0.0935,
-   "ids_emitted": 2,
-   "invalid_id_rate": 0.5,
+   "mean_score": 0.3715,
+   "abstain_rate": 0.5,
+   "parse_fail_rate": 0.0827,
+   "ids_emitted": 3,
+   "invalid_id_rate": 0.3333,
    "ungrounded_id_rate": null,
-   "ece": 0.1018,
-   "brier": 0.0848,
-   "mean_api_equiv_cost_usd": 0.00593,
-   "total_api_equiv_cost_usd": 1.27,
-   "median_latency_s": 5.66,
+   "ece": 0.1513,
+   "brier": 0.1752,
+   "mean_api_equiv_cost_usd": 0.00508,
+   "total_api_equiv_cost_usd": 1.289,
+   "median_latency_s": 5.63,
    "mean_tool_calls": 0.0,
    "tool_error_rate": 0.0
   },
   "claude-haiku-5-5|web_search": {
-   "n": 214,
-   "accuracy": 0.7897,
+   "n": 254,
+   "accuracy": 0.7835,
    "accuracy_ci95": [
-    0.7303,
-    0.839
+    0.7288,
+    0.8297
    ],
-   "mean_score": 0.779,
-   "abstain_rate": 0.1636,
+   "mean_score": 0.7744,
+   "abstain_rate": 0.2205,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 177,
+   "ids_emitted": 195,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.1438,
-   "brier": 0.0669,
-   "mean_api_equiv_cost_usd": 0.00941,
-   "total_api_equiv_cost_usd": 2.014,
-   "median_latency_s": 16.27,
-   "mean_tool_calls": 3.17,
-   "tool_error_rate": 0.0074
+   "ece": 0.1174,
+   "brier": 0.0876,
+   "mean_api_equiv_cost_usd": 0.01098,
+   "total_api_equiv_cost_usd": 2.788,
+   "median_latency_s": 16.58,
+   "mean_tool_calls": 3.37,
+   "tool_error_rate": 0.0105
   }
  },
  "by_template": {
@@ -80,6 +80,23 @@
     "n": 20,
     "accuracy": 0.15,
     "mean_score": 0.161
+   }
+  },
+  "disease_rarity": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 0.75,
+    "mean_score": 0.75
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.45,
+    "mean_score": 0.45
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 0.5,
+    "mean_score": 0.5
    }
   },
   "disease_top_targets": {
@@ -157,14 +174,31 @@
     "mean_score": 1.0
    },
    "claude-haiku-5-5|no_tools": {
-    "n": 13,
-    "accuracy": 0.5385,
-    "mean_score": 0.3744
+    "n": 14,
+    "accuracy": 0.5,
+    "mean_score": 0.3476
    },
    "claude-haiku-5-5|web_search": {
     "n": 14,
     "accuracy": 0.6429,
     "mean_score": 0.4734
+   }
+  },
+  "not_found": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.95
+   },
+   "claude-haiku-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
    }
   },
   "trial_count": {
@@ -251,46 +285,39 @@
     "accuracy": 1.0,
     "mean_score": 1.0
    }
-  },
-  "not_found": {
-   "claude-haiku-5-5|no_tools": {
-    "n": 1,
-    "accuracy": 1.0,
-    "mean_score": 1.0
-   }
   }
  },
  "paired": {
-  "claude-haiku-5-5|biomcp_vs_web_search": {
-   "n": 214,
-   "biomcp_only_correct": 45,
-   "other_only_correct": 2,
-   "mcnemar_p": 0.0,
-   "acc_diff_ci95": [
-    0.2009,
-    0.1449,
-    0.257
-   ],
-   "score_diff_ci95": [
-    0.2089,
-    0.1552,
-    0.2649
-   ]
-  },
   "claude-haiku-5-5|biomcp_vs_no_tools": {
-   "n": 213,
-   "biomcp_only_correct": 141,
+   "n": 254,
+   "biomcp_only_correct": 149,
    "other_only_correct": 0,
    "mcnemar_p": 0.0,
    "acc_diff_ci95": [
-    0.662,
-    0.5962,
-    0.7277
+    0.5866,
+    0.5276,
+    0.6496
    ],
    "score_diff_ci95": [
-    0.6762,
-    0.617,
-    0.736
+    0.5985,
+    0.5415,
+    0.6581
+   ]
+  },
+  "claude-haiku-5-5|biomcp_vs_web_search": {
+   "n": 254,
+   "biomcp_only_correct": 50,
+   "other_only_correct": 2,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.189,
+    0.1378,
+    0.2402
+   ],
+   "score_diff_ci95": [
+    0.1957,
+    0.1478,
+    0.246
    ]
   }
  },
