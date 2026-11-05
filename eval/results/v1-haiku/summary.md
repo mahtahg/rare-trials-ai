@@ -6,8 +6,8 @@
 
 | comparison | n | biomcp-only correct | other-only correct | McNemar p | Δacc (95% CI) |
 |---|---|---|---|---|---|
-| claude-haiku-5-5|biomcp_vs_no_tools | 213 | 141 | 0 | 0.0 | +0.662 (+0.596, +0.728) |
 | claude-haiku-5-5|biomcp_vs_web_search | 214 | 45 | 2 | 0.0 | +0.201 (+0.145, +0.257) |
+| claude-haiku-5-5|biomcp_vs_no_tools | 213 | 141 | 0 | 0.0 | +0.662 (+0.596, +0.728) |
 
 | template | claude-haiku-5-5|biomcp | claude-haiku-5-5|no_tools | claude-haiku-5-5|web_search |
 |---|---|---|---|
