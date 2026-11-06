@@ -4,7 +4,7 @@ The event loop scope for asynchronous fixtures will default to the "fixture" cac
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
 .....OT metformin stage: APPROVAL
 .OT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
-......
+.......
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -16,7 +16,8 @@ PASSED tests/test_sources_live.py::test_opentargets_drug_metformin
 PASSED tests/test_sources_live.py::test_opentargets_disease_drugs
 PASSED tests/test_sources_live.py::test_chembl_metformin
 PASSED tests/test_sources_live.py::test_fda_generic_and_label
+PASSED tests/test_sources_live.py::test_fda_finds_applications_without_openfda_block
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-12 passed, 17 deselected in 10.83s
+13 passed, 17 deselected in 17.54s
