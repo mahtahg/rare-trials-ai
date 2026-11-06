@@ -1,0 +1,21 @@
+name: gold-audit
+# Re-fetch primary records for the gold-check questions, archive payloads, re-derive answers. No model calls.
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install httpx
+      - run: python eval/review/gold_audit.py
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "audit-bot"; git config user.email "audit-bot@users.noreply.github.com"
+          git add eval/review
+          git commit -m "review: gold primary-source audit [skip ci]" || echo "no changes"
+          for i in 1 2 3 4 5; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*5)); done
