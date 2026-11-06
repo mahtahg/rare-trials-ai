@@ -1,83 +1,83 @@
 {
  "by_condition": {
   "claude-sonnet-5-5|biomcp": {
-   "n": 60,
-   "accuracy": 0.9,
+   "n": 50,
+   "accuracy": 0.98,
    "accuracy_ci95": [
-    0.7985,
-    0.9534
+    0.895,
+    0.9965
    ],
-   "mean_score": 0.9064,
+   "mean_score": 0.9733,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 205,
+   "ids_emitted": 159,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.0927,
-   "brier": 0.0614,
-   "mean_api_equiv_cost_usd": 0.04004,
-   "total_api_equiv_cost_usd": 2.403,
-   "median_latency_s": 12.42,
-   "mean_tool_calls": 3.98,
-   "tool_error_rate": 0.0167
+   "ece": 0.0976,
+   "brier": 0.0282,
+   "mean_api_equiv_cost_usd": 0.03473,
+   "total_api_equiv_cost_usd": 1.736,
+   "median_latency_s": 11.46,
+   "mean_tool_calls": 2.84,
+   "tool_error_rate": 0.0282
   },
   "claude-sonnet-5-5|no_tools": {
-   "n": 60,
-   "accuracy": 0.3667,
+   "n": 50,
+   "accuracy": 0.3,
    "accuracy_ci95": [
-    0.2562,
-    0.4932
+    0.191,
+    0.4375
    ],
-   "mean_score": 0.3226,
-   "abstain_rate": 0.3667,
+   "mean_score": 0.276,
+   "abstain_rate": 0.44,
    "parse_fail_rate": 0.0,
    "ids_emitted": 2,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.1242,
-   "brier": 0.1534,
-   "mean_api_equiv_cost_usd": 0.00797,
-   "total_api_equiv_cost_usd": 0.478,
-   "median_latency_s": 7.53,
+   "ece": 0.126,
+   "brier": 0.1312,
+   "mean_api_equiv_cost_usd": 0.00771,
+   "total_api_equiv_cost_usd": 0.385,
+   "median_latency_s": 7.19,
    "mean_tool_calls": 0.0,
    "tool_error_rate": 0.0
   },
   "claude-sonnet-5-5|web_search": {
-   "n": 60,
-   "accuracy": 0.7333,
+   "n": 50,
+   "accuracy": 0.76,
    "accuracy_ci95": [
-    0.6099,
-    0.8287
+    0.6259,
+    0.857
    ],
-   "mean_score": 0.7043,
+   "mean_score": 0.736,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 69,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.1263,
-   "brier": 0.1381,
-   "mean_api_equiv_cost_usd": 0.0116,
-   "total_api_equiv_cost_usd": 0.696,
-   "median_latency_s": 10.29,
-   "mean_tool_calls": 0.73,
+   "ece": 0.0956,
+   "brier": 0.1312,
+   "mean_api_equiv_cost_usd": 0.0115,
+   "total_api_equiv_cost_usd": 0.575,
+   "median_latency_s": 10.32,
+   "mean_tool_calls": 0.7,
    "tool_error_rate": 0.0
   }
  },
  "by_template": {
   "h_eligibility_check": {
    "claude-sonnet-5-5|biomcp": {
-    "n": 12,
+    "n": 11,
     "accuracy": 1.0,
     "mean_score": 1.0
    },
    "claude-sonnet-5-5|no_tools": {
-    "n": 12,
-    "accuracy": 0.0833,
-    "mean_score": 0.0833
+    "n": 11,
+    "accuracy": 0.0,
+    "mean_score": 0.0
    },
    "claude-sonnet-5-5|web_search": {
-    "n": 12,
+    "n": 11,
     "accuracy": 1.0,
     "mean_score": 1.0
    }
@@ -135,57 +135,57 @@
   },
   "h_untested_target_drugs": {
    "claude-sonnet-5-5|biomcp": {
-    "n": 12,
-    "accuracy": 0.5833,
-    "mean_score": 0.6152
+    "n": 3,
+    "accuracy": 1.0,
+    "mean_score": 0.8889
    },
    "claude-sonnet-5-5|no_tools": {
-    "n": 12,
-    "accuracy": 0.75,
-    "mean_score": 0.5574
+    "n": 3,
+    "accuracy": 1.0,
+    "mean_score": 0.7111
    },
    "claude-sonnet-5-5|web_search": {
-    "n": 12,
-    "accuracy": 0.6667,
-    "mean_score": 0.5494
+    "n": 3,
+    "accuracy": 1.0,
+    "mean_score": 0.7111
    }
   }
  },
  "paired": {
-  "claude-sonnet-5-5|biomcp_vs_web_search": {
-   "n": 60,
-   "biomcp_only_correct": 12,
-   "other_only_correct": 2,
-   "mcnemar_p": 0.012939,
-   "acc_diff_ci95": [
-    0.1667,
-    0.05,
-    0.2833
-   ],
-   "score_diff_ci95": [
-    0.2021,
-    0.097,
-    0.3105
-   ]
-  },
   "claude-sonnet-5-5|biomcp_vs_no_tools": {
-   "n": 60,
+   "n": 50,
    "biomcp_only_correct": 35,
-   "other_only_correct": 3,
+   "other_only_correct": 1,
    "mcnemar_p": 0.0,
    "acc_diff_ci95": [
-    0.5333,
-    0.3667,
-    0.6833
+    0.68,
+    0.54,
+    0.82
    ],
    "score_diff_ci95": [
-    0.5838,
-    0.4456,
-    0.7107
+    0.6973,
+    0.56,
+    0.8267
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_web_search": {
+   "n": 50,
+   "biomcp_only_correct": 12,
+   "other_only_correct": 1,
+   "mcnemar_p": 0.003418,
+   "acc_diff_ci95": [
+    0.22,
+    0.1,
+    0.34
+   ],
+   "score_diff_ci95": [
+    0.2373,
+    0.1133,
+    0.3613
    ]
   }
  },
  "id_validation": true,
  "n_errored_runs_excluded": 0,
- "n_questions_excluded_by_review": 0
+ "n_questions_excluded_by_review": 10
 }

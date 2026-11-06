@@ -1,83 +1,83 @@
 {
  "by_condition": {
   "claude-haiku-5-5|biomcp": {
-   "n": 60,
-   "accuracy": 0.8833,
+   "n": 50,
+   "accuracy": 0.96,
    "accuracy_ci95": [
-    0.7782,
-    0.9423
+    0.8654,
+    0.989
    ],
-   "mean_score": 0.8771,
+   "mean_score": 0.9467,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 264,
+   "ids_emitted": 183,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.1007,
-   "brier": 0.0918,
-   "mean_api_equiv_cost_usd": 0.00322,
-   "total_api_equiv_cost_usd": 0.193,
-   "median_latency_s": 10.81,
-   "mean_tool_calls": 6.3,
+   "ece": 0.1328,
+   "brier": 0.0437,
+   "mean_api_equiv_cost_usd": 0.00257,
+   "total_api_equiv_cost_usd": 0.128,
+   "median_latency_s": 9.73,
+   "mean_tool_calls": 3.98,
    "tool_error_rate": 0.0
   },
   "claude-haiku-5-5|no_tools": {
-   "n": 60,
-   "accuracy": 0.2333,
+   "n": 50,
+   "accuracy": 0.26,
    "accuracy_ci95": [
-    0.1444,
-    0.3544
+    0.1587,
+    0.3955
    ],
-   "mean_score": 0.2278,
-   "abstain_rate": 0.5,
-   "parse_fail_rate": 0.1,
+   "mean_score": 0.2533,
+   "abstain_rate": 0.48,
+   "parse_fail_rate": 0.06,
    "ids_emitted": 0,
    "invalid_id_rate": null,
    "ungrounded_id_rate": null,
-   "ece": 0.1333,
-   "brier": 0.0969,
-   "mean_api_equiv_cost_usd": 0.00799,
-   "total_api_equiv_cost_usd": 0.479,
-   "median_latency_s": 6.15,
+   "ece": 0.1255,
+   "brier": 0.1035,
+   "mean_api_equiv_cost_usd": 0.00415,
+   "total_api_equiv_cost_usd": 0.207,
+   "median_latency_s": 5.87,
    "mean_tool_calls": 0.0,
    "tool_error_rate": 0.0
   },
   "claude-haiku-5-5|web_search": {
-   "n": 60,
-   "accuracy": 0.7,
+   "n": 50,
+   "accuracy": 0.78,
    "accuracy_ci95": [
-    0.5749,
-    0.801
+    0.6476,
+    0.8725
    ],
-   "mean_score": 0.6984,
-   "abstain_rate": 0.0833,
+   "mean_score": 0.7627,
+   "abstain_rate": 0.04,
    "parse_fail_rate": 0.0,
    "ids_emitted": 147,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.1118,
-   "brier": 0.1575,
-   "mean_api_equiv_cost_usd": 0.01986,
-   "total_api_equiv_cost_usd": 1.192,
-   "median_latency_s": 23.33,
-   "mean_tool_calls": 4.17,
+   "ece": 0.1302,
+   "brier": 0.1656,
+   "mean_api_equiv_cost_usd": 0.01944,
+   "total_api_equiv_cost_usd": 0.972,
+   "median_latency_s": 20.03,
+   "mean_tool_calls": 3.94,
    "tool_error_rate": 0.0
   }
  },
  "by_template": {
   "h_eligibility_check": {
    "claude-haiku-5-5|biomcp": {
-    "n": 12,
-    "accuracy": 0.9167,
-    "mean_score": 0.9167
+    "n": 11,
+    "accuracy": 0.9091,
+    "mean_score": 0.9091
    },
    "claude-haiku-5-5|no_tools": {
-    "n": 12,
-    "accuracy": 0.1667,
-    "mean_score": 0.1667
+    "n": 11,
+    "accuracy": 0.0909,
+    "mean_score": 0.0909
    },
    "claude-haiku-5-5|web_search": {
-    "n": 12,
+    "n": 11,
     "accuracy": 1.0,
     "mean_score": 1.0
    }
@@ -135,57 +135,57 @@
   },
   "h_untested_target_drugs": {
    "claude-haiku-5-5|biomcp": {
-    "n": 12,
-    "accuracy": 0.5833,
-    "mean_score": 0.5522
+    "n": 3,
+    "accuracy": 1.0,
+    "mean_score": 0.7778
    },
    "claude-haiku-5-5|no_tools": {
-    "n": 12,
-    "accuracy": 0.0833,
-    "mean_score": 0.0556
+    "n": 3,
+    "accuracy": 0.3333,
+    "mean_score": 0.2222
    },
    "claude-haiku-5-5|web_search": {
-    "n": 12,
-    "accuracy": 0.3333,
-    "mean_score": 0.3531
+    "n": 3,
+    "accuracy": 0.6667,
+    "mean_score": 0.4889
    }
   }
  },
  "paired": {
   "claude-haiku-5-5|biomcp_vs_no_tools": {
-   "n": 60,
-   "biomcp_only_correct": 40,
+   "n": 50,
+   "biomcp_only_correct": 36,
    "other_only_correct": 1,
    "mcnemar_p": 0.0,
    "acc_diff_ci95": [
-    0.65,
-    0.5167,
-    0.7667
+    0.7,
+    0.56,
+    0.82
    ],
    "score_diff_ci95": [
-    0.6493,
-    0.5247,
-    0.7627
+    0.6933,
+    0.5533,
+    0.82
    ]
   },
   "claude-haiku-5-5|biomcp_vs_web_search": {
-   "n": 60,
-   "biomcp_only_correct": 13,
+   "n": 50,
+   "biomcp_only_correct": 11,
    "other_only_correct": 2,
-   "mcnemar_p": 0.007385,
+   "mcnemar_p": 0.022461,
    "acc_diff_ci95": [
-    0.1833,
-    0.0667,
+    0.18,
+    0.06,
     0.3
    ],
    "score_diff_ci95": [
-    0.1787,
-    0.0676,
-    0.2905
+    0.184,
+    0.0573,
+    0.3133
    ]
   }
  },
  "id_validation": true,
  "n_errored_runs_excluded": 0,
- "n_questions_excluded_by_review": 0
+ "n_questions_excluded_by_review": 10
 }
