@@ -40,6 +40,11 @@ def main() -> int:
     a = ap.parse_args()
     if Path(a.out).exists():
         raise SystemExit("validation sample already drawn; refusing to redraw (protocol: draw once)")
+    cal_p = ROOT / "project6/data/validation_calibration.json"
+    cal_ids = set()
+    if cal_p.exists():  # calibration drawn separately (deviation 2026-11-06): draw test records only
+        cal_ids = {x["trial_id"] for x in json.loads(cal_p.read_text())["records"]}
+        a.n, a.n_calibration = a.n - len(cal_ids), 0
     llm = {}
     for line in Path(a.llm).read_text().splitlines():
         if line.strip():
@@ -50,7 +55,7 @@ def main() -> int:
         for line in f:
             r = json.loads(line)
             x = llm.get(r["trial_id"])
-            if x is None:
+            if x is None or r["trial_id"] in cal_ids:
                 continue
             cg = "ntd" if r["match"]["ntd"] else "rare"
             confs = [x.get("condition_confidence", 1)] + [d.get("confidence", 1) for d in x.get("drugs", [])]

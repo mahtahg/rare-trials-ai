@@ -1,0 +1,255 @@
+{
+ "drawn_at": "2026-11-06T15:27:33.864597+00:00",
+ "seed": 20261106,
+ "n": 30,
+ "population_by_stratum": {
+  "rare|ongoing_or_unknown": 13507,
+  "rare|stopped": 5241,
+  "ntd|ongoing_or_unknown": 126,
+  "rare|completed": 12095,
+  "ntd|completed": 266,
+  "ntd|stopped": 40
+ },
+ "records": [
+  {
+   "trial_id": "NCT06367361",
+   "stratum": [
+    "ntd",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT04062669",
+   "stratum": [
+    "ntd",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01584362",
+   "stratum": [
+    "ntd",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT06205290",
+   "stratum": [
+    "rare",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT04289792",
+   "stratum": [
+    "rare",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT02497599",
+   "stratum": [
+    "rare",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT02656797",
+   "stratum": [
+    "ntd",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01314105",
+   "stratum": [
+    "rare",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01652261",
+   "stratum": [
+    "rare",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01751048",
+   "stratum": [
+    "ntd",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT07873398",
+   "stratum": [
+    "ntd",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT04377451",
+   "stratum": [
+    "ntd",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT03013387",
+   "stratum": [
+    "rare",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT03874234",
+   "stratum": [
+    "ntd",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01980199",
+   "stratum": [
+    "ntd",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT06800248",
+   "stratum": [
+    "ntd",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT05576974",
+   "stratum": [
+    "rare",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT04511923",
+   "stratum": [
+    "rare",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT02235987",
+   "stratum": [
+    "rare",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT03261596",
+   "stratum": [
+    "ntd",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT02945527",
+   "stratum": [
+    "ntd",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT05048875",
+   "stratum": [
+    "ntd",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT03704181",
+   "stratum": [
+    "ntd",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT05972772",
+   "stratum": [
+    "rare",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT01566552",
+   "stratum": [
+    "ntd",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT06159725",
+   "stratum": [
+    "rare",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT06961266",
+   "stratum": [
+    "rare",
+    "stopped"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT05974267",
+   "stratum": [
+    "rare",
+    "completed"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT05649098",
+   "stratum": [
+    "rare",
+    "ongoing_or_unknown"
+   ],
+   "set": "calibration"
+  },
+  {
+   "trial_id": "NCT03879798",
+   "stratum": [
+    "rare",
+    "stopped"
+   ],
+   "set": "calibration"
+  }
+ ]
+}
