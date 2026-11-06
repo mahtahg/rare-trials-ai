@@ -1,0 +1,254 @@
+{
+ "gold_version": "1.0",
+ "by_condition": {
+  "claude-sonnet-5-5|biomcp": {
+   "n": 60,
+   "accuracy": 0.9,
+   "accuracy_ci95": [
+    0.7985,
+    0.9534
+   ],
+   "mean_score": 0.9064,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 205,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.0927,
+   "brier": 0.0614,
+   "mean_api_equiv_cost_usd": 0.04004,
+   "total_api_equiv_cost_usd": 2.403,
+   "median_latency_s": 12.42,
+   "mean_tool_calls": 3.98,
+   "tool_error_rate": 0.0167
+  },
+  "claude-sonnet-5-5|biomcp_go": {
+   "n": 60,
+   "accuracy": 0.7167,
+   "accuracy_ci95": [
+    0.5923,
+    0.8149
+   ],
+   "mean_score": 0.7215,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 150,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.1025,
+   "brier": 0.1577,
+   "mean_api_equiv_cost_usd": 0.04485,
+   "total_api_equiv_cost_usd": 2.691,
+   "median_latency_s": 22.24,
+   "mean_tool_calls": 7.42,
+   "tool_error_rate": 0.364
+  },
+  "claude-sonnet-5-5|no_tools": {
+   "n": 60,
+   "accuracy": 0.3667,
+   "accuracy_ci95": [
+    0.2562,
+    0.4932
+   ],
+   "mean_score": 0.3226,
+   "abstain_rate": 0.3667,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 2,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": null,
+   "ece": 0.1242,
+   "brier": 0.1534,
+   "mean_api_equiv_cost_usd": 0.00797,
+   "total_api_equiv_cost_usd": 0.478,
+   "median_latency_s": 7.53,
+   "mean_tool_calls": 0.0,
+   "tool_error_rate": 0.0
+  },
+  "claude-sonnet-5-5|web_search": {
+   "n": 60,
+   "accuracy": 0.7333,
+   "accuracy_ci95": [
+    0.6099,
+    0.8287
+   ],
+   "mean_score": 0.7043,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 69,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": null,
+   "ece": 0.1263,
+   "brier": 0.1381,
+   "mean_api_equiv_cost_usd": 0.0116,
+   "total_api_equiv_cost_usd": 0.696,
+   "median_latency_s": 10.29,
+   "mean_tool_calls": 0.73,
+   "tool_error_rate": 0.0
+  }
+ },
+ "by_template": {
+  "h_eligibility_check": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 12,
+    "accuracy": 0.0833,
+    "mean_score": 0.0833
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_late_generic_boxed": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 0.9167,
+    "mean_score": 0.9167
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.4167,
+    "mean_score": 0.4167
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 12,
+    "accuracy": 0.3333,
+    "mean_score": 0.3056
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 12,
+    "accuracy": 0.4167,
+    "mean_score": 0.3889
+   }
+  },
+  "h_recruitment_footprint": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 12,
+    "accuracy": 0.0833,
+    "mean_score": 0.0833
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_source_conflict": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.6667,
+    "mean_score": 0.6667
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 12,
+    "accuracy": 0.5833,
+    "mean_score": 0.5833
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 12,
+    "accuracy": 0.5833,
+    "mean_score": 0.5833
+   }
+  },
+  "h_untested_target_drugs": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 0.5833,
+    "mean_score": 0.6152
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.5,
+    "mean_score": 0.524
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 12,
+    "accuracy": 0.75,
+    "mean_score": 0.5574
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 12,
+    "accuracy": 0.6667,
+    "mean_score": 0.5494
+   }
+  }
+ },
+ "paired": {
+  "claude-sonnet-5-5|biomcp_vs_no_tools": {
+   "n": 60,
+   "biomcp_only_correct": 35,
+   "other_only_correct": 3,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.5333,
+    0.3667,
+    0.6833
+   ],
+   "score_diff_ci95": [
+    0.5838,
+    0.4456,
+    0.7107
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
+   "n": 60,
+   "biomcp_only_correct": 13,
+   "other_only_correct": 2,
+   "mcnemar_p": 0.007385,
+   "acc_diff_ci95": [
+    0.1833,
+    0.0667,
+    0.3
+   ],
+   "score_diff_ci95": [
+    0.1849,
+    0.0828,
+    0.2908
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_web_search": {
+   "n": 60,
+   "biomcp_only_correct": 12,
+   "other_only_correct": 2,
+   "mcnemar_p": 0.012939,
+   "acc_diff_ci95": [
+    0.1667,
+    0.05,
+    0.2833
+   ],
+   "score_diff_ci95": [
+    0.2021,
+    0.097,
+    0.3105
+   ]
+  }
+ },
+ "id_validation": false,
+ "n_errored_runs_excluded": 0,
+ "n_questions_excluded_by_review": 0
+}

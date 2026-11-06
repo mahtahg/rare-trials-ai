@@ -25,12 +25,23 @@
   {
    "tier": "base",
    "model": "claude-haiku-5-5",
+   "condition": "biomcp_go",
+   "n": 201,
+   "acc": 0.8308,
+   "ci": [
+    0.7729,
+    0.8764
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
    "condition": "biomcp",
    "n": 254,
-   "acc": 0.9724,
+   "acc": 0.9646,
    "ci": [
-    0.9442,
-    0.9866
+    0.934,
+    0.9812
    ]
   },
   {
@@ -58,12 +69,23 @@
   {
    "tier": "base",
    "model": "claude-sonnet-5-5",
+   "condition": "biomcp_go",
+   "n": 142,
+   "acc": 0.9155,
+   "ci": [
+    0.8581,
+    0.951
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
    "condition": "biomcp",
    "n": 254,
-   "acc": 1.0,
+   "acc": 0.9921,
    "ci": [
-    0.9851,
-    1.0
+    0.9717,
+    0.9978
    ]
   },
   {
@@ -71,16 +93,71 @@
    "model": "claude-haiku-5-5",
    "condition": "no_tools",
    "n": 50,
-   "acc": 0.26,
+   "acc": 0.32,
    "ci": [
-    0.1587,
-    0.3955
+    0.2076,
+    0.4581
    ]
   },
   {
    "tier": "hard",
    "model": "claude-haiku-5-5",
    "condition": "web_search",
+   "n": 50,
+   "acc": 0.88,
+   "ci": [
+    0.7619,
+    0.9438
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp_go",
+   "n": 50,
+   "acc": 0.68,
+   "ci": [
+    0.5419,
+    0.7924
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp",
+   "n": 50,
+   "acc": 0.86,
+   "ci": [
+    0.7381,
+    0.9305
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "no_tools",
+   "n": 50,
+   "acc": 0.36,
+   "ci": [
+    0.2414,
+    0.4986
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "web_search",
+   "n": 50,
+   "acc": 0.86,
+   "ci": [
+    0.7381,
+    0.9305
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "biomcp_go",
    "n": 50,
    "acc": 0.78,
    "ci": [
@@ -90,46 +167,13 @@
   },
   {
    "tier": "hard",
-   "model": "claude-haiku-5-5",
-   "condition": "biomcp",
-   "n": 50,
-   "acc": 0.96,
-   "ci": [
-    0.8654,
-    0.989
-   ]
-  },
-  {
-   "tier": "hard",
-   "model": "claude-sonnet-5-5",
-   "condition": "no_tools",
-   "n": 50,
-   "acc": 0.3,
-   "ci": [
-    0.191,
-    0.4375
-   ]
-  },
-  {
-   "tier": "hard",
-   "model": "claude-sonnet-5-5",
-   "condition": "web_search",
-   "n": 50,
-   "acc": 0.76,
-   "ci": [
-    0.6259,
-    0.857
-   ]
-  },
-  {
-   "tier": "hard",
    "model": "claude-sonnet-5-5",
    "condition": "biomcp",
    "n": 50,
-   "acc": 0.98,
+   "acc": 0.88,
    "ci": [
-    0.895,
-    0.9965
+    0.7619,
+    0.9438
    ]
   }
  ],
@@ -139,13 +183,13 @@
    "model": "claude-haiku-5-5",
    "vs": "no_tools",
    "n": 254,
-   "b": 149,
-   "c": 0,
-   "p": 2.802596928649634e-45,
+   "b": 148,
+   "c": 1,
+   "p": 4.203895392974451e-43,
    "delta": [
-    0.5866,
-    0.5236,
-    0.6457
+    0.5787,
+    0.5157,
+    0.6378
    ]
   },
   {
@@ -153,13 +197,27 @@
    "model": "claude-haiku-5-5",
    "vs": "web_search",
    "n": 254,
-   "b": 50,
-   "c": 2,
-   "p": 6.123990203832363e-13,
+   "b": 49,
+   "c": 3,
+   "p": 1.042677055806962e-11,
    "delta": [
-    0.189,
-    0.1378,
-    0.2402
+    0.1811,
+    0.1299,
+    0.2323
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "biomcp_go",
+   "n": 201,
+   "b": 32,
+   "c": 2,
+   "p": 6.938353180885315e-08,
+   "delta": [
+    0.1493,
+    0.0995,
+    0.199
    ]
   },
   {
@@ -167,13 +225,13 @@
    "model": "claude-sonnet-5-5",
    "vs": "no_tools",
    "n": 254,
-   "b": 135,
-   "c": 0,
-   "p": 4.591774807899561e-41,
+   "b": 134,
+   "c": 1,
+   "p": 6.244813738743402e-39,
    "delta": [
-    0.5315,
-    0.4685,
-    0.5906
+    0.5236,
+    0.4606,
+    0.5866
    ]
   },
   {
@@ -181,13 +239,27 @@
    "model": "claude-sonnet-5-5",
    "vs": "web_search",
    "n": 254,
-   "b": 46,
-   "c": 0,
-   "p": 2.842170943040401e-14,
+   "b": 45,
+   "c": 1,
+   "p": 1.3358203432289883e-12,
    "delta": [
-    0.1811,
-    0.1339,
-    0.2283
+    0.1732,
+    0.126,
+    0.2205
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "vs": "biomcp_go",
+   "n": 142,
+   "b": 12,
+   "c": 0,
+   "p": 0.00048828125,
+   "delta": [
+    0.0845,
+    0.0423,
+    0.1338
    ]
   },
   {
@@ -195,19 +267,33 @@
    "model": "claude-haiku-5-5",
    "vs": "no_tools",
    "n": 50,
-   "b": 36,
-   "c": 1,
-   "p": 5.529727786779404e-10,
+   "b": 31,
+   "c": 4,
+   "p": 3.4654513001441956e-06,
    "delta": [
-    0.7,
-    0.56,
-    0.84
+    0.54,
+    0.36,
+    0.72
    ]
   },
   {
    "tier": "hard",
    "model": "claude-haiku-5-5",
    "vs": "web_search",
+   "n": 50,
+   "b": 6,
+   "c": 7,
+   "p": 1.0,
+   "delta": [
+    -0.02,
+    -0.16,
+    0.12
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "vs": "biomcp_go",
    "n": 50,
    "b": 11,
    "c": 2,
@@ -223,13 +309,13 @@
    "model": "claude-sonnet-5-5",
    "vs": "no_tools",
    "n": 50,
-   "b": 35,
-   "c": 1,
-   "p": 1.076841726899147e-09,
+   "b": 31,
+   "c": 5,
+   "p": 1.2913485988974571e-05,
    "delta": [
-    0.68,
-    0.54,
-    0.82
+    0.52,
+    0.32,
+    0.7
    ]
   },
   {
@@ -237,13 +323,27 @@
    "model": "claude-sonnet-5-5",
    "vs": "web_search",
    "n": 50,
-   "b": 12,
-   "c": 1,
-   "p": 0.00341796875,
+   "b": 7,
+   "c": 6,
+   "p": 1.0,
    "delta": [
-    0.22,
+    0.02,
+    -0.12,
+    0.16
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "vs": "biomcp_go",
+   "n": 50,
+   "b": 9,
+   "c": 4,
+   "p": 0.266845703125,
+   "delta": [
     0.1,
-    0.36
+    -0.04,
+    0.24
    ]
   }
  ],
@@ -318,6 +418,19 @@
   },
   {
    "tier": "base",
+   "condition": "biomcp_go",
+   "n": 142,
+   "haiku_only": 1,
+   "sonnet_only": 18,
+   "p": 7.62939453125e-05,
+   "delta": [
+    -0.1197,
+    -0.1761,
+    -0.0634
+   ]
+  },
+  {
+   "tier": "base",
    "condition": "biomcp",
    "n": 254,
    "haiku_only": 0,
@@ -333,13 +446,13 @@
    "tier": "hard",
    "condition": "no_tools",
    "n": 50,
-   "haiku_only": 4,
-   "sonnet_only": 6,
-   "p": 0.75390625,
+   "haiku_only": 5,
+   "sonnet_only": 7,
+   "p": 0.7744140625,
    "delta": [
     -0.04,
-    -0.16,
-    0.08
+    -0.18,
+    0.1
    ]
   },
   {
@@ -353,6 +466,19 @@
     0.02,
     -0.06,
     0.1
+   ]
+  },
+  {
+   "tier": "hard",
+   "condition": "biomcp_go",
+   "n": 50,
+   "haiku_only": 5,
+   "sonnet_only": 10,
+   "p": 0.3017578125,
+   "delta": [
+    -0.1,
+    -0.26,
+    0.04
    ]
   },
   {

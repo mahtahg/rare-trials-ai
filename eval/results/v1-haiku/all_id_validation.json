@@ -123,6 +123,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"36164254": {
+"valid": true,
+"chembl_entity": null
+},
 "38773407": {
 "valid": true,
 "chembl_entity": null
@@ -235,7 +239,15 @@
 "valid": true,
 "chembl_entity": "molecule"
 },
+"CHEMBL1433": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL1434": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1440": {
 "valid": true,
 "chembl_entity": "molecule"
 },
@@ -319,6 +331,10 @@
 "valid": true,
 "chembl_entity": "target"
 },
+"CHEMBL191": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL1966": {
 "valid": true,
 "chembl_entity": "target"
@@ -348,6 +364,14 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL2104415": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2105737": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2107456": {
 "valid": true,
 "chembl_entity": "molecule"
 },
@@ -395,6 +419,10 @@
 "valid": true,
 "chembl_entity": "molecule"
 },
+"CHEMBL265502": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL267345": {
 "valid": true,
 "chembl_entity": "molecule"
@@ -408,6 +436,10 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL297453": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL33": {
 "valid": true,
 "chembl_entity": "molecule"
 },
@@ -475,6 +507,10 @@
 "valid": true,
 "chembl_entity": "molecule"
 },
+"CHEMBL3753202": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL3833373": {
 "valid": true,
 "chembl_entity": "molecule"
@@ -499,11 +535,19 @@
 "valid": true,
 "chembl_entity": "molecule"
 },
+"CHEMBL4": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL4073": {
 "valid": true,
 "chembl_entity": "target"
 },
 "CHEMBL416956": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL417": {
 "valid": true,
 "chembl_entity": "molecule"
 },
@@ -579,6 +623,10 @@
 "valid": true,
 "chembl_entity": "molecule"
 },
+"CHEMBL55": {
+"valid": true,
+"chembl_entity": "molecule"
+},
 "CHEMBL577395": {
 "valid": true,
 "chembl_entity": "molecule"
@@ -640,6 +688,10 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL852": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL887": {
 "valid": true,
 "chembl_entity": "molecule"
 },
@@ -719,6 +771,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT00112255": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT00120770": {
 "valid": true,
 "chembl_entity": null
@@ -728,6 +784,10 @@
 "chembl_entity": null
 },
 "NCT00146627": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00146809": {
 "valid": true,
 "chembl_entity": null
 },
@@ -796,6 +856,10 @@
 "chembl_entity": null
 },
 "NCT00547911": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00578188": {
 "valid": true,
 "chembl_entity": null
 },
@@ -899,6 +963,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01113931": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01119417": {
 "valid": true,
 "chembl_entity": null
@@ -911,7 +979,15 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01151735": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01164917": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01167777": {
 "valid": true,
 "chembl_entity": null
 },
@@ -931,6 +1007,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01253382": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01275976": {
 "valid": true,
 "chembl_entity": null
@@ -940,6 +1020,10 @@
 "chembl_entity": null
 },
 "NCT01287221": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01291264": {
 "valid": true,
 "chembl_entity": null
 },
@@ -999,6 +1083,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01607268": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01640301": {
 "valid": true,
 "chembl_entity": null
@@ -1023,6 +1111,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01694381": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01751503": {
 "valid": true,
 "chembl_entity": null
@@ -1036,6 +1128,10 @@
 "chembl_entity": null
 },
 "NCT01826474": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01832896": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1063,6 +1159,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01939431": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01940315": {
 "valid": true,
 "chembl_entity": null
@@ -1083,7 +1183,15 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT02008721": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT02011451": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02071459": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1195,6 +1303,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT02670720": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT02689336": {
 "valid": true,
 "chembl_entity": null
@@ -1212,6 +1324,18 @@
 "chembl_entity": null
 },
 "NCT02770820": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02795975": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02839603": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02854397": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1247,11 +1371,23 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03013673": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03025789": {
 "valid": true,
 "chembl_entity": null
 },
+"NCT03051698": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03056742": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03084614": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1292,6 +1428,10 @@
 "chembl_entity": null
 },
 "NCT03384641": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03394976": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1383,6 +1523,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03952806": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03958955": {
 "valid": true,
 "chembl_entity": null
@@ -1395,11 +1539,19 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT04020198": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT04035174": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT04041453": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04091113": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1432,6 +1584,14 @@
 "chembl_entity": null
 },
 "NCT04520451": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04540497": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04553068": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1491,11 +1651,19 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05017194": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05026736": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT05047185": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05055258": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1511,6 +1679,14 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05180461": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05304091": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05317390": {
 "valid": true,
 "chembl_entity": null
@@ -1523,6 +1699,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05645822": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05662241": {
 "valid": true,
 "chembl_entity": null
@@ -1531,7 +1711,15 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05696717": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05698979": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05729425": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1548,6 +1736,10 @@
 "chembl_entity": null
 },
 "NCT05826600": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05854615": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1568,6 +1760,10 @@
 "chembl_entity": null
 },
 "NCT06079736": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT06118749": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1607,6 +1803,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT06523998": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT06586957": {
 "valid": true,
 "chembl_entity": null
@@ -1616,6 +1816,10 @@
 "chembl_entity": null
 },
 "NCT06679881": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT06706622": {
 "valid": true,
 "chembl_entity": null
 },
@@ -1671,6 +1875,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT07446894": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT07583030": {
 "valid": true,
 "chembl_entity": null
@@ -1679,7 +1887,19 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT07657520": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT07707817": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT07719543": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT07825402": {
 "valid": true,
 "chembl_entity": null
 },

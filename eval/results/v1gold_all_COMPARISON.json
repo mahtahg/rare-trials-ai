@@ -1,0 +1,498 @@
+{
+ "cells": [
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "no_tools",
+   "n": 254,
+   "acc": 0.3858,
+   "ci": [
+    0.3281,
+    0.447
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "web_search",
+   "n": 254,
+   "acc": 0.7835,
+   "ci": [
+    0.7288,
+    0.8297
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp_go",
+   "n": 201,
+   "acc": 0.8209,
+   "ci": [
+    0.762,
+    0.8677
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp",
+   "n": 254,
+   "acc": 0.9724,
+   "ci": [
+    0.9442,
+    0.9866
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "condition": "no_tools",
+   "n": 254,
+   "acc": 0.4685,
+   "ci": [
+    0.4081,
+    0.5299
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "condition": "web_search",
+   "n": 254,
+   "acc": 0.8189,
+   "ci": [
+    0.7669,
+    0.8614
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "condition": "biomcp_go",
+   "n": 142,
+   "acc": 0.9155,
+   "ci": [
+    0.8581,
+    0.951
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "condition": "biomcp",
+   "n": 254,
+   "acc": 1.0,
+   "ci": [
+    0.9851,
+    1.0
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "no_tools",
+   "n": 60,
+   "acc": 0.2333,
+   "ci": [
+    0.1444,
+    0.3544
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "web_search",
+   "n": 60,
+   "acc": 0.7,
+   "ci": [
+    0.5749,
+    0.801
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp_go",
+   "n": 60,
+   "acc": 0.6667,
+   "ci": [
+    0.5406,
+    0.7727
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "condition": "biomcp",
+   "n": 60,
+   "acc": 0.8833,
+   "ci": [
+    0.7782,
+    0.9423
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "no_tools",
+   "n": 60,
+   "acc": 0.3667,
+   "ci": [
+    0.2562,
+    0.4932
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "web_search",
+   "n": 60,
+   "acc": 0.7333,
+   "ci": [
+    0.6099,
+    0.8287
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "biomcp_go",
+   "n": 60,
+   "acc": 0.7167,
+   "ci": [
+    0.5923,
+    0.8149
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "condition": "biomcp",
+   "n": 60,
+   "acc": 0.9,
+   "ci": [
+    0.7985,
+    0.9534
+   ]
+  }
+ ],
+ "benefit": [
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "no_tools",
+   "n": 254,
+   "b": 149,
+   "c": 0,
+   "p": 2.802596928649634e-45,
+   "delta": [
+    0.5866,
+    0.5236,
+    0.6457
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "web_search",
+   "n": 254,
+   "b": 50,
+   "c": 2,
+   "p": 6.123990203832363e-13,
+   "delta": [
+    0.189,
+    0.1378,
+    0.2402
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-haiku-5-5",
+   "vs": "biomcp_go",
+   "n": 201,
+   "b": 34,
+   "c": 0,
+   "p": 1.1641532182693481e-10,
+   "delta": [
+    0.1692,
+    0.1194,
+    0.2189
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "vs": "no_tools",
+   "n": 254,
+   "b": 135,
+   "c": 0,
+   "p": 4.591774807899561e-41,
+   "delta": [
+    0.5315,
+    0.4685,
+    0.5906
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "vs": "web_search",
+   "n": 254,
+   "b": 46,
+   "c": 0,
+   "p": 2.842170943040401e-14,
+   "delta": [
+    0.1811,
+    0.1339,
+    0.2283
+   ]
+  },
+  {
+   "tier": "base",
+   "model": "claude-sonnet-5-5",
+   "vs": "biomcp_go",
+   "n": 142,
+   "b": 12,
+   "c": 0,
+   "p": 0.00048828125,
+   "delta": [
+    0.0845,
+    0.0423,
+    0.1338
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "vs": "no_tools",
+   "n": 60,
+   "b": 40,
+   "c": 1,
+   "p": 3.8198777474462986e-11,
+   "delta": [
+    0.65,
+    0.5167,
+    0.7833
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "vs": "web_search",
+   "n": 60,
+   "b": 13,
+   "c": 2,
+   "p": 0.00738525390625,
+   "delta": [
+    0.1833,
+    0.0667,
+    0.3
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-haiku-5-5",
+   "vs": "biomcp_go",
+   "n": 60,
+   "b": 15,
+   "c": 2,
+   "p": 0.002349853515625,
+   "delta": [
+    0.2167,
+    0.1,
+    0.3333
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "vs": "no_tools",
+   "n": 60,
+   "b": 35,
+   "c": 3,
+   "p": 6.677873898297548e-08,
+   "delta": [
+    0.5333,
+    0.3833,
+    0.6833
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "vs": "web_search",
+   "n": 60,
+   "b": 12,
+   "c": 2,
+   "p": 0.012939453125,
+   "delta": [
+    0.1667,
+    0.05,
+    0.2833
+   ]
+  },
+  {
+   "tier": "hard",
+   "model": "claude-sonnet-5-5",
+   "vs": "biomcp_go",
+   "n": 60,
+   "b": 13,
+   "c": 2,
+   "p": 0.00738525390625,
+   "delta": [
+    0.1833,
+    0.0667,
+    0.3
+   ]
+  }
+ ],
+ "benefit_gap": [
+  {
+   "tier": "base",
+   "vs": "no_tools",
+   "n": 254,
+   "did": [
+    0.0551,
+    0.0079,
+    0.1024
+   ]
+  },
+  {
+   "tier": "base",
+   "vs": "web_search",
+   "n": 254,
+   "did": [
+    0.0079,
+    -0.0315,
+    0.0512
+   ]
+  },
+  {
+   "tier": "hard",
+   "vs": "no_tools",
+   "n": 60,
+   "did": [
+    0.1167,
+    -0.0167,
+    0.25
+   ]
+  },
+  {
+   "tier": "hard",
+   "vs": "web_search",
+   "n": 60,
+   "did": [
+    0.0167,
+    -0.0833,
+    0.1167
+   ]
+  }
+ ],
+ "model_paired": [
+  {
+   "tier": "base",
+   "condition": "no_tools",
+   "n": 254,
+   "haiku_only": 5,
+   "sonnet_only": 26,
+   "p": 0.00019219517707824707,
+   "delta": [
+    -0.0827,
+    -0.126,
+    -0.0394
+   ]
+  },
+  {
+   "tier": "base",
+   "condition": "web_search",
+   "n": 254,
+   "haiku_only": 6,
+   "sonnet_only": 15,
+   "p": 0.0783538818359375,
+   "delta": [
+    -0.0354,
+    -0.0709,
+    0.0
+   ]
+  },
+  {
+   "tier": "base",
+   "condition": "biomcp_go",
+   "n": 142,
+   "haiku_only": 1,
+   "sonnet_only": 18,
+   "p": 7.62939453125e-05,
+   "delta": [
+    -0.1197,
+    -0.1761,
+    -0.0634
+   ]
+  },
+  {
+   "tier": "base",
+   "condition": "biomcp",
+   "n": 254,
+   "haiku_only": 0,
+   "sonnet_only": 7,
+   "p": 0.015625,
+   "delta": [
+    -0.0276,
+    -0.0512,
+    -0.0079
+   ]
+  },
+  {
+   "tier": "hard",
+   "condition": "no_tools",
+   "n": 60,
+   "haiku_only": 4,
+   "sonnet_only": 12,
+   "p": 0.076812744140625,
+   "delta": [
+    -0.1333,
+    -0.2667,
+    -0.0167
+   ]
+  },
+  {
+   "tier": "hard",
+   "condition": "web_search",
+   "n": 60,
+   "haiku_only": 3,
+   "sonnet_only": 5,
+   "p": 0.7265625,
+   "delta": [
+    -0.0333,
+    -0.1333,
+    0.05
+   ]
+  },
+  {
+   "tier": "hard",
+   "condition": "biomcp_go",
+   "n": 60,
+   "haiku_only": 7,
+   "sonnet_only": 10,
+   "p": 0.629058837890625,
+   "delta": [
+    -0.05,
+    -0.1833,
+    0.0833
+   ]
+  },
+  {
+   "tier": "hard",
+   "condition": "biomcp",
+   "n": 60,
+   "haiku_only": 1,
+   "sonnet_only": 2,
+   "p": 1.0,
+   "delta": [
+    -0.0167,
+    -0.0667,
+    0.0333
+   ]
+  }
+ ]
+}
