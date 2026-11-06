@@ -1,7 +1,7 @@
 {
  "json_body": null,
  "method": "GET",
- "retrieved_at": "2026-11-06T15:30:56+00:00",
+ "retrieved_at": "2026-11-06T15:32:28+00:00",
  "status": 404,
  "text": "{\n  \"error\": {\n    \"code\": \"NOT_FOUND\",\n    \"message\": \"No matches found!\"\n  }\n}",
  "url": "https://api.fda.gov/drug/drugsfda.json?limit=100&search=products.active_ingredients.name%3A%22notarealdrugxyz%22"
