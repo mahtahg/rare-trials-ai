@@ -1,0 +1,122 @@
+{
+ "by_condition": {
+  "claude-sonnet-5-5|biomcp_go": {
+   "n": 13,
+   "accuracy": 0.7692,
+   "accuracy_ci95": [
+    0.4974,
+    0.9182
+   ],
+   "mean_score": 0.7098,
+   "abstain_rate": 0.0769,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 33,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.1323,
+   "brier": 0.1116,
+   "mean_api_equiv_cost_usd": 0.02344,
+   "total_api_equiv_cost_usd": 0.305,
+   "median_latency_s": 9.22,
+   "mean_tool_calls": 2.46,
+   "tool_error_rate": 0.5
+  }
+ },
+ "by_template": {
+  "disease_late_stage_drugs": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 0.7273
+   }
+  },
+  "disease_rarity": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "disease_top_targets": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "drug_first_approval": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "drug_generic_us": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   }
+  },
+  "drug_targets": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "multihop_generic_late_stage": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 0.5
+   }
+  },
+  "not_found": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_count": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   }
+  },
+  "trial_enrollment": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_has_sap": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   }
+  },
+  "trial_n_sites": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_why_stopped": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  }
+ },
+ "paired": {},
+ "id_validation": true,
+ "n_errored_runs_excluded": 0,
+ "n_questions_excluded_by_review": 10
+}

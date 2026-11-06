@@ -1,0 +1,162 @@
+{
+"CHEMBL1201583": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL578": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL847": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL976": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"NCT00003926": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00216346": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00228696": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00255567": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00378781": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00523965": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00617929": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00623077": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00624962": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00628719": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00672152": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00788125": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00898612": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00949052": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00957736": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01130623": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01132547": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01220128": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01236586": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01529827": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01640301": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01987596": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02164097": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02408016": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02536183": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02581384": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02606864": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02624388": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02689336": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02770820": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02945527": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03129646": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03311334": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04791228": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT06312462": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT96215048": {
+"valid": false,
+"chembl_entity": null
+}
+}
