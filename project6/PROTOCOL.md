@@ -1,6 +1,6 @@
 # Stalled drug-repurposing trials in rare and neglected tropical diseases: a cross-registry meta-research study with validated LLM-assisted data extraction
 
-**Status:** draft protocol for OSF pre-registration (v0.1, 2026-11-03). Not yet registered.
+**Status:** draft protocol for OSF pre-registration (v0.2, 2026-11-06). Not yet registered. Changes since v0.1 are listed in `DEVIATIONS.md`.
 **Lead:** Mahta Haghighat Ghahfarokhi (King's College London). **Second reviewer:** Amin Arshi. Senior advisor (adjudication of persisting disagreements): TBC.
 **Code and data:** github.com/mahtahg/rare-trials-ai (`project6/`), released under MIT/CC-BY at publication.
 
@@ -119,6 +119,8 @@ All four tasks share the same set-up:
 
 The model is given only registry text and the supplied reference data, never the human labels.
 
+**Deterministic comparator for T2.** A rule-based repurposing label is computed for every trial from ChEMBL alone: approved parent compound (max_phase = 4), first approval before the trial's start year, trial condition not among the compound's approved indications (MeSH), and not a vaccine. It is reported as a secondary comparator to the LLM label, with Cohen's κ, and is not used for the primary analysis.
+
 ### 6.3 Human validation
 - **Sample:** stratified random sample of **n = 350** candidate records, drawn by a seeded script after prompts are frozen. Strata are registry source × status × disease group. Records near the inclusion boundary (LLM confidence < 0.7) are over-sampled at a ratio of 2:1, and estimates are re-weighted.
 - **Calibration:** 30 records extracted jointly by both reviewers to align on definitions. These are excluded from agreement statistics.
@@ -150,22 +152,27 @@ LLM extraction is used for the full dataset only if, for each task, accuracy aga
 4. Trials starting 2020–2021 excluded (COVID-19).
 5. ClinicalTrials.gov records only.
 6. Human labels in place of LLM labels, restricted to the validation sample.
+7. *(Post hoc, added 2026-11-06.)* Withdrawn trials excluded, because they list no sites by construction.
 
 ### 7.5 Missing data
 Reasons for stopping that are missing are reported as "Not stated", not imputed. Missing covariates are handled by multiple imputation with chained equations (m = 20) if >5% are missing, with complete-case analysis as a sensitivity analysis.
 
-## 8. Reproducibility and openness
+## 8. Prior access to data (statement for registration)
+
+Before registration, the ClinicalTrials.gov cohort was built (31,275 candidate trials), drugs were normalised to ChEMBL, LLM extraction was started with the frozen prompt (`prompts/extract_v1.md`), and a preliminary analysis using the deterministic repurposing rule was run on 2026-11-06 to test the pipeline. Stall proportions and subgroup estimates from that run were viewed. No validation labels exist yet, and no analysis using LLM labels that meet the §6.4 thresholds has been run. The primary analysis, outcomes, thresholds and subgroups above are unchanged by that look; additions made after it (sensitivity analysis S7, excluding Withdrawn trials) are labelled post hoc.
+
+## 9. Reproducibility and openness
 - **Release:** all code, prompts, model IDs, registry snapshot dates and release versions, raw LLM outputs, validation labels and analysis outputs.
 - **Re-running:** the pipeline is re-runnable from a single command against a new snapshot.
 - **Deviations:** any deviation from this protocol is logged with a date and rationale in `project6/DEVIATIONS.md`.
 
-## 9. Limitations (anticipated)
+## 10. Limitations (anticipated)
 - **Registry staleness:** non-US registries often do not update status, so the "overdue" criterion may misclassify completed-but-unupdated trials as stalled. Sensitivity analysis 3 addresses this.
 - **Approval data:** ChEMBL approval data are not jurisdiction-specific, and the US generic-availability proxy does not represent all markets.
 - **Time-varying approvals:** repurposing status depends on time-varying approved indications, which ChEMBL does not fully capture historically. This is mitigated by human validation of T2.
 - **Self-reported reasons:** stated reasons for stopping are self-reported and often vague.
 
-## 10. Timeline
+## 11. Timeline
 | Weeks | Task |
 |---|---|
 | 1–2 | Pre-register; download snapshots; build cohort |

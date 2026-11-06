@@ -80,6 +80,19 @@ Runs use headless Claude Code authenticated with a Claude subscription token (`C
 - for biomcp, the share of identifiers that never appeared in a tool output;
 - calibration (ECE, Brier), cost and latency.
 
+`eval/compare.py` builds the cross-run tables (`eval/results/COMPARISON.md` for the reviewed set, `all_COMPARISON.md` for the full set). `eval/process_fabrication.py` screens no-tools answers for narrated tool use. `eval/review/` holds the question review, the gold audit with archived primary-source payloads (`gold_audit.md`) and the workbook builders.
+
+### Results (full set, 314 questions, one run each)
+
+| | No tools | Web search | Servers |
+|---|---|---|---|
+| Base tier, Sonnet 5.5 | 46.9% | 81.9% | 100% |
+| Base tier, Haiku 5.5 | 38.6% | 78.3% | 97.2% |
+| Hard tier, Sonnet 5.5 | 36.7% | 73.3% | 90.0% |
+| Hard tier, Haiku 5.5 | 23.3% | 70.0% | 88.3% |
+
+The servers beat web search in every row (paired McNemar p ≤ 0.013). No server or web-search answer cited a non-existent identifier. Without tools, Haiku narrated tool calls that never ran in 7 of 314 answers (Sonnet 0 of 314).
+
 ## Project 6
 
 See [`project6/PROTOCOL.md`](project6/PROTOCOL.md). The pipeline runs in four stages:
@@ -88,6 +101,7 @@ See [`project6/PROTOCOL.md`](project6/PROTOCOL.md). The pipeline runs in four st
 2. ChEMBL/FDA drug normalisation.
 3. LLM extraction with a frozen prompt and pinned model.
 4. A draw-once stratified validation sample for blinded dual human extraction.
+5. Analysis (`pipeline/analyze.py`): stall proportions with Wilson CIs by stratum and subgroup, sensitivity analyses, logistic regression, Rogan–Gladen correction. `results/prelim_ctgov_det/` is a PRELIMINARY run on ClinicalTrials.gov with the deterministic repurposing rule, made before validation; see `DEVIATIONS.md`.
 
 ## Licence
 
