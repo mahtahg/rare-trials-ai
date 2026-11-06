@@ -4,7 +4,7 @@ No-tools runs (zero tool calls by construction) whose answer narrates retrieved 
 
 | run | model | n no-tools runs | flagged | rate |
 |---|---|---|---|---|
-| hard-haiku | claude-haiku-5-5 | 58 | 1 | 0.017 |
+| hard-haiku | claude-haiku-5-5 | 60 | 1 | 0.017 |
 | hard-sonnet | claude-sonnet-5-5 | 60 | 0 | 0.000 |
 | smoke1 | claude-sonnet-5-5 | 5 | 0 | 0.000 |
 | v1-haiku | claude-haiku-5-5 | 254 | 6 | 0.024 |
