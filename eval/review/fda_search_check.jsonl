@@ -1,0 +1,32 @@
+{"id": "generic-CHEMBL820", "drug": "busulfan", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL1351", "drug": "carboplatin", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL995", "drug": "losartan potassium", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL1789941", "drug": "ruxolitinib", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL830", "drug": "eflornithine", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL1200699", "drug": "doxycycline", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL2096650", "drug": "sodium thiosulfate", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL1086440", "drug": "triclabendazole", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL1483", "drug": "albendazole", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL374478", "drug": "rifampin", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL529", "drug": "azithromycin", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL476", "drug": "dacarbazine", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL1200659", "drug": "enalapril maleate", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL118", "drug": "celecoxib", "gold": true, "generic_search": true, "ingredient_search": true, "changes": false}
+{"id": "generic-CHEMBL473417", "drug": "vismodegib", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL3622821", "drug": "upadacitinib", "gold": false, "generic_search": false, "ingredient_search": true, "changes": true}
+{"id": "generic-CHEMBL3707348", "drug": "acalabrutinib", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL3545185", "drug": "selinexor", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL518924", "drug": "mavorixafor", "gold": false, "generic_search": false, "ingredient_search": false, "changes": false}
+{"id": "generic-CHEMBL417", "drug": "epirubicin", "gold": false, "generic_search": false, "ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL820", "drug": "busulfan", "gold": true, "chembl_year": 1954, "nda_year_generic_search": 1954, "nda_year_ingredient_search": 1954, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL1351", "drug": "carboplatin", "gold": false, "chembl_year": 1989, "nda_year_generic_search": 2025, "nda_year_ingredient_search": 1989, "answer_ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL995", "drug": "losartan potassium", "gold": true, "chembl_year": 1995, "nda_year_generic_search": 1995, "nda_year_ingredient_search": 1995, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL1789941", "drug": "ruxolitinib", "gold": true, "chembl_year": 2011, "nda_year_generic_search": 2011, "nda_year_ingredient_search": 2011, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL830", "drug": "eflornithine", "gold": false, "chembl_year": 1990, "nda_year_generic_search": 2023, "nda_year_ingredient_search": 1990, "answer_ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL1200699", "drug": "doxycycline", "gold": false, "chembl_year": 1967, "nda_year_generic_search": 1989, "nda_year_ingredient_search": 1967, "answer_ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL2096650", "drug": "sodium thiosulfate", "gold": false, "chembl_year": 1992, "nda_year_generic_search": 2011, "nda_year_ingredient_search": 1992, "answer_ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL1086440", "drug": "triclabendazole", "gold": true, "chembl_year": 2019, "nda_year_generic_search": 2019, "nda_year_ingredient_search": 2019, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL1483", "drug": "albendazole", "gold": true, "chembl_year": 1996, "nda_year_generic_search": 1996, "nda_year_ingredient_search": 1996, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL529", "drug": "azithromycin", "gold": false, "chembl_year": 1991, "nda_year_generic_search": 1995, "nda_year_ingredient_search": 1991, "answer_ingredient_search": true, "changes": true}
+{"id": "h4-CHEMBL1200659", "drug": "enalapril maleate", "gold": true, "chembl_year": 1985, "nda_year_generic_search": 1985, "nda_year_ingredient_search": 1985, "answer_ingredient_search": true, "changes": false}
+{"id": "h4-CHEMBL118", "drug": "celecoxib", "gold": true, "chembl_year": 1998, "nda_year_generic_search": 1998, "nda_year_ingredient_search": 1998, "answer_ingredient_search": true, "changes": false}
