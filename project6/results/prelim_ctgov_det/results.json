@@ -1,0 +1,1135 @@
+{
+ "status": "PRELIMINARY: before human validation of LLM/deterministic labels (protocol 6.3-6.4)",
+ "basis": "det",
+ "snapshot": "2026-11-03",
+ "registry": "ClinicalTrials.gov only (ICTRP pending)",
+ "flow": {
+  "rare_or_ntd_candidates_ctgov": 31275,
+  "repurposed": 11375,
+  "followup_ge_24m": 10015,
+  "registered_lt_24m_described_only": 1360,
+  "non_oncology": 3704,
+  "rare_oncology": 6311
+ },
+ "primary": {
+  "non-oncology (headline)": {
+   "n": 3704,
+   "stalled": 1264,
+   "p_ci": [
+    0.3413,
+    0.3262,
+    0.3567
+   ],
+   "components": {
+    "stopped (T/W/S)": 622,
+    "overdue without completion": 642
+   }
+  },
+  "rare oncology": {
+   "n": 6311,
+   "stalled": 2537,
+   "p_ci": [
+    0.402,
+    0.39,
+    0.4141
+   ],
+   "components": {
+    "overdue without completion": 1157,
+    "stopped (T/W/S)": 1380
+   }
+  },
+  "pooled": {
+   "n": 10015,
+   "stalled": 3801,
+   "p_ci": [
+    0.3795,
+    0.3701,
+    0.3891
+   ],
+   "components": {
+    "overdue without completion": 1799,
+    "stopped (T/W/S)": 2002
+   }
+  }
+ },
+ "subgroups": {
+  "non-oncology (headline)": {
+   "region": {
+    "AMR": {
+     "n": 1596,
+     "stalled": 478,
+     "p_ci": [
+      0.2995,
+      0.2775,
+      0.3224
+     ]
+    },
+    "EUR": {
+     "n": 688,
+     "stalled": 225,
+     "p_ci": [
+      0.327,
+      0.293,
+      0.363
+     ]
+    },
+    "WPR": {
+     "n": 486,
+     "stalled": 230,
+     "p_ci": [
+      0.4733,
+      0.4292,
+      0.5177
+     ]
+    },
+    "multi-region": {
+     "n": 344,
+     "stalled": 82,
+     "p_ci": [
+      0.2384,
+      0.1964,
+      0.2861
+     ]
+    },
+    "no sites listed": {
+     "n": 247,
+     "stalled": 156,
+     "p_ci": [
+      0.6316,
+      0.5698,
+      0.6893
+     ]
+    },
+    "EMR": {
+     "n": 129,
+     "stalled": 47,
+     "p_ci": [
+      0.3643,
+      0.2863,
+      0.4502
+     ]
+    },
+    "AFR": {
+     "n": 125,
+     "stalled": 27,
+     "p_ci": [
+      0.216,
+      0.1529,
+      0.296
+     ]
+    },
+    "SEAR": {
+     "n": 89,
+     "stalled": 19,
+     "p_ci": [
+      0.2135,
+      0.1411,
+      0.3095
+     ]
+    }
+   },
+   "funder": {
+    "academic/hospital/nonprofit": {
+     "n": 2771,
+     "stalled": 999,
+     "p_ci": [
+      0.3605,
+      0.3428,
+      0.3786
+     ]
+    },
+    "industry": {
+     "n": 664,
+     "stalled": 170,
+     "p_ci": [
+      0.256,
+      0.2243,
+      0.2906
+     ]
+    },
+    "government": {
+     "n": 226,
+     "stalled": 84,
+     "p_ci": [
+      0.3717,
+      0.3113,
+      0.4363
+     ]
+    },
+    "academic/hospital network": {
+     "n": 31,
+     "stalled": 6,
+     "p_ci": [
+      0.1935,
+      0.0919,
+      0.3628
+     ]
+    },
+    "other": {
+     "n": 12,
+     "stalled": 5,
+     "p_ci": [
+      0.4167,
+      0.1933,
+      0.6805
+     ]
+    }
+   },
+   "phase": {
+    "phase 2": {
+     "n": 1199,
+     "stalled": 387,
+     "p_ci": [
+      0.3228,
+      0.2969,
+      0.3498
+     ]
+    },
+    "phase 3/4": {
+     "n": 1178,
+     "stalled": 437,
+     "p_ci": [
+      0.371,
+      0.3438,
+      0.3989
+     ]
+    },
+    "phase 1": {
+     "n": 525,
+     "stalled": 121,
+     "p_ci": [
+      0.2305,
+      0.1965,
+      0.2684
+     ]
+    },
+    "not applicable": {
+     "n": 340,
+     "stalled": 148,
+     "p_ci": [
+      0.4353,
+      0.3836,
+      0.4884
+     ]
+    },
+    "phase 1/2": {
+     "n": 260,
+     "stalled": 89,
+     "p_ci": [
+      0.3423,
+      0.2873,
+      0.4019
+     ]
+    },
+    "phase 2/3": {
+     "n": 202,
+     "stalled": 82,
+     "p_ci": [
+      0.4059,
+      0.3406,
+      0.4748
+     ]
+    }
+   },
+   "disease group": {
+    "rare": {
+     "n": 3564,
+     "stalled": 1230,
+     "p_ci": [
+      0.3451,
+      0.3297,
+      0.3609
+     ]
+    },
+    "NTD": {
+     "n": 85,
+     "stalled": 16,
+     "p_ci": [
+      0.1882,
+      0.1193,
+      0.2841
+     ]
+    },
+    "rare + NTD": {
+     "n": 55,
+     "stalled": 18,
+     "p_ci": [
+      0.3273,
+      0.2181,
+      0.459
+     ]
+    }
+   }
+  },
+  "rare oncology": {
+   "region": {
+    "AMR": {
+     "n": 3247,
+     "stalled": 1135,
+     "p_ci": [
+      0.3496,
+      0.3333,
+      0.3661
+     ]
+    },
+    "WPR": {
+     "n": 1044,
+     "stalled": 608,
+     "p_ci": [
+      0.5824,
+      0.5522,
+      0.6119
+     ]
+    },
+    "EUR": {
+     "n": 916,
+     "stalled": 328,
+     "p_ci": [
+      0.3581,
+      0.3277,
+      0.3897
+     ]
+    },
+    "multi-region": {
+     "n": 770,
+     "stalled": 216,
+     "p_ci": [
+      0.2805,
+      0.2499,
+      0.3133
+     ]
+    },
+    "no sites listed": {
+     "n": 288,
+     "stalled": 227,
+     "p_ci": [
+      0.7882,
+      0.7374,
+      0.8314
+     ]
+    },
+    "EMR": {
+     "n": 25,
+     "stalled": 12,
+     "p_ci": [
+      0.48,
+      0.3003,
+      0.665
+     ]
+    },
+    "SEAR": {
+     "n": 17,
+     "stalled": 9,
+     "p_ci": [
+      0.5294,
+      0.3096,
+      0.7384
+     ]
+    },
+    "AFR": {
+     "n": 4,
+     "stalled": 2,
+     "p_ci": [
+      0.5,
+      0.15,
+      0.85
+     ]
+    }
+   },
+   "funder": {
+    "academic/hospital/nonprofit": {
+     "n": 4461,
+     "stalled": 1879,
+     "p_ci": [
+      0.4212,
+      0.4068,
+      0.4358
+     ]
+    },
+    "industry": {
+     "n": 1231,
+     "stalled": 431,
+     "p_ci": [
+      0.3501,
+      0.324,
+      0.3772
+     ]
+    },
+    "government": {
+     "n": 447,
+     "stalled": 177,
+     "p_ci": [
+      0.396,
+      0.3517,
+      0.442
+     ]
+    },
+    "academic/hospital network": {
+     "n": 168,
+     "stalled": 47,
+     "p_ci": [
+      0.2798,
+      0.2174,
+      0.352
+     ]
+    },
+    "other": {
+     "n": 4,
+     "stalled": 3,
+     "p_ci": [
+      0.75,
+      0.3006,
+      0.9544
+     ]
+    }
+   },
+   "phase": {
+    "phase 2": {
+     "n": 2780,
+     "stalled": 1105,
+     "p_ci": [
+      0.3975,
+      0.3794,
+      0.4158
+     ]
+    },
+    "phase 1": {
+     "n": 1517,
+     "stalled": 571,
+     "p_ci": [
+      0.3764,
+      0.3524,
+      0.4011
+     ]
+    },
+    "phase 1/2": {
+     "n": 886,
+     "stalled": 356,
+     "p_ci": [
+      0.4018,
+      0.37,
+      0.4344
+     ]
+    },
+    "phase 3/4": {
+     "n": 797,
+     "stalled": 326,
+     "p_ci": [
+      0.409,
+      0.3754,
+      0.4435
+     ]
+    },
+    "not applicable": {
+     "n": 211,
+     "stalled": 116,
+     "p_ci": [
+      0.5498,
+      0.4823,
+      0.6154
+     ]
+    },
+    "phase 2/3": {
+     "n": 120,
+     "stalled": 63,
+     "p_ci": [
+      0.525,
+      0.4363,
+      0.6122
+     ]
+    }
+   },
+   "disease group": {
+    "rare": {
+     "n": 6309,
+     "stalled": 2536,
+     "p_ci": [
+      0.402,
+      0.3899,
+      0.4141
+     ]
+    },
+    "rare + NTD": {
+     "n": 2,
+     "stalled": 1,
+     "p_ci": [
+      0.5,
+      0.0945,
+      0.9055
+     ]
+    }
+   }
+  },
+  "pooled": {
+   "region": {
+    "AMR": {
+     "n": 4843,
+     "stalled": 1613,
+     "p_ci": [
+      0.3331,
+      0.3199,
+      0.3465
+     ]
+    },
+    "EUR": {
+     "n": 1604,
+     "stalled": 553,
+     "p_ci": [
+      0.3448,
+      0.3219,
+      0.3684
+     ]
+    },
+    "WPR": {
+     "n": 1530,
+     "stalled": 838,
+     "p_ci": [
+      0.5477,
+      0.5227,
+      0.5725
+     ]
+    },
+    "multi-region": {
+     "n": 1114,
+     "stalled": 298,
+     "p_ci": [
+      0.2675,
+      0.2423,
+      0.2943
+     ]
+    },
+    "no sites listed": {
+     "n": 535,
+     "stalled": 383,
+     "p_ci": [
+      0.7159,
+      0.6762,
+      0.7525
+     ]
+    },
+    "EMR": {
+     "n": 154,
+     "stalled": 59,
+     "p_ci": [
+      0.3831,
+      0.3101,
+      0.4619
+     ]
+    },
+    "AFR": {
+     "n": 129,
+     "stalled": 29,
+     "p_ci": [
+      0.2248,
+      0.1613,
+      0.3042
+     ]
+    },
+    "SEAR": {
+     "n": 106,
+     "stalled": 28,
+     "p_ci": [
+      0.2642,
+      0.1895,
+      0.3553
+     ]
+    }
+   },
+   "funder": {
+    "academic/hospital/nonprofit": {
+     "n": 7232,
+     "stalled": 2878,
+     "p_ci": [
+      0.398,
+      0.3867,
+      0.4093
+     ]
+    },
+    "industry": {
+     "n": 1895,
+     "stalled": 601,
+     "p_ci": [
+      0.3172,
+      0.2966,
+      0.3385
+     ]
+    },
+    "government": {
+     "n": 673,
+     "stalled": 261,
+     "p_ci": [
+      0.3878,
+      0.3517,
+      0.4252
+     ]
+    },
+    "academic/hospital network": {
+     "n": 199,
+     "stalled": 53,
+     "p_ci": [
+      0.2663,
+      0.2098,
+      0.3318
+     ]
+    },
+    "other": {
+     "n": 16,
+     "stalled": 8,
+     "p_ci": [
+      0.5,
+      0.28,
+      0.72
+     ]
+    }
+   },
+   "phase": {
+    "phase 2": {
+     "n": 3979,
+     "stalled": 1492,
+     "p_ci": [
+      0.375,
+      0.3601,
+      0.3901
+     ]
+    },
+    "phase 1": {
+     "n": 2042,
+     "stalled": 692,
+     "p_ci": [
+      0.3389,
+      0.3187,
+      0.3597
+     ]
+    },
+    "phase 3/4": {
+     "n": 1975,
+     "stalled": 763,
+     "p_ci": [
+      0.3863,
+      0.3651,
+      0.408
+     ]
+    },
+    "phase 1/2": {
+     "n": 1146,
+     "stalled": 445,
+     "p_ci": [
+      0.3883,
+      0.3605,
+      0.4169
+     ]
+    },
+    "not applicable": {
+     "n": 551,
+     "stalled": 264,
+     "p_ci": [
+      0.4791,
+      0.4377,
+      0.5208
+     ]
+    },
+    "phase 2/3": {
+     "n": 322,
+     "stalled": 145,
+     "p_ci": [
+      0.4503,
+      0.3969,
+      0.5049
+     ]
+    }
+   },
+   "disease group": {
+    "rare": {
+     "n": 9873,
+     "stalled": 3766,
+     "p_ci": [
+      0.3814,
+      0.3719,
+      0.3911
+     ]
+    },
+    "NTD": {
+     "n": 85,
+     "stalled": 16,
+     "p_ci": [
+      0.1882,
+      0.1193,
+      0.2841
+     ]
+    },
+    "rare + NTD": {
+     "n": 57,
+     "stalled": 19,
+     "p_ci": [
+      0.3333,
+      0.2249,
+      0.4628
+     ]
+    }
+   }
+  }
+ },
+ "sensitivity": {
+  "S1 follow-up >=12 months": {
+   "n": 3936,
+   "p_ci": [
+    0.3257,
+    0.3112,
+    0.3405
+   ]
+  },
+  "S1 follow-up >=36 months": {
+   "n": 3443,
+   "p_ci": [
+    0.3552,
+    0.3394,
+    0.3714
+   ]
+  },
+  "S2 overdue window 6 months": {
+   "n": 3704,
+   "p_ci": [
+    0.3591,
+    0.3438,
+    0.3747
+   ]
+  },
+  "S2 overdue window 24 months": {
+   "n": 3704,
+   "p_ci": [
+    0.3121,
+    0.2974,
+    0.3272
+   ]
+  },
+  "S3 terminated/withdrawn/suspended only": {
+   "n": 3704,
+   "p_ci": [
+    0.1679,
+    0.1562,
+    0.1803
+   ]
+  },
+  "S4 excluding 2020-2021 starts": {
+   "n": 3183,
+   "p_ci": [
+    0.3283,
+    0.3122,
+    0.3448
+   ]
+  },
+  "S7 excluding withdrawn (post hoc; see DEVIATIONS)": {
+   "n": 3499,
+   "p_ci": [
+    0.3027,
+    0.2877,
+    0.3181
+   ]
+  },
+  "S5 ClinicalTrials.gov only": {
+   "note": "identical to primary until ICTRP records are added"
+  },
+  "S6 human labels": {
+   "note": "requires the adjudicated validation sample"
+  }
+ },
+ "reasons": {
+  "stopped_trials": 622,
+  "with_llm_label": 102,
+  "why_stopped_missing": 58,
+  "primary_reason": {
+   "insufficient_accrual": 35,
+   "not_stated": 11,
+   "logistics_site_investigator": 9,
+   "funding": 9,
+   "other": 8,
+   "sponsor_business_decision": 8,
+   "safety": 6,
+   "efficacy_futility": 6,
+   "regulatory_ethics_contractual": 4,
+   "covid19": 3,
+   "scientific_landscape_changed": 3
+  },
+  "any_reason": {
+   "insufficient_accrual": 37,
+   "funding": 11,
+   "other": 9,
+   "efficacy_futility": 9,
+   "logistics_site_investigator": 9,
+   "sponsor_business_decision": 9,
+   "safety": 6,
+   "regulatory_ethics_contractual": 6,
+   "covid19": 4,
+   "scientific_landscape_changed": 3
+  }
+ },
+ "agreement_det_vs_llm": {
+  "n": 2208,
+  "agree": 2033,
+  "kappa": 0.8093,
+  "det_only": 154,
+  "llm_only": 21
+ },
+ "regression_non_oncology_excl_withdrawn": {
+  "n": 3499,
+  "events": 1059,
+  "pseudo_r2": 0.0921,
+  "converged": true,
+  "terms": {
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.government]": {
+    "or": 1.159,
+    "ci": [
+     0.846,
+     1.589
+    ],
+    "p": 0.3586611866640256
+   },
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.industry]": {
+    "or": 0.727,
+    "ci": [
+     0.554,
+     0.955
+    ],
+    "p": 0.022088945474088725
+   },
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.other/sparse]": {
+    "or": 0.714,
+    "ci": [
+     0.321,
+     1.589
+    ],
+    "p": 0.4092500597770975
+   },
+   "C(phase, Treatment('phase 2'))[T.not applicable]": {
+    "or": 1.588,
+    "ci": [
+     1.2,
+     2.101
+    ],
+    "p": 0.0012203685280073352
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 1]": {
+    "or": 0.537,
+    "ci": [
+     0.404,
+     0.715
+    ],
+    "p": 2.0214392154081658e-05
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 1/2]": {
+    "or": 0.854,
+    "ci": [
+     0.613,
+     1.19
+    ],
+    "p": 0.35145318467665365
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 2/3]": {
+    "or": 1.66,
+    "ci": [
+     1.178,
+     2.338
+    ],
+    "p": 0.0037443493418157295
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 3/4]": {
+    "or": 1.413,
+    "ci": [
+     1.155,
+     1.729
+    ],
+    "p": 0.0007748306870390035
+   },
+   "C(region, Treatment('AMR'))[T.AFR]": {
+    "or": 0.844,
+    "ci": [
+     0.504,
+     1.413
+    ],
+    "p": 0.5183135834237058
+   },
+   "C(region, Treatment('AMR'))[T.EMR]": {
+    "or": 1.556,
+    "ci": [
+     1.035,
+     2.341
+    ],
+    "p": 0.0337411638408588
+   },
+   "C(region, Treatment('AMR'))[T.EUR]": {
+    "or": 1.324,
+    "ci": [
+     1.067,
+     1.643
+    ],
+    "p": 0.010688530475791203
+   },
+   "C(region, Treatment('AMR'))[T.SEAR]": {
+    "or": 0.735,
+    "ci": [
+     0.407,
+     1.326
+    ],
+    "p": 0.3060935871786352
+   },
+   "C(region, Treatment('AMR'))[T.WPR]": {
+    "or": 2.79,
+    "ci": [
+     2.181,
+     3.567
+    ],
+    "p": 2.893727039703051e-16
+   },
+   "C(region, Treatment('AMR'))[T.multi-region]": {
+    "or": 1.698,
+    "ci": [
+     1.146,
+     2.518
+    ],
+    "p": 0.00836112873973851
+   },
+   "C(region, Treatment('AMR'))[T.no sites listed]": {
+    "or": 2.783,
+    "ci": [
+     1.903,
+     4.07
+    ],
+    "p": 1.316641650414446e-07
+   },
+   "log_sites": {
+    "or": 0.865,
+    "ci": [
+     0.765,
+     0.977
+    ],
+    "p": 0.01986944633162839
+   },
+   "randomised": {
+    "or": 1.419,
+    "ci": [
+     1.127,
+     1.788
+    ],
+    "p": 0.00296292094222999
+   },
+   "masked": {
+    "or": 0.874,
+    "ci": [
+     0.712,
+     1.073
+    ],
+    "p": 0.19701632535615288
+   },
+   "paediatric": {
+    "or": 0.875,
+    "ci": [
+     0.737,
+     1.04
+    ],
+    "p": 0.12985620158455993
+   },
+   "ntd": {
+    "or": 0.559,
+    "ci": [
+     0.343,
+     0.91
+    ],
+    "p": 0.019473035187957337
+   },
+   "generic": {
+    "or": 1.035,
+    "ci": [
+     0.868,
+     1.234
+    ],
+    "p": 0.7033155951965029
+   }
+  },
+  "note": "splines (restricted cubic, 4 df) for log enrolment and start year; ORs for spline terms omitted"
+ },
+ "regression_non_oncology": {
+  "n": 3704,
+  "events": 1264,
+  "pseudo_r2": 0.1641,
+  "converged": true,
+  "terms": {
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.academic/hospital network]": {
+    "or": 0.419,
+    "ci": [
+     0.146,
+     1.2
+    ],
+    "p": 0.10518073788361197
+   },
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.government]": {
+    "or": 1.153,
+    "ci": [
+     0.842,
+     1.579
+    ],
+    "p": 0.37397172801942713
+   },
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.industry]": {
+    "or": 0.715,
+    "ci": [
+     0.546,
+     0.937
+    ],
+    "p": 0.014902514016605287
+   },
+   "C(funder, Treatment('academic/hospital/nonprofit'))[T.other/sparse]": {
+    "or": 1.423,
+    "ci": [
+     0.38,
+     5.335
+    ],
+    "p": 0.6007090046884692
+   },
+   "C(phase, Treatment('phase 2'))[T.not applicable]": {
+    "or": 1.504,
+    "ci": [
+     1.138,
+     1.989
+    ],
+    "p": 0.00418007179705884
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 1]": {
+    "or": 0.526,
+    "ci": [
+     0.397,
+     0.696
+    ],
+    "p": 7.005643301315601e-06
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 1/2]": {
+    "or": 0.819,
+    "ci": [
+     0.589,
+     1.138
+    ],
+    "p": 0.23415025886307383
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 2/3]": {
+    "or": 1.655,
+    "ci": [
+     1.177,
+     2.327
+    ],
+    "p": 0.003743183190973905
+   },
+   "C(phase, Treatment('phase 2'))[T.phase 3/4]": {
+    "or": 1.422,
+    "ci": [
+     1.163,
+     1.737
+    ],
+    "p": 0.0005874703196875797
+   },
+   "C(region, Treatment('AMR'))[T.AFR]": {
+    "or": 0.907,
+    "ci": [
+     0.548,
+     1.502
+    ],
+    "p": 0.705023440238201
+   },
+   "C(region, Treatment('AMR'))[T.EMR]": {
+    "or": 1.705,
+    "ci": [
+     1.136,
+     2.559
+    ],
+    "p": 0.01004658310802001
+   },
+   "C(region, Treatment('AMR'))[T.EUR]": {
+    "or": 1.345,
+    "ci": [
+     1.084,
+     1.67
+    ],
+    "p": 0.007147752048181035
+   },
+   "C(region, Treatment('AMR'))[T.SEAR]": {
+    "or": 0.797,
+    "ci": [
+     0.448,
+     1.418
+    ],
+    "p": 0.44048431619016293
+   },
+   "C(region, Treatment('AMR'))[T.WPR]": {
+    "or": 2.912,
+    "ci": [
+     2.28,
+     3.719
+    ],
+    "p": 1.1505415897709621e-17
+   },
+   "C(region, Treatment('AMR'))[T.multi-region]": {
+    "or": 1.679,
+    "ci": [
+     1.133,
+     2.49
+    ],
+    "p": 0.009842864045873477
+   },
+   "C(region, Treatment('AMR'))[T.no sites listed]": {
+    "or": 3.051,
+    "ci": [
+     2.114,
+     4.404
+    ],
+    "p": 2.529105949192883e-09
+   },
+   "log_sites": {
+    "or": 0.879,
+    "ci": [
+     0.778,
+     0.994
+    ],
+    "p": 0.03932210041890815
+   },
+   "randomised": {
+    "or": 1.559,
+    "ci": [
+     1.241,
+     1.958
+    ],
+    "p": 0.00013460533343254995
+   },
+   "masked": {
+    "or": 0.872,
+    "ci": [
+     0.712,
+     1.07
+    ],
+    "p": 0.18921489243176737
+   },
+   "paediatric": {
+    "or": 0.877,
+    "ci": [
+     0.74,
+     1.041
+    ],
+    "p": 0.13304862753461183
+   },
+   "ntd": {
+    "or": 0.552,
+    "ci": [
+     0.343,
+     0.888
+    ],
+    "p": 0.01440953536733585
+   },
+   "generic": {
+    "or": 1.041,
+    "ci": [
+     0.874,
+     1.24
+    ],
+    "p": 0.6498998595069572
+   }
+  },
+  "note": "splines (restricted cubic, 4 df) for log enrolment and start year; ORs for spline terms omitted"
+ }
+}
