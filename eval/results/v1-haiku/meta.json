@@ -28,19 +28,26 @@
    "finished_at": "2026-11-05T14:03:44.785394+00:00",
    "completed_runs": 120,
    "stopped_for_usage_limit": false
+  },
+  {
+   "started_at": "2026-11-06T03:21:43.031357+00:00",
+   "pending_jobs": 0,
+   "finished_at": "2026-11-06T03:21:43.032013+00:00",
+   "completed_runs": 0,
+   "stopped_for_usage_limit": false
   }
  ],
  "args": {
-  "questions": "eval/questions.jsonl",
+  "questions": "/home/runner/work/rare-trials-ai/rare-trials-ai/eval/questions.jsonl",
   "models": "claude-haiku-5-5",
   "conditions": "no_tools,web_search,biomcp",
   "repeats": 1,
   "limit": 0,
-  "sample": true,
+  "sample": false,
   "seed": 20261103,
   "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 100.0,
+  "max_minutes": 120.0,
   "run_id": "v1-haiku"
  },
  "n_questions": 254,
