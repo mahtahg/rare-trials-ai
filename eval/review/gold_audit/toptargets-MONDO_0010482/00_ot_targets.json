@@ -1,0 +1,52 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:46.706464+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name associatedTargets(page:{index:0,size:5}){rows{score target{approvedSymbol}}}}}",
+  "variables": {
+   "id": "MONDO_0010482"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "X-linked parkinsonism-spasticity syndrome",
+     "associatedTargets": {
+      "rows": [
+       {
+        "score": 0.5179025537961415,
+        "target": {
+         "approvedSymbol": "ATP6AP2"
+        }
+       },
+       {
+        "score": 0.085876137617205,
+        "target": {
+         "approvedSymbol": "GLRB"
+        }
+       },
+       {
+        "score": 0.08298287432936413,
+        "target": {
+         "approvedSymbol": "SPTBN4"
+        }
+       },
+       {
+        "score": 0.0818949434865092,
+        "target": {
+         "approvedSymbol": "SCN8A"
+        }
+       },
+       {
+        "score": 0.07671729736955088,
+        "target": {
+         "approvedSymbol": "GLRA1"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

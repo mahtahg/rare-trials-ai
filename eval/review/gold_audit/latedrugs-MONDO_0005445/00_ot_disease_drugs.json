@@ -1,0 +1,106 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:46.871319+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0005445"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "visceral leishmaniasis",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4748352",
+         "name": "LXE-408"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL5095239",
+         "name": "GSK-3494245"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL6067962",
+         "name": "SODIUM STIBOGLUCONATE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1_2",
+        "drug": {
+         "id": "CHEMBL2109460",
+         "name": "SCH-708980"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL57004",
+         "name": "SITAMAQUINE"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL125",
+         "name": "MILTEFOSINE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL370143",
+         "name": "PAROMOMYCIN"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1631694",
+         "name": "FEXINIDAZOLE"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL267345",
+         "name": "AMPHOTERICIN B"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL2206196",
+         "name": "PAROMOMYCIN SULFATE"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL600",
+         "name": "ACETYLCYSTEINE"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL4297652",
+         "name": "ANTIMONY"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

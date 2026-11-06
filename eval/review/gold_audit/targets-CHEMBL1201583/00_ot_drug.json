@@ -1,0 +1,30 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:49.205390+00:00",
+ "body": {
+  "query": "query($id:String!){drug(chemblId:$id){name mechanismsOfAction{rows{mechanismOfAction targets{approvedSymbol}}}}}",
+  "variables": {
+   "id": "CHEMBL1201583"
+  },
+  "response": {
+   "data": {
+    "drug": {
+     "name": "BEVACIZUMAB",
+     "mechanismsOfAction": {
+      "rows": [
+       {
+        "mechanismOfAction": "Vascular endothelial growth factor A inhibitor",
+        "targets": [
+         {
+          "approvedSymbol": "VEGFA"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

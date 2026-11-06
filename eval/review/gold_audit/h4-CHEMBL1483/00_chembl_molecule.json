@@ -1,0 +1,175 @@
+{
+ "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1483.json",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:56.552077+00:00",
+ "body": {
+  "atc_classifications": [
+   "P02CA03"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 0,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [
+   {
+    "xref_id": "albendazole",
+    "xref_name": "albendazole",
+    "xref_src": "DailyMed"
+   }
+  ],
+  "dosed_ingredient": true,
+  "first_approval": 1996,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL1483",
+  "molecule_hierarchy": {
+   "active_chembl_id": "CHEMBL1665",
+   "molecule_chembl_id": "CHEMBL1483",
+   "parent_chembl_id": "CHEMBL1483"
+  },
+  "molecule_properties": {
+   "alogp": "3.24",
+   "aromatic_rings": 2,
+   "full_molformula": "C12H15N3O2S",
+   "full_mwt": "265.34",
+   "hba": 4,
+   "hbd": 2,
+   "heavy_atoms": 18,
+   "mw_freebase": "265.34",
+   "np_likeness_score": "-1.49",
+   "num_ro5_violations": 0,
+   "psa": "67.01",
+   "qed_weighted": "0.83",
+   "ro3_pass": "N",
+   "rtb": 4
+  },
+  "molecule_structures": {
+   "canonical_smiles": "CCCSc1ccc2[nH]c(NC(=O)OC)nc2c1",
+   "molfile": "\n     RDKit          2D\n\n 18 19  0  0  0  0  0  0  0  0999 V2000\n   16.7774   -0.3991    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2911    0.2701    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.2869   -1.0684    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6005   -0.3991    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5012   -0.8149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.5012    0.0166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0120    0.3160    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7821   -1.2222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   17.6005    1.0268    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   14.7862    0.4281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0754   -0.8107    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.8351    0.3160    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.3604   -1.2222    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   14.0754    0.0166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.6496   -0.8065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.2466    1.0268    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9388   -1.2180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2237   -0.8065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  3  1  2  0\n  4  1  1  0\n  5  3  1  0\n  6  2  1  0\n  7  4  1  0\n  8  5  2  0\n  9  7  2  0\n 10  6  2  0\n 11  8  1  0\n 12  7  1  0\n 13 11  1  0\n 14 10  1  0\n 15 13  1  0\n 16 12  1  0\n 17 15  1  0\n 18 17  1  0\n  6  5  1  0\n 14 11  2  0\nM  END\n> <chembl_id>\nCHEMBL1483\n\n> <chembl_pref_name>\nALBENDAZOLE",
+   "standard_inchi": "InChI=1S/C12H15N3O2S/c1-3-6-18-8-4-5-9-10(7-8)14-11(13-9)15-12(16)17-2/h4-5,7H,3,6H2,1-2H3,(H2,13,14,15,16)",
+   "standard_inchi_key": "HXHWSAZORRCQMX-UHFFFAOYSA-N"
+  },
+  "molecule_synonyms": [
+   {
+    "molecule_synonym": "Albendazol",
+    "syn_type": "INN_SPANISH",
+    "synonyms": "ALBENDAZOL"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "ATC",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "BAN",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "BNF",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "FDA",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "INN",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "JAN",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "OTHER",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "USAN",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazole",
+    "syn_type": "USP",
+    "synonyms": "ALBENDAZOLE"
+   },
+   {
+    "molecule_synonym": "Albendazolum",
+    "syn_type": "OTHER",
+    "synonyms": "ALBENDAZOLUM"
+   },
+   {
+    "molecule_synonym": "Albenza",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "ALBENZA"
+   },
+   {
+    "molecule_synonym": "Andazol",
+    "syn_type": "OTHER",
+    "synonyms": "ANDAZOL"
+   },
+   {
+    "molecule_synonym": "Eskazole",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "ESKAZOLE"
+   },
+   {
+    "molecule_synonym": "NSC-220008",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NSC-220008"
+   },
+   {
+    "molecule_synonym": "SK&F 62979",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "SK&F 62979"
+   },
+   {
+    "molecule_synonym": "SK&F-62979",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "SK&F-62979"
+   },
+   {
+    "molecule_synonym": "Valbazen",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "VALBAZEN"
+   },
+   {
+    "molecule_synonym": "Zentel",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "ZENTEL"
+   }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 1,
+  "oral": true,
+  "orphan": 0,
+  "parenteral": false,
+  "polymer_flag": 0,
+  "pref_name": "ALBENDAZOLE",
+  "prodrug": 1,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-bendazole",
+  "usan_stem_definition": "anthelmintics (thiabendazole type)",
+  "usan_substem": "-bendazole",
+  "usan_year": 1976,
+  "veterinary": 0,
+  "withdrawn_flag": false
+ }
+}

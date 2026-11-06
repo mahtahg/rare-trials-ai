@@ -1,0 +1,1031 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Thomsen+and+Becker+disease&filter.overallStatus=RECRUITING&query.term=AREA%5BStudyType%5DINTERVENTIONAL&pageSize=100",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:51.880952+00:00",
+ "body": {
+  "studies": [
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT06833489",
+      "orgStudyIdInfo": {
+       "id": "RCAPHM22_0420"
+      },
+      "secondaryIdInfos": [
+       {
+        "id": "2024-A01079-38",
+        "type": "OTHER",
+        "domain": "RCB"
+       }
+      ],
+      "organization": {
+       "fullName": "Assistance Publique Hopitaux De Marseille",
+       "class": "OTHER"
+      },
+      "briefTitle": "Transcriptomic Analysis to Put an End to Misdiagnosis in Patients With Rare Muscle Diseases",
+      "officialTitle": "Transcriptomic Analysis to Put an End to Misdiagnosis in Patients With Rare Muscle Diseases",
+      "acronym": "ARNseq-Musc"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2026-10",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2025-01-23",
+       "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2026-12-01",
+       "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+       "date": "2027-03-01",
+       "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-02-13",
+      "studyFirstSubmitQcDate": "2025-02-17",
+      "studyFirstPostDateStruct": {
+       "date": "2025-02-18",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-10-27",
+      "lastUpdatePostDateStruct": {
+       "date": "2026-10-28",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "Assistance Publique Hopitaux De Marseille",
+       "class": "OTHER"
+      }
+     },
+     "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "Since 2017, more than 250 analyses performed at the Molecular Genetics Laboratory of the Timone Enfant Hospital have yielded negative results in patients with rare genetic muscle diseases. The researchers hypothesise that some of these misdiagnosed patients carry pathogenic RNA (transcript) disrupting variants that were not identified by DNA sequencing. In fact, DNA sequencing analyses can be negative despite the presence of a pathogenic variant that disrupts RNA splicing or expression, causing a genetic disease. For this reason, RNA sequencing can provide a diagnosis in patients who have not been diagnosed by DNA sequencing, thus putting an end to diagnostic wandering. Thus, as a descriptive prevalence study, the objectives are first to determine the rate of positive diagnoses made by the RNAseq approach in patients with muscle diseases that have not yet been diagnosed, and then to identify the genomic characteristics of the pathogenic variants identified in patients by RNAseq analysis, in order to facilitate the identification of this type of variant in future patients.\n\n50 patients will be included in this study during 2 years."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Rare Genetic Muscle Diseases",
+       "Muscular Dystrophy, Duchenne",
+       "Muscular Dystrophy, Becker",
+       "Congenital Myopathy",
+       "Pompe Disease (Infantile-Onset)"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "NA"
+      ],
+      "designInfo": {
+       "allocation": "NA",
+       "interventionModel": "SINGLE_GROUP",
+       "primaryPurpose": "DIAGNOSTIC",
+       "maskingInfo": {
+        "masking": "NONE"
+       }
+      },
+      "enrollmentInfo": {
+       "count": 50,
+       "type": "ESTIMATED"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "Sequencing of RNAseq libraries",
+        "type": "EXPERIMENTAL",
+        "description": "There will be no visits from participants, so we will be using samples already in the Biological Resources Centre (CRB).\n\nRNA will be extracted from muscle biopsies taken as part of the treatment. RNAseq libraries will be sequenced by the Genomics and Bioinformatics Platform (GBiM) at Marseille Medical Genetics (MMG, U1251, AMU). Sequencing will be performed in paired-end (2\\*100 bp) on Illumina's Novaseq 6000 system (50 million clusters per sample, 100 M paired-end reads) and then analysed by bioinformatics.",
+        "interventionNames": [
+         "Other: ARN extraction from muscle biopsies"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "OTHER",
+        "name": "ARN extraction from muscle biopsies",
+        "description": "There will be no visits from participants, so we will be using samples already in the Biological Resources Centre (CRB).\n\nRNA will be extracted from muscle biopsies taken as part of the treatment. RNAseq libraries will be sequenced by the Genomics and Bioinformatics Platform (GBiM) at Marseille Medical Genetics (MMG, U1251, AMU). Sequencing will be performed in paired-end (2\\*100 bp) on Illumina's Novaseq 6000 system (50 million clusters per sample, 100 M paired-end reads) and then analysed by bioinformatics.",
+        "armGroupLabels": [
+         "Sequencing of RNAseq libraries"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "rate of positive diagnoses using the RNAseq approach",
+        "description": "to determine the rate of positive diagnoses made using the RNAseq approach in patients with muscle diseases who have not yet been diagnosed. A patient is considered to be in diagnostic limbo if DNA sequencing of 200 genes responsible for muscle diseases has not identified pathogenic variants responsible for the patient's phenotype. Investigators are going to use transcriptomic analysis (RNA sequencing) in combination with innovative bioinformatics tools to identify variants with a deleterious effect at RNA level in patients with undiagnosed muscle diseases. This will make it possible to establish a molecular diagnosis and put an end to misdiagnosis in many patients.",
+        "timeFrame": "From enrollment to the end of study at 24 months"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "Identification of genomic characteristics",
+        "description": "identify the genomic characteristics of pathogenic variants identified by the RNAseq approach. This analysis could potentially uncover certain characteristics that are specific to this type of variant, making it possible to suggest their presence in other undiagnosed patients in the future.",
+        "timeFrame": "From enrollment to end of study at 24 months"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* patients with rare genetic muscle diseases who have benefited from high-throughput sequencing analysis (panel of 200 genes defined by the FILNEMUS Rare Neuromuscular Disease Network) carried out at the Molecular Genetics Laboratory, Medical Genetics Department, Timone Enfant Hospital since 2017.\n\nThis criterion is necessary to limit the analysis to patients with muscular diseases among all the patients analysed by the Molecular Genetics Laboratory.\n\n* this genetic analysis did not identify pathogenic variants explaining the patient's phenotype This criterion is necessary in order to include only patients in diagnostic error.\n* a muscle biopsy of the patient is available in the Biological Resources Centre (CRB) at the AP-HM.\n\nExclusion Criteria:\n\n* Patients with no muscle biopsy available in the CRB.\n* Patients with an established molecular diagnosis.\n* Patients for whom RNA extraction from a muscle biopsy sample did not yield RNA of sufficient quality (INR \\>7) will be excluded from the study. A maximum of two extraction attempts will be performed.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "stdAges": [
+       "CHILD",
+       "ADULT",
+       "OLDER_ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "centralContacts": [
+       {
+        "name": "Svetlana GOROKHOVA Dr",
+        "role": "CONTACT",
+        "phone": "+33491381927",
+        "email": "Svetlana.GOROKHOVA@ap-hm.fr"
+       }
+      ],
+      "locations": [
+       {
+        "facility": "Hopital Timone",
+        "status": "RECRUITING",
+        "city": "Marseille",
+        "zip": "13005",
+        "country": "France",
+        "contacts": [
+         {
+          "name": "Svetlana GOROKHOVA Dr",
+          "role": "CONTACT",
+          "phone": "+33491381927",
+          "email": "Svetlana.GOROKHOVA@ap-hm.fr"
+         }
+        ],
+        "geoPoint": {
+         "lat": 43.29695,
+         "lon": 5.38107
+        }
+       }
+      ]
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D020388",
+        "term": "Muscular Dystrophy, Duchenne"
+       },
+       {
+        "id": "D009224",
+        "term": "Myotonia Congenita"
+       },
+       {
+        "id": "D006009",
+        "term": "Glycogen Storage Disease Type II"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D009136",
+        "term": "Muscular Dystrophies"
+       },
+       {
+        "id": "D020966",
+        "term": "Muscular Disorders, Atrophic"
+       },
+       {
+        "id": "D009135",
+        "term": "Muscular Diseases"
+       },
+       {
+        "id": "D009140",
+        "term": "Musculoskeletal Diseases"
+       },
+       {
+        "id": "D009468",
+        "term": "Neuromuscular Diseases"
+       },
+       {
+        "id": "D009422",
+        "term": "Nervous System Diseases"
+       },
+       {
+        "id": "D040181",
+        "term": "Genetic Diseases, X-Linked"
+       },
+       {
+        "id": "D030342",
+        "term": "Genetic Diseases, Inborn"
+       },
+       {
+        "id": "D009358",
+        "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+       },
+       {
+        "id": "D020967",
+        "term": "Myotonic Disorders"
+       },
+       {
+        "id": "D020271",
+        "term": "Heredodegenerative Disorders, Nervous System"
+       },
+       {
+        "id": "D019636",
+        "term": "Neurodegenerative Diseases"
+       },
+       {
+        "id": "D020140",
+        "term": "Lysosomal Storage Diseases, Nervous System"
+       },
+       {
+        "id": "D020739",
+        "term": "Brain Diseases, Metabolic, Inborn"
+       },
+       {
+        "id": "D001928",
+        "term": "Brain Diseases, Metabolic"
+       },
+       {
+        "id": "D001927",
+        "term": "Brain Diseases"
+       },
+       {
+        "id": "D002493",
+        "term": "Central Nervous System Diseases"
+       },
+       {
+        "id": "D008661",
+        "term": "Metabolism, Inborn Errors"
+       },
+       {
+        "id": "D006008",
+        "term": "Glycogen Storage Disease"
+       },
+       {
+        "id": "D002239",
+        "term": "Carbohydrate Metabolism, Inborn Errors"
+       },
+       {
+        "id": "D016464",
+        "term": "Lysosomal Storage Diseases"
+       },
+       {
+        "id": "D008659",
+        "term": "Metabolic Diseases"
+       },
+       {
+        "id": "D009750",
+        "term": "Nutritional and Metabolic Diseases"
+       }
+      ]
+     }
+    },
+    "hasResults": false
+   },
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT07415837",
+      "orgStudyIdInfo": {
+       "id": "RBHP 2025 SARRET (Dystro-miR1)"
+      },
+      "secondaryIdInfos": [
+       {
+        "id": "2025-A01149-40",
+        "type": "OTHER",
+        "domain": "2025-A01149-40"
+       }
+      ],
+      "organization": {
+       "fullName": "University Hospital, Clermont-Ferrand",
+       "class": "OTHER"
+      },
+      "briefTitle": "Evaluation of the Role of miR-1 in the Pathogenesis and as a Biomarker in Muscular Dystrophies and Congenital Myopathies",
+      "officialTitle": "Evaluation of the Role of miR-1 in the Pathogenesis and as a Biomarker in Muscular Dystrophies and Congenital Myopathies",
+      "acronym": "Dystro-miR1"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2026-02",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2026-02-11",
+       "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2029-03",
+       "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+       "date": "2029-03",
+       "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-02-10",
+      "studyFirstSubmitQcDate": "2026-02-10",
+      "studyFirstPostDateStruct": {
+       "date": "2026-02-17",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-02-24",
+      "lastUpdatePostDateStruct": {
+       "date": "2026-02-25",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "University Hospital, Clermont-Ferrand",
+       "class": "OTHER"
+      },
+      "collaborators": [
+       {
+        "name": "Université d'Auvergne",
+        "class": "OTHER"
+       }
+      ]
+     },
+     "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "The study aims to find out if a specific blood molecule called miR-1, can be used as a biomarker to track the health of patients with certain muscle diseases.\n\nMicroRNAs (miRs) are small messengers that help control how cells grow and stay healthy. Some of these, like miR-1, are specifically found in muscles and the heart. Research shows that levels of miR-1 are often abnormal in people with muscle-wasting conditions, but more information are needed to understand how this relates to the severity of the disease.\n\nThe main goal is to compare the blood levels of miR-1 between four different groups at different ages and severities:\n\n1. Patients with Duchenne or Becker muscular dystrophy (DMD/DMB).\n2. Patients with Myotonic Dystrophy Type 1 (Steinert's disease).\n3. Patients with congenital myopathies.\n4. Healthy volunteers (control group). The main objective is to assess if miR-1 levels can accurately show how a muscular disease is progressing."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Duchenne / Becker Muscular Dystrophy",
+       "Dystrophia Myotonica 1",
+       "Congenital Myopathies",
+       "Healthy Participants"
+      ],
+      "keywords": [
+       "biomarkers",
+       "neuromuscular diseases",
+       "micro-RNAs"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "NA"
+      ],
+      "designInfo": {
+       "allocation": "NA",
+       "interventionModel": "SINGLE_GROUP",
+       "primaryPurpose": "DIAGNOSTIC",
+       "maskingInfo": {
+        "masking": "NONE"
+       }
+      },
+      "enrollmentInfo": {
+       "count": 104,
+       "type": "ESTIMATED"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "study group",
+        "type": "EXPERIMENTAL",
+        "interventionNames": [
+         "Diagnostic Test: dosage of blood biomarker miR1"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "DIAGNOSTIC_TEST",
+        "name": "dosage of blood biomarker miR1",
+        "description": "Patients and controls will be asked to provide blood samples to evaluate their blood level of miR1 biomarker on a unique time participation.",
+        "armGroupLabels": [
+         "study group"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "blood expression level of micro-RNA miR-1",
+        "description": "The main goal is to evaluate the interest of miR-1 as a blood biomarker for neuromuscular diseases, specifically muscular dystrophies and congenital myopathies.",
+        "timeFrame": "at a unique time of enrollment"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "Demographic Correlations",
+        "description": "The study will analyze the correlation between blood expression levels of miR-1 and the age and sex of the participants",
+        "timeFrame": "at a unique time of enrollment"
+       },
+       {
+        "measure": "Severity correlation",
+        "description": "the study will analyse the correlation between miR-1 levels and the clinical severity of the neuromuscular condition.\n\nSeverity of Myotonic Dystrophy Type 1 (DM1): miR-1 level relation to the severity of the condition, looking at:\n\n* The clinical phenotype (based on the age of disease onset).\n* The number of CTG nucleotide repeats in the DMPK gene,.\n* The presence of cardiac involvement,.\n\n  • Severity of Duchenne and Becker Muscular Dystrophies (DMD/DMB): miR-1 levels based on:\n* The presence of cardiac involvement,\n* The loss of ambulation (whether the patient has lost the ability to walk)",
+        "timeFrame": "at a unique time of enrollment"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Age: Participants must be older than 2 years of age\n* Consent: Participants (or their legal guardians) must provide free and informed consent,. For children, the consent is oral for those under 6 years old and written for those over 6,.\n* Social Security: Every participant must be affiliated with the French social security system.\n* Participants must have a diagnosed neuromuscular pathology : the eligible pathologies are Myotonic Dystrophy Type 1 (DM1 or Steinert's disease), Duchenne Muscular Dystrophy (DMD), Becker Muscular Dystrophy (DMB), or congenital myopathies or are healthy participants.\n\nExclusion Criteria:\n\n* Refusal to participate expressed by the subject or their parental authority.\n* Engaging in intense and unusual physical effort within 10 days before the blood draw.\n* Current use of any treatment with systemic, muscular, or cardiac effects that could interfere with the study's biological results.\n* Subjects or their legal guardians who are under tutelage, curatorship, deprived of liberty, or under judicial protection.\n* Women who are pregnant or breastfeeding.\n* The presence of an additional pathology that, in the judgment of the clinician, could interfere with the biological findings",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "stdAges": [
+       "CHILD",
+       "ADULT",
+       "OLDER_ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "centralContacts": [
+       {
+        "name": "Lise Laclautre, PhD",
+        "role": "CONTACT",
+        "phone": "+33473750750",
+        "email": "promo_interne_drci@chu-clermontferrand.fr"
+       }
+      ],
+      "overallOfficials": [
+       {
+        "name": "Catherine Sarret, MD, PhD, Prof",
+        "affiliation": "University Hospital, Clermont-Ferrand",
+        "role": "PRINCIPAL_INVESTIGATOR"
+       }
+      ],
+      "locations": [
+       {
+        "facility": "CHU de Clermont-Ferrand",
+        "status": "RECRUITING",
+        "city": "Clermont-Ferrand",
+        "country": "France",
+        "contacts": [
+         {
+          "name": "Lise Laclautre",
+          "role": "CONTACT",
+          "email": "promo_interne_drci@chu-clermontferrand.fr"
+         },
+         {
+          "name": "Catherine Sarret",
+          "role": "PRINCIPAL_INVESTIGATOR"
+         }
+        ],
+        "geoPoint": {
+         "lat": 45.77969,
+         "lon": 3.08682
+        }
+       }
+      ]
+     },
+     "referencesModule": {
+      "references": [
+       {
+        "pmid": "35886863",
+        "type": "BACKGROUND",
+        "citation": "Lopez MA, Si Y, Hu X, Williams V, Qushair F, Carlyle J, Alesce L, Conklin M, Gilbert S, Bamman MM, Alexander MS, King PH. Smad8 Is Increased in Duchenne Muscular Dystrophy and Suppresses miR-1, miR-133a, and miR-133b. Int J Mol Sci. 2022 Jul 7;23(14):7515. doi: 10.3390/ijms23147515."
+       },
+       {
+        "pmid": "30567354",
+        "type": "BACKGROUND",
+        "citation": "Souidi A, Zmojdzian M, Jagla K. Dissecting Pathogenetic Mechanisms and Therapeutic Strategies in Drosophila Models of Myotonic Dystrophy Type 1. Int J Mol Sci. 2018 Dec 18;19(12):4104. doi: 10.3390/ijms19124104."
+       },
+       {
+        "pmid": "23418438",
+        "type": "BACKGROUND",
+        "citation": "Vignier N, Amor F, Fogel P, Duvallet A, Poupiot J, Charrier S, Arock M, Montus M, Nelson I, Richard I, Carrier L, Servais L, Voit T, Bonne G, Israeli D. Distinctive serum miRNA profile in mouse models of striated muscular pathologies. PLoS One. 2013;8(2):e55281. doi: 10.1371/journal.pone.0055281. Epub 2013 Feb 13."
+       },
+       {
+        "pmid": "25150707",
+        "type": "BACKGROUND",
+        "citation": "Matsuzaka Y, Kishi S, Aoki Y, Komaki H, Oya Y, Takeda S, Hashido K. Three novel serum biomarkers, miR-1, miR-133a, and miR-206 for Limb-girdle muscular dystrophy, Facioscapulohumeral muscular dystrophy, and Becker muscular dystrophy. Environ Health Prev Med. 2014 Nov;19(6):452-8. doi: 10.1007/s12199-014-0405-7. Epub 2014 Aug 24."
+       },
+       {
+        "pmid": "24282529",
+        "type": "BACKGROUND",
+        "citation": "Zaharieva IT, Calissano M, Scoto M, Preston M, Cirak S, Feng L, Collins J, Kole R, Guglieri M, Straub V, Bushby K, Ferlini A, Morgan JE, Muntoni F. Dystromirs as serum biomarkers for monitoring the disease severity in Duchenne muscular Dystrophy. PLoS One. 2013 Nov 25;8(11):e80263. doi: 10.1371/journal.pone.0080263. eCollection 2013."
+       },
+       {
+        "pmid": "25553440",
+        "type": "BACKGROUND",
+        "citation": "Kirby TJ, Chaillou T, McCarthy JJ. The role of microRNAs in skeletal muscle health and disease. Front Biosci (Landmark Ed). 2015 Jan 1;20(1):37-77. doi: 10.2741/4298."
+       },
+       {
+        "pmid": "25524443",
+        "type": "BACKGROUND",
+        "citation": "Wan X, Wang W, Liu J, Tong T. Estimating the sample mean and standard deviation from the sample size, median, range and/or interquartile range. BMC Med Res Methodol. 2014 Dec 19;14:135. doi: 10.1186/1471-2288-14-135."
+       },
+       {
+        "pmid": "19763153",
+        "type": "BACKGROUND",
+        "citation": "Croce CM. Causes and consequences of microRNA dysregulation in cancer. Nat Rev Genet. 2009 Oct;10(10):704-14. doi: 10.1038/nrg2634."
+       },
+       {
+        "pmid": "12007417",
+        "type": "BACKGROUND",
+        "citation": "Lagos-Quintana M, Rauhut R, Yalcin A, Meyer J, Lendeckel W, Tuschl T. Identification of tissue-specific microRNAs from mouse. Curr Biol. 2002 Apr 30;12(9):735-9. doi: 10.1016/s0960-9822(02)00809-6."
+       },
+       {
+        "pmid": "21685920",
+        "type": "BACKGROUND",
+        "citation": "Rau F, Freyermuth F, Fugier C, Villemin JP, Fischer MC, Jost B, Dembele D, Gourdon G, Nicole A, Duboc D, Wahbi K, Day JW, Fujimura H, Takahashi MP, Auboeuf D, Dreumont N, Furling D, Charlet-Berguerand N. Misregulation of miR-1 processing is associated with heart defects in myotonic dystrophy. Nat Struct Mol Biol. 2011 Jun 19;18(7):840-5. doi: 10.1038/nsmb.2067."
+       },
+       {
+        "pmid": "16096373",
+        "type": "BACKGROUND",
+        "citation": "Mendell JT. MicroRNAs: critical regulators of development, cellular physiology and malignancy. Cell Cycle. 2005 Sep;4(9):1179-84. doi: 10.4161/cc.4.9.2032. Epub 2005 Sep 15."
+       }
+      ]
+     },
+     "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D020388",
+        "term": "Muscular Dystrophy, Duchenne"
+       },
+       {
+        "id": "D009223",
+        "term": "Myotonic Dystrophy"
+       },
+       {
+        "id": "D009224",
+        "term": "Myotonia Congenita"
+       },
+       {
+        "id": "D009468",
+        "term": "Neuromuscular Diseases"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D009136",
+        "term": "Muscular Dystrophies"
+       },
+       {
+        "id": "D020966",
+        "term": "Muscular Disorders, Atrophic"
+       },
+       {
+        "id": "D009135",
+        "term": "Muscular Diseases"
+       },
+       {
+        "id": "D009140",
+        "term": "Musculoskeletal Diseases"
+       },
+       {
+        "id": "D009422",
+        "term": "Nervous System Diseases"
+       },
+       {
+        "id": "D040181",
+        "term": "Genetic Diseases, X-Linked"
+       },
+       {
+        "id": "D030342",
+        "term": "Genetic Diseases, Inborn"
+       },
+       {
+        "id": "D009358",
+        "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+       },
+       {
+        "id": "D020967",
+        "term": "Myotonic Disorders"
+       },
+       {
+        "id": "D020271",
+        "term": "Heredodegenerative Disorders, Nervous System"
+       },
+       {
+        "id": "D019636",
+        "term": "Neurodegenerative Diseases"
+       }
+      ]
+     }
+    },
+    "hasResults": false
+   },
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT07580365",
+      "orgStudyIdInfo": {
+       "id": "0057550-28/04/2026"
+      },
+      "organization": {
+       "fullName": "Istituto di Sistemi e Tecnologie Industriali Intelligenti per il Manifatturiero Avanzato",
+       "class": "OTHER"
+      },
+      "briefTitle": "VirtualPark_Pediatric",
+      "officialTitle": "Evaluation of the Impact of a Rehabilitation Intervention Based on Cycling With Virtual Park on Slowing the Functional Motor Decline of Neuromuscular Patients in Developmental Age"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2026-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2026-06-30",
+       "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2026-12",
+       "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+       "date": "2028-06",
+       "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2026-05-05",
+      "studyFirstSubmitQcDate": "2026-05-05",
+      "studyFirstPostDateStruct": {
+       "date": "2026-05-12",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-08-07",
+      "lastUpdatePostDateStruct": {
+       "date": "2026-08-11",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "Istituto di Sistemi e Tecnologie Industriali Intelligenti per il Manifatturiero Avanzato",
+       "class": "OTHER"
+      },
+      "collaborators": [
+       {
+        "name": "IRCCS National Neurological Institute \"C. Mondino\" Foundation",
+        "class": "OTHER"
+       },
+       {
+        "name": "IRCCS Eugenio Medea",
+        "class": "OTHER"
+       },
+       {
+        "name": "Fondazione Don Carlo Gnocchi ETS",
+        "class": "OTHER"
+       },
+       {
+        "name": "IRCCS Fondazione Stella Maris",
+        "class": "OTHER"
+       }
+      ]
+     },
+     "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "The goal of this clinical trial is to assess the effects of a dual-task, multimodal training program on slowing functional motor decline in children and adolescents with neuromuscular disorders. The main questions it aims to answer are:\n\nDoes Virtual Park slow functional motor decline in children and adolescents with neuromuscular diseases compared with standard therapy?\n\nDoes Virtual Park contribute to increased engagement and improved neuropsychological function?\n\nIf there is a comparison group, Researchers will compare dual-task cycling supported by the Virtual Park application to standard therapy to see whether it improves motor and neuropsychological functions and engagement.\n\nParticipants will undergo two phases:\n\n* Phase 1: 3 months of standard therapy;\n* Phase 2: 3 months of experimental conditions in which patients undergo a rehabilitative intervention with Virtual Park, 3 times a week."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Dystrophinopathy",
+       "Muscular Dystrophies",
+       "Congenital Myopathies"
+      ],
+      "keywords": [
+       "Sports for Persons with Disabilities",
+       "Rehabilitation",
+       "Neuromuscular Diseases",
+       "Dual-Task Exercises",
+       "Virtual Reality",
+       "Children with Disabilities"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "NA"
+      ],
+      "designInfo": {
+       "allocation": "NA",
+       "interventionModel": "SINGLE_GROUP",
+       "interventionModelDescription": "Participants first undergo 3 months of standard therapy, followed by 3 months of intervention with Virtual Park. They act as controls for themselves.",
+       "primaryPurpose": "SUPPORTIVE_CARE",
+       "maskingInfo": {
+        "masking": "NONE"
+       }
+      },
+      "enrollmentInfo": {
+       "count": 22,
+       "type": "ESTIMATED"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "Two-phase arm",
+        "type": "EXPERIMENTAL",
+        "description": "* Phase 1: 3 months of standard therapy;\n* Phase 2: 3 months of experimental conditions in which patients undergo a rehabilitative intervention with Virtual Park, 3 times a week for 20 minutes (plus 5-10 minutes of warm-up and 5-10 minutes of cool down).",
+        "interventionNames": [
+         "Device: Dual-task cycling",
+         "Other: Standard therapy"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "DEVICE",
+        "name": "Dual-task cycling",
+        "description": "VirtualPark is a software application connecting to a medical certified cycle/arm ergometer (i.e., TheraTrainer TIGO). The application allows for dual task training. In particular, while cycling, participants can perform one of four different available exercises. Each exercise is focused on a specific cognitive domain: Task 1: visual attention, inhibition and cognitive flexibility; Task 2: working memory; Task 3: inhibition; Task 4: navigation.",
+        "armGroupLabels": [
+         "Two-phase arm"
+        ]
+       },
+       {
+        "type": "OTHER",
+        "name": "Standard therapy",
+        "description": "Participants undergo their standard plan: outpatient treatment, if planned, or no treatment.",
+        "armGroupLabels": [
+         "Two-phase arm"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "Motor Function Measure-32 (MFM-32) - Total score",
+        "description": "The Motor Function Measure-32 is a motor skills assessment scale validated for patients affected by neuromuscular pathology from 6 years of age. The instrument consists of 32 items (scored from 0 to 3) divided into 3 dimensions: D1- standing position and transfers (13 items), D2- axial and proximal motor skills (12 items) and D3- distal motor skills (7 items). The results are expressed as a percentage in relation to the maximum score. The result of each dimension corresponds to the sum of the scores obtained by the subject in the items of this dimension divided by the maximum score of the same dimension and multiplied by 100. For the MFM-32 the total score corresponds to the sum of all the scores attributed to the subject (all dimensions together) divided by 96 and multiplied by 100.",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "North Star Ambulatory Assessment (NSSA)",
+        "description": "\\[FOR AMBULATORY PARTICIPANTS ONLY\\] The North Star Ambulatory Assessment (NSSA) scale was developed specifically for ambulatory children with dystrophinopathy starting at age 5 to obtain information on their motor and functional abilities. The instrument consists of 17 items scored from 0 to 2. The final score is the sum of the scores obtained for all items. Two timed tests are also recorded: the time to stand up from the ground and the time required to walk/run 10 meters.",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       },
+       {
+        "measure": "Timed functional tests (TFTs)",
+        "description": "\\[FOR AMBULATORY PARTICIPANTS ONLY\\] Timed functional tests (TFTs) are administered in a standardized manner to subjects with Duchenne muscular dystrophy to measure the time taken to perform the following four activities: moving from a supine to a standing position, walking/running for 10 meters, and ascending and descending a standardized 4-step staircase. The scoresheet records, in addition to the time taken to complete the task, a qualitative grading score from 1 to 6.",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       },
+       {
+        "measure": "6-Minute Walking Test (6MWT)",
+        "description": "\\[FOR AMBULATORY PARTICIPANTS ONLY\\] The 6-Minute Walking Test (6MWT) was developed in the cardio-respiratory field but is now used across various fields of motor rehabilitation where it is necessary to quantify the patient's walking endurance. The test measures the distance a patient can cover, walking on a flat surface along a standardized path, in a period of 6 minutes \\[25\\]. In addition to the total distance covered, the distances covered for each minute are also collected and any falls/pauses are recorded.",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       },
+       {
+        "measure": "Performance Upper Limb Module 2.0 scale (PUL version 2.0)",
+        "description": "\\[FOR NON-AMBULATORY PARTICIPANTS ONLY\\] The Performance Upper Limb Module 2.0 scale (PUL version 2.0) was developed to evaluate the motor performance of the upper limbs of subjects with dystrophinopathies from 5 years of age. This latest version of the instrument consists of an entry item useful for defining the patient's functional level and scored separately (from 0 to 6) and of 22 other items (scored from 0 to 2). The final score is made up of 2 values: the entry level score and the total score given by the sum of the scores obtained in the individual items \\[26\\].",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       },
+       {
+        "measure": "Assisted-6 Minute Cycling Test (A6MWT)",
+        "description": "Performance change in the Assisted 6-minute cycling test (A6MCT). The A6MCT is a submaximal endurance test performed by pedaling with a cycle ergometer in passive mode for both upper and lower limbs, specifically created for subjects affected by Duchenne muscular dystrophy, both ambulatory and non-ambulatory. The final score records the number of complete revolutions performed in 6 minutes; the number of revolutions per minute and any breaks requested by the subject are also recorded \\[27\\].",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       }
+      ],
+      "otherOutcomes": [
+       {
+        "measure": "NEPSY-II",
+        "description": "The NEPSY-II scale is a battery of tests that allows a neuropsychological evaluation of pediatric subjects, in relation to specific cognitive domains. It is composed of 33 tests that refer to 6 different cognitive domains (Attention and Executive Functions, Language, Memory and Learning, Sensorimotor Functions, Social Perception, Visuospatial Processing).\n\nFor the purposes of the study, the items \"list memory\" and \"drawing memory\" (Memory and Learning domain), the item \"Inhibition\" (Attention and Executive Functions domain) and the item \"find the way\" (Visuospatial Processing domain) are used.",
+        "timeFrame": "Baseline (pre-treatment), 3 months (post-standard therapy, T1), 6 months (post-VirtualPark intervention, T2)"
+       },
+       {
+        "measure": "Endurance",
+        "description": "Measurement of heart rate (HR) and heart rate variability (HRV) collected with a wearable sensor (chest band), Movesense Medical (class IIa MDR 2017/745) or comparable medically certified device.",
+        "timeFrame": "Continuously assessed during each training session from Month 3 (T1) to Month 6 (T2)."
+       },
+       {
+        "measure": "User Engagement Scale-Short Form (UES-SF)",
+        "description": "The User Engagement Scale-Short Form (UES-SF) questionnaire will be used to measure engagement. It is a self-report questionnaire, composed of 12 items rated on a 5-point Likert scale (1 = strongly disagree; 5 = strongly agree). In particular, the UES-SF questionnaire investigates the following four factors: perceived usability, aesthetic appeal, focused attention, and reward. This questionnaire will be administered to the study participants in the Italian version, for which the scale has been translated and validated.",
+        "timeFrame": "Every week (i.e., every 3 sessions) from Month 3 (T1) to Month 6 (T2)."
+       },
+       {
+        "measure": "Device safety",
+        "description": "The number and description of any adverse events attributable to the use of the device are collected. Adverse events are monitored in accordance with MDR 2017/745, with events reported to responsible office of the Ministry of Health and the relevant Ethical Committee.",
+        "timeFrame": "From Month 3 (T1) to Month 6 (T2)."
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* availability of a definitive clinical or molecular genetic diagnosis of a neuromuscular disease;\n* age between 6 years and 17 years and 11 months (inclusive);\n* height compatible with the use of the Thera-Trainer (minimum 120 cm);\n* performance Upper Limb Module 2.0 assessment: Entry level \\>= 2\n\nExclusion Criteria:\n\n* other concomitant genetic diseases;\n* presence of visual impairments that prevent access to the experimental virtual reality protocol;\n* concomitant compromised cardio-respiratory function that contraindicates cycle ergometer training;\n* severe osteoporosis.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "6 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+       "CHILD",
+       "ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "centralContacts": [
+       {
+        "name": "Sara Arlati, Bioengineer",
+        "role": "CONTACT",
+        "phone": "(+39)03412350202",
+        "email": "sara.arlati@cnr.it"
+       }
+      ],
+      "locations": [
+       {
+        "facility": "IRCCS E. Medea - La Nostra Famiglia",
+        "status": "RECRUITING",
+        "city": "Bosisio Parini",
+        "state": "LC",
+        "zip": "23849",
+        "country": "Italy",
+        "contacts": [
+         {
+          "name": "Emilia Biffi",
+          "role": "CONTACT",
+          "email": "emilia.biffi@lanostrafamiglia.it"
+         },
+         {
+          "name": "Eleonora Diella",
+          "role": "PRINCIPAL_INVESTIGATOR"
+         }
+        ],
+        "geoPoint": {
+         "lat": 45.80075,
+         "lon": 9.29
+        }
+       },
+       {
+        "facility": "IRCCS Fondazione Stella Maris",
+        "status": "RECRUITING",
+        "city": "Pisa",
+        "state": "PI",
+        "zip": "56128",
+        "country": "Italy",
+        "contacts": [
+         {
+          "name": "Giada Sgherri",
+          "role": "CONTACT",
+          "email": "giada.sgherri@unipi.it"
+         },
+         {
+          "name": "Giada Sgherri",
+          "role": "PRINCIPAL_INVESTIGATOR"
+         }
+        ],
+        "geoPoint": {
+         "lat": 43.70853,
+         "lon": 10.4036
+        }
+       },
+       {
+        "facility": "IRCCS Fondazione Mondino",
+        "status": "RECRUITING",
+        "city": "Pavia",
+        "state": "PV",
+        "zip": "27100",
+        "country": "Italy",
+        "contacts": [
+         {
+          "name": "Angela Berardinelli",
+          "role": "CONTACT",
+          "email": "angela.berardinelli@mondino.it"
+         },
+         {
+          "name": "Angela Berardinelli",
+          "role": "PRINCIPAL_INVESTIGATOR"
+         }
+        ],
+        "geoPoint": {
+         "lat": 45.19205,
+         "lon": 9.15917
+        }
+       },
+       {
+        "facility": "Fondazione Don Gnocchi - Centro \"S. Maria al Mare\"",
+        "status": "SUSPENDED",
+        "city": "Salerno",
+        "state": "SA",
+        "zip": "84131",
+        "country": "Italy",
+        "geoPoint": {
+         "lat": 40.67545,
+         "lon": 14.79328
+        }
+       }
+      ]
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D009136",
+        "term": "Muscular Dystrophies"
+       },
+       {
+        "id": "D009224",
+        "term": "Myotonia Congenita"
+       },
+       {
+        "id": "D009468",
+        "term": "Neuromuscular Diseases"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D020966",
+        "term": "Muscular Disorders, Atrophic"
+       },
+       {
+        "id": "D009135",
+        "term": "Muscular Diseases"
+       },
+       {
+        "id": "D009140",
+        "term": "Musculoskeletal Diseases"
+       },
+       {
+        "id": "D009422",
+        "term": "Nervous System Diseases"
+       },
+       {
+        "id": "D030342",
+        "term": "Genetic Diseases, Inborn"
+       },
+       {
+        "id": "D009358",
+        "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+       },
+       {
+        "id": "D020967",
+        "term": "Myotonic Disorders"
+       },
+       {
+        "id": "D020271",
+        "term": "Heredodegenerative Disorders, Nervous System"
+       },
+       {
+        "id": "D019636",
+        "term": "Neurodegenerative Diseases"
+       }
+      ]
+     },
+     "interventionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D059039",
+        "term": "Standard of Care"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D019984",
+        "term": "Quality Indicators, Health Care"
+       },
+       {
+        "id": "D011787",
+        "term": "Quality of Health Care"
+       },
+       {
+        "id": "D006298",
+        "term": "Health Services Administration"
+       },
+       {
+        "id": "D017530",
+        "term": "Health Care Quality, Access, and Evaluation"
+       }
+      ]
+     }
+    },
+    "hasResults": false
+   }
+  ]
+ }
+}

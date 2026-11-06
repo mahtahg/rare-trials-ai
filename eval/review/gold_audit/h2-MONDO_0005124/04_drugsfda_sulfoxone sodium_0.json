@@ -1,0 +1,11 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22sulfoxone+sodium%22&limit=100&skip=0",
+ "status": 404,
+ "retrieved_at": "2026-11-06T11:16:54.051258+00:00",
+ "body": {
+  "error": {
+   "code": "NOT_FOUND",
+   "message": "No matches found!"
+  }
+ }
+}

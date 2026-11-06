@@ -1,0 +1,169 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:47.037207+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0017287"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "immunoglobulin G4-related sclerosing disease",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_2_3",
+        "drug": {
+         "id": "CHEMBL635",
+         "name": "PREDNISONE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3301607",
+         "name": "FILGOTINIB"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL4298117",
+         "name": "ORILANOLIMAB"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL131",
+         "name": "PREDNISOLONE"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL413",
+         "name": "SIROLIMUS"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1201823",
+         "name": "ABATACEPT"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL2109334",
+         "name": "INEBILIZUMAB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2_3",
+        "drug": {
+         "id": "CHEMBL848",
+         "name": "LENALIDOMIDE"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL650",
+         "name": "METHYLPREDNISOLONE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3936761",
+         "name": "ZANUBRUTINIB"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL221959",
+         "name": "TOFACITINIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1568",
+         "name": "FLUDARABINE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1456",
+         "name": "MYCOPHENOLATE MOFETIL"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL2107455",
+         "name": "IGURATIMOD"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4297551",
+         "name": "EFGARTIGIMOD ALFA"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL960",
+         "name": "LEFLUNOMIDE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1_2",
+        "drug": {
+         "id": "CHEMBL1201576",
+         "name": "RITUXIMAB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL3702854",
+         "name": "RILZABRUTINIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1200796",
+         "name": "CYCLOPHOSPHAMIDE"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL2105759",
+         "name": "BARICITINIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL4298134",
+         "name": "OBEXELIMAB"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

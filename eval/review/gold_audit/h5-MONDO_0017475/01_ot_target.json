@@ -1,0 +1,245 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:57.730085+00:00",
+ "body": {
+  "query": "query($id:String!){target(ensemblId:$id){drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "ENSG00000121879"
+  },
+  "response": {
+   "data": {
+    "target": {
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL5095025",
+         "name": "PANULISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3360203",
+         "name": "PILARALISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1_2",
+        "drug": {
+         "id": "CHEMBL1684984",
+         "name": "IZORLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL2326966",
+         "name": "SF-1126"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL3218576",
+         "name": "COPANLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL1258517",
+         "name": "PKI-179"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL2219421",
+         "name": "RECILISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL521851",
+         "name": "PICTILISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL1879463",
+         "name": "DACTOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4297181",
+         "name": "SAMOTOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1234354",
+         "name": "PF-04691502"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL3545068",
+         "name": "COPANLISIB HYDROCHLORIDE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL2396661",
+         "name": "ALPELISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL411907",
+         "name": "SONOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL3544966",
+         "name": "GSK-1059615"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL3545385",
+         "name": "WX-037"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL3393066",
+         "name": "VS-5584"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL3644672",
+         "name": "BAY-1082439"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL1236962",
+         "name": "OMIPALISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1_2",
+        "drug": {
+         "id": "CHEMBL3545096",
+         "name": "BGT-226"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3622533",
+         "name": "FIMEPINOSTAT"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL2387080",
+         "name": "TASELISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL3545248",
+         "name": "DS-7423"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3935857",
+         "name": "SERABELISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL586702",
+         "name": "ZSTK-474"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL2017974",
+         "name": "BUPARLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2_3",
+        "drug": {
+         "id": "CHEMBL3813842",
+         "name": "PAXALISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL592445",
+         "name": "GEDATOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL4650215",
+         "name": "INAVOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1922094",
+         "name": "APITOLISIB"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL2165191",
+         "name": "AZD-6482"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL3545366",
+         "name": "VOXTALISIB"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

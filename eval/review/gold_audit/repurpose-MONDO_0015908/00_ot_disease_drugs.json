@@ -1,0 +1,29 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:50.421513+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0015908"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "chromomycosis",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL1397",
+         "name": "POSACONAZOLE"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

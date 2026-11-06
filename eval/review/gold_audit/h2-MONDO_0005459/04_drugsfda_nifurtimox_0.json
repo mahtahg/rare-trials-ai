@@ -1,0 +1,245 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22nifurtimox%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:53.046702+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 1
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20230602",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "74427",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/213464Orig1s005ltr.pdf",
+        "date": "20230606",
+        "type": "Letter"
+       },
+       {
+        "id": "74432",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/213464s005lbl.pdf",
+        "date": "20230605",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20220127",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "70003",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213464s003lbl.pdf",
+        "date": "20220131",
+        "type": "Label"
+       },
+       {
+        "id": "70025",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/213464Orig1s003ltr.pdf",
+        "date": "20220201",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20201002",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "64824",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/213464Orig1s001ltr.pdf",
+        "date": "20201005",
+        "type": "Letter"
+       },
+       {
+        "id": "64873",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213464s001lbl.pdf",
+        "date": "20201007",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20200806",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "64229",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213464s000lbl.pdf",
+        "date": "20200806",
+        "type": "Label"
+       },
+       {
+        "id": "64232",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/213464Orig1s000ltr.pdf",
+        "date": "20200807",
+        "type": "Letter"
+       },
+       {
+        "id": "64455",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213464Orig1s000TOC.html",
+        "date": "20200831",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20230222",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "73597",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/213464Orig1s004ltr.pdf",
+        "date": "20230223",
+        "type": "Letter"
+       },
+       {
+        "id": "73598",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/213464s004lbl.pdf",
+        "date": "20230223",
+        "type": "Label"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA213464",
+    "sponsor_name": "BAYER HEALTHCARE",
+    "openfda": {
+     "application_number": [
+      "NDA213464"
+     ],
+     "brand_name": [
+      "LAMPIT"
+     ],
+     "generic_name": [
+      "NIFURTIMOX"
+     ],
+     "manufacturer_name": [
+      "Bayer HealthCare Pharmaceuticals Inc."
+     ],
+     "product_ndc": [
+      "50419-750",
+      "50419-751"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "NIFURTIMOX"
+     ],
+     "rxcui": [
+      "430512",
+      "2395842",
+      "2397991",
+      "2397994"
+     ],
+     "spl_id": [
+      "9b14492a-5ae2-4d0a-85c0-212636daf8cd"
+     ],
+     "spl_set_id": [
+      "90d09714-a8b1-4696-8ada-f99dc54d0721"
+     ],
+     "package_ndc": [
+      "50419-750-01",
+      "50419-751-01"
+     ],
+     "unii": [
+      "M84I3K7C2O"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "002",
+      "reference_drug": "Yes",
+      "brand_name": "LAMPIT",
+      "active_ingredients": [
+       {
+        "name": "NIFURTIMOX",
+        "strength": "120MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription"
+     },
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "LAMPIT",
+      "active_ingredients": [
+       {
+        "name": "NIFURTIMOX",
+        "strength": "30MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription"
+     }
+    ]
+   }
+  ]
+ }
+}

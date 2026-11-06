@@ -1,0 +1,434 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT06982105",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:45.917255+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT06982105",
+    "orgStudyIdInfo": {
+     "id": "26098"
+    },
+    "organization": {
+     "fullName": "Indiana University",
+     "class": "OTHER"
+    },
+    "briefTitle": "Trimethoprim-sulfamethoxazole vs. Clindamycin for the Treatment of Children With Invasive MRSA Infections",
+    "officialTitle": "Comparing Optimal Step-down Therapy for Children With Invasive MRSA Trimethoprim-Sulfamethoxazole vs. Clindamycin for the Treatment of Children With Invasive MRSA Infections"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2026-07",
+    "overallStatus": "RECRUITING",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2025-05-20",
+     "type": "ACTUAL"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2027-06",
+     "type": "ESTIMATED"
+    },
+    "completionDateStruct": {
+     "date": "2027-06",
+     "type": "ESTIMATED"
+    },
+    "studyFirstSubmitDate": "2025-03-28",
+    "studyFirstSubmitQcDate": "2025-05-19",
+    "studyFirstPostDateStruct": {
+     "date": "2025-05-21",
+     "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2026-07-28",
+    "lastUpdatePostDateStruct": {
+     "date": "2026-07-29",
+     "type": "ACTUAL"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "PRINCIPAL_INVESTIGATOR",
+     "investigatorFullName": "James Wood",
+     "investigatorTitle": "Assistant Professor of Pediatrics",
+     "investigatorAffiliation": "Indiana University"
+    },
+    "leadSponsor": {
+     "name": "Indiana University",
+     "class": "OTHER"
+    }
+   },
+   "oversightModule": {
+    "isFdaRegulatedDrug": true,
+    "isFdaRegulatedDevice": false,
+    "isUsExport": true
+   },
+   "descriptionModule": {
+    "briefSummary": "The goal of this clinical trial is to learn if trimethoprim-sulfamethoxazole (TMP-SMX) works to treat invasive infections due to methicillin-resistant Staphylococcus aureus (MRSA) in children. It will also learn about the safety of TMP-SMX in the treatment of children with invasive MRSA infections. The main questions it aims to answer are:\n\n-Is TMP-SMX effective at successfully treating children with invasive infections due to MRSA? What are the side effects of TMP-SMX in children taking it for invasive infections due to MRSA?\n\nResearchers will compare TMP-SMX to a clindamycin (a commonly prescribed antibiotic for the treatment of MRSA in children) to see if TMP-SMX works better, worse or the same as clindamycin for children with invasive infections due to MRSA.\n\nParticipants will:\n\nTake TMP-SMX or clindamycin for the treatment of their invasive infection due to MRSA.\n\nWill follow up with the provider treating their invasive infection at the discretion of the treating provider.\n\nKeep a diary of their symptoms and any side effects of the medicine"
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Methicillin Resistant Staphylococcus Aureus",
+     "Osteomyelitis Acute",
+     "Septic Arthritis",
+     "Orbital Cellulitis",
+     "Facial Cellulitis",
+     "Mastoiditis",
+     "Cervical Adenitis",
+     "Retropharyngeal Abscess",
+     "Peritonsillar Abscess"
+    ],
+    "keywords": [
+     "Methicillin Resistant Staphylococcus aureus",
+     "Osteomyelitis",
+     "Septic Arthritis",
+     "Osteoarticular infection",
+     "Head and Neck infection",
+     "Trimethoprim sulfamethoxazole",
+     "clindamycin",
+     "pediatric"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE4"
+    ],
+    "designInfo": {
+     "allocation": "RANDOMIZED",
+     "interventionModel": "PARALLEL",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 100,
+     "type": "ESTIMATED"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "TMP-SMX",
+      "type": "EXPERIMENTAL",
+      "description": "Trimethoprim-sulfamethoxazole\n\n* For osteoarticular infections- 4-5 mg/kg/dose (based on TMP) PO every 8 hours (max dose 320mg/dose)\n* For head and neck infections- 5-6 mg/kg/dose (based on TMP PO every 12 hours (max dose 320mg/dose)\n\nDuration will be at the discretion of the treating provider",
+      "interventionNames": [
+       "Drug: Trimethoprim Sulfamethoxazole"
+      ]
+     },
+     {
+      "label": "Clindamycin",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "13 mg/kg/dose PO every 8 hours (max 600mg/dose) Duration will be at the discretion of the treating provider",
+      "interventionNames": [
+       "Drug: Trimethoprim Sulfamethoxazole"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Trimethoprim Sulfamethoxazole",
+      "description": "* For osteoarticular infections- 4-5 mg/kg/dose (based on TMP) PO every 8 hours (max dose 320mg/dose)\n* For head and neck infections- 5-6 mg/kg/dose (based on TMP PO every 12 hours (max dose 320mg/dose)\n\nDuration will be at the discretion of the treating provider",
+      "armGroupLabels": [
+       "Clindamycin",
+       "TMP-SMX"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Number of Participants with Treatment Success",
+      "description": "Compare number of participants with treatment success vs. failure at 6 months post hospitalization",
+      "timeFrame": "6 months post hospitalization"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Number of Participants with Treatment Success at 6 weeks post-hospitalization",
+      "description": "Compare number of participants with treatment success vs. failure at 6 weeks",
+      "timeFrame": "6 weeks post hospitalization"
+     },
+     {
+      "measure": "Number of Participants who experience an antibiotic-related adverse events (AEs)",
+      "description": "Compare number and severity of AEs between groups graded based on common terminology criteria for adverse events v5.0",
+      "timeFrame": "6 months post hospitalization"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n1. 60 days to 18 years of age (inclusive) at the time of oral step down treatment\n2. Diagnosed by the clinical team with OAI or HNI:\n\n   * OAI- at least 1 focal finding and 1 systemic finding OR radiographic confirmation of OAI\n\n     * Focal finding- pain/swelling over a bone/joint, or restricted movement/failure to bear weight\n     * Systemic finding- fever \\>38oC, or elevated c-reactive protein (CRP) or elevated erythrocyte sedimentation rate. (ESR) or elevated white blood cell count (WBC) or elevated WBC in synovial fluid OR\n     * Radiographic confirmation- findings consistent with osteomyelitis or septic arthritis - Plain radiograph, MRI, CT or ultrasound, bone scan result indicating abnormal bone, subperiosteal or bone marrow findings consistent with infection\n   * HNI- at least 1 focal finding and 1 systemic finding OR radiographic confirmation of HNI\n\n     * Focal finding- facial pain or redness, eye pain or proptosis, neck or throat pain or swelling, ear pain or proptosis\n     * Systemic finding- fever \\>38oC, or elevated CRP or elevated ESR or elevated WBC OR\n     * Radiographic confirmation- findings consistent with facial/orbital cellulitis, cervical lymphadenitis, mastoiditis, or deep neck infection/abscess (including peritonsillar, retro- and para-pharyngeal. Plain radiograph, MRI, CT or ultrasound, bone scan result indicating abnormal findings consistent with infection\n3. Treated by the clinical team for confirmed MRSA or suspected MRSA infection\n\n   * Confirmed MRSA- positive culture for MRSA from a sterile body fluid (e.g., blood, abscess, bone, synovial fluid, or other surgical specimen)\n   * Suspected MRSA- treatment for MRSA by the clinical team without microbiologic confirmation (e.g., negative cultures)\n4. Currently ready or planned to be transitioned to oral antibiotic therapy by the clinical team\n5. OAI or HNI symptoms \\< 14 days at the time of hospital admission\n\nExclusion Criteria:\n\n1. Enrollment in another interventional study or receipt of investigational drug as part of a research trial within the past 30 days.\n2. Known cancer, acquired or primary (including sickle cell anemia or G6PD deficiency) immunodeficiency\n3. Underlying bone disease, presence of hardware /implantable device in affected bone/joint\n4. Infection (OAI or HNI) resulting from penetrating wounds, open fractures, major trauma, foreign body or post-operative infection.\n5. Spinal osteomyelitis\n6. Underlying chronic renal, gastrointestinal, liver, or heart disease that would be expected to potentially affect absorption or the metabolism of assigned drug\n7. Inability to take medicine by mouth, gastrostomy, jejunostomy or nasogastric tube\n8. Received intravenous antibiotic therapy as the treatment for OAI or HNI \\>14 days.\n9. Inability or unwilling to consent\n10. Any social or medical conditions judged by the study clinician to preclude participation because it could negatively affect the participant.\n11. Allergy to both TMP-SMX and clindamycin\n12. Known MRSA isolate resistant to both TMP-SMX and clindamycin\n13. Patient is known to be pregnant at the time of enrollment",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "2 Months",
+    "maximumAge": "18 Years",
+    "stdAges": [
+     "CHILD",
+     "ADULT"
+    ]
+   },
+   "contactsLocationsModule": {
+    "centralContacts": [
+     {
+      "name": "Mary Stumpf",
+      "role": "CONTACT",
+      "phone": "317-274-8801",
+      "email": "mestumpf@iu.edu"
+     }
+    ],
+    "overallOfficials": [
+     {
+      "name": "James Wood, MD",
+      "affiliation": "Indiana University",
+      "role": "PRINCIPAL_INVESTIGATOR"
+     }
+    ],
+    "locations": [
+     {
+      "facility": "Riley Hospital for Children",
+      "status": "RECRUITING",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "zip": "46202",
+      "country": "United States",
+      "contacts": [
+       {
+        "name": "James B Wood, MD",
+        "role": "CONTACT",
+        "email": "woodjb@iu.edu"
+       }
+      ],
+      "geoPoint": {
+       "lat": 39.76838,
+       "lon": -86.15804
+      }
+     }
+    ]
+   },
+   "ipdSharingStatementModule": {
+    "ipdSharing": "UNDECIDED"
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D001170",
+      "term": "Arthritis, Infectious"
+     },
+     {
+      "id": "D054517",
+      "term": "Orbital Cellulitis"
+     },
+     {
+      "id": "D008417",
+      "term": "Mastoiditis"
+     },
+     {
+      "id": "D017703",
+      "term": "Retropharyngeal Abscess"
+     },
+     {
+      "id": "D000039",
+      "term": "Peritonsillar Abscess"
+     },
+     {
+      "id": "D010019",
+      "term": "Osteomyelitis"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D007239",
+      "term": "Infections"
+     },
+     {
+      "id": "D001168",
+      "term": "Arthritis"
+     },
+     {
+      "id": "D007592",
+      "term": "Joint Diseases"
+     },
+     {
+      "id": "D009140",
+      "term": "Musculoskeletal Diseases"
+     },
+     {
+      "id": "D009916",
+      "term": "Orbital Diseases"
+     },
+     {
+      "id": "D005128",
+      "term": "Eye Diseases"
+     },
+     {
+      "id": "D002481",
+      "term": "Cellulitis"
+     },
+     {
+      "id": "D003240",
+      "term": "Connective Tissue Diseases"
+     },
+     {
+      "id": "D017437",
+      "term": "Skin and Connective Tissue Diseases"
+     },
+     {
+      "id": "D001850",
+      "term": "Bone Diseases, Infectious"
+     },
+     {
+      "id": "D001847",
+      "term": "Bone Diseases"
+     },
+     {
+      "id": "D010033",
+      "term": "Otitis Media"
+     },
+     {
+      "id": "D010031",
+      "term": "Otitis"
+     },
+     {
+      "id": "D004427",
+      "term": "Ear Diseases"
+     },
+     {
+      "id": "D010038",
+      "term": "Otorhinolaryngologic Diseases"
+     },
+     {
+      "id": "D010612",
+      "term": "Pharyngitis"
+     },
+     {
+      "id": "D012141",
+      "term": "Respiratory Tract Infections"
+     },
+     {
+      "id": "D000038",
+      "term": "Abscess"
+     },
+     {
+      "id": "D013492",
+      "term": "Suppuration"
+     },
+     {
+      "id": "D010608",
+      "term": "Pharyngeal Diseases"
+     },
+     {
+      "id": "D009057",
+      "term": "Stomatognathic Diseases"
+     },
+     {
+      "id": "D012140",
+      "term": "Respiratory Tract Diseases"
+     },
+     {
+      "id": "D014069",
+      "term": "Tonsillitis"
+     }
+    ]
+   },
+   "interventionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D015662",
+      "term": "Trimethoprim, Sulfamethoxazole Drug Combination"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D013420",
+      "term": "Sulfamethoxazole"
+     },
+     {
+      "id": "D000096926",
+      "term": "Benzenesulfonamides"
+     },
+     {
+      "id": "D013449",
+      "term": "Sulfonamides"
+     },
+     {
+      "id": "D000577",
+      "term": "Amides"
+     },
+     {
+      "id": "D009930",
+      "term": "Organic Chemicals"
+     },
+     {
+      "id": "D013424",
+      "term": "Sulfanilamides"
+     },
+     {
+      "id": "D000814",
+      "term": "Aniline Compounds"
+     },
+     {
+      "id": "D000588",
+      "term": "Amines"
+     },
+     {
+      "id": "D001555",
+      "term": "Benzene Derivatives"
+     },
+     {
+      "id": "D006841",
+      "term": "Hydrocarbons, Aromatic"
+     },
+     {
+      "id": "D006844",
+      "term": "Hydrocarbons, Cyclic"
+     },
+     {
+      "id": "D006838",
+      "term": "Hydrocarbons"
+     },
+     {
+      "id": "D013450",
+      "term": "Sulfones"
+     },
+     {
+      "id": "D013457",
+      "term": "Sulfur Compounds"
+     },
+     {
+      "id": "D014295",
+      "term": "Trimethoprim"
+     },
+     {
+      "id": "D011743",
+      "term": "Pyrimidines"
+     },
+     {
+      "id": "D006573",
+      "term": "Heterocyclic Compounds, 1-Ring"
+     },
+     {
+      "id": "D006571",
+      "term": "Heterocyclic Compounds"
+     },
+     {
+      "id": "D004338",
+      "term": "Drug Combinations"
+     },
+     {
+      "id": "D004364",
+      "term": "Pharmaceutical Preparations"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

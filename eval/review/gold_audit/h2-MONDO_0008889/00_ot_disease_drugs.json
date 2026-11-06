@@ -1,0 +1,57 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.215020+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0008889"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "thromboangiitis obliterans",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL4297862",
+         "name": "BOTULINUM TOXIN TYPE A"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL238804",
+         "name": "SELEXIPAG"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL1201574",
+         "name": "ONABOTULINUMTOXINA"
+        }
+       },
+       {
+        "maxClinicalStage": "UNKNOWN",
+        "drug": {
+         "id": "CHEMBL957",
+         "name": "BOSENTAN"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL3707322",
+         "name": "LETIBOTULINUMTOXINA"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,739 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22albendazole%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:47.663017+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 6
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210122",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA213435",
+    "sponsor_name": "MSN",
+    "openfda": {
+     "application_number": [
+      "ANDA213435"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Novadoz Pharmaceuticals LLC"
+     ],
+     "product_ndc": [
+      "72205-051"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672"
+     ],
+     "spl_id": [
+      "594f7aab-b336-4d6d-b702-a33346c69645"
+     ],
+     "spl_set_id": [
+      "594f7aab-b336-4d6d-b702-a33346c69645"
+     ],
+     "package_ndc": [
+      "72205-051-08",
+      "72205-051-28"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "ALBENDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210126",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA211034",
+    "sponsor_name": "DR REDDYS",
+    "openfda": {
+     "application_number": [
+      "ANDA211034"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Dr.Reddys Laboratories Inc"
+     ],
+     "product_ndc": [
+      "43598-452"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672"
+     ],
+     "spl_id": [
+      "370b6498-30f2-48a4-f32a-9ee671cf294e"
+     ],
+     "spl_set_id": [
+      "9ac95554-94c9-1f38-8f49-ec11979e4ba4"
+     ],
+     "package_ndc": [
+      "43598-452-02",
+      "43598-452-63",
+      "43598-452-17"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "ALBENDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190514",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA211117",
+    "sponsor_name": "EDENBRIDGE PHARMS",
+    "openfda": {
+     "application_number": [
+      "ANDA211117"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Edenbridge Pharmaceuticals LLC."
+     ],
+     "product_ndc": [
+      "42799-110"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672"
+     ],
+     "spl_id": [
+      "d135aff6-57cb-431c-bed7-c9d4c4f3cb54"
+     ],
+     "spl_set_id": [
+      "6c48fd89-cb40-477c-8a78-15cbe0df6faa"
+     ],
+     "package_ndc": [
+      "42799-110-02"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "ALBENDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240904",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA215652",
+    "sponsor_name": "ALEMBIC",
+    "openfda": {
+     "application_number": [
+      "ANDA215652"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Alembic Pharmaceuticals Inc.",
+      "Alembic Pharmaceuticals Limited"
+     ],
+     "product_ndc": [
+      "62332-681",
+      "46708-681"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672"
+     ],
+     "spl_id": [
+      "1b130bfa-78ff-40d2-8612-90e7133d2379",
+      "3b4945c7-56e9-47ed-a7ac-5078a1a50b85"
+     ],
+     "spl_set_id": [
+      "2d6856a3-583e-41d4-b73d-6867cbb9778c",
+      "3b4945c7-56e9-47ed-a7ac-5078a1a50b85"
+     ],
+     "package_ndc": [
+      "62332-681-02",
+      "62332-681-28",
+      "46708-681-02",
+      "46708-681-28"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "ALBENDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20150611",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "12952",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/020666s009lbl.pdf",
+        "date": "20150612",
+        "type": "Label"
+       },
+       {
+        "id": "3037",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/020666Orig1s009ltr.pdf",
+        "date": "20150612",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20181031",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "56218",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/020666Orig1s011ltr.pdf",
+        "date": "20181031",
+        "type": "Letter"
+       },
+       {
+        "id": "57046",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/020666s011lbl.pdf",
+        "date": "20181228",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20091020",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "3036",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/020666s005,s006ltr.pdf",
+        "date": "20091119",
+        "type": "Letter"
+       },
+       {
+        "id": "35110",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/020666s005s006lbl.pdf",
+        "date": "20091021",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19960611",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "57684",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/pre96/020666Orig1s000rev.pdf",
+        "date": "20190215",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20190711",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "59318",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/020666s012lbl.pdf",
+        "date": "20190712",
+        "type": "Label"
+       },
+       {
+        "id": "59323",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/020666Orig1s012ltr.pdf",
+        "date": "20190712",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20171220",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "50846",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/020666s010lbl.pdf",
+        "date": "20171222",
+        "type": "Label"
+       },
+       {
+        "id": "50888",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/020666Orig1s010ltr.pdf",
+        "date": "20171227",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20091020",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "25472",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/020666s005,s006ltr.pdf",
+        "date": "20091119",
+        "type": "Letter"
+       },
+       {
+        "id": "35111",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/020666s005s006lbl.pdf",
+        "date": "20091021",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20070820",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "3035",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2007/020666s004ltr.pdf",
+        "date": "20070822",
+        "type": "Letter"
+       },
+       {
+        "id": "35109",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2007/020666s004lbl.pdf",
+        "date": "20070821",
+        "type": "Label"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA020666",
+    "sponsor_name": "IMPAX LABS INC",
+    "openfda": {
+     "application_number": [
+      "NDA020666"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE",
+      "ALBENZA"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Amneal Pharmaceuticals of New York LLC",
+      "Amneal Pharmaceuticals LLC"
+     ],
+     "product_ndc": [
+      "0115-1701",
+      "64896-693"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672",
+      "211148"
+     ],
+     "spl_id": [
+      "2da2a777-2835-429d-b73a-31b8e0bde571",
+      "6163d9cc-fcc2-40a8-9b3d-0cce16b99b27"
+     ],
+     "spl_set_id": [
+      "06b5eefc-0b95-4862-b9b6-770063f2adf0",
+      "1977a867-0ee1-44c0-8da3-fe59c48699f5"
+     ],
+     "package_ndc": [
+      "0115-1701-49",
+      "64896-693-49"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "ALBENZA",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG **Federal Register determination that product was not discontinued or withdrawn for safety or effectiveness reasons**"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Discontinued",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20201113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190520",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA208094",
+    "sponsor_name": "ACTAVIS ELIZABETH",
+    "openfda": {
+     "application_number": [
+      "ANDA208094"
+     ],
+     "brand_name": [
+      "ALBENDAZOLE"
+     ],
+     "generic_name": [
+      "ALBENDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Actavis Pharma, Inc."
+     ],
+     "product_ndc": [
+      "0591-2712"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "ALBENDAZOLE"
+     ],
+     "rxcui": [
+      "199672"
+     ],
+     "spl_id": [
+      "071a50e4-8606-40a7-b09c-e7281ccac80b"
+     ],
+     "spl_set_id": [
+      "f5c7b8cb-a81f-4b13-b3c4-f6edaf880d3b"
+     ],
+     "package_ndc": [
+      "0591-2712-02"
+     ],
+     "nui": [
+      "N0000175481",
+      "N0000191624"
+     ],
+     "pharm_class_epc": [
+      "Anthelmintic [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A Inducers [MoA]"
+     ],
+     "unii": [
+      "F4216019LN"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "ALBENDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "ALBENDAZOLE",
+        "strength": "200MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   }
+  ]
+ }
+}

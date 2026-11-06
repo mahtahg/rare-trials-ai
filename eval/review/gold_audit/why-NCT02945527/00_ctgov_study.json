@@ -1,0 +1,325 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT02945527",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:45.579628+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02945527",
+    "orgStudyIdInfo": {
+     "id": "62352"
+    },
+    "organization": {
+     "fullName": "Universidad Peruana Cayetano Heredia",
+     "class": "OTHER"
+    },
+    "briefTitle": "Treatment of Peri-calcification Edema in Neurocysticercosis (NCC)",
+    "officialTitle": "Open Controled Randomized Pilot Study on the Use of Acetazolamide and Dexamethasone for the Acute Phase of Perilesional Edema in Calcified Neurocysticercosis"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2025-03",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Low recruitment",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2015-12-04",
+     "type": "ACTUAL"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2018-12",
+     "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+     "date": "2018-12",
+     "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2016-05-10",
+    "studyFirstSubmitQcDate": "2016-10-24",
+    "studyFirstPostDateStruct": {
+     "date": "2016-10-26",
+     "type": "ESTIMATED"
+    },
+    "lastUpdateSubmitDate": "2025-03-26",
+    "lastUpdatePostDateStruct": {
+     "date": "2025-04-01",
+     "type": "ACTUAL"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "SPONSOR"
+    },
+    "leadSponsor": {
+     "name": "Universidad Peruana Cayetano Heredia",
+     "class": "OTHER"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": false
+   },
+   "descriptionModule": {
+    "briefSummary": "Three-arm open, randomized comparative study of acetazolamide, dexamethasone, or no additional treatment to evaluate decrease in peri-calcification edema in neurocysticercosis",
+    "detailedDescription": "This study will evaluate 24 patients with calcified NCC and edema in three treatment arms to compare the reduction in edema volume"
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Neurocysticercosis"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE2",
+     "PHASE3"
+    ],
+    "designInfo": {
+     "allocation": "RANDOMIZED",
+     "interventionModel": "PARALLEL",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "SINGLE",
+      "whoMasked": [
+       "OUTCOMES_ASSESSOR"
+      ]
+     }
+    },
+    "enrollmentInfo": {
+     "count": 4,
+     "type": "ACTUAL"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Acetazolamide",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "750 mg acetazolamide p.o. divided in three dily doses, for 10 days",
+      "interventionNames": [
+       "Drug: Acetazolamide"
+      ]
+     },
+     {
+      "label": "Dexamethasone",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "8 mg p.o. divided in three daily daily doses, for 2 days followed by gradual tapering",
+      "interventionNames": [
+       "Drug: Dexamethasone"
+      ]
+     },
+     {
+      "label": "No additional anti-edema treatment",
+      "type": "NO_INTERVENTION",
+      "description": "No additional treatment"
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Acetazolamide",
+      "description": "As described above",
+      "armGroupLabels": [
+       "Acetazolamide"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Dexamethasone",
+      "description": "As described above",
+      "armGroupLabels": [
+       "Dexamethasone"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Decrease in Volume of Perilesional Edema Between Baseline and Day 4",
+      "description": "MRI extension of edema",
+      "timeFrame": "Baseline to Day 4"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Decrease in Volume of Perilesional Edema Between Baseline and Day 8",
+      "description": "MRI extension of edema",
+      "timeFrame": "Baseline to Day 8"
+     },
+     {
+      "measure": "Decrease in Volume of Perilesional Edema Between Baseline and Day 30",
+      "description": "MRI extension of edema",
+      "timeFrame": "Baseline to Day 30"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n* Calcified NCC\n* Perilesional edema on CT or MRI\n* Normal lab values\n\nExclusion Criteria:\n\n* Viable neurocysticercosis\n* Status epilepticus\n* Symptomatic intracranial hypertension\n* Tuberculosis\n* More than 7 days after seizure\n* Pregnancy",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "18 Years",
+    "maximumAge": "65 Years",
+    "stdAges": [
+     "ADULT",
+     "OLDER_ADULT"
+    ]
+   },
+   "contactsLocationsModule": {
+    "overallOfficials": [
+     {
+      "name": "Hector H. Garcia, MD, PhD",
+      "affiliation": "Universidad Peruana Cayetano Heredia",
+      "role": "STUDY_CHAIR"
+     }
+    ],
+    "locations": [
+     {
+      "facility": "Cysticercosis Unit, Instituto Nacional de Ciencias Neurologicas",
+      "city": "Lima",
+      "zip": "Lima 1",
+      "country": "Peru",
+      "geoPoint": {
+       "lat": -12.04318,
+       "lon": -77.02824
+      }
+     }
+    ]
+   },
+   "ipdSharingStatementModule": {
+    "ipdSharing": "NO",
+    "description": "As a concrete product, the clinical trial should provide base data to implement an affordable therapy for edema-related seizures. The data produced was going to be published in a peer reviewed journal; nevertheless, the study was prematurely terminated due to low recruitment."
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D020019",
+      "term": "Neurocysticercosis"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D020809",
+      "term": "Central Nervous System Helminthiasis"
+     },
+     {
+      "id": "D020807",
+      "term": "Central Nervous System Parasitic Infections"
+     },
+     {
+      "id": "D002494",
+      "term": "Central Nervous System Infections"
+     },
+     {
+      "id": "D007239",
+      "term": "Infections"
+     },
+     {
+      "id": "D010272",
+      "term": "Parasitic Diseases"
+     },
+     {
+      "id": "D003551",
+      "term": "Cysticercosis"
+     },
+     {
+      "id": "D013622",
+      "term": "Taeniasis"
+     },
+     {
+      "id": "D002590",
+      "term": "Cestode Infections"
+     },
+     {
+      "id": "D006373",
+      "term": "Helminthiasis"
+     },
+     {
+      "id": "D002493",
+      "term": "Central Nervous System Diseases"
+     },
+     {
+      "id": "D009422",
+      "term": "Nervous System Diseases"
+     }
+    ]
+   },
+   "interventionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D000086",
+      "term": "Acetazolamide"
+     },
+     {
+      "id": "D003907",
+      "term": "Dexamethasone"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D013830",
+      "term": "Thiadiazoles"
+     },
+     {
+      "id": "D013844",
+      "term": "Thiazoles"
+     },
+     {
+      "id": "D013457",
+      "term": "Sulfur Compounds"
+     },
+     {
+      "id": "D009930",
+      "term": "Organic Chemicals"
+     },
+     {
+      "id": "D001393",
+      "term": "Azoles"
+     },
+     {
+      "id": "D006573",
+      "term": "Heterocyclic Compounds, 1-Ring"
+     },
+     {
+      "id": "D006571",
+      "term": "Heterocyclic Compounds"
+     },
+     {
+      "id": "D011246",
+      "term": "Pregnadienetriols"
+     },
+     {
+      "id": "D011245",
+      "term": "Pregnadienes"
+     },
+     {
+      "id": "D011278",
+      "term": "Pregnanes"
+     },
+     {
+      "id": "D013256",
+      "term": "Steroids"
+     },
+     {
+      "id": "D000072473",
+      "term": "Fused-Ring Compounds"
+     },
+     {
+      "id": "D011083",
+      "term": "Polycyclic Compounds"
+     },
+     {
+      "id": "D013259",
+      "term": "Steroids, Fluorinated"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

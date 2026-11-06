@@ -1,0 +1,295 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22clofazimine%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:53.351489+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 1
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20030611",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "11513",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2003/19500slr010_lamprene_lbl.pdf",
+        "date": "20030622",
+        "type": "Label"
+       },
+       {
+        "id": "1343",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2003/19500slr010ltr.pdf",
+        "date": "20030622",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19861215",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "57638",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/pre96/019500Orig1s000rev.pdf",
+        "date": "20190215",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20010620",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "19980116",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "19950905",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "15",
+      "submission_status": "AP",
+      "submission_status_date": "20260727",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "87626",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/019500s015lbl.pdf",
+        "date": "20261103",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "19890330",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20160708",
+      "submission_public_notes": "Please see <a href=\"https://www.fda.gov/STIC/\">www.fda.gov/STIC</a> for labeling requirements on susceptibility test interpretive criteria for systemic antibacterial and antifungal drugs.",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "47023",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/019500s013lbl.pdf",
+        "date": "20170130",
+        "type": "Label"
+       },
+       {
+        "id": "1344",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/019500Orig1s013ltr.pdf",
+        "date": "20160712",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20020412",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20000713",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "19950912",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "19950720",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19880922",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20190131",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57438",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/019500s014lbl.pdf",
+        "date": "20190205",
+        "type": "Label"
+       },
+       {
+        "id": "57511",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/019500Orig1s014ltr.pdf",
+        "date": "20190213",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA019500",
+    "sponsor_name": "NOVARTIS",
+    "openfda": {
+     "application_number": [
+      "NDA019500"
+     ],
+     "brand_name": [
+      "LAMPRENE"
+     ],
+     "generic_name": [
+      "CLOFAZIMINE"
+     ],
+     "manufacturer_name": [
+      "Novartis Pharmaceuticals Corporation"
+     ],
+     "product_ndc": [
+      "0078-1049"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "CLOFAZIMINE"
+     ],
+     "rxcui": [
+      "197521",
+      "206062"
+     ],
+     "spl_id": [
+      "956e925d-695b-46c9-94e9-ce88ac51dfb3"
+     ],
+     "spl_set_id": [
+      "2e07448f-f888-4747-80ab-570c1b621250"
+     ],
+     "package_ndc": [
+      "0078-1049-05"
+     ],
+     "nui": [
+      "N0000175483"
+     ],
+     "pharm_class_epc": [
+      "Antimycobacterial [EPC]"
+     ],
+     "unii": [
+      "D959AE5USF"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "LAMPRENE",
+      "active_ingredients": [
+       {
+        "name": "CLOFAZIMINE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "CAPSULE",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     },
+     {
+      "product_number": "002",
+      "reference_drug": "Yes",
+      "brand_name": "LAMPRENE",
+      "active_ingredients": [
+       {
+        "name": "CLOFAZIMINE",
+        "strength": "50MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "CAPSULE",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     }
+    ]
+   }
+  ]
+ }
+}

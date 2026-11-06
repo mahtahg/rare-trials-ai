@@ -1,0 +1,160 @@
+{
+ "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1351.json",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:48.907831+00:00",
+ "body": {
+  "atc_classifications": [
+   "L01XA02"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 1,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [
+   {
+    "xref_id": "carboplatin",
+    "xref_name": "carboplatin",
+    "xref_src": "DailyMed"
+   }
+  ],
+  "dosed_ingredient": true,
+  "first_approval": 1989,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL1351",
+  "molecule_hierarchy": {
+   "active_chembl_id": "CHEMBL1351",
+   "molecule_chembl_id": "CHEMBL1351",
+   "parent_chembl_id": "CHEMBL1351"
+  },
+  "molecule_properties": {
+   "alogp": null,
+   "aromatic_rings": null,
+   "full_molformula": "C6H12N2O4Pt",
+   "full_mwt": "371.25",
+   "hba": null,
+   "hbd": null,
+   "heavy_atoms": null,
+   "mw_freebase": "371.25",
+   "np_likeness_score": null,
+   "num_ro5_violations": null,
+   "psa": null,
+   "qed_weighted": null,
+   "ro3_pass": null,
+   "rtb": null
+  },
+  "molecule_structures": null,
+  "molecule_synonyms": [
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "ATC",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "BAN",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "BNF",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "FDA",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "INN",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "JAN",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "OTHER",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "USAN",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatin",
+    "syn_type": "USP",
+    "synonyms": "CARBOPLATIN"
+   },
+   {
+    "molecule_synonym": "Carboplatine",
+    "syn_type": "INN_FRENCH",
+    "synonyms": "CARBOPLATINE"
+   },
+   {
+    "molecule_synonym": "Carboplatino",
+    "syn_type": "INN_SPANISH",
+    "synonyms": "CARBOPLATINO"
+   },
+   {
+    "molecule_synonym": "Carboplatinum",
+    "syn_type": "OTHER",
+    "synonyms": "CARBOPLATINUM"
+   },
+   {
+    "molecule_synonym": "JM-8",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "JM-8"
+   },
+   {
+    "molecule_synonym": "NSC-201345",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NSC-201345"
+   },
+   {
+    "molecule_synonym": "NSC-241240",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NSC-241240"
+   },
+   {
+    "molecule_synonym": "Paraplatin",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "PARAPLATIN"
+   }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 0,
+  "oral": false,
+  "orphan": 0,
+  "parenteral": true,
+  "polymer_flag": 0,
+  "pref_name": "CARBOPLATIN",
+  "prodrug": 0,
+  "structure_type": "NONE",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-platin",
+  "usan_stem_definition": "antineoplastics (platinum derivatives)",
+  "usan_substem": "-platin",
+  "usan_year": 1983,
+  "veterinary": 0,
+  "withdrawn_flag": false
+ }
+}

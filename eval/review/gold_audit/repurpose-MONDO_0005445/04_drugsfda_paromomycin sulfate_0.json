@@ -1,0 +1,101 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22paromomycin+sulfate%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:50.087213+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 1
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20151028",
+      "review_priority": "UNKNOWN",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20071214"
+     }
+    ],
+    "application_number": "ANDA065173",
+    "sponsor_name": "HERITAGE",
+    "openfda": {
+     "application_number": [
+      "ANDA065173"
+     ],
+     "brand_name": [
+      "HUMATIN"
+     ],
+     "generic_name": [
+      "PAROMOMYCIN SULFATE"
+     ],
+     "manufacturer_name": [
+      "Waylis Therapeutics LLC"
+     ],
+     "product_ndc": [
+      "80725-250"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "PAROMOMYCIN SULFATE"
+     ],
+     "rxcui": [
+      "207347",
+      "314184"
+     ],
+     "spl_id": [
+      "4b33337a-4e4b-42f3-923f-5b61f02fc463"
+     ],
+     "spl_set_id": [
+      "a725f022-ec3c-430d-8021-96c861b9893c"
+     ],
+     "package_ndc": [
+      "80725-250-01"
+     ],
+     "unii": [
+      "845NU6GJPS"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "PAROMOMYCIN SULFATE",
+      "active_ingredients": [
+       {
+        "name": "PAROMOMYCIN SULFATE",
+        "strength": "EQ 250MG BASE"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "CAPSULE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "TBD"
+     }
+    ]
+   }
+  ]
+ }
+}

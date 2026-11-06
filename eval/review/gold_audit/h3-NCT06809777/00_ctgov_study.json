@@ -1,0 +1,307 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT06809777",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.855387+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT06809777",
+    "orgStudyIdInfo": {
+     "id": "SheikhZyMC"
+    },
+    "organization": {
+     "fullName": "Sheikh Zayed Medical College",
+     "class": "OTHER_GOV"
+    },
+    "briefTitle": "Comparison Between Efficacy of Topical 25%Podophyllin and Cryotherapy on Genital Warts",
+    "officialTitle": "Comparison Between the Efficacy and Safety of Topical Podophyllin 25% Versus Cryotherapy in the Treatment of Anogenital Warts"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2025-03",
+    "overallStatus": "NOT_YET_RECRUITING",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2025-06-29",
+     "type": "ESTIMATED"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2025-11-15",
+     "type": "ESTIMATED"
+    },
+    "completionDateStruct": {
+     "date": "2025-12-10",
+     "type": "ESTIMATED"
+    },
+    "studyFirstSubmitDate": "2025-01-30",
+    "studyFirstSubmitQcDate": "2025-01-30",
+    "studyFirstPostDateStruct": {
+     "date": "2025-02-05",
+     "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2025-05-12",
+    "lastUpdatePostDateStruct": {
+     "date": "2025-05-13",
+     "type": "ACTUAL"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "PRINCIPAL_INVESTIGATOR",
+     "investigatorFullName": "Narjis Batool",
+     "investigatorTitle": "Post graduate resident in Dermatology",
+     "investigatorAffiliation": "Sheikh Zayed Medical College"
+    },
+    "leadSponsor": {
+     "name": "Sheikh Zayed Medical College",
+     "class": "OTHER_GOV"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": true,
+    "isFdaRegulatedDrug": false,
+    "isFdaRegulatedDevice": false,
+    "isUsExport": false
+   },
+   "descriptionModule": {
+    "briefSummary": "Human papilloma virus (HPV), is the major prevalent cause of sexually transmitted disease affecting genitalia, causing Condylomata Accuminata, also known as external genital warts or anogenital warts.¹ Occurring in men and women with a prevalence rate of 0.6-1.2% worldwide. It primarily affects those in the age range of 20-25 years. Human papilloma virus infections subclinically are primarily caused by either type HPV- 6 or HPV- 11.\n\nA vast variety of treatment options are available to treat CA , including immunomodulators ( imiquimod, purified protein derivative and the HPV vaccine), physical ablation ( cryotherapy and electrodessication) and topical cytotoxic drugs ( TCA, phenol, 5- fluorouracil, retinoids, podophyllin and bleomycin)¹ . Although there are multiple effective treatment are present for EGW, no single treatment has been identified as the best ideal way to treat CA.\n\nCryotherapy causes the destruction of keratinocytes infected with HPV by using below zero temperature and leading to thermal cell necrosis.\n\nPodophyllum peltatum and Podophyllum emodi are the main source of Podophyllin, a refined plant- based resin.¹² It works by attaching itself to the infected cell's microtubule disturbing the linking process which stops the mitotic process during the metaphase stage of cell division causing the death of epithelial cell.\n\nStudy will include patients which will be divided into 2 groups A \\& B, 48 in each group. Group A will receive topical 25% podophyllin resin via cotton bud under supervision once weekly for 04 weeks. Group B will receive cryotherapy of 10sec freeze cycle twice weekly for 04 weeks. Patient will be followed at interval of 4 weeks and 8 weeks from start of treatment.\n\nTreatment will be considered efficant when decrease in the number of warts is clinically evident at follow up visits. Efficacy of treatment will be graded as 'excellent' \\>90% clearance, 'good'60-89% clearance, 'satisfactory'30-59% clearance and 'poor'\\<30% clearance.",
+    "detailedDescription": "Human papilloma virus (HPV), is the major prevalent cause of sexually transmitted disease affecting genitalia, causing Condylomata Accuminata, also known as external genital warts or anogenital warts. Occurring in men and women with a prevalence rate of 0.6-1.2% worldwide. It primarily affects those in the age range of 20-25 years. Human papilloma virus infections subclinically are primarily caused by either type HPV- 6 or HPV- 11.Topical medicines, surgeries and other treatment are among the many possible therapeutic options available. However recurrence and treatment failure are observed with almost all the available treatment after the warts have been visibly cleared.\n\nEGW management poses a major obstacle therapeutically . The patient's immunological condition determine the outcome of the warts , if they are left untreated , they could go away spontaneously, get bigger in size and numerous , or remain the same. The treatment goal is to remove visible warts in order to potentially reduce their infectious , if not the carcinogenic properties.\n\nIn this study we will compare the efficacy of topical 25% podophyllin resin versus cryotherapy for the treatment of warts .\n\nStudy will include patients which will be divided into 2 groups A \\& B, 48 in each group. Group A will receive topical 25% podophyllin resin via cotton bud under supervision once weekly for 04 weeks. Group B will receive cryotherapy of 10sec freeze cycle twice weekly for 04 weeks. Patient will be followed at interval of 4 weeks and 8 weeks from start of treatment.\n\nTreatment will be considered efficant when decrease in the number of warts is clinically evident at follow up visits. Efficacy of treatment will be graded as 'excellent' \\>90% clearance, 'good'60-89% clearance, 'satisfactory'30-59% clearance and 'poor'\\<30% clearance."
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Anogenital Human Papilloma Virus Infection"
+    ],
+    "keywords": [
+     "Anogenital warts",
+     "Topical 25% podophyllin",
+     "cryotherapy"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE2"
+    ],
+    "designInfo": {
+     "allocation": "RANDOMIZED",
+     "interventionModel": "PARALLEL",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 96,
+     "type": "ESTIMATED"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "25% podophyllin in treatment of anogenital warts ( Group A )",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "25% podophyllin resin will be applied topically once weekly for 4 weeks",
+      "interventionNames": [
+       "Drug: Topical 25% podophyllin"
+      ]
+     },
+     {
+      "label": "cryotherapy for anogenital warts( Group B)",
+      "type": "ACTIVE_COMPARATOR",
+      "description": "cryotherapy of 10 seconds freeze cycle twice weekly for 04 weeks",
+      "interventionNames": [
+       "Procedure: Cryotherapy"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Topical 25% podophyllin",
+      "description": "25% podophyllin applied topically once weekly for 4 weeks",
+      "armGroupLabels": [
+       "25% podophyllin in treatment of anogenital warts ( Group A )"
+      ]
+     },
+     {
+      "type": "PROCEDURE",
+      "name": "Cryotherapy",
+      "description": "cryotherapy of 10 sec freeze cycle applied twice weekly for 4 weeks",
+      "armGroupLabels": [
+       "cryotherapy for anogenital warts( Group B)"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Efficacy of treatment will be graded as 'excellent' >90% clearance, 'good'60-89% clearance, 'satisfactory'30-59% clearance and 'poor'<30",
+      "description": "Treatment will be considered efficant when decrease in the number of warts is clinically evident at follow up visits at 4 weeks and 8 weeks after the start of treatment. Efficacy of treatment will be graded as 'excellent' \\>90% clearance, 'good'60-89% clearance, 'satisfactory'30-59% clearance and 'poor'\\<30% clearance.",
+      "timeFrame": "6 months"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n* Age: 16-60years\n* Gender: Any gender\n* All new clinically diagnosed cases of plane warts\n* Type of warts: plane warts\n* Area: Ano-genital warts\n* Size: Less than 10cm2(cummulative)\n* No. of warts: Upto 20\n* Duration of disease: Any\n\nExclusion Criteria:\n\n* Pregnancy and lactating females\n* Bleeding disorders\n* Immunocompromised patients.\n* Diabetic patients / Peripheral vascular disease.\n* Bleeding warts, moles, birthmarks.\n* Any other inflammatory dermatosis on that area\n* History of any previous treatment in last 2 months.\n* Liver/Renal disease\n* Hypersensitivity to Podophyllin.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "16 Years",
+    "maximumAge": "60 Years",
+    "stdAges": [
+     "CHILD",
+     "ADULT"
+    ]
+   },
+   "contactsLocationsModule": {
+    "centralContacts": [
+     {
+      "name": "Narjis Batool, Post graduate resident",
+      "role": "CONTACT",
+      "phone": "+923042937478",
+      "email": "drnarjis99@gmail.com"
+     }
+    ],
+    "locations": [
+     {
+      "facility": "Sheikh zayed Medical College and Hospital",
+      "city": "Rahim Yar Khan",
+      "state": "Punjab Province",
+      "zip": "64200",
+      "country": "Pakistan",
+      "geoPoint": {
+       "lat": 28.41987,
+       "lon": 70.30345
+      }
+     }
+    ]
+   },
+   "ipdSharingStatementModule": {
+    "ipdSharing": "NO"
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D003218",
+      "term": "Condylomata Acuminata"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D030361",
+      "term": "Papillomavirus Infections"
+     },
+     {
+      "id": "D015229",
+      "term": "Sexually Transmitted Diseases, Viral"
+     },
+     {
+      "id": "D012749",
+      "term": "Sexually Transmitted Diseases"
+     },
+     {
+      "id": "D003141",
+      "term": "Communicable Diseases"
+     },
+     {
+      "id": "D007239",
+      "term": "Infections"
+     },
+     {
+      "id": "D004266",
+      "term": "DNA Virus Infections"
+     },
+     {
+      "id": "D014777",
+      "term": "Virus Diseases"
+     },
+     {
+      "id": "D014860",
+      "term": "Warts"
+     },
+     {
+      "id": "D017193",
+      "term": "Skin Diseases, Viral"
+     },
+     {
+      "id": "D014412",
+      "term": "Tumor Virus Infections"
+     },
+     {
+      "id": "D000091662",
+      "term": "Genital Diseases"
+     },
+     {
+      "id": "D000091642",
+      "term": "Urogenital Diseases"
+     },
+     {
+      "id": "D012874",
+      "term": "Skin Diseases, Infectious"
+     },
+     {
+      "id": "D012871",
+      "term": "Skin Diseases"
+     },
+     {
+      "id": "D017437",
+      "term": "Skin and Connective Tissue Diseases"
+     },
+     {
+      "id": "D020969",
+      "term": "Disease Attributes"
+     },
+     {
+      "id": "D010335",
+      "term": "Pathologic Processes"
+     },
+     {
+      "id": "D013568",
+      "term": "Pathological Conditions, Signs and Symptoms"
+     }
+    ]
+   },
+   "interventionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D011033",
+      "term": "Podophyllin"
+     },
+     {
+      "id": "D017679",
+      "term": "Cryotherapy"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D010936",
+      "term": "Plant Extracts"
+     },
+     {
+      "id": "D028321",
+      "term": "Plant Preparations"
+     },
+     {
+      "id": "D001688",
+      "term": "Biological Products"
+     },
+     {
+      "id": "D045424",
+      "term": "Complex Mixtures"
+     },
+     {
+      "id": "D013812",
+      "term": "Therapeutics"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

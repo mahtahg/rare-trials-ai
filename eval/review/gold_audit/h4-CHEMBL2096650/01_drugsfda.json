@@ -1,0 +1,540 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22sodium+thiosulfate%22&limit=100",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:56.414826+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 3
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20110114",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 5",
+      "submission_class_code_description": "Type 5 - New Formulation or New Manufacturer",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "43366",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/201444_nithiodote_toc.html",
+        "date": "20120210",
+        "type": "Review"
+       },
+       {
+        "id": "9895",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/201444s000ltr.pdf",
+        "date": "20110120",
+        "type": "Letter"
+       },
+       {
+        "id": "19017",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2011/201444s000lbl.pdf",
+        "date": "20110120",
+        "type": "Label"
+       },
+       {
+        "id": "24393",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/201444Orig1s000SumR.pdf",
+        "date": "20120210",
+        "type": "Summary Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "19",
+      "submission_status": "AP",
+      "submission_status_date": "20171019",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "50135",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/201444Orig1s019ltr.pdf",
+        "date": "20171023",
+        "type": "Letter"
+       },
+       {
+        "id": "50161",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/201444s019lbl.pdf",
+        "date": "20171024",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "17",
+      "submission_status": "AP",
+      "submission_status_date": "20160614",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "15",
+      "submission_status": "AP",
+      "submission_status_date": "20150126",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20141124",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20131114",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20130328",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "26",
+      "submission_status": "AP",
+      "submission_status_date": "20210113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "65903",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/201444Orig1s026ltr.pdf",
+        "date": "20210114",
+        "type": "Letter"
+       },
+       {
+        "id": "65906",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/201444s026lbl.pdf",
+        "date": "20210114",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "18",
+      "submission_status": "AP",
+      "submission_status_date": "20160422",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "16",
+      "submission_status": "AP",
+      "submission_status_date": "20150203",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20140603",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20130408",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     }
+    ],
+    "application_number": "NDA201444",
+    "sponsor_name": "HOPE PHARMS",
+    "openfda": {
+     "application_number": [
+      "NDA201444"
+     ],
+     "brand_name": [
+      "NITHIODOTE"
+     ],
+     "generic_name": [
+      "SODIUM NITRITE AND SODIUM THIOSULFATE"
+     ],
+     "manufacturer_name": [
+      "Hope Pharmaceuticals"
+     ],
+     "product_ndc": [
+      "60267-812"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "rxcui": [
+      "237832",
+      "253010",
+      "1086835",
+      "1086836"
+     ],
+     "spl_id": [
+      "74809468-0182-485a-bf62-e09489756a36"
+     ],
+     "spl_set_id": [
+      "ff4941b3-9901-4aab-adcf-c5327bede34e"
+     ],
+     "package_ndc": [
+      "60267-812-00",
+      "60267-311-10",
+      "60267-705-50"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "NITHIODOTE",
+      "active_ingredients": [
+       {
+        "name": "SODIUM NITRITE",
+        "strength": "300MG/10ML(30MG/ML),N/A"
+       },
+       {
+        "name": "SODIUM THIOSULFATE",
+        "strength": "N/A,12.5GM/50ML(250MG/ML)"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "SOLUTION, SOLUTION",
+      "route": "INTRAVENOUS, INTRAVENOUS",
+      "marketing_status": "Prescription"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20260507",
+      "review_priority": "N/A",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20171019",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "50132",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/203923Orig1s001ltr.pdf",
+        "date": "20171023",
+        "type": "Letter"
+       },
+       {
+        "id": "50158",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/203923s001lbl.pdf",
+        "date": "20171024",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20200619",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "63659",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/203923Orig1s004ltr.pdf",
+        "date": "20200622",
+        "type": "Letter"
+       },
+       {
+        "id": "63666",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/203923Orig1s004ltr.pdf",
+        "date": "20200623",
+        "type": "Letter"
+       },
+       {
+        "id": "63669",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/203923s004lbl.pdf",
+        "date": "20200623",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20120214",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 5",
+      "submission_class_code_description": "Type 5 - New Formulation or New Manufacturer",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "19503",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203923s000lbl.pdf",
+        "date": "20120217",
+        "type": "Label"
+       },
+       {
+        "id": "22937",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203923_sodium_thiosulfate_toc.html",
+        "date": "20120315",
+        "type": "Review"
+       },
+       {
+        "id": "24452",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203923Orig1s000SumR.pdf",
+        "date": "20120315",
+        "type": "Summary Review"
+       },
+       {
+        "id": "32479",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/203923s000ltr.pdf",
+        "date": "20120221",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA203923",
+    "sponsor_name": "HOPE PHARMS",
+    "openfda": {
+     "application_number": [
+      "NDA203923"
+     ],
+     "brand_name": [
+      "SODIUM THIOSULFATE"
+     ],
+     "generic_name": [
+      "SODIUM THIOSULFATE"
+     ],
+     "manufacturer_name": [
+      "Hope Pharmaceuticals"
+     ],
+     "product_ndc": [
+      "60267-705"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "SODIUM THIOSULFATE"
+     ],
+     "rxcui": [
+      "237832"
+     ],
+     "spl_id": [
+      "4c4f587f-fb6f-4ce3-a09e-2a6a589b4d2b"
+     ],
+     "spl_set_id": [
+      "82f55408-2de9-463d-85e8-b39c3b259f0b"
+     ],
+     "package_ndc": [
+      "60267-705-50"
+     ],
+     "unii": [
+      "HX1032V43M"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "SODIUM THIOSULFATE",
+      "active_ingredients": [
+       {
+        "name": "SODIUM THIOSULFATE",
+        "strength": "12.5GM/50ML (250MG/ML)"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220920",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 5",
+      "submission_class_code_description": "Type 5 - New Formulation or New Manufacturer",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "72117",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/212937s000lbl.pdf",
+        "date": "20220920",
+        "type": "Label"
+       },
+       {
+        "id": "72120",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/212937Orig1s000ltr.pdf",
+        "date": "20220921",
+        "type": "Letter"
+       },
+       {
+        "id": "74414",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/212937Orig1s000TOC.html",
+        "date": "20230531",
+        "type": "Review"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA212937",
+    "sponsor_name": "FENNEC PHARMS INC",
+    "openfda": {
+     "application_number": [
+      "NDA212937"
+     ],
+     "brand_name": [
+      "PEDMARK"
+     ],
+     "generic_name": [
+      "SODIUM THIOSULFATE"
+     ],
+     "manufacturer_name": [
+      "Fennec Pharmaceuticals Inc."
+     ],
+     "product_ndc": [
+      "73077-010"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "SODIUM THIOSULFATE"
+     ],
+     "rxcui": [
+      "2618749",
+      "2618755"
+     ],
+     "spl_id": [
+      "889accaa-7f62-4da4-84ea-80ecfb144209"
+     ],
+     "spl_set_id": [
+      "f98c7076-2a7b-4fd7-ab90-eed5e9137bae"
+     ],
+     "package_ndc": [
+      "73077-010-01"
+     ],
+     "unii": [
+      "HX1032V43M"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "PEDMARK",
+      "active_ingredients": [
+       {
+        "name": "SODIUM THIOSULFATE",
+        "strength": "12.5GM/100ML (125MG/ML)"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL221959.json",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:49.054447+00:00",
+ "body": {
+  "atc_classifications": [
+   "L04AF01"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 1,
+  "chemical_probe": 1,
+  "chirality": 1,
+  "cross_references": [],
+  "dosed_ingredient": false,
+  "first_approval": 2012,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL221959",
+  "molecule_hierarchy": {
+   "active_chembl_id": "CHEMBL221959",
+   "molecule_chembl_id": "CHEMBL221959",
+   "parent_chembl_id": "CHEMBL221959"
+  },
+  "molecule_properties": {
+   "alogp": "1.54",
+   "aromatic_rings": 2,
+   "full_molformula": "C16H20N6O",
+   "full_mwt": "312.38",
+   "hba": 5,
+   "hbd": 1,
+   "heavy_atoms": 23,
+   "mw_freebase": "312.38",
+   "np_likeness_score": "-1.14",
+   "num_ro5_violations": 0,
+   "psa": "88.91",
+   "qed_weighted": "0.93",
+   "ro3_pass": "N",
+   "rtb": 3
+  },
+  "molecule_structures": {
+   "canonical_smiles": "C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12",
+   "molfile": "\n     RDKit          2D\n\n 23 25  0  0  0  0  0  0  0  0999 V2000\n  -16.3109   -1.6542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.7959   -2.3216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.3109   -2.9890    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -15.5263   -2.7341    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -15.5263   -1.9091    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.0974   -1.9091    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.8118   -1.4966    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.8118   -3.1466    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.0974   -2.7341    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.2408   -5.6216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -15.5263   -5.2091    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -15.5263   -4.3841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.2408   -3.9716    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.9553   -4.3841    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -16.9553   -5.2091    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.8118   -3.9716    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.8118   -5.6216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -17.6697   -3.9716    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -17.6697   -3.1466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  -18.3842   -4.3841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -19.0987   -3.9716    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -14.0974   -4.3841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  -19.8131   -3.5591    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  1  5  1  0\n  2  3  2  0\n  3  4  1  0\n  7  5  1  0\n  5  4  2  0\n  4  8  1  0\n  6  7  2  0\n  6  9  1  0\n  8  9  2  0\n 10 11  1  0\n 10 15  1  0\n 11 12  1  0\n 12 13  1  0\n 13 14  1  0\n 14 15  1  0\n  8 16  1  0\n 12 16  1  6\n 11 17  1  6\n 14 18  1  0\n 18 19  2  0\n 18 20  1  0\n 20 21  1  0\n 16 22  1  0\n 23 21  3  0\nM  END\n> <chembl_id>\nCHEMBL221959\n\n> <chembl_pref_name>\nTOFACITINIB",
+   "standard_inchi": "InChI=1S/C16H20N6O/c1-11-5-8-22(14(23)3-6-17)9-13(11)21(2)16-12-4-7-18-15(12)19-10-20-16/h4,7,10-11,13H,3,5,8-9H2,1-2H3,(H,18,19,20)/t11-,13+/m1/s1",
+   "standard_inchi_key": "UJLAWZDWDVHWOW-YPMHNXCESA-N"
+  },
+  "molecule_synonyms": [
+   {
+    "molecule_synonym": "550",
+    "syn_type": "PND",
+    "synonyms": "550"
+   },
+   {
+    "molecule_synonym": "550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "550"
+   },
+   {
+    "molecule_synonym": "CP-690",
+    "syn_type": "PND",
+    "synonyms": "CP-690"
+   },
+   {
+    "molecule_synonym": "CP-690",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690"
+   },
+   {
+    "molecule_synonym": "CP 690550",
+    "syn_type": "PND",
+    "synonyms": "CP 690550"
+   },
+   {
+    "molecule_synonym": "CP 690550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP 690550"
+   },
+   {
+    "molecule_synonym": "CP- 690 550",
+    "syn_type": "PND",
+    "synonyms": "CP- 690 550"
+   },
+   {
+    "molecule_synonym": "CP- 690 550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP- 690 550"
+   },
+   {
+    "molecule_synonym": "CP-690,550",
+    "syn_type": "PND",
+    "synonyms": "CP-690,550"
+   },
+   {
+    "molecule_synonym": "CP-690,550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690,550"
+   },
+   {
+    "molecule_synonym": "CP-690-550",
+    "syn_type": "PND",
+    "synonyms": "CP-690-550"
+   },
+   {
+    "molecule_synonym": "CP-690-550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690-550"
+   },
+   {
+    "molecule_synonym": "CP-690550",
+    "syn_type": "PND",
+    "synonyms": "CP-690550"
+   },
+   {
+    "molecule_synonym": "CP-690550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690550"
+   },
+   {
+    "molecule_synonym": "CP690,550",
+    "syn_type": "PND",
+    "synonyms": "CP690,550"
+   },
+   {
+    "molecule_synonym": "CP690,550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP690,550"
+   },
+   {
+    "molecule_synonym": "CP690550",
+    "syn_type": "PND",
+    "synonyms": "CP690550"
+   },
+   {
+    "molecule_synonym": "CP690550",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP690550"
+   },
+   {
+    "molecule_synonym": "CP-690550-10",
+    "syn_type": "PND",
+    "synonyms": "CP-690550-10"
+   },
+   {
+    "molecule_synonym": "CP-690,550 FREE BASE",
+    "syn_type": "PND",
+    "synonyms": "CP-690,550 FREE BASE"
+   },
+   {
+    "molecule_synonym": "CP-690,550 FREE BASE",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690,550 FREE BASE"
+   },
+   {
+    "molecule_synonym": "CP-690550 FREE BASE",
+    "syn_type": "PND",
+    "synonyms": "CP-690550 FREE BASE"
+   },
+   {
+    "molecule_synonym": "CP-690550 FREE BASE",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "CP-690550 FREE BASE"
+   },
+   {
+    "molecule_synonym": "Cp-690 free base",
+    "syn_type": "OTHER",
+    "synonyms": "CP-690 FREE BASE"
+   },
+   {
+    "molecule_synonym": "CP-690 FREE BASE",
+    "syn_type": "PND",
+    "synonyms": "CP-690 FREE BASE"
+   },
+   {
+    "molecule_synonym": "PFE-PKIS 25",
+    "syn_type": "PND",
+    "synonyms": "PFE-PKIS 25"
+   },
+   {
+    "molecule_synonym": "PFE-PKIS_25",
+    "syn_type": "PND",
+    "synonyms": "PFE-PKIS_25"
+   },
+   {
+    "molecule_synonym": "TASOCITINIB",
+    "syn_type": "PND",
+    "synonyms": "Tasocitinib"
+   },
+   {
+    "molecule_synonym": "TASOCITINIB CITRATE",
+    "syn_type": "PND",
+    "synonyms": "Tasocitinib Citrate"
+   },
+   {
+    "molecule_synonym": "TOFACITINIB",
+    "syn_type": "PND",
+    "synonyms": "tofacitinib"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "ATC",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "BNF",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "INN",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "OTHER",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "Tofacitinib",
+    "syn_type": "USAN",
+    "synonyms": "TOFACITINIB"
+   },
+   {
+    "molecule_synonym": "TOFACITINIB CITRATE",
+    "syn_type": "PND",
+    "synonyms": "Tofacitinib Citrate"
+   },
+   {
+    "molecule_synonym": "TOFACITINIB (CONTROLLED RELEASE)",
+    "syn_type": "PND",
+    "synonyms": "tofacitinib (controlled release)"
+   },
+   {
+    "molecule_synonym": "TOFACITINIB (CP-690550)",
+    "syn_type": "PND",
+    "synonyms": "Tofacitinib (CP-690550)"
+   },
+   {
+    "molecule_synonym": "XELJANZ",
+    "syn_type": "PND",
+    "synonyms": "Xeljanz"
+   }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 1,
+  "oral": true,
+  "orphan": 0,
+  "parenteral": false,
+  "polymer_flag": 0,
+  "pref_name": "TOFACITINIB",
+  "prodrug": 0,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-tinib",
+  "usan_stem_definition": "tyrosine kinase inhibitors: tyrosine kinase inhibitors; janus kinase inhibitors",
+  "usan_substem": "-tinib (-citinib)",
+  "usan_year": 2010,
+  "veterinary": 0,
+  "withdrawn_flag": false
+ }
+}

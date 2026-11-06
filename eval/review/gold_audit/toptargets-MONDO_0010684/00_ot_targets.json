@@ -1,0 +1,52 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:46.518953+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name associatedTargets(page:{index:0,size:5}){rows{score target{approvedSymbol}}}}}",
+  "variables": {
+   "id": "MONDO_0010684"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "X-linked myopathy with excessive autophagy",
+     "associatedTargets": {
+      "rows": [
+       {
+        "score": 0.7192752272835513,
+        "target": {
+         "approvedSymbol": "VMA21"
+        }
+       },
+       {
+        "score": 0.3570869605449376,
+        "target": {
+         "approvedSymbol": "HSPB8"
+        }
+       },
+       {
+        "score": 0.3406602310556239,
+        "target": {
+         "approvedSymbol": "HNRNPA2B1"
+        }
+       },
+       {
+        "score": 0.3367851349487194,
+        "target": {
+         "approvedSymbol": "GNE"
+        }
+       },
+       {
+        "score": 0.3326218692162316,
+        "target": {
+         "approvedSymbol": "CLTA"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

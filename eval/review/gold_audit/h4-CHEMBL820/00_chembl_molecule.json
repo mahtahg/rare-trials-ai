@@ -1,0 +1,200 @@
+{
+ "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL820.json",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:55.546632+00:00",
+ "body": {
+  "atc_classifications": [
+   "L01AB01"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 1,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [
+   {
+    "xref_id": "human/EPAR/busulfan-fresenius-kabi",
+    "xref_name": "busulfan-fresenius-kabi",
+    "xref_src": "EMA"
+   },
+   {
+    "xref_id": "human/EPAR/busilvex",
+    "xref_name": "busilvex",
+    "xref_src": "EMA"
+   },
+   {
+    "xref_id": "busulfan",
+    "xref_name": "busulfan",
+    "xref_src": "DailyMed"
+   }
+  ],
+  "dosed_ingredient": true,
+  "first_approval": 1954,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL820",
+  "molecule_hierarchy": {
+   "active_chembl_id": "CHEMBL820",
+   "molecule_chembl_id": "CHEMBL820",
+   "parent_chembl_id": "CHEMBL820"
+  },
+  "molecule_properties": {
+   "alogp": "-0.28",
+   "aromatic_rings": 0,
+   "full_molformula": "C6H14O6S2",
+   "full_mwt": "246.31",
+   "hba": 6,
+   "hbd": 0,
+   "heavy_atoms": 14,
+   "mw_freebase": "246.31",
+   "np_likeness_score": "-0.10",
+   "num_ro5_violations": 0,
+   "psa": "86.74",
+   "qed_weighted": "0.45",
+   "ro3_pass": "N",
+   "rtb": 7
+  },
+  "molecule_structures": {
+   "canonical_smiles": "CS(=O)(=O)OCCCCOS(C)(=O)=O",
+   "molfile": "\n     RDKit          2D\n\n 14 13  0  0  0  0  0  0  0  0999 V2000\n   -0.7958   -4.3042    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4917   -4.6417    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.4458   -3.6875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.1583   -3.6875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.1292   -5.2542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.8417   -5.2542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8792   -4.2917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1833   -4.6542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.4083   -4.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1042   -4.2875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2667   -4.6417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4292   -4.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.0417   -4.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6542   -4.2917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  7  1  0\n  3  1  2  0\n  4  1  2  0\n  5  2  2  0\n  6  2  2  0\n  7 11  1  0\n  8  1  1  0\n  9  1  1  0\n 10  2  1  0\n 11 14  1  0\n 12  8  1  0\n 13 12  1  0\n 14 13  1  0\nM  END\n> <chembl_id>\nCHEMBL820\n\n> <chembl_pref_name>\nBUSULFAN",
+   "standard_inchi": "InChI=1S/C6H14O6S2/c1-13(7,8)11-5-3-4-6-12-14(2,9)10/h3-6H2,1-2H3",
+   "standard_inchi_key": "COVZYZSDYWQREU-UHFFFAOYSA-N"
+  },
+  "molecule_synonyms": [
+   {
+    "molecule_synonym": "Busilvex",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "BUSILVEX"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "ATC",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "BAN",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "BNF",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "EMA",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "FDA",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "INN",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "JAN",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "OTHER",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan",
+    "syn_type": "USP",
+    "synonyms": "BUSULFAN"
+   },
+   {
+    "molecule_synonym": "Busulfan fresenius kabi",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "BUSULFAN FRESENIUS KABI"
+   },
+   {
+    "molecule_synonym": "Busulfano",
+    "syn_type": "INN_SPANISH",
+    "synonyms": "BUSULFANO"
+   },
+   {
+    "molecule_synonym": "Busulfanum",
+    "syn_type": "OTHER",
+    "synonyms": "BUSULFANUM"
+   },
+   {
+    "molecule_synonym": "Busulfex",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "BUSULFEX"
+   },
+   {
+    "molecule_synonym": "Leucosulfan",
+    "syn_type": "OTHER",
+    "synonyms": "LEUCOSULFAN"
+   },
+   {
+    "molecule_synonym": "Myelosan",
+    "syn_type": "OTHER",
+    "synonyms": "MYELOSAN"
+   },
+   {
+    "molecule_synonym": "Myelosanum",
+    "syn_type": "OTHER",
+    "synonyms": "MYELOSANUM"
+   },
+   {
+    "molecule_synonym": "Myleran",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "MYLERAN"
+   },
+   {
+    "molecule_synonym": "NCI-C01592",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NCI-C01592"
+   },
+   {
+    "molecule_synonym": "NSC-750",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NSC-750"
+   },
+   {
+    "molecule_synonym": "Sulphabutin",
+    "syn_type": "OTHER",
+    "synonyms": "SULPHABUTIN"
+   }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 1,
+  "oral": true,
+  "orphan": 0,
+  "parenteral": true,
+  "polymer_flag": 0,
+  "pref_name": "BUSULFAN",
+  "prodrug": 0,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-sulfan",
+  "usan_stem_definition": "antineoplastics, alkylating agents (methane sulfonate derivatives)",
+  "usan_substem": "-sulfan",
+  "usan_year": null,
+  "veterinary": 0,
+  "withdrawn_flag": false
+ }
+}

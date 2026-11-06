@@ -1,0 +1,3337 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22posaconazole%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:50.865106+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 20
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20221222",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA216626",
+    "sponsor_name": "AMNEAL",
+    "openfda": {
+     "application_number": [
+      "ANDA216626"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Amneal Pharmaceuticals NY LLC"
+     ],
+     "product_ndc": [
+      "69238-1476"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "3f266ed7-06f9-48bf-a520-787aeb4e111c"
+     ],
+     "spl_set_id": [
+      "5f795eca-7a03-4c91-9a0e-c1235791b665"
+     ],
+     "package_ndc": [
+      "69238-1476-3",
+      "69238-1476-6"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240718",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250710",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA217119",
+    "sponsor_name": "AUROBINDO PHARMA",
+    "openfda": {
+     "application_number": [
+      "ANDA217119"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Aurobindo Pharma Limited"
+     ],
+     "product_ndc": [
+      "59651-596"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "c54279d9-ce17-4213-8db5-eee9bc63ea34"
+     ],
+     "spl_set_id": [
+      "f8a26673-261c-4e8e-b1e1-9e23aaf7f285"
+     ],
+     "package_ndc": [
+      "59651-596-60"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20140611",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "40437",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/205053s1lbl.pdf",
+        "date": "20150819",
+        "type": "Label"
+       },
+       {
+        "id": "32620",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/205053Orig1s001ltr.pdf",
+        "date": "20140612",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20220113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69877",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003s028,205053s014,205596s015,214770s002lbl.pdf",
+        "date": "20220114",
+        "type": "Label"
+       },
+       {
+        "id": "69885",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s028, 205053Orig1s014, 205596Orig1s015, 214770Orig1s002ltr.pdf",
+        "date": "20220118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20210531",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "67665",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214770Orig1s000,205053Orig1s012,205596Orig1s012lbl.pdf",
+        "date": "20210602",
+        "type": "Label"
+       },
+       {
+        "id": "67673",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/214770Orig1s000;%20205053Orig1s012;%20205596Orig1s012ltr.pdf",
+        "date": "20210603",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20200916",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "64594",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010ltr.pdf",
+        "date": "20200917",
+        "type": "Letter"
+       },
+       {
+        "id": "64610",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010lbl.pdf",
+        "date": "20200918",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20131125",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 3",
+      "submission_class_code_description": "Type 3 - New Dosage Form",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "40436",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2013/205053s000lbl.pdf",
+        "date": "20131126",
+        "type": "Label"
+       },
+       {
+        "id": "44912",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/205053Orig1s000SumR.pdf",
+        "date": "20150316",
+        "type": "Summary Review"
+       },
+       {
+        "id": "51584",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/205053Orig1s000_posaconazole Noxafil_Statistical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Statistical Review"
+       },
+       {
+        "id": "51586",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/205053Orig1s000_ posaconazole Noxafil_Clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       },
+       {
+        "id": "51588",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/205053Orig1s000_posaconazole Noxafil_Clinpharm prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Clinical Pharmacology Review"
+       },
+       {
+        "id": "22972",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/205053Orig1s000TOC.html",
+        "date": "20150316",
+        "type": "Review"
+       },
+       {
+        "id": "32619",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/205053Orig1s000ltr.pdf",
+        "date": "20131127",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20190311",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57971",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s024, 205053Orig1s008, 205596Orig1s007ltr.pdf",
+        "date": "20190312",
+        "type": "Letter"
+       },
+       {
+        "id": "57974",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s024,205053s008,205596s007lbl.pdf",
+        "date": "20190312",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20180104",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "50984",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/022003Orig1s022,205053Orig1s006,205596Orig1s005ltr.pdf",
+        "date": "20180108",
+        "type": "Letter"
+       },
+       {
+        "id": "51008",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/022003s022,205053s006,205596s005lbl.pdf",
+        "date": "20180109",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "17",
+      "submission_status": "AP",
+      "submission_status_date": "20241025",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "80025",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/022003s033,205053s017,205596s020,214770s008lbl.pdf",
+        "date": "20241028",
+        "type": "Label"
+       },
+       {
+        "id": "80036",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/022003Orig1s033, 205053Orig1s017, 205596Orig1s020, 214770Orig1s008ltr.pdf",
+        "date": "20241029",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "40439",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       },
+       {
+        "id": "32622",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "40438",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       },
+       {
+        "id": "32621",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20220120",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69940",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/205053Orig1s013lbl.pdf",
+        "date": "20220121",
+        "type": "Label"
+       },
+       {
+        "id": "69941",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/205053Orig1s013ltr.pdf",
+        "date": "20220121",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20210617",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "67858",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/205053Orig1s011;%20205596Orig1s013ltr.pdf",
+        "date": "20210622",
+        "type": "Letter"
+       },
+       {
+        "id": "67879",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/205053s011,205596s013lbl.pdf",
+        "date": "20210623",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20190221",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57771",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s025,205053Orig1s009,205596Orig1s008ltr.pdf",
+        "date": "20190222",
+        "type": "Letter"
+       },
+       {
+        "id": "57794",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s025,205053s009,205596s008lbl.pdf",
+        "date": "20190222",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "18",
+      "submission_status": "AP",
+      "submission_status_date": "20260127",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "84856",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/022003Orig1s034;205053Orig1s018;205596Orig1s021;214770Orig1s009ltr.pdf",
+        "date": "20260128",
+        "type": "Letter"
+       },
+       {
+        "id": "84862",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022003s034,205053s018,205596s021,214770s009lbl.pdf",
+        "date": "20260128",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20160909",
+      "submission_public_notes": "Please see <a href=\"https://www.fda.gov/STIC/\">www.fda.gov/STIC</a> for labeling requirements on susceptibility test interpretive criteria for systemic antibacterial and antifungal drugs.",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "45296",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/022003Orig1s021,205053Orig1s005,205596Orig1s004ltr.pdf",
+        "date": "20160915",
+        "type": "Letter"
+       },
+       {
+        "id": "46969",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/022003s021,205053s005,205596s004lbl.pdf",
+        "date": "20170124",
+        "type": "Label"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA205053",
+    "sponsor_name": "MERCK SHARP DOHME",
+    "openfda": {
+     "application_number": [
+      "NDA205053"
+     ],
+     "brand_name": [
+      "NOXAFIL",
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Merck Sharp & Dohme LLC",
+      "ENDO USA, Inc."
+     ],
+     "product_ndc": [
+      "0085-4324",
+      "0085-1328",
+      "0085-4331",
+      "0085-2224",
+      "0254-2045",
+      "0254-1016"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "665019",
+      "665022",
+      "1482908",
+      "1482912",
+      "1492043",
+      "1492047",
+      "2558603",
+      "2558607"
+     ],
+     "spl_id": [
+      "56740f7d-3b29-4786-b5c7-eea6c0f14400",
+      "15fdf050-71cb-476f-a7ce-38c40262f381"
+     ],
+     "spl_set_id": [
+      "b073b082-7b57-4423-8c06-4fd4263d6f84",
+      "e031b632-8e57-4359-87bd-a5da02bdc55f"
+     ],
+     "package_ndc": [
+      "0085-1328-01",
+      "0085-4324-02",
+      "0085-4331-01",
+      "0085-2224-01",
+      "0085-2224-02",
+      "0254-2045-02",
+      "0254-1016-36"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "NOXAFIL",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG **Federal Register determination that product was not discontinued or withdrawn for safety or effectiveness reasons**"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Discontinued",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20251029",
+      "review_priority": "UNKNOWN",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250224",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA218434",
+    "sponsor_name": "MSN",
+    "openfda": {
+     "application_number": [
+      "ANDA218434"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Novadoz Pharmaceuticals LLC"
+     ],
+     "product_ndc": [
+      "72205-168"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "0bdf77ae-3639-49c1-b7c7-533f9d073084"
+     ],
+     "spl_set_id": [
+      "0bdf77ae-3639-49c1-b7c7-533f9d073084"
+     ],
+     "package_ndc": [
+      "72205-168-60"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210201",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20231218",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20231218",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20231218",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231218",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA213454",
+    "sponsor_name": "AET PHARMA",
+    "openfda": {
+     "application_number": [
+      "ANDA213454"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Lupin Pharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "70748-258"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "ef76e94c-f183-4eef-8fee-a52635cdcd34"
+     ],
+     "spl_set_id": [
+      "548124ce-8050-46a9-967b-ff23dfb18633"
+     ],
+     "package_ndc": [
+      "70748-258-07"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231226",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "72042",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/209983Orig1s000TAltr.pdf",
+        "date": "20220908",
+        "type": "Letter"
+       },
+       {
+        "id": "75161",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/209983Orig1s000TAltr.pdf",
+        "date": "20230821",
+        "type": "Other"
+       }
+      ]
+     }
+    ],
+    "application_number": "ANDA209983",
+    "sponsor_name": "FRESENIUS KABI USA",
+    "openfda": {
+     "application_number": [
+      "ANDA209983"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Fresensius Kabi USA, LLC"
+     ],
+     "product_ndc": [
+      "63323-685"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "3ed81dc8-a1e0-4513-be2a-7a16aea62198"
+     ],
+     "spl_set_id": [
+      "86be8cdb-c991-4754-b8f4-1ab79ac40bda"
+     ],
+     "package_ndc": [
+      "63323-685-17"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20221208",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA214321",
+    "sponsor_name": "HETERO LABS LTD III",
+    "openfda": {
+     "application_number": [
+      "ANDA214321"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "NorthStar RxLLC",
+      "Camber Pharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "16714-535",
+      "31722-677"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "f00461e3-12cb-3905-e053-2a95a90a4e12",
+      "f00382d7-d652-18a4-e053-2995a90a58d1"
+     ],
+     "spl_set_id": [
+      "4de6d839-e4bd-405c-83c5-8efc6abd0829",
+      "573d89eb-05d8-4035-b406-6409f36ab707"
+     ],
+     "package_ndc": [
+      "16714-535-01",
+      "31722-677-60"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20220728",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20220728",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190821",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "60208",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/212411Orig1s000ltr.pdf",
+        "date": "20191003",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20220728",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA212411",
+    "sponsor_name": "SINOTHERAPEUTICS INC",
+    "openfda": {
+     "application_number": [
+      "ANDA212411"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE DELAYED-RELEASE",
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Chartwell RX, LLC",
+      "Lannett Company Inc."
+     ],
+     "product_ndc": [
+      "62135-429",
+      "0527-2133"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "f043ffa5-9564-4a98-e053-2995a90af810",
+      "291b0655-036f-4073-a475-c33a411db178"
+     ],
+     "spl_set_id": [
+      "f2baa339-75ff-4c03-8334-a88648f701f7",
+      "94a9b028-a2bc-4f41-884d-2d6c536881fc"
+     ],
+     "package_ndc": [
+      "62135-429-60",
+      "0527-2133-35",
+      "0527-2133-43",
+      "0527-2133-30"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "28",
+      "submission_status": "AP",
+      "submission_status_date": "20220113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69876",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003s028,205053s014,205596s015,214770s002lbl.pdf",
+        "date": "20220114",
+        "type": "Label"
+       },
+       {
+        "id": "69884",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s028, 205053Orig1s014, 205596Orig1s015, 214770Orig1s002ltr.pdf",
+        "date": "20220118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "34",
+      "submission_status": "AP",
+      "submission_status_date": "20260127",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "84855",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/022003Orig1s034;205053Orig1s018;205596Orig1s021;214770Orig1s009ltr.pdf",
+        "date": "20260127",
+        "type": "Letter"
+       },
+       {
+        "id": "84861",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022003s034,205053s018,205596s021,214770s009lbl.pdf",
+        "date": "20260128",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "26",
+      "submission_status": "AP",
+      "submission_status_date": "20200916",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "64593",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010ltr.pdf",
+        "date": "20200917",
+        "type": "Letter"
+       },
+       {
+        "id": "64612",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010lbl.pdf",
+        "date": "20200918",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20100908",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "16741",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022003s008,022027s001lbl.pdf",
+        "date": "20100910",
+        "type": "Label"
+       },
+       {
+        "id": "29045",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/022003s008,022027s001ltr.pdf",
+        "date": "20100913",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "18",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "38064",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       },
+       {
+        "id": "29047",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "24",
+      "submission_status": "AP",
+      "submission_status_date": "20190311",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57970",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s024, 205053Orig1s008, 205596Orig1s007ltr.pdf",
+        "date": "20190312",
+        "type": "Letter"
+       },
+       {
+        "id": "57973",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s024,205053s008,205596s007lbl.pdf",
+        "date": "20190312",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20080520",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "29043",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2008/022003s002s006ltr.pdf",
+        "date": "20080521",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "16",
+      "submission_status": "AP",
+      "submission_status_date": "20150714",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "16743",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003Orig1s016lbl.pdf",
+        "date": "20150722",
+        "type": "Label"
+       },
+       {
+        "id": "29046",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s016ltr.pdf",
+        "date": "20150716",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "30",
+      "submission_status": "AP",
+      "submission_status_date": "20220103",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69807",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s030ltr.pdf",
+        "date": "20220104",
+        "type": "Letter"
+       },
+       {
+        "id": "70229",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003Orig1s030lbl.pdf",
+        "date": "20220223",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "22",
+      "submission_status": "AP",
+      "submission_status_date": "20180104",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "50983",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/022003Orig1s022,205053Orig1s006,205596Orig1s005ltr.pdf",
+        "date": "20180108",
+        "type": "Letter"
+       },
+       {
+        "id": "51007",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/022003s022,205053s006,205596s005lbl.pdf",
+        "date": "20180109",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20140616",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20080520",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "6656",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2008/022003s002s006ltr.pdf",
+        "date": "20080521",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "20",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "16744",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       },
+       {
+        "id": "29048",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20120621",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "6658",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/022003Orig1s011,s012,022027Orig1s002,s003ltr.pdf",
+        "date": "20120625",
+        "type": "Letter"
+       },
+       {
+        "id": "16742",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/022003s011s012,022027s002s003lbl.pdf",
+        "date": "20120622",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "27",
+      "submission_status": "AP",
+      "submission_status_date": "20220120",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69938",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003Orig1s027lbl.pdf",
+        "date": "20220121",
+        "type": "Label"
+       },
+       {
+        "id": "69939",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s027ltr.pdf",
+        "date": "20220121",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20060915",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "application_docs": [
+       {
+        "id": "38061",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2006/022003lbl.pdf",
+        "date": "20060918",
+        "type": "Label"
+       },
+       {
+        "id": "42384",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2006/022003s000_NoxafilTOC.html",
+        "date": "20061109",
+        "type": "Review"
+       },
+       {
+        "id": "51541",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/8_22003 posaconazole clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       },
+       {
+        "id": "51542",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/7_22003 posaconazole clinpharm prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Clinical Pharmacology Review"
+       },
+       {
+        "id": "29042",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/022003ltr.pdf",
+        "date": "20060920",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "19",
+      "submission_status": "AP",
+      "submission_status_date": "20160411",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "33",
+      "submission_status": "AP",
+      "submission_status_date": "20241025",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "80024",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/022003s033,205053s017,205596s020,214770s008lbl.pdf",
+        "date": "20241028",
+        "type": "Label"
+       },
+       {
+        "id": "80035",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/022003Orig1s033, 205053Orig1s017, 205596Orig1s020, 214770Orig1s008ltr.pdf",
+        "date": "20241029",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "25",
+      "submission_status": "AP",
+      "submission_status_date": "20190221",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57770",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s025,205053Orig1s009,205596Orig1s008ltr.pdf",
+        "date": "20190222",
+        "type": "Letter"
+       },
+       {
+        "id": "57793",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s025,205053s009,205596s008lbl.pdf",
+        "date": "20190222",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20090219",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "38062",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/022003s007lbl.pdf",
+        "date": "20090220",
+        "type": "Label"
+       },
+       {
+        "id": "29044",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/022003s007ltr.pdf",
+        "date": "20090223",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "17",
+      "submission_status": "AP",
+      "submission_status_date": "20150813",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "15",
+      "submission_status": "AP",
+      "submission_status_date": "20150615",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20160909",
+      "submission_public_notes": "Please see <a href=\"https://www.fda.gov/STIC/\">www.fda.gov/STIC</a> for labeling requirements on susceptibility test interpretive criteria for systemic antibacterial and antifungal drugs.",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "45295",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/022003Orig1s021,205053Orig1s005,205596Orig1s004ltr.pdf",
+        "date": "20160915",
+        "type": "Letter"
+       },
+       {
+        "id": "46970",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/022003s021,205053s005,205596s004lbl.pdf",
+        "date": "20170124",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20140107",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20120621",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "6657",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/022003Orig1s011,s012,022027Orig1s002,s003ltr.pdf",
+        "date": "20120625",
+        "type": "Letter"
+       },
+       {
+        "id": "38063",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/022003s011s012,022027s002s003lbl.pdf",
+        "date": "20120622",
+        "type": "Label"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA022003",
+    "sponsor_name": "SCHERING",
+    "openfda": {
+     "application_number": [
+      "NDA022003"
+     ],
+     "brand_name": [
+      "NOXAFIL",
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Merck Sharp & Dohme LLC",
+      "ENDO USA, Inc."
+     ],
+     "product_ndc": [
+      "0085-1328",
+      "0085-4324",
+      "0085-4331",
+      "0085-2224",
+      "0254-1016",
+      "0254-2045"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "665019",
+      "665022",
+      "1482908",
+      "1482912",
+      "1492043",
+      "1492047",
+      "2558603",
+      "2558607"
+     ],
+     "spl_id": [
+      "56740f7d-3b29-4786-b5c7-eea6c0f14400",
+      "15fdf050-71cb-476f-a7ce-38c40262f381"
+     ],
+     "spl_set_id": [
+      "b073b082-7b57-4423-8c06-4fd4263d6f84",
+      "e031b632-8e57-4359-87bd-a5da02bdc55f"
+     ],
+     "package_ndc": [
+      "0085-1328-01",
+      "0085-4324-02",
+      "0085-4331-01",
+      "0085-2224-01",
+      "0085-2224-02",
+      "0254-2045-02",
+      "0254-1016-36"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "NOXAFIL",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "40MG/ML"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "SUSPENSION",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "20",
+      "submission_status": "AP",
+      "submission_status_date": "20241025",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "80026",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/022003s033,205053s017,205596s020,214770s008lbl.pdf",
+        "date": "20241028",
+        "type": "Label"
+       },
+       {
+        "id": "80037",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/022003Orig1s033, 205053Orig1s017, 205596Orig1s020, 214770Orig1s008ltr.pdf",
+        "date": "20241029",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20210531",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "67666",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214770Orig1s000,205053Orig1s012,205596Orig1s012lbl.pdf",
+        "date": "20210602",
+        "type": "Label"
+       },
+       {
+        "id": "67674",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/214770Orig1s000;%20205053Orig1s012;%20205596Orig1s012ltr.pdf",
+        "date": "20210603",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20160909",
+      "submission_public_notes": "Please see <a href=\"https://www.fda.gov/STIC/\">www.fda.gov/STIC</a> for labeling requirements on susceptibility test interpretive criteria for systemic antibacterial and antifungal drugs.",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "45297",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/022003Orig1s021,205053Orig1s005,205596Orig1s004ltr.pdf",
+        "date": "20160915",
+        "type": "Letter"
+       },
+       {
+        "id": "46968",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/022003s021,205053s005,205596s004lbl.pdf",
+        "date": "20170124",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20200916",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "64595",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010ltr.pdf",
+        "date": "20200917",
+        "type": "Letter"
+       },
+       {
+        "id": "64611",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/022003Orig1s026,205053Orig1s010,205596Orig1s010lbl.pdf",
+        "date": "20200918",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "15",
+      "submission_status": "AP",
+      "submission_status_date": "20220113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69878",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003s028,205053s014,205596s015,214770s002lbl.pdf",
+        "date": "20220114",
+        "type": "Label"
+       },
+       {
+        "id": "69886",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s028, 205053Orig1s014, 205596Orig1s015, 214770Orig1s002ltr.pdf",
+        "date": "20220118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20260127",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "84857",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/022003Orig1s034;205053Orig1s018;205596Orig1s021;214770Orig1s009ltr.pdf",
+        "date": "20260128",
+        "type": "Letter"
+       },
+       {
+        "id": "84863",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022003s034,205053s018,205596s021,214770s009lbl.pdf",
+        "date": "20260128",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20190311",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57972",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s024, 205053Orig1s008, 205596Orig1s007ltr.pdf",
+        "date": "20190312",
+        "type": "Letter"
+       },
+       {
+        "id": "57975",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s024,205053s008,205596s007lbl.pdf",
+        "date": "20190312",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20210617",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "67855",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/205053Orig1s011; 205596Orig1s013ltr.pdf",
+        "date": "20210622",
+        "type": "Letter"
+       },
+       {
+        "id": "67859",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/205596s013lbl.pdf",
+        "date": "20210622",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20180104",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "50985",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/022003Orig1s022,205053Orig1s006,205596Orig1s005ltr.pdf",
+        "date": "20180108",
+        "type": "Letter"
+       },
+       {
+        "id": "51009",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/022003s022,205053s006,205596s005lbl.pdf",
+        "date": "20180109",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20140313",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 3",
+      "submission_class_code_description": "Type 3 - New Dosage Form",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "44925",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205596Orig1s000SumR.pdf",
+        "date": "20141010",
+        "type": "Summary Review"
+       },
+       {
+        "id": "10471",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/205596Orig1s000ltr.pdf",
+        "date": "20140314",
+        "type": "Letter"
+       },
+       {
+        "id": "19663",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2014/205596s000lbl.pdf",
+        "date": "20140319",
+        "type": "Label"
+       },
+       {
+        "id": "22996",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205596Orig1s000TOC.html",
+        "date": "20141010",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "10472",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       },
+       {
+        "id": "19665",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20151113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "19664",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/022003s018s020,0205053s002s004,0205596s001s003lbl.pdf",
+        "date": "20151119",
+        "type": "Label"
+       },
+       {
+        "id": "32693",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/022003Orig1s018,s020,205053Orig1s002,s004,205596Orig1s001,s003ltr.pdf",
+        "date": "20151118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20190221",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "57772",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/022003Orig1s025,205053Orig1s009,205596Orig1s008ltr.pdf",
+        "date": "20190222",
+        "type": "Letter"
+       },
+       {
+        "id": "57795",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022003s025,205053s009,205596s008lbl.pdf",
+        "date": "20190222",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20220120",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69942",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/205596Orig1s014lbl.pdf",
+        "date": "20220121",
+        "type": "Label"
+       },
+       {
+        "id": "69943",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/205596Orig1s014ltr.pdf",
+        "date": "20220121",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA205596",
+    "sponsor_name": "MERCK SHARP DOHME",
+    "openfda": {
+     "application_number": [
+      "NDA205596"
+     ],
+     "brand_name": [
+      "NOXAFIL"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Merck Sharp & Dohme LLC"
+     ],
+     "product_ndc": [
+      "0085-4331",
+      "0085-1328",
+      "0085-4324",
+      "0085-2224"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "665019",
+      "665022",
+      "1482908",
+      "1482912",
+      "1492043",
+      "1492047",
+      "2558603",
+      "2558607"
+     ],
+     "spl_id": [
+      "56740f7d-3b29-4786-b5c7-eea6c0f14400"
+     ],
+     "spl_set_id": [
+      "b073b082-7b57-4423-8c06-4fd4263d6f84"
+     ],
+     "package_ndc": [
+      "0085-1328-01",
+      "0085-4324-02",
+      "0085-4331-01",
+      "0085-2224-01",
+      "0085-2224-02"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "NOXAFIL",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Discontinued",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20241223",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA219057",
+    "sponsor_name": "ASPIRO",
+    "openfda": {
+     "application_number": [
+      "ANDA219057"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Camber Pharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "31722-370"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "2cfdafa2-b1b9-0758-e063-6394a90ac7f9"
+     ],
+     "spl_set_id": [
+      "c551e121-d5fc-4b35-ba9f-72ce3a314fdc"
+     ],
+     "package_ndc": [
+      "31722-370-31"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "20241025",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "80027",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/022003s033,205053s017,205596s020,214770s008lbl.pdf",
+        "date": "20241028",
+        "type": "Label"
+       },
+       {
+        "id": "80038",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/022003Orig1s033, 205053Orig1s017, 205596Orig1s020, 214770Orig1s008ltr.pdf",
+        "date": "20241029",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20220113",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69879",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022003s028,205053s014,205596s015,214770s002lbl.pdf",
+        "date": "20220114",
+        "type": "Label"
+       },
+       {
+        "id": "69887",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022003Orig1s028, 205053Orig1s014, 205596Orig1s015, 214770Orig1s002ltr.pdf",
+        "date": "20220118",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210531",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 5",
+      "submission_class_code_description": "Type 5 - New Formulation or New Manufacturer",
+      "application_docs": [
+       {
+        "id": "67664",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214770Orig1s000Lbl.pdf",
+        "date": "20211021",
+        "type": "Label"
+       },
+       {
+        "id": "67671",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/214770Orig1s000; 205053Orig1s012; 205596Orig1s012ltr.pdf",
+        "date": "20210603",
+        "type": "Letter"
+       },
+       {
+        "id": "69368",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214770Orig1s000TOC.html",
+        "date": "20211122",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "20260127",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "84858",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/022003Orig1s034;205053Orig1s018;205596Orig1s021;214770Orig1s009ltr.pdf",
+        "date": "20260128",
+        "type": "Letter"
+       },
+       {
+        "id": "84864",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2026/022003s034,205053s018,205596s021,214770s009lbl.pdf",
+        "date": "20260128",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220120",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "69946",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/214770Orig1s001lbl.pdf",
+        "date": "20220121",
+        "type": "Label"
+       },
+       {
+        "id": "69947",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/214770Orig1s001ltr.pdf",
+        "date": "20220121",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA214770",
+    "sponsor_name": "MSD MERCK CO",
+    "openfda": {
+     "application_number": [
+      "NDA214770"
+     ],
+     "brand_name": [
+      "NOXAFIL"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Merck Sharp & Dohme LLC"
+     ],
+     "product_ndc": [
+      "0085-2224",
+      "0085-1328",
+      "0085-4324",
+      "0085-4331"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "665019",
+      "665022",
+      "1482908",
+      "1482912",
+      "1492043",
+      "1492047",
+      "2558603",
+      "2558607"
+     ],
+     "spl_id": [
+      "56740f7d-3b29-4786-b5c7-eea6c0f14400"
+     ],
+     "spl_set_id": [
+      "b073b082-7b57-4423-8c06-4fd4263d6f84"
+     ],
+     "package_ndc": [
+      "0085-1328-01",
+      "0085-4324-02",
+      "0085-4331-01",
+      "0085-2224-01",
+      "0085-2224-02"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "NOXAFIL POWDERMIX KIT",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "FOR SUSPENSION, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240612",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20250703",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231226",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA217553",
+    "sponsor_name": "GLAND",
+    "openfda": {
+     "application_number": [
+      "ANDA217553"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "GLENMARK PHARMACEUTICALS INC., USA",
+      "Gland Pharma Limited"
+     ],
+     "product_ndc": [
+      "68462-904",
+      "68462-911",
+      "68083-577"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "1084301f-f51a-4bf5-8d37-bd779590d5e5",
+      "5ad94bba-fba7-4e3e-809c-6e51ad7a5930",
+      "14b6b64b-748b-462f-b654-2554a6a51f9e"
+     ],
+     "spl_set_id": [
+      "a2ba0343-cd17-4b23-8356-005a1dfd0b35",
+      "91f89a3b-2479-4d05-9997-7b0cfaa496ec",
+      "52d9d29e-4a37-4926-aa57-8477f5447b34"
+     ],
+     "package_ndc": [
+      "68462-904-01",
+      "68462-911-01",
+      "68083-577-01"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20230828",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA216488",
+    "sponsor_name": "PHARMAZONE",
+    "openfda": {
+     "application_number": [
+      "ANDA216488"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "i3 Pharmaceuticals, LLC",
+      "A2A Integrated Pharmaceuticals"
+     ],
+     "product_ndc": [
+      "72319-023",
+      "73141-023"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "3249c585-7620-444f-e063-6294a90ae5ac",
+      "3249fa0e-2b53-ebfb-e063-6394a90a2d78"
+     ],
+     "spl_set_id": [
+      "d5300d14-219d-4e1e-bfac-b413c40d6e3a",
+      "4d14ceab-196e-4dc3-8b21-5c4629ada161"
+     ],
+     "package_ndc": [
+      "72319-023-02",
+      "73141-023-02"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220407",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA212500",
+    "sponsor_name": "DR REDDYS",
+    "openfda": {
+     "application_number": [
+      "ANDA212500"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Dr.Reddys Laboratories Inc"
+     ],
+     "product_ndc": [
+      "43598-470"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "b62d22f2-09cd-aca5-07d4-9608a9d6b3c7"
+     ],
+     "spl_set_id": [
+      "d8d8dd03-46b5-bd26-bb27-7ca31d8c3326"
+     ],
+     "package_ndc": [
+      "43598-470-60"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231226",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "71959",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/214842Orig1s000TAltr.pdf",
+        "date": "20220830",
+        "type": "Letter"
+       },
+       {
+        "id": "74539",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/214842Orig1s000TA_ltr.pdf",
+        "date": "20230616",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "ANDA214842",
+    "sponsor_name": "EUGIA PHARMA",
+    "openfda": {
+     "application_number": [
+      "ANDA214842"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Eugia US LLC"
+     ],
+     "product_ndc": [
+      "55150-388"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "6d1e5905-71b9-480b-82ae-5c92a2374e1d"
+     ],
+     "spl_set_id": [
+      "2e88e379-b712-4dec-97a2-c90ef3638372"
+     ],
+     "package_ndc": [
+      "55150-388-01"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231226",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "74736",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/211500Orig1s000TA_ltr.pdf",
+        "date": "20230713",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250313",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA211500",
+    "sponsor_name": "MYLAN LABS LTD",
+    "openfda": {
+     "application_number": [
+      "ANDA211500"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Mylan Institutional LLC"
+     ],
+     "product_ndc": [
+      "67457-665"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "487860b5-2b62-4fef-9a89-8d4e8b4d7f63"
+     ],
+     "spl_set_id": [
+      "1ebbd88b-547b-4b49-ab73-98094a2d5a79"
+     ],
+     "package_ndc": [
+      "67457-665-20"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20250702",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220525",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "54448",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/208768Orig1s000ltr.pdf",
+        "date": "20180605",
+        "type": "Letter"
+       },
+       {
+        "id": "71885",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/208768Orig1s000ltr.pdf",
+        "date": "20220825",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "ANDA208768",
+    "sponsor_name": "PH HEALTH",
+    "openfda": {
+     "application_number": [
+      "ANDA208768"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Par Health USA, LLC"
+     ],
+     "product_ndc": [
+      "42023-195"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1492043"
+     ],
+     "spl_id": [
+      "70da1db2-5881-462d-86c6-04adaac2c630"
+     ],
+     "spl_set_id": [
+      "4032672e-1bb0-427d-a3b3-09cda4beaf34"
+     ],
+     "package_ndc": [
+      "42023-195-01"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "300MG/16.7ML (18MG/ML)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SOLUTION",
+      "route": "INTRAVENOUS",
+      "marketing_status": "Prescription",
+      "te_code": "AP"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20241024",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20200515",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "63417",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/208773Orig1s000ltr.pdf",
+        "date": "20200604",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20241024",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA208773",
+    "sponsor_name": "HIKMA",
+    "openfda": {
+     "application_number": [
+      "ANDA208773"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "Hikma Pharmaceuticals USA Inc."
+     ],
+     "product_ndc": [
+      "0054-0449"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "665019"
+     ],
+     "spl_id": [
+      "cf1fc2ce-44cf-47fa-abce-50b4050f4a3b"
+     ],
+     "spl_set_id": [
+      "282ddea7-47d8-44e4-8806-169d7cafa951"
+     ],
+     "package_ndc": [
+      "0054-0449-49"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "40MG/ML"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "SUSPENSION",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220510",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA212226",
+    "sponsor_name": "SPECGX LLC",
+    "openfda": {
+     "application_number": [
+      "ANDA212226"
+     ],
+     "brand_name": [
+      "POSACONAZOLE"
+     ],
+     "generic_name": [
+      "POSACONAZOLE"
+     ],
+     "manufacturer_name": [
+      "SpecGx LLC"
+     ],
+     "product_ndc": [
+      "0406-7711"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "POSACONAZOLE"
+     ],
+     "rxcui": [
+      "1482908"
+     ],
+     "spl_id": [
+      "2432a708-a147-4b42-972c-a118b280d3ac"
+     ],
+     "spl_set_id": [
+      "8412398b-c696-4f12-ba3a-da74dc8dadaf"
+     ],
+     "package_ndc": [
+      "0406-7711-60"
+     ],
+     "nui": [
+      "N0000175487",
+      "M0002083"
+     ],
+     "pharm_class_epc": [
+      "Azole Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Azoles [CS]"
+     ],
+     "unii": [
+      "6TK1G07BHZ"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "POSACONAZOLE",
+      "active_ingredients": [
+       {
+        "name": "POSACONAZOLE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET, DELAYED RELEASE",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   }
+  ]
+ }
+}

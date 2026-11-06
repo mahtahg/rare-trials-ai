@@ -1,0 +1,50 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:53.208559+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0005124"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "leprosy",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL1043",
+         "name": "DAPSONE"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL1200580",
+         "name": "SULFOXONE SODIUM"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL1431",
+         "name": "METFORMIN"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL1292",
+         "name": "CLOFAZIMINE"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

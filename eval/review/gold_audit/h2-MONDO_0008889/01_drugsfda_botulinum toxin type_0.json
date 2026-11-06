@@ -1,0 +1,661 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22botulinum+toxin+type+a%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.349409+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 2
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "112",
+      "submission_status": "AP",
+      "submission_status_date": "20181105",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "56317",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/125274s112lbl.pdf",
+        "date": "20181106",
+        "type": "Label"
+       },
+       {
+        "id": "56466",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125274Orig1s112ltr.pdf",
+        "date": "20181115",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "102",
+      "submission_status": "AP",
+      "submission_status_date": "20150715",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "31883",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/125274Orig1s102ltr.pdf",
+        "date": "20150716",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20090429",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "43313",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/125274s001_dysport_toc.html",
+        "date": "20110817",
+        "type": "Review"
+       },
+       {
+        "id": "18832",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/125274s0000s0001lbl.pdf",
+        "date": "20090604",
+        "type": "Label"
+       },
+       {
+        "id": "24359",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/125274Orig1s001SumR.pdf",
+        "date": "20110817",
+        "type": "Summary Review"
+       },
+       {
+        "id": "31882",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/125274s000s001 ltr.pdf",
+        "date": "20090507",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "125",
+      "submission_status": "AP",
+      "submission_status_date": "20230921",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "75534",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/125274Orig1s125ltr.pdf",
+        "date": "20230922",
+        "type": "Letter"
+       },
+       {
+        "id": "75543",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/125274s125lbl.pdf",
+        "date": "20230922",
+        "type": "Label"
+       },
+       {
+        "id": "75544",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/125274s125lbl.pdf#page=30",
+        "date": "20230922",
+        "type": "Medication Guide"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "109",
+      "submission_status": "AP",
+      "submission_status_date": "20170614",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "48718",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/125274s109lbl.pdf",
+        "date": "20170615",
+        "type": "Label"
+       },
+       {
+        "id": "48771",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/125274Orig1s109ltr.pdf",
+        "date": "20170619",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "123",
+      "submission_status": "AP",
+      "submission_status_date": "20230112",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "73148",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/125274Orig1s123correctedlbl.pdf",
+        "date": "20230113",
+        "type": "Label"
+       },
+       {
+        "id": "73150",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/125274Orig1s123ltr.pdf",
+        "date": "20230130",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "115",
+      "submission_status": "AP",
+      "submission_status_date": "20190925",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "60114",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125274Orig1s115ltr.pdf",
+        "date": "20190926",
+        "type": "Letter"
+       },
+       {
+        "id": "60123",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/125274s115lbl.pdf",
+        "date": "20190926",
+        "type": "Label"
+       },
+       {
+        "id": "62862",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/481_125274S115 abotulinumtoxin A statistical prea_0.pdf",
+        "date": "19000101",
+        "type": "Pediatric Statistical Review"
+       },
+       {
+        "id": "62863",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/482_125274S115 abotulinumtoxin A 2clinical prea_0.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "107",
+      "submission_status": "AP",
+      "submission_status_date": "20161209",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "46127",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125274s107lbl.pdf",
+        "date": "20161213",
+        "type": "Label"
+       },
+       {
+        "id": "46130",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/125274Orig1s107ltr.pdf",
+        "date": "20161213",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "105",
+      "submission_status": "AP",
+      "submission_status_date": "20160729",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "51390",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/125274 abobotulinumtoxin CDTL clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric CDTL Review"
+       },
+       {
+        "id": "51421",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/125274 abobotulinumtoxin clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       },
+       {
+        "id": "51424",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/125274 abobotulinumtoxin statistical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Statistical Review"
+       },
+       {
+        "id": "18834",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125274s105lbl.pdf",
+        "date": "20160802",
+        "type": "Label"
+       },
+       {
+        "id": "31884",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/125274Orig1s105ltr.pdf",
+        "date": "20160802",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "52",
+      "submission_status": "AP",
+      "submission_status_date": "20120522",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "39890",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2012/125274s0052lbl.pdf",
+        "date": "20120523",
+        "type": "Label"
+       },
+       {
+        "id": "9661",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/125274s0052ltr.pdf",
+        "date": "20120523",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20090429",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "39889",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/125274s0000s0001lbl.pdf",
+        "date": "20090604",
+        "type": "Label"
+       },
+       {
+        "id": "44428",
+        "url": "http://www.fda.gov/Drugs/DrugSafety/PostmarketDrugSafetyInformationforPatientsandProviders/ucm175011.htm",
+        "date": "20130405",
+        "type": "Other Important Information from FDA"
+       },
+       {
+        "id": "44795",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/125274s000_SumR.pdf",
+        "date": "20110817",
+        "type": "Summary Review"
+       },
+       {
+        "id": "22794",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2009/125274s000_dysport_toc.html",
+        "date": "20110817",
+        "type": "Review"
+       },
+       {
+        "id": "31881",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/125274s000,125274s001ltr.pdf",
+        "date": "20090507",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "118",
+      "submission_status": "AP",
+      "submission_status_date": "20200708",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "64936",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2020/125274Orig1s118lbl.pdf",
+        "date": "20201020",
+        "type": "Label"
+       },
+       {
+        "id": "64946",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125274Orig1s118ltr.pdf",
+        "date": "20201020",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20100927",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "BLA125274",
+    "sponsor_name": "IPSEN BIOPHARM LTD",
+    "openfda": {
+     "application_number": [
+      "BLA125274"
+     ],
+     "brand_name": [
+      "DYSPORT"
+     ],
+     "generic_name": [
+      "BOTULINUM TOXIN TYPE A"
+     ],
+     "manufacturer_name": [
+      "Galderma Laboratories, L.P.",
+      "Ipsen Biopharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "0299-5962",
+      "15054-0500",
+      "15054-0530"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAMUSCULAR"
+     ],
+     "substance_name": [
+      "BOTULINUM TOXIN TYPE A"
+     ],
+     "rxcui": [
+      "1789956",
+      "1789958",
+      "1789950",
+      "1789953"
+     ],
+     "spl_id": [
+      "253b9c91-ded3-b0b3-e063-6294a90a669a",
+      "44512f6b-6a35-4db5-ba17-fe2fe3ec5170"
+     ],
+     "spl_set_id": [
+      "71313a04-1349-4c26-b840-a39e4a3ddaed",
+      "97513722-8426-4ce3-b85d-0e08e436a140"
+     ],
+     "package_ndc": [
+      "0299-5962-30",
+      "0299-5962-01",
+      "15054-0500-1",
+      "15054-0500-2",
+      "15054-0500-9",
+      "15054-0530-6"
+     ],
+     "nui": [
+      "N0000175771",
+      "N0000193962",
+      "N0000175731",
+      "N0000175770"
+     ],
+     "pharm_class_epc": [
+      "Acetylcholine Release Inhibitor [EPC]",
+      "Neuromuscular Blocker [EPC]"
+     ],
+     "pharm_class_pe": [
+      "Neuromuscular Blockade [PE]"
+     ],
+     "pharm_class_moa": [
+      "Acetylcholine Release Inhibitors [MoA]"
+     ],
+     "unii": [
+      "E211KPY694"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DYSPORT",
+      "active_ingredients": [
+       {
+        "name": "abobotulinumtoxinA",
+        "strength": "300 UNITS/VIAL"
+       }
+      ],
+      "dosage_form": "INJECTABLE",
+      "route": "INJECTION",
+      "marketing_status": "Prescription"
+     },
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DYSPORT",
+      "active_ingredients": [
+       {
+        "name": "abobotulinumtoxinA",
+        "strength": "500 UNITS/VIAL"
+       }
+      ],
+      "dosage_form": "INJECTABLE",
+      "route": "INJECTION",
+      "marketing_status": "Prescription"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220907",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "application_docs": [
+       {
+        "id": "72047",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761127Orig1s000ltr.pdf",
+        "date": "20220908",
+        "type": "Letter"
+       },
+       {
+        "id": "72050",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/761127s000lbl.pdf",
+        "date": "20220909",
+        "type": "Label"
+       },
+       {
+        "id": "72258",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761127Orig1s000TOC.html",
+        "date": "20221006",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20230811",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "75061",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761127Orig1s002ltr.pdf",
+        "date": "20230814",
+        "type": "Letter"
+       },
+       {
+        "id": "75080",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761127s002lbl.pdf",
+        "date": "20230816",
+        "type": "Label"
+       },
+       {
+        "id": "75081",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761127s002lbl.pdf#page=16",
+        "date": "20230816",
+        "type": "Medication Guide"
+       }
+      ]
+     }
+    ],
+    "application_number": "BLA761127",
+    "sponsor_name": "REVANCE THERAPEUTICS, INC.",
+    "openfda": {
+     "application_number": [
+      "BLA761127"
+     ],
+     "brand_name": [
+      "DAXXIFY"
+     ],
+     "generic_name": [
+      "BOTULINUM TOXIN TYPE A"
+     ],
+     "manufacturer_name": [
+      "Revance Therapeutics, Inc."
+     ],
+     "product_ndc": [
+      "72960-112"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAMUSCULAR"
+     ],
+     "substance_name": [
+      "BOTULINUM TOXIN TYPE A"
+     ],
+     "rxcui": [
+      "2612454",
+      "2612456"
+     ],
+     "spl_id": [
+      "71c76e28-0eb6-487e-a53b-4c9e78021e57"
+     ],
+     "spl_set_id": [
+      "3aaa6e14-a3f7-4fb2-b9f9-d3a9c3ae1f74"
+     ],
+     "package_ndc": [
+      "72960-112-01",
+      "72960-112-02",
+      "72960-112-05",
+      "72960-112-06"
+     ],
+     "nui": [
+      "N0000175771",
+      "N0000193962",
+      "N0000175731",
+      "N0000175770"
+     ],
+     "pharm_class_epc": [
+      "Acetylcholine Release Inhibitor [EPC]",
+      "Neuromuscular Blocker [EPC]"
+     ],
+     "pharm_class_pe": [
+      "Neuromuscular Blockade [PE]"
+     ],
+     "pharm_class_moa": [
+      "Acetylcholine Release Inhibitors [MoA]"
+     ],
+     "unii": [
+      "E211KPY694"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAXXIFY",
+      "active_ingredients": [
+       {
+        "name": "DAXIBOTULINUMTOXINA-LANM",
+        "strength": "0.1ML"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "INJECTABLE",
+      "route": "INTRAMUSCULAR, SUBCUTANEOUS",
+      "marketing_status": "Prescription"
+     }
+    ]
+   }
+  ]
+ }
+}

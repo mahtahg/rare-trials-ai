@@ -1,0 +1,662 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Buerger+disease&filter.overallStatus=TERMINATED%2CWITHDRAWN&query.term=AREA%5BStudyType%5DINTERVENTIONAL&countTotal=true&pageSize=100",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:46.133452+00:00",
+ "body": {
+  "totalCount": 2,
+  "studies": [
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT03056742",
+      "orgStudyIdInfo": {
+       "id": "SRPL/CLI/10-11/001 Version 4"
+      },
+      "organization": {
+       "fullName": "Stempeutics Research Pvt Ltd",
+       "class": "INDUSTRY"
+      },
+      "briefTitle": "A Clinical Trial to Study the Efficacy and Safety of Stempeucel® in Patients With CLI Due to Buergers Disease",
+      "officialTitle": "A Single Arm, Open Label, Multicentric, Clinical Study Assessing the Efficacy and Safety of Stempeucel® (ex Vivo Cultured Adult Bone Marrow Derived Allogeneic Mesenchymal Stem Cells) in Patients With CLI Due to Buerger's Disease"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2017-04",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Form 46 from DCGI for the manufacturing \\& commercial marketing of Stempeucel® directs Stempeutics to conduct PMS study. Hence this study is being terminated.",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2017-02-20",
+       "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2018-04",
+       "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+       "date": "2019-10",
+       "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2017-01-23",
+      "studyFirstSubmitQcDate": "2017-02-14",
+      "studyFirstPostDateStruct": {
+       "date": "2017-02-17",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-04-05",
+      "lastUpdatePostDateStruct": {
+       "date": "2017-04-07",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "Stempeutics Research Pvt Ltd",
+       "class": "INDUSTRY"
+      }
+     },
+     "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "This study is being conducted as an extension of the phase II clinical trial SRPL/CLI/10-11/001 (NCT01484574). The CDSCO has recommended flexibility for continued clinical study in consultation with ICMR, as per recommendation of Cellular biology based therapeutic drug evaluation committee (CBBTDEC).",
+      "detailedDescription": "This study will evaluate the safety and efficacy of intramuscular injection of stempeucel(R) (Ex vivo cultured adult bone marrow derived allogeneic mesenchymal stem cells) in Critical Limb Ischemia due to Buerger's Disease"
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Critical Limb Ischemia Due to Buerger's Disease"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "PHASE2"
+      ],
+      "designInfo": {
+       "allocation": "NA",
+       "interventionModel": "SINGLE_GROUP",
+       "primaryPurpose": "TREATMENT",
+       "maskingInfo": {
+        "masking": "NONE"
+       }
+      },
+      "enrollmentInfo": {
+       "count": 0,
+       "type": "ACTUAL"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "Stem cells",
+        "type": "EXPERIMENTAL",
+        "description": "Patients will receive intramuscular and local injection of stempeucel(R) in addition to standard protocol of care",
+        "interventionNames": [
+         "Biological: Stempeucel(R)"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "BIOLOGICAL",
+        "name": "Stempeucel(R)",
+        "description": "Ex vivo cultured adult bone marrow derived allogeneic mesenchymal stem cells",
+        "armGroupLabels": [
+         "Stem cells"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "Relief of the rest pain",
+        "timeFrame": "6 months"
+       },
+       {
+        "measure": "Reduction of ulcer area in the target limb",
+        "timeFrame": "6 months"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "Total walking distance",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "Major amputation free survival",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "Ankle brachial pressure index (ABPI) - measured by Doppler",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "Quality of life (QOL) by King's College VascuQOL questionnaire",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "Angiogenesis - collateral blood vessels by Magnetic resonance angiogram (MRA)",
+        "timeFrame": "6 months and 24 months"
+       }
+      ],
+      "otherOutcomes": [
+       {
+        "measure": "The type of adverse events AE(s), number of AE(s) and proportion of patients with AE(s).",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "CVS mortality",
+        "timeFrame": "6 months and 24 months"
+       },
+       {
+        "measure": "All-cause mortality",
+        "timeFrame": "6 months and 24 months"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Buerger's disease as diagnosed by Shionoya criteria\n2. Males or females (willing to use accepted methods of contraception during the course of the study) in the age group of 18-65 yrs.\n3. Established CLI in the study limb, clinically and hemodynamically confirmed as per Rutherford- III-5;\n4. Patients in Rutherford- III-6 if gangrene extending maximally up to the head of metatarsal but limited to toes (patients with wet gangrene must undergo wound debridement / amputation before screening) .\n5. Patients having infrapopliteal occlusive disease with rest pain and ischemic ulcer/necrosis (patients should have at least one measureable ulcer), who are not eligible for or have failed traditional revascularization treatment as per the investigators judgment (No option patients) .\n6. ABPI ≤ 0.6 or ankle pressure ≤ 50 mm Hg.\n7. Patients who are able to understand the requirements of the study, and willing to provide voluntary written informed consent and video consent, abide by the study requirements, and agree to return for required follow-up visits.\n\nExclusion Criteria:\n\n1. Patients with CLI indicated for major amputation during screening\n2. Atherosclerotic PAD\n3. Ulcers with exposure of tendon and/bone in the shin region.\n4. Previous above trans metatarsal amputation in study limb\n5. Any Lumbar sympathectomy procedure performed less than 90 days prior to the screening\n6. Patients with gait disturbance for reasons other than CLI\n7. Diagnosis of diabetes mellitus (type 1 or type 2)\n8. Patients having left ventricular ejection fraction \\< 35%\n9. Patients suffering from clinically relevant peripheral neuropathy\n10. History of stroke or myocardial infarction\n11. Patients who are contraindicated for MRA\n12. Patients with DVT in any limb.\n13. Patients who have clinically serious and/or unstable inter-current infection, medical illnesses or conditions that are uncontrolled or whose control, in the opinion of the Investigator, may be jeopardized by participation in this study or by the complications of this therapy\n14. Documented terminal illness or cancer or any concomitant disease process with a life expectancy of \\<1 year\n15. Patients already enrolled in another investigational drug trial or completed within 3 months or those who have received stem cells in the past\n16. Patient with known hypersensitivity to the constituents of the stempeucel®- dimethyl sulfoxide (DMSO) or human serum albumin (HSA)\n17. History of severe alcohol or drug abuse within 3 months of screening\n18. Hb% \\< 10 gm% for males, Hb% \\< 9 gm% for females, serum creatinine ≥ 2mg%, serum Total Bilirubin ≥2mg%\n19. Pregnant and lactating women\n20. Patients tested positive for HIV 1 \\& 2, HCV, HBV, CMV, RPR antibodies and for HBsAg antigen",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+       "ADULT",
+       "OLDER_ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "locations": [
+       {
+        "facility": "Department of Vascular and Endovascular Surgery, M. S. Ramaiah Medical College and Hospitals",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zip": "560066",
+        "country": "India",
+        "geoPoint": {
+         "lat": 12.97194,
+         "lon": 77.59369
+        }
+       },
+       {
+        "facility": "Department of Surgical Disciplines, All India Institute of Medical Sciences",
+        "city": "New Delhi",
+        "state": "National Capital Territory of Delhi",
+        "zip": "110029",
+        "country": "India",
+        "geoPoint": {
+         "lat": 28.62137,
+         "lon": 77.2148
+        }
+       },
+       {
+        "facility": "Department of Vascular Surgery, Madras Medical College",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zip": "600003",
+        "country": "India",
+        "geoPoint": {
+         "lat": 13.08784,
+         "lon": 80.27847
+        }
+       },
+       {
+        "facility": "Department of Vascular Surgery, Sri Ramchandra Medical College",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zip": "600116",
+        "country": "India",
+        "geoPoint": {
+         "lat": 13.08784,
+         "lon": 80.27847
+        }
+       },
+       {
+        "facility": "Saveetha Medical College & Hospital",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zip": "602105",
+        "country": "India",
+        "geoPoint": {
+         "lat": 13.08784,
+         "lon": 80.27847
+        }
+       },
+       {
+        "facility": "SRM Medical College Hospital and Research Centre",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "zip": "603203",
+        "country": "India",
+        "geoPoint": {
+         "lat": 13.08784,
+         "lon": 80.27847
+        }
+       },
+       {
+        "facility": "Health Point Hospital",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zip": "700025",
+        "country": "India",
+        "geoPoint": {
+         "lat": 22.56263,
+         "lon": 88.36304
+        }
+       },
+       {
+        "facility": "Nightingale Hospital",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "zip": "700071",
+        "country": "India",
+        "geoPoint": {
+         "lat": 22.56263,
+         "lon": 88.36304
+        }
+       }
+      ]
+     },
+     "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     }
+    },
+    "hasResults": false
+   },
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT06357663",
+      "orgStudyIdInfo": {
+       "id": "Pro00071128"
+      },
+      "organization": {
+       "fullName": "Sha Research Foundation",
+       "class": "OTHER"
+      },
+      "briefTitle": "Subtle Energy Transmission and Tao Calligraphy Mindfulness in Telomere Length in Peripheral Blood Leukocytes",
+      "officialTitle": "Effect of Subtle Energy Transmission and Tao Calligraphy Mindfulness Practice on Telomere Length in Peripheral Blood Leukocytes A Follow-up Pilot Study"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "This was a pilot and we achieved the goal with 12 subjects already.",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2023-06-15",
+       "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2024-07-31",
+       "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+       "date": "2025-03-25",
+       "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2024-04-04",
+      "studyFirstSubmitQcDate": "2024-04-04",
+      "studyFirstPostDateStruct": {
+       "date": "2024-04-10",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-10",
+      "lastUpdatePostDateStruct": {
+       "date": "2025-04-15",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "PRINCIPAL_INVESTIGATOR",
+       "investigatorFullName": "Peter Hudoba De Badyn MD, FRCS",
+       "investigatorTitle": "Director of the Research at Sha Research Foundation",
+       "investigatorAffiliation": "Sha Research Foundation"
+      },
+      "leadSponsor": {
+       "name": "Sha Research Foundation",
+       "class": "OTHER"
+      }
+     },
+     "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "Effect of Subtle Energy Transmission and Tao Calligraphy Mindfulness Practice on Telomere Length in Peripheral Blood Leukocytes A Follow-up Pilot Study\n\nThe goal of this Pilot clinical trial is to learn if a Subtle Energy Transmission and Tao Calligraphy Mindfulness Practice works to increase Telomere Length in Peripheral Blood Leukocytes in adults. The main questions it aims to answer are:\n\n* Does A Subtle energy transmission and Tao Calligraphy Mindfulness increase Telomere Length in Peripheral Blood Leukocytes in adults?\n* Will this increase of Telomere Length in Peripheral Blood Leukocytes in adults be statistically significant? Researchers will compare the length of Telomere in peripheral blood Leukocytes at beginning of the mindfulness practices to the length of Telomere in peripheral blood Leukocytes at 3 months and at 9 months of regular daily practices.\n\nParticipants will:\n\n* Receive a transmission of Subtle energy at beginning of practices\n* Visit the Laboratory for a blood sample taken at beginning, at 3 months and at 9 months of practices.\n* Fill the Study Questionnaires at beginning, at 3 months and at 9 months of practices.\n* Practice the Mindfulness with Tao Calligraphy daily 1 hour in the morning and 1 hour in the evening.",
+      "detailedDescription": "OBJECTIVES The proposed research is a pilot project based on experiential data obtained from several previous pilot and formal studies by the investigators' research teams and by researchers from other institutions. It is intended to measure the effects of the transmission of subtle energy (blessing), combined with a specific form of meditation, on the length of human telomeres in peripheral blood leucocytes and on overall well-being. The investigators hope that the study will provide further data for individuals seeking an additional modality to prolong life expectancy that could be integrated into conventional medical protocols.\n\nHYPOTHESIS The research null hypothesis is that individuals who receive a subtle energy transmission for improving telomere length in peripheral blood leucocytes and who will also then regularly practice mindfulness with Tao Calligraphy for nine months will (a) have no significant change in telomere length in follow-up analyses as measured by telomere length in peripheral blood leukocytes and will (b) show no improvement of well-being as assessed via the standardized scientific questionnaire Rand SF 36(s) at three and nine months.\n\nStatistical test Anova (using Minitab version 14 and PSPP/SPSS) will be used to evaluate the null hypothesis. The p-value will represent how unlikely the observed data would be if the null hypothesis were actually true and the investigators will use them to reach conclusions. The investigators set the confidence level at 95% and if p \\<= 0.05, then H0 is rejected.\n\nBACKGROUND Telomeres as Markers of Longevity Background: Telomeres are distinctive protein-DNA structures (repetitive (TTAGGG) sequences) at the end of the chromosomes that are essential for maintaining the integrity and stability of the genome. Telomere length shortens with age (due to multiple cell divisions). The rate of telomere shortening has been found to increase or decrease in association with specific lifestyle factors.\n\nTo counteract the loss of telomere repeats with each cell division, germline cells, highly proliferating cells from the skin, the gut, and hematopoietic tissues, as well as tumor cells, express DNAmAge telomerase, an enzyme complex with reverse transcriptase activity, which adds the necessary telomeric DNA (T2AG3 repeats) to the 3-end of the telomeres, protecting their degeneration. Despite expression of telomerase, the telomere length in highly proliferating cells from long-lived species decreases during development and with replication in vitro and with age in vivo. Most likely, telomerase levels in such cells are tightly regulated and are insufficient to make up for the net loss of telomere repeats with cell division.\n\nThe telomere length values reflect telomere shortening (resulting from cell divisions, oxidative damage, and other causes) and telomere elongation (mainly resulting from telomerase activity) of the chromosome-specific telomere length inherited in the gametes. Consequently, researchers have two main tools to analyze telomeres, the telomere length and the telomerase.\n\nAlthough the ability of telomere length measured in peripheral blood to predict life expectancy or monitor mechanisms underlying the aging process is not entirely consistent across studies, telomere length currently remains one of the most widely used biomarkers in epidemiological and clinical studies of aging.\n\nIn the protocol of the study, the investigators have discussed several studies using either of these two markers.\n\nThe laboratory test used in this study to measure telomere length The average length of telomere repeats can be measured by in situ hybridization and flow cytometry \\[flow-FISH\\]. In order to measure the telomere length in granulocytes, naive T cells, memory T cells, B cells, and natural killer (NK)/NKT cells within a blood sample, flow-FISH can be combined with antibody-staining (Multicolor flow-FISH). Most steps in the staining protocol are automated using a 96-well micro-dispenser device. The minimum detectable difference in telomere length and the reproducibility of the method are in the range of 0.2-0.5 kb and measurements can be made with as few as a thousand cells. Automated multicolor flow-FISH greatly facilitates studies of telomere length regulation in subsets of nucleated blood cells, especially when only few cells are available and when differences in telomere length are small.\n\nIn Repeat Diagnostics, the laboratory being used for this study, the fluorescent signals from telomeres are assessed on a single cell basis by flow cytometry, with patient results reported for lymphocytes, granulocytes, B-cells, naïve and memory T-cells, and NK cells. All patient telomere length profiles are reported in relationship to age-matched controls and are available for all age ranges from pediatric to geriatric. This telomere reference curve was established by the study of over 800 healthy individuals between birth and 100 years of age. This informative technique allows analysis and comparisons of the telomere length between different cell types and within one cell type, e.g., in differentiating between constitutional deficiencies and specific cell type deficiencies.\n\nThe test used in this study to measure overall effect of mindfulness practice A 36-item short-form Quality of Life Questionnaire (SF-36) was constructed to survey health status in the Medical Outcomes Study. The SF-36 was designed for use in clinical practice and research, health policy evaluations, and general population surveys. Although the 12-item short-form of SF-36 would be easier to use, the investigators chose the longer 36-item version, as standard errors were described nearly always to be larger for the 12-item short-form.\n\nThe SF-36 includes one multi-item scale that assesses eight health concepts:\n\n1. limitations in physical activities because of health problems;\n2. limitations in social activities because of physical or emotional problems;\n3. limitations in usual role activities because of physical health problems;\n4. bodily pain;\n5. general mental health (psychological distress and well-being);\n6. limitations in usual role activities because of emotional problems;\n7. vitality (energy and fatigue); and\n8. general health perceptions.\n\nThrough a complex calculation, eight scores are derived from answers to 36 questions of SF-36. Finally, these eight scores are linearly transformed to a 0-to-100 scale, with 100 being the best possible outcome.\n\nChinese calligraphy Chinese calligraphic writing uses an ink-laden brush to create defined configurations of characters. Studies of Chinese calligraphic writing have confirmed its significant effects on psychosomatic conditions, post-traumatic hyper-arousal symptoms, hypertension, and type 2 diabetes.\n\nThe investigators chose a Tao Calligraphy practice, which is unique style of moving meditation, wherein mindfulness (heightened awareness) is achieved by the combination of movement and focus on a work of Tao Calligraphy art. In this practice, the subjects do not use an ink-laden brush to write on the paper, but trace the strokes of premade calligraphy with fingers and simultaneously repeat an affirmation (mantra) aloud or silently, which enables them to achieve deep concentration during wakefulness.\n\nResults from the investigators of previous studies confirmed the efficacy of this practice, with significant results in improving overall well-being and chronic conditions as documented by SF MPQ (McGill Pain Questionnaire), by EORTC QLQ-30 (Cancer Quality of Life Questionnaire), and by SF-36 (Quality of Life Questionnaire).\n\nMETHOD The study will be performed as a pilot follow-up study. Should the null hypothesis be successfully rejected, this study will be followed by a formal Double Blind Randomized Crossover Study.\n\nAs this is a pilot study, there will be no randomization into intervention and control groups. As a control, the investigators will use the \"normal\" values from the general population. All subjects will receive a transmission and then will be practicing Tao Calligraphy mindfulness daily during the nine-month duration of the study.\n\nThe study is conducted on an outpatient basis and includes:\n\n* Informational telephone or Zoom meeting to clarify inclusion/exclusion criteria, the study design, and the consent/information forms, with signing thereof\n* Initial instructional Zoom meeting to teach the practice of Tao Calligraphy tracing meditation and to deliver the subtle energy transmission (blessing)\n* Laboratory assessment of telomere length in peripheral blood leucocytes of participants\n* Completion of the questionnaires by participants\n* Completion of assessments by a study principal and co-investigators\n\nLaboratory assessment of telomere length in peripheral blood leucocytes:\n\nLaboratory assessment of telomere length in peripheral blood leucocytes will be performed at the entry time point (Time 0), at the end of three months (Time 1), and at the end of nine months (Time 2) for every participant.\n\nBlood samples will be drawn at \"Life Labs,\" a DAP-accredited institution in British Columbia and an accredited institution in the United States, and will be promptly sent by courier to Repeat Diagnostics, Suite 309 - 267 West Esplanade, North Vancouver, BC V7M 1A5 Canada for telomere assessment by Flow FISH.\n\nReports will be issued to clinical Principal Investigator, Dr. Peter Hudoba.\n\nImprovement of general well-being or clinical well-being as measured by standardized questionnaires:\n\n1. John Ware's SF-36 Quality of Life questionnaire\n2. Simple follow-up questionnaire of the investigators' own design (to address any additional information participants may have).\n\nParticipants will complete both questionnaires online on the Sha Research Foundation website using unique IDs to secure confidentiality.\n\nEach subject of the study will answer all 36 questions at the entry time point (Time 0), at the end of three months (Time 1), and at the end of nine months (Time 2).\n\nFrom the SF-36 answers, the study statistician will derive 8 scores in a blind fashion. Then, the 8 scores from beginning and end data will be compared to each other and to \"normal\" values using Anova test. As a control, the investigators will use \"normal\" values corresponding to the age of each participant at the beginning and at the end of their participation.\n\nThe correlation coefficient will be used to determine any correlations between various factors (e.g., effects of age, sex, length, frequency of mindfulness practices, and others) on outcomes and regression analysis to determine the relationship between independent and dependent variables.\n\nData will be stored on an external hard drive to prevent unauthorized access through the internet."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Telomere Length",
+       "Quality of Life"
+      ],
+      "keywords": [
+       "Telomere Length",
+       "Leukocytes",
+       "Mindfulness",
+       "Calligraphy",
+       "Quality of Life",
+       "Tao"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "NA"
+      ],
+      "designInfo": {
+       "allocation": "NA",
+       "interventionModel": "SINGLE_GROUP",
+       "interventionModelDescription": "The study will be performed as a Pilot follow-up study, should the 0 Hypothesis be successfully rejected, this study will be followed by a formal Double Blind Randomized Crossover Study.\n\nWe plan subjects may enter the study as a group and will have measurements done within short time frame from each other at beginning and at the end of 3 and 9 months.\n\nAs this is a pilot study, there will be no randomization into treatment and control group, as a control we will use the \"Normal\" values of telomere from general population. All subjects will receive a transmission and then will be practicing Tao Calligraphy mindfulness daily during the 9 months.\n\nEvery subject who is accepted into the study, will have blood sample taken for analysis and will fill Rand SF 36 Questionnaire. Afterwards, will receive transmission of subtle energy by Zhi Gang Sha (or his designee) and will be instructed on how to practice mindfulness with Tao Calligraphy.",
+       "primaryPurpose": "SUPPORTIVE_CARE",
+       "maskingInfo": {
+        "masking": "NONE"
+       }
+      },
+      "enrollmentInfo": {
+       "count": 12,
+       "type": "ACTUAL"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "SIMPLE FOLLOW UP GROUP",
+        "type": "OTHER",
+        "description": "Every subject who is accepted into the study, will receive prior to the inception of practice transmission of pure energy (blessing) and will be instructed on how to practice meditations with Tao Calligraphy.\n\nBlood samples will be drawn at DAP accredited institution in British Columbia (Life Labs or Vancouver Coastal Health) and will be promptly sent by currier to Repeat Diagnostics, All participants will have blood samples drawn and Questionnaire filled at the entry time point (Time 0), at the end of 3 months (Time 1), and at the end of 9 months (Time 2).",
+        "interventionNames": [
+         "Other: Mindfulness practice with Calligraphy"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "OTHER",
+        "name": "Mindfulness practice with Calligraphy",
+        "description": "The unique style of Art Meditation where mindfulness (heightened awareness) is achieved by combination of movement and focus on Chinese Tao Calligraphy while chanting a mantra. The practitioners repeatedly trace the lines of Tao calligraphy with fingers and chant the mantra. This enables them to achieve deep concentration, while maintaining fully alert state. The practice can be done in sitting or standing, depending on the health status and age.",
+        "armGroupLabels": [
+         "SIMPLE FOLLOW UP GROUP"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "Telomere Length in Peripheral blood leukocytes",
+        "description": "The Change of Telomere Length in Peripheral blood leukocytes after 9 months of Mindfulness Practice with Tao Calligraphy",
+        "timeFrame": "9 months"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "Quality of Life by John Ware's SF-36 Quality of Life questionnaire (that produces eight scores with 0-to-100 scale, 100 being the best possible outcome).",
+        "description": "The Change of Quality of Life by John Ware's SF-36 Quality of Life questionnaire after 9 months of Mindfulness Practice with Tao Calligraphy.",
+        "timeFrame": "9 months"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult subjects / patients (age 60 years and over) we expect at 60 years people have already measurable shortening of telomeres\n* Healthy or Ill, with the exception of genetic illnesses and cancer (for which treatments could negatively impact telomeres)\n* Willingness and ability to comply with data collection requirements.\n* Complete submission of required documentation prior to enrollment into the study, including informed consent and consent to release of information.\n* Willingness to allow their data to be used for research purposes and published as deemed fit (while conforming to all applicable privacy laws) by Sha Research Foundation.\n* Willingness to practice the daily calligraphy meditations and follow the protocol.\n\nExclusion Criteria:\n\n* Not meeting any of the inclusion criteria\n* Bipolar disorders, other serious mental disorders (e.g. schizophrenia, psychosis), genetic illnesses (primarily affected chromosomes), and cancer (treatment could negatively impact telomere during research period)\n* inability to sign consent and follow instructions\n* Unwillingness to participate in data gathering\n* Unable to follow the practice regimen, including the daily calligraphy meditations\n* Pregnant or nursing. Participants who become pregnant during the study will be required to end their participation. (to avoid any, at current time unknown, potential negative effect of the study on the fetus).\n* There are no exclusion criteria placed upon potential subjects related to national origin, culture, ethnicity, race, sex, physical disability, sexual orientation, religion, or spiritual practices.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "60 Years",
+      "stdAges": [
+       "ADULT",
+       "OLDER_ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "overallOfficials": [
+       {
+        "name": "Peter Hudoba De Badyn, MD, FRCS",
+        "affiliation": "Sha Research Foundation",
+        "role": "PRINCIPAL_INVESTIGATOR"
+       }
+      ],
+      "locations": [
+       {
+        "facility": "Sha Research Foundation (Branch)",
+        "city": "North Vancouver",
+        "state": "British Columbia",
+        "zip": "V7R 1P5",
+        "country": "Canada",
+        "geoPoint": {
+         "lat": 49.31636,
+         "lon": -123.06934
+        }
+       }
+      ]
+     },
+     "referencesModule": {
+      "references": [
+       {
+        "pmid": "21035949",
+        "type": "BACKGROUND",
+        "citation": "Jacobs TL, Epel ES, Lin J, Blackburn EH, Wolkowitz OM, Bridwell DA, Zanesco AP, Aichele SR, Sahdra BK, MacLean KA, King BG, Shaver PR, Rosenberg EL, Ferrer E, Wallace BA, Saron CD. Intensive meditation training, immune cell telomerase activity, and psychological mediators. Psychoneuroendocrinology. 2011 Jun;36(5):664-81. doi: 10.1016/j.psyneuen.2010.09.010. Epub 2010 Oct 29."
+       },
+       {
+        "pmid": "34522635",
+        "type": "BACKGROUND",
+        "citation": "Dal Lin C, Marinova M, Brugnolo L, Rubino G, Plebani M, Iliceto S, Tona F. Rapid changes of miRNAs-20, -30, -410, -515, -134, and -183 and telomerase with psychological activity: A one year study on the relaxation response and epistemological considerations. J Tradit Complement Med. 2021 Feb 15;11(5):409-418. doi: 10.1016/j.jtcme.2021.02.005. eCollection 2021 Sep."
+       },
+       {
+        "pmid": "31450859",
+        "type": "BACKGROUND",
+        "citation": "Pavanello S, Campisi M, Tona F, Lin CD, Iliceto S. Exploring Epigenetic Age in Response to Intensive Relaxing Training: A Pilot Study to Slow Down Biological Age. Int J Environ Res Public Health. 2019 Aug 23;16(17):3074. doi: 10.3390/ijerph16173074."
+       },
+       {
+        "pmid": "28634520",
+        "type": "BACKGROUND",
+        "citation": "Thimmapuram J, Pargament R, Sibliss K, Grim R, Risques R, Toorens E. Effect of heartfulness meditation on burnout, emotional wellness, and telomere length in health care professionals. J Community Hosp Intern Med Perspect. 2017 Mar 31;7(1):21-27. doi: 10.1080/20009666.2016.1270806. eCollection 2017 Jan."
+       },
+       {
+        "pmid": "30802240",
+        "type": "BACKGROUND",
+        "citation": "Liu Z, Kuo PL, Horvath S, Crimmins E, Ferrucci L, Levine M. Correction: A new aging measure captures morbidity and mortality risk across diverse subpopulations from NHANES IV: A cohort study. PLoS Med. 2019 Feb 25;16(2):e1002760. doi: 10.1371/journal.pmed.1002760. eCollection 2019 Feb."
+       },
+       {
+        "pmid": "30596641",
+        "type": "BACKGROUND",
+        "citation": "Liu Z, Kuo PL, Horvath S, Crimmins E, Ferrucci L, Levine M. A new aging measure captures morbidity and mortality risk across diverse subpopulations from NHANES IV: A cohort study. PLoS Med. 2018 Dec 31;15(12):e1002718. doi: 10.1371/journal.pmed.1002718. eCollection 2018 Dec."
+       },
+       {
+        "pmid": "30669119",
+        "type": "BACKGROUND",
+        "citation": "Lu AT, Quach A, Wilson JG, Reiner AP, Aviv A, Raj K, Hou L, Baccarelli AA, Li Y, Stewart JD, Whitsel EA, Assimes TL, Ferrucci L, Horvath S. DNA methylation GrimAge strongly predicts lifespan and healthspan. Aging (Albany NY). 2019 Jan 21;11(2):303-327. doi: 10.18632/aging.101684."
+       },
+       {
+        "pmid": "30241605",
+        "type": "BACKGROUND",
+        "citation": "Field AE, Robertson NA, Wang T, Havas A, Ideker T, Adams PD. DNA Methylation Clocks in Aging: Categories, Causes, and Consequences. Mol Cell. 2018 Sep 20;71(6):882-895. doi: 10.1016/j.molcel.2018.08.008."
+       },
+       {
+        "pmid": "28949426",
+        "type": "BACKGROUND",
+        "citation": "Goldman EA, Eick GN, Compton D, Kowal P, Snodgrass JJ, Eisenberg DTA, Sterner KN. Evaluating minimally invasive sample collection methods for telomere length measurement. Am J Hum Biol. 2018 Jan;30(1):10.1002/ajhb.23062. doi: 10.1002/ajhb.23062. Epub 2017 Sep 26."
+       },
+       {
+        "pmid": "31932806",
+        "type": "BACKGROUND",
+        "citation": "Ahadi S, Zhou W, Schussler-Fiorenza Rose SM, Sailani MR, Contrepois K, Avina M, Ashland M, Brunet A, Snyder M. Personal aging markers and ageotypes revealed by deep longitudinal profiling. Nat Med. 2020 Jan;26(1):83-90. doi: 10.1038/s41591-019-0719-5. Epub 2020 Jan 13."
+       },
+       {
+        "pmid": "29293454",
+        "type": "BACKGROUND",
+        "citation": "Gorenjak V, Akbar S, Stathopoulou MG, Visvikis-Siest S. The future of telomere length in personalized medicine. Front Biosci (Landmark Ed). 2018 Mar 1;23(9):1628-1654. doi: 10.2741/4664."
+       },
+       {
+        "pmid": "32364591",
+        "type": "BACKGROUND",
+        "citation": "Notterman DA, Schneper L. Telomere Time-Why We Should Treat Biological Age Cautiously. JAMA Netw Open. 2020 May 1;3(5):e204352. doi: 10.1001/jamanetworkopen.2020.4352. No abstract available."
+       },
+       {
+        "pmid": "25852738",
+        "type": "BACKGROUND",
+        "citation": "Koliada AK, Krasnenkov DS, Vaiserman AM. Telomeric aging: mitotic clock or stress indicator? Front Genet. 2015 Mar 16;6:82. doi: 10.3389/fgene.2015.00082. eCollection 2015. No abstract available."
+       },
+       {
+        "pmid": "23302541",
+        "type": "BACKGROUND",
+        "citation": "Sanders JL, Newman AB. Telomere length in epidemiology: a biomarker of aging, age-related disease, both, or neither? Epidemiol Rev. 2013;35(1):112-31. doi: 10.1093/epirev/mxs008. Epub 2013 Jan 9."
+       },
+       {
+        "pmid": "33552142",
+        "type": "BACKGROUND",
+        "citation": "Vaiserman A, Krasnienkov D. Telomere Length as a Marker of Biological Age: State-of-the-Art, Open Issues, and Future Perspectives. Front Genet. 2021 Jan 21;11:630186. doi: 10.3389/fgene.2020.630186. eCollection 2020."
+       },
+       {
+        "pmid": "14624729",
+        "type": "BACKGROUND",
+        "citation": "Skytthe A, Pedersen NL, Kaprio J, Stazi MA, Hjelmborg JV, Iachine I, Vaupel JW, Christensen K. Longevity studies in GenomEUtwin. Twin Res. 2003 Oct;6(5):448-54. doi: 10.1375/136905203770326457."
+       },
+       {
+        "pmid": "8786073",
+        "type": "BACKGROUND",
+        "citation": "Herskind AM, McGue M, Holm NV, Sorensen TI, Harvald B, Vaupel JW. The heritability of human longevity: a population-based study of 2872 Danish twin pairs born 1870-1900. Hum Genet. 1996 Mar;97(3):319-23. doi: 10.1007/BF02185763."
+       },
+       {
+        "pmid": "16463022",
+        "type": "BACKGROUND",
+        "citation": "vB Hjelmborg J, Iachine I, Skytthe A, Vaupel JW, McGue M, Koskenvuo M, Kaprio J, Pedersen NL, Christensen K. Genetic influence on human lifespan and longevity. Hum Genet. 2006 Apr;119(3):312-21. doi: 10.1007/s00439-006-0144-y. Epub 2006 Feb 4."
+       },
+       {
+        "pmid": "32967067",
+        "type": "BACKGROUND",
+        "citation": "Boyce WT, Sokolowski MB, Robinson GE. Genes and environments, development and time. Proc Natl Acad Sci U S A. 2020 Sep 22;117(38):23235-23241. doi: 10.1073/pnas.2016710117."
+       },
+       {
+        "pmid": "28510085",
+        "type": "BACKGROUND",
+        "citation": "Steenman M, Lande G. Cardiac aging and heart disease in humans. Biophys Rev. 2017 Apr;9(2):131-137. doi: 10.1007/s12551-017-0255-9. Epub 2017 Mar 20."
+       },
+       {
+        "pmid": "23702405",
+        "type": "BACKGROUND",
+        "citation": "Kalyani RR, Egan JM. Diabetes and altered glucose metabolism with aging. Endocrinol Metab Clin North Am. 2013 Jun;42(2):333-47. doi: 10.1016/j.ecl.2013.02.010. Epub 2013 Mar 22."
+       },
+       {
+        "pmid": "28966806",
+        "type": "BACKGROUND",
+        "citation": "Aunan JR, Cho WC, Soreide K. The Biology of Aging and Cancer: A Brief Overview of Shared and Divergent Molecular Hallmarks. Aging Dis. 2017 Oct 1;8(5):628-642. doi: 10.14336/AD.2017.0103. eCollection 2017 Oct."
+       },
+       {
+        "pmid": "24611024",
+        "type": "BACKGROUND",
+        "citation": "Kao H Sr, Zhu L, Chao AA, Chen HY, Liu IC, Zhang M. Calligraphy and meditation for stress reduction: an experimental comparison. Psychol Res Behav Manag. 2014 Feb 13;7:47-52. doi: 10.2147/PRBM.S55743. eCollection 2014."
+       },
+       {
+        "pmid": "29440902",
+        "type": "BACKGROUND",
+        "citation": "Kao HS, Lam SP, Kao TT. Chinese calligraphy handwriting (CCH): a case of rehabilitative awakening of a coma patient after stroke. Neuropsychiatr Dis Treat. 2018 Jan 31;14:407-417. doi: 10.2147/NDT.S147753. eCollection 2018."
+       },
+       {
+        "pmid": "24940061",
+        "type": "BACKGROUND",
+        "citation": "Zhu Z, Wang R, Kao HS, Zong Y, Liu Z, Tang S, Xu M, Liu IC, Lam SP. Effect of calligraphy training on hyperarousal symptoms for childhood survivors of the 2008 China earthquakes. Neuropsychiatr Dis Treat. 2014 Jun 3;10:977-85. doi: 10.2147/NDT.S55016. eCollection 2014."
+       },
+       {
+        "pmid": "1593914",
+        "type": "BACKGROUND",
+        "citation": "Ware JE Jr, Sherbourne CD. The MOS 36-item short-form health survey (SF-36). I. Conceptual framework and item selection. Med Care. 1992 Jun;30(6):473-83."
+       },
+       {
+        "pmid": "11124729",
+        "type": "BACKGROUND",
+        "citation": "Ware JE Jr. SF-36 health survey update. Spine (Phila Pa 1976). 2000 Dec 15;25(24):3130-9. doi: 10.1097/00007632-200012150-00008. No abstract available."
+       },
+       {
+        "pmid": "12938182",
+        "type": "BACKGROUND",
+        "citation": "Baerlocher GM, Lansdorp PM. Telomere length measurements in leukocyte subsets by automated multicolor flow-FISH. Cytometry A. 2003 Sep;55(1):1-6. doi: 10.1002/cyto.a.10064."
+       }
+      ],
+      "availIpds": [
+       {
+        "id": "Pro00071128",
+        "type": "Study Protocol",
+        "url": "https://www.advarra.com/review-services/institutional-review-board/canadian-review-services/",
+        "comment": "Upon request, ADVARRA (IRB) can provide your with Study Protocol + Statistical Plan, Informed Consent Form, and any other reviewed and approved documents of the study.\n\nShould you require any more information, please contact me on email sharesearchfoundation@yahoo.ca and I will provide you with any documents relevant to the study.\n\nPeter Hudoba De Badyn FRCS"
+       }
+      ]
+     },
+     "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Will need to contact IRB if permitted, as this is not in approved protocol",
+      "infoTypes": [
+       "STUDY_PROTOCOL",
+       "SAP"
+      ],
+      "timeFrame": "September 2024 to March 2025",
+      "accessCriteria": "Anyone on Clinical Trials Gov"
+     }
+    },
+    "documentSection": {
+     "largeDocumentModule": {
+      "largeDocs": [
+       {
+        "typeAbbrev": "Prot_SAP",
+        "hasProtocol": true,
+        "hasSap": true,
+        "hasIcf": false,
+        "label": "Study Protocol and Statistical Analysis Plan",
+        "date": "2023-04-10",
+        "uploadDate": "2024-03-28T15:14",
+        "filename": "Prot_SAP_000.pdf",
+        "size": 428331
+       }
+      ]
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D013919",
+        "term": "Thromboangiitis Obliterans"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D001157",
+        "term": "Arterial Occlusive Diseases"
+       },
+       {
+        "id": "D014652",
+        "term": "Vascular Diseases"
+       },
+       {
+        "id": "D002318",
+        "term": "Cardiovascular Diseases"
+       },
+       {
+        "id": "D014657",
+        "term": "Vasculitis"
+       }
+      ]
+     }
+    },
+    "hasResults": false
+   }
+  ]
+ }
+}

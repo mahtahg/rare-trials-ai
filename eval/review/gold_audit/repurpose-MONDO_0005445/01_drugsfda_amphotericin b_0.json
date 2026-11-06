@@ -1,0 +1,443 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22amphotericin+b%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:49.649324+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 4
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "16",
+      "submission_status": "AP",
+      "submission_status_date": "20090217",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "7",
+      "submission_status": "AP",
+      "submission_status_date": "20020211",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "19980918",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "19950315",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19940325",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "17",
+      "submission_status": "AP",
+      "submission_status_date": "20100305",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19920429"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "19991012",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "19960819",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "19950117",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     }
+    ],
+    "application_number": "ANDA063206",
+    "sponsor_name": "XGEN PHARMS",
+    "openfda": {
+     "application_number": [
+      "ANDA063206"
+     ],
+     "brand_name": [
+      "AMPHOTERICIN B"
+     ],
+     "generic_name": [
+      "AMPHOTERICIN B"
+     ],
+     "manufacturer_name": [
+      "XGen Pharmaceuticals DJB, Inc."
+     ],
+     "product_ndc": [
+      "39822-1055"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "AMPHOTERICIN B"
+     ],
+     "rxcui": [
+      "239240"
+     ],
+     "spl_id": [
+      "ff6c6de5-ba12-4176-817f-359761f6e4bf"
+     ],
+     "spl_set_id": [
+      "a0a54943-9ce4-4f3e-b681-a1a9144c16ce"
+     ],
+     "package_ndc": [
+      "39822-1055-5"
+     ],
+     "nui": [
+      "N0000175510",
+      "N0000175498",
+      "M0017172"
+     ],
+     "pharm_class_epc": [
+      "Lipid-based Polyene Antifungal [EPC]",
+      "Polyene Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Polyenes [CS]"
+     ],
+     "unii": [
+      "7XU7A7DROE"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "AMPHOTERICIN B",
+      "active_ingredients": [
+       {
+        "name": "AMPHOTERICIN B",
+        "strength": "50MG/VIAL"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "INJECTABLE",
+      "route": "INJECTION",
+      "marketing_status": "Prescription"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20221117",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA214010",
+    "sponsor_name": "EUGIA PHARMA",
+    "openfda": {
+     "application_number": [
+      "ANDA214010"
+     ],
+     "brand_name": [
+      "AMPHOTERICIN B"
+     ],
+     "generic_name": [
+      "AMPHOTERICIN B"
+     ],
+     "manufacturer_name": [
+      "Eugia US LLC"
+     ],
+     "product_ndc": [
+      "55150-365"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "AMPHOTERICIN B"
+     ],
+     "rxcui": [
+      "967385"
+     ],
+     "spl_id": [
+      "9f45e5d9-6acd-491e-a80c-f07ecc6ac109"
+     ],
+     "spl_set_id": [
+      "6f24975c-5191-4fc2-a8da-e57358f8e154"
+     ],
+     "package_ndc": [
+      "55150-365-01"
+     ],
+     "nui": [
+      "N0000175510",
+      "N0000175498",
+      "M0017172"
+     ],
+     "pharm_class_epc": [
+      "Lipid-based Polyene Antifungal [EPC]",
+      "Polyene Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Polyenes [CS]"
+     ],
+     "unii": [
+      "7XU7A7DROE"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "AMPHOTERICIN B",
+      "active_ingredients": [
+       {
+        "name": "AMPHOTERICIN B",
+        "strength": "50MG/VIAL"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "INJECTABLE, LIPOSOMAL",
+      "route": "INJECTION",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20211214",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "69849",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/212514Orig1s000ltr.pdf",
+        "date": "20220112",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "ANDA212514",
+    "sponsor_name": "SPIL",
+    "openfda": {
+     "application_number": [
+      "ANDA212514"
+     ],
+     "brand_name": [
+      "AMPHOTERICIN B"
+     ],
+     "generic_name": [
+      "AMPHOTERICIN B"
+     ],
+     "manufacturer_name": [
+      "Sun Pharmaceutical Industries, Inc."
+     ],
+     "product_ndc": [
+      "62756-954",
+      "62756-233"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "AMPHOTERICIN B"
+     ],
+     "rxcui": [
+      "967385"
+     ],
+     "spl_id": [
+      "4acdbb90-5e56-4ab9-8a37-5dbeabc9c669",
+      "98d535d7-ba62-47e6-825a-2e7d2d8fc564"
+     ],
+     "spl_set_id": [
+      "02aadef1-390b-4270-b56d-33452eb89dde",
+      "593cffa0-c305-48b6-8ec7-331e0ff91d2b"
+     ],
+     "package_ndc": [
+      "62756-954-01",
+      "62756-954-02",
+      "62756-233-01",
+      "62756-233-02"
+     ],
+     "nui": [
+      "N0000175510",
+      "N0000175498",
+      "M0017172"
+     ],
+     "pharm_class_epc": [
+      "Lipid-based Polyene Antifungal [EPC]",
+      "Polyene Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Polyenes [CS]"
+     ],
+     "unii": [
+      "7XU7A7DROE"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "AMPHOTERICIN B",
+      "active_ingredients": [
+       {
+        "name": "AMPHOTERICIN B",
+        "strength": "50MG/VIAL"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "INJECTABLE, LIPOSOMAL",
+      "route": "INJECTION",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250602",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA215354",
+    "sponsor_name": "AVET LIFESCIENCES",
+    "openfda": {
+     "application_number": [
+      "ANDA215354"
+     ],
+     "brand_name": [
+      "AMPHOTERICIN B"
+     ],
+     "generic_name": [
+      "AMPHOTERICIN B"
+     ],
+     "manufacturer_name": [
+      "Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc."
+     ],
+     "product_ndc": [
+      "23155-594"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAVENOUS"
+     ],
+     "substance_name": [
+      "AMPHOTERICIN B"
+     ],
+     "rxcui": [
+      "967385"
+     ],
+     "spl_id": [
+      "9de2927d-27ac-4890-ad71-a737dd4d3881"
+     ],
+     "spl_set_id": [
+      "2b2f3ff5-9d62-4ad2-8eac-1181e5911513"
+     ],
+     "package_ndc": [
+      "23155-594-31"
+     ],
+     "nui": [
+      "N0000175510",
+      "N0000175498",
+      "M0017172"
+     ],
+     "pharm_class_epc": [
+      "Lipid-based Polyene Antifungal [EPC]",
+      "Polyene Antifungal [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Polyenes [CS]"
+     ],
+     "unii": [
+      "7XU7A7DROE"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "AMPHOTERICIN B",
+      "active_ingredients": [
+       {
+        "name": "AMPHOTERICIN B",
+        "strength": "50MG/VIAL"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "INJECTABLE, LIPOSOMAL",
+      "route": "INJECTION",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   }
+  ]
+ }
+}

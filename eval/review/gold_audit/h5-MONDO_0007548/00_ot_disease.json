@@ -1,0 +1,30 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:57.217082+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){associatedTargets(page:{index:0,size:1}){rows{target{id approvedSymbol}}} drugAndClinicalCandidates{rows{drug{id}}}}}",
+  "variables": {
+   "id": "MONDO_0007548"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "associatedTargets": {
+      "rows": [
+       {
+        "target": {
+         "id": "ENSG00000114270",
+         "approvedSymbol": "COL7A1"
+        }
+       }
+      ]
+     },
+     "drugAndClinicalCandidates": {
+      "rows": []
+     }
+    }
+   }
+  }
+ }
+}

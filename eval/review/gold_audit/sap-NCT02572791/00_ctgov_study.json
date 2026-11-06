@@ -1,0 +1,2754 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT02572791",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:45.767467+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT02572791",
+    "orgStudyIdInfo": {
+     "id": "3177 60559"
+    },
+    "organization": {
+     "fullName": "Washington University School of Medicine",
+     "class": "OTHER"
+    },
+    "briefTitle": "Staph Household Intervention for Eradication (SHINE)",
+    "officialTitle": "Integrating Personal and Household Environmental Hygiene Measures to Prevent Methicillin-Resistant Staphylococcus Aureus Infection",
+    "acronym": "SHINE"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2026-02",
+    "overallStatus": "COMPLETED",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2015-10"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2024-11",
+     "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+     "date": "2024-12",
+     "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2015-10-05",
+    "studyFirstSubmitQcDate": "2015-10-07",
+    "studyFirstPostDateStruct": {
+     "date": "2015-10-09",
+     "type": "ESTIMATED"
+    },
+    "resultsFirstSubmitDate": "2025-10-28",
+    "resultsFirstSubmitQcDate": "2026-02-02",
+    "resultsFirstPostDateStruct": {
+     "date": "2026-02-24",
+     "type": "ACTUAL"
+    },
+    "lastUpdateSubmitDate": "2026-02-02",
+    "lastUpdatePostDateStruct": {
+     "date": "2026-02-24",
+     "type": "ACTUAL"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "PRINCIPAL_INVESTIGATOR",
+     "investigatorFullName": "Stephanie A. Fritz",
+     "investigatorTitle": "Professor of Pediatrics",
+     "investigatorAffiliation": "Washington University School of Medicine"
+    },
+    "leadSponsor": {
+     "name": "Washington University School of Medicine",
+     "class": "OTHER"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": true
+   },
+   "descriptionModule": {
+    "briefSummary": "The investigators propose a pragmatic comparative effectiveness trial evaluating several decolonization strategies in patients with Staphylococcus aureus infection, their household contacts, and household environmental surfaces. The central hypothesis of this proposal is that an integrated approach of periodic personal and household environmental hygiene will reduce S. aureus transmission in households and subsequently decrease the incidence of skin and soft tissue infections (SSTI).",
+    "detailedDescription": "Patients with active or recent S. aureus SSTI will be recruited from St. Louis Children's Hospital and community pediatric practices affiliated with the investigators practice-based research network. All participants (index patients and their household contacts) will perform a baseline S. aureus decolonization protocol for 5 days consisting of enhanced hygiene measures, application of mupirocin antibiotic ointment to the anterior nares twice daily, and daily body washes with chlorhexidine antiseptic. Following the 5-day baseline decolonization regimen, households will be randomized to one of three intervention groups: 1) Periodic personal decolonization performed by all household members, to include chlorhexidine body washes twice weekly for 3 months and application of intranasal mupirocin for 5 consecutive days each month for 3 months; 2) Household environmental hygiene, including targeted cleaning of household surfaces and laundering of bed linens, weekly for 3 months; and 3) Integrated periodic personal decolonization and household environmental hygiene for 3 months. Households will be followed prospectively (1, 3, 6, and 9 months following randomization) to measure the prevalence of S. aureus colonization in the participants, household environmental surfaces, and pet dogs and cats and to document the incidence of recurrent SSTI. Molecular strain typing will be performed on all recovered S. aureus isolates to illuminate transmission dynamics and the effects of the decolonization measures on genetic epidemiology. Lastly, the investigators will assess resistance to the prescribed topical antimicrobials at baseline and longitudinal samplings."
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Skin and Subcutaneous Tissue Bacterial Infections",
+     "Staphylococcus Aureus",
+     "MRSA - Methicillin Resistant Staphylococcus Aureus Infection"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE4"
+    ],
+    "designInfo": {
+     "allocation": "RANDOMIZED",
+     "interventionModel": "PARALLEL",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 835,
+     "type": "ACTUAL"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Periodic personal decolonization",
+      "type": "EXPERIMENTAL",
+      "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months.",
+      "interventionNames": [
+       "Drug: Chlorhexidine",
+       "Drug: Mupirocin"
+      ]
+     },
+     {
+      "label": "Household environmental hygiene",
+      "type": "EXPERIMENTAL",
+      "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission.",
+      "interventionNames": [
+       "Behavioral: Household cleaning"
+      ]
+     },
+     {
+      "label": "Integrated personal/household hygiene",
+      "type": "EXPERIMENTAL",
+      "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2.",
+      "interventionNames": [
+       "Drug: Chlorhexidine",
+       "Drug: Mupirocin",
+       "Behavioral: Household cleaning"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Chlorhexidine",
+      "armGroupLabels": [
+       "Integrated personal/household hygiene",
+       "Periodic personal decolonization"
+      ],
+      "otherNames": [
+       "Hibiclens"
+      ]
+     },
+     {
+      "type": "DRUG",
+      "name": "Mupirocin",
+      "armGroupLabels": [
+       "Integrated personal/household hygiene",
+       "Periodic personal decolonization"
+      ],
+      "otherNames": [
+       "Bactroban"
+      ]
+     },
+     {
+      "type": "BEHAVIORAL",
+      "name": "Household cleaning",
+      "armGroupLabels": [
+       "Household environmental hygiene",
+       "Integrated personal/household hygiene"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Number of Households With at Least One Skin and Soft Tissue Infection",
+      "description": "Number of households with at least one SSTI between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "timeFrame": "3 months after randomization"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Prevalence of MRSA Colonization in Participants",
+      "description": "Describe baseline prevalence of MRSA colonization in participants",
+      "timeFrame": "Baseline sampling"
+     },
+     {
+      "measure": "Prevalence of MRSA Colonization in Participants",
+      "description": "Describe longitudinal MRSA colonization prevalence in participants",
+      "timeFrame": "9 months"
+     },
+     {
+      "measure": "Confirmed S. Aureus Infection",
+      "description": "We will compare the development of a confirmed S. aureus infection between participants in the 3 groups over 9 months at the household and individual level.",
+      "timeFrame": "9 months"
+     },
+     {
+      "measure": "Incidence of SSTI",
+      "description": "We will compare the number of households in which at least one household member develops SSTI 1 month after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "timeFrame": "1 month"
+     },
+     {
+      "measure": "Incidence of SSTI",
+      "description": "We will compare the incidence of households in which at least one household member experiences an SSTI at the household level 6 months after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "Incidence of SSTI",
+      "description": "We will compare the number of households in which at least one household member develops SSTI 9 months after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "timeFrame": "9 months"
+     },
+     {
+      "measure": "Mupirocin Resistance",
+      "description": "Measure the prevalence of mupirocin resistance in S. aureus strains recovered at serial samplings over the study period of 9 months.",
+      "timeFrame": "9 months"
+     },
+     {
+      "measure": "Number of Patients With Adverse Events Due to Study Intervention",
+      "description": "We will describe the number of participants with adverse events due to study intervention (e.g., rhinorrhea, rash, dry skin) and compare between the three groups.",
+      "timeFrame": "3 months"
+     },
+     {
+      "measure": "Number of Participants Adhering to Study Intervention Procedures",
+      "description": "We will describe the number of participants completing chlorhexidine baths, mupirocin applications, and household hygiene measures.",
+      "timeFrame": "3 months"
+     },
+     {
+      "measure": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "timeFrame": "1 Month"
+     },
+     {
+      "measure": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "timeFrame": "3 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "timeFrame": "6 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "timeFrame": "1 Month"
+     },
+     {
+      "measure": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "timeFrame": "3 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "timeFrame": "6 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "timeFrame": "9 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "timeFrame": "1 Month"
+     },
+     {
+      "measure": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "timeFrame": "3 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "timeFrame": "6 Months"
+     },
+     {
+      "measure": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "timeFrame": "9 Months"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients 18 years of age and younger\n* Confirmed (i.e., culture-positive) active or recent (within the past 2 months) S. aureus cutaneous infections\n* Reside within 75 miles of St. Louis Children's Hospital\n* Provide written, informed consent, or consent is provided by a parent or legal guardian\n\nExclusion Criteria:\n\n* Patients with nosocomial infections (i.e., \\>48 hours after hospitalization)\n* Patients with traditional risk factors for HA-MRSA (e.g., immunodeficiency, indwelling catheter or percutaneous medical device, undergoing dialysis, presenting with a surgical site infection, or residing in a long-term care facility within the past year).\n* Patients who are unable to give consent or for whom consent is not obtained\n* Patients refusing home environmental cultures by the study team\n* Patients without a permanent home (e.g., living in a shelter or group home)",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "maximumAge": "18 Years",
+    "stdAges": [
+     "CHILD",
+     "ADULT"
+    ]
+   },
+   "contactsLocationsModule": {
+    "overallOfficials": [
+     {
+      "name": "Stephanie A Fritz, MD, MSCI",
+      "affiliation": "Washington University School of Medicine",
+      "role": "PRINCIPAL_INVESTIGATOR"
+     }
+    ],
+    "locations": [
+     {
+      "facility": "St. Louis Children's Hospital",
+      "city": "St Louis",
+      "state": "Missouri",
+      "zip": "63110",
+      "country": "United States",
+      "geoPoint": {
+       "lat": 38.62727,
+       "lon": -90.19789
+      }
+     },
+     {
+      "facility": "Washington University School of Medicine",
+      "city": "St Louis",
+      "state": "Missouri",
+      "zip": "63110",
+      "country": "United States",
+      "geoPoint": {
+       "lat": 38.62727,
+       "lon": -90.19789
+      }
+     }
+    ]
+   }
+  },
+  "resultsSection": {
+   "participantFlowModule": {
+    "preAssignmentDetails": "After the enrollment visit, all study participants (index patients and household contacts) were asked to perform a 5-day baseline decolonization regimen consisting of twice-daily application of 2% mupirocin ointment (Perrigo, Allegan, MI) to the anterior nares, and daily body washes with 4% chlorhexidine gluconate (Hibiclens, Mölnlycke Health Care, Norcross, GA).5,12,13,21,22 Participants \\<2 months of age were excluded from performing the decolonization regimen.",
+    "recruitmentDetails": "From 2015-2021, pediatric patients with culture-confirmed, community-onset S. aureus SSTIs (\"index patients\") were recruited from St. Louis Children's Hospital (SLCH) and community pediatric practices in metropolitan St. Louis. Children with nosocomial infections, healthcare-related risk factors, or immunodeficiency were excluded. Household contacts (individuals sleeping in the home ≥4 nights per week) were also enrolled. All study visits were conducted in participants' homes.",
+    "typeUnitsAnalyzed": "Households",
+    "groups": [
+     {
+      "id": "FG000",
+      "title": "Periodic Personal Decolonization",
+      "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+     },
+     {
+      "id": "FG001",
+      "title": "Household Environmental Hygiene",
+      "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+     },
+     {
+      "id": "FG002",
+      "title": "Integrated Personal/Household Hygiene",
+      "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+     }
+    ],
+    "periods": [
+     {
+      "title": "Intervention Period: Months 0-3",
+      "milestones": [
+       {
+        "type": "STARTED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "comment": "Starting number at enrollment was 270 participants, and 3 additional participants were added after enrollment",
+          "numSubjects": "273",
+          "numUnits": "65"
+         },
+         {
+          "groupId": "FG001",
+          "comment": "Starting number at enrollment was 266 participants, and 4 additional participants were added after enrollment",
+          "numSubjects": "270",
+          "numUnits": "65"
+         },
+         {
+          "groupId": "FG002",
+          "comment": "Starting number at enrollment was 283 participants, and 7 additional participants were added after enrollment",
+          "numSubjects": "290",
+          "numUnits": "66"
+         }
+        ]
+       },
+       {
+        "type": "COMPLETED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "228",
+          "numUnits": "57"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "235",
+          "numUnits": "58"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "255",
+          "numUnits": "59"
+         }
+        ]
+       },
+       {
+        "type": "NOT COMPLETED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "45",
+          "numUnits": "8"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "35",
+          "numUnits": "7"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "35",
+          "numUnits": "7"
+         }
+        ]
+       }
+      ],
+      "dropWithdraws": [
+       {
+        "type": "Lost to Follow-up",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "35"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "15"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "32"
+         }
+        ]
+       },
+       {
+        "type": "Withdrawal by Subject",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "8"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "8"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "1"
+         }
+        ]
+       },
+       {
+        "type": "Moved out of Household",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "2"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "12"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "2"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Post-Intervention Period: Months 4-9",
+      "milestones": [
+       {
+        "type": "STARTED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "comment": "1 participant was added during the post-intervention period",
+          "numSubjects": "229",
+          "numUnits": "57"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "235",
+          "numUnits": "58"
+         },
+         {
+          "groupId": "FG002",
+          "comment": "1 participant was added during the post-intervention period",
+          "numSubjects": "256",
+          "numUnits": "59"
+         }
+        ]
+       },
+       {
+        "type": "COMPLETED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "213",
+          "numUnits": "53"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "222",
+          "numUnits": "56"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "242",
+          "numUnits": "55"
+         }
+        ]
+       },
+       {
+        "type": "NOT COMPLETED",
+        "achievements": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "16",
+          "numUnits": "4"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "13",
+          "numUnits": "2"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "14",
+          "numUnits": "4"
+         }
+        ]
+       }
+      ],
+      "dropWithdraws": [
+       {
+        "type": "Lost to Follow-up",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "10"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "8"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "13"
+         }
+        ]
+       },
+       {
+        "type": "Withdrawal by Subject",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "0"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "1"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "1"
+         }
+        ]
+       },
+       {
+        "type": "Moved out of Household",
+        "reasons": [
+         {
+          "groupId": "FG000",
+          "numSubjects": "6"
+         },
+         {
+          "groupId": "FG001",
+          "numSubjects": "4"
+         },
+         {
+          "groupId": "FG002",
+          "numSubjects": "0"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "baselineCharacteristicsModule": {
+    "populationDescription": "819 participants from 196 households were enrolled at the baseline study visit. And additional 16 participants subsequently joined the households during the 9-month longitudinal study and were enrolled; their information is captured in the demographic information provided.",
+    "groups": [
+     {
+      "id": "BG000",
+      "title": "Periodic Personal Decolonization",
+      "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+     },
+     {
+      "id": "BG001",
+      "title": "Household Environmental Hygiene",
+      "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+     },
+     {
+      "id": "BG002",
+      "title": "Integrated Personal/Household Hygiene",
+      "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+     },
+     {
+      "id": "BG003",
+      "title": "Total",
+      "description": "Total of all reporting groups"
+     }
+    ],
+    "denoms": [
+     {
+      "units": "Participants",
+      "counts": [
+       {
+        "groupId": "BG000",
+        "value": "274"
+       },
+       {
+        "groupId": "BG001",
+        "value": "270"
+       },
+       {
+        "groupId": "BG002",
+        "value": "291"
+       },
+       {
+        "groupId": "BG003",
+        "value": "835"
+       }
+      ]
+     }
+    ],
+    "measures": [
+     {
+      "title": "Age, Continuous",
+      "paramType": "MEDIAN",
+      "dispersionType": "FULL_RANGE",
+      "unitOfMeasure": "Years",
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "15",
+            "lowerLimit": "0.04",
+            "upperLimit": "59"
+           },
+           {
+            "groupId": "BG001",
+            "value": "17",
+            "lowerLimit": "0.01",
+            "upperLimit": "61"
+           },
+           {
+            "groupId": "BG002",
+            "value": "13",
+            "lowerLimit": "0.02",
+            "upperLimit": "75"
+           },
+           {
+            "groupId": "BG003",
+            "value": "15",
+            "lowerLimit": "0.01",
+            "upperLimit": "75"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Sex: Female, Male",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "classes": [
+       {
+        "categories": [
+         {
+          "title": "Female",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "159"
+           },
+           {
+            "groupId": "BG001",
+            "value": "145"
+           },
+           {
+            "groupId": "BG002",
+            "value": "165"
+           },
+           {
+            "groupId": "BG003",
+            "value": "469"
+           }
+          ]
+         },
+         {
+          "title": "Male",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "115"
+           },
+           {
+            "groupId": "BG001",
+            "value": "125"
+           },
+           {
+            "groupId": "BG002",
+            "value": "126"
+           },
+           {
+            "groupId": "BG003",
+            "value": "366"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Ethnicity (NIH/OMB)",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "classes": [
+       {
+        "categories": [
+         {
+          "title": "Hispanic or Latino",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "6"
+           },
+           {
+            "groupId": "BG001",
+            "value": "6"
+           },
+           {
+            "groupId": "BG002",
+            "value": "5"
+           },
+           {
+            "groupId": "BG003",
+            "value": "17"
+           }
+          ]
+         },
+         {
+          "title": "Not Hispanic or Latino",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "268"
+           },
+           {
+            "groupId": "BG001",
+            "value": "264"
+           },
+           {
+            "groupId": "BG002",
+            "value": "286"
+           },
+           {
+            "groupId": "BG003",
+            "value": "818"
+           }
+          ]
+         },
+         {
+          "title": "Unknown or Not Reported",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "0"
+           },
+           {
+            "groupId": "BG001",
+            "value": "0"
+           },
+           {
+            "groupId": "BG002",
+            "value": "0"
+           },
+           {
+            "groupId": "BG003",
+            "value": "0"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Race (NIH/OMB)",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "classes": [
+       {
+        "categories": [
+         {
+          "title": "American Indian or Alaska Native",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "0"
+           },
+           {
+            "groupId": "BG001",
+            "value": "0"
+           },
+           {
+            "groupId": "BG002",
+            "value": "0"
+           },
+           {
+            "groupId": "BG003",
+            "value": "0"
+           }
+          ]
+         },
+         {
+          "title": "Asian",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "5"
+           },
+           {
+            "groupId": "BG001",
+            "value": "5"
+           },
+           {
+            "groupId": "BG002",
+            "value": "7"
+           },
+           {
+            "groupId": "BG003",
+            "value": "17"
+           }
+          ]
+         },
+         {
+          "title": "Native Hawaiian or Other Pacific Islander",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "0"
+           },
+           {
+            "groupId": "BG001",
+            "value": "0"
+           },
+           {
+            "groupId": "BG002",
+            "value": "0"
+           },
+           {
+            "groupId": "BG003",
+            "value": "0"
+           }
+          ]
+         },
+         {
+          "title": "Black or African American",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "56"
+           },
+           {
+            "groupId": "BG001",
+            "value": "83"
+           },
+           {
+            "groupId": "BG002",
+            "value": "95"
+           },
+           {
+            "groupId": "BG003",
+            "value": "234"
+           }
+          ]
+         },
+         {
+          "title": "White",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "195"
+           },
+           {
+            "groupId": "BG001",
+            "value": "163"
+           },
+           {
+            "groupId": "BG002",
+            "value": "175"
+           },
+           {
+            "groupId": "BG003",
+            "value": "533"
+           }
+          ]
+         },
+         {
+          "title": "More than one race",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "18"
+           },
+           {
+            "groupId": "BG001",
+            "value": "19"
+           },
+           {
+            "groupId": "BG002",
+            "value": "14"
+           },
+           {
+            "groupId": "BG003",
+            "value": "51"
+           }
+          ]
+         },
+         {
+          "title": "Unknown or Not Reported",
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "0"
+           },
+           {
+            "groupId": "BG001",
+            "value": "0"
+           },
+           {
+            "groupId": "BG002",
+            "value": "0"
+           },
+           {
+            "groupId": "BG003",
+            "value": "0"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Region of Enrollment",
+      "paramType": "NUMBER",
+      "unitOfMeasure": "participants",
+      "classes": [
+       {
+        "title": "United States",
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "274"
+           },
+           {
+            "groupId": "BG001",
+            "value": "270"
+           },
+           {
+            "groupId": "BG002",
+            "value": "291"
+           },
+           {
+            "groupId": "BG003",
+            "value": "835"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Skin Infection in the Year Prior to Study Enrollment",
+      "paramType": "NUMBER",
+      "unitOfMeasure": "number of participants w/skin infections",
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "BG000",
+            "value": "85"
+           },
+           {
+            "groupId": "BG001",
+            "value": "80"
+           },
+           {
+            "groupId": "BG002",
+            "value": "64"
+           },
+           {
+            "groupId": "BG003",
+            "value": "229"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "outcomeMeasuresModule": {
+    "outcomeMeasures": [
+     {
+      "type": "PRIMARY",
+      "title": "Number of Households With at Least One Skin and Soft Tissue Infection",
+      "description": "Number of households with at least one SSTI between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "populationDescription": "We evaluated the primary outcome at the level of the household.",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_UNITS",
+      "unitOfMeasure": "Households",
+      "timeFrame": "3 months after randomization",
+      "typeUnitsAnalyzed": "Households",
+      "denomUnitsSelected": "Households",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "250"
+         },
+         {
+          "groupId": "OG001",
+          "value": "262"
+         },
+         {
+          "groupId": "OG002",
+          "value": "250"
+         }
+        ]
+       },
+       {
+        "units": "Households",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "60"
+         },
+         {
+          "groupId": "OG001",
+          "value": "60"
+         },
+         {
+          "groupId": "OG002",
+          "value": "60"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "21"
+           },
+           {
+            "groupId": "OG001",
+            "value": "21"
+           },
+           {
+            "groupId": "OG002",
+            "value": "22"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Prevalence of MRSA Colonization in Participants",
+      "description": "Describe baseline prevalence of MRSA colonization in participants",
+      "populationDescription": "Participants colonized with MRSA at the baseline sampling",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "Baseline sampling",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "274"
+         },
+         {
+          "groupId": "OG001",
+          "value": "291"
+         },
+         {
+          "groupId": "OG002",
+          "value": "270"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "39"
+           },
+           {
+            "groupId": "OG001",
+            "value": "61"
+           },
+           {
+            "groupId": "OG002",
+            "value": "60"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Prevalence of MRSA Colonization in Participants",
+      "description": "Describe longitudinal MRSA colonization prevalence in participants",
+      "populationDescription": "Participants cultured for MRSA detection at the 9 month study visit",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "9 months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "214"
+         },
+         {
+          "groupId": "OG001",
+          "value": "244"
+         },
+         {
+          "groupId": "OG002",
+          "value": "222"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "12"
+           },
+           {
+            "groupId": "OG001",
+            "value": "22"
+           },
+           {
+            "groupId": "OG002",
+            "value": "24"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Confirmed S. Aureus Infection",
+      "description": "We will compare the development of a confirmed S. aureus infection between participants in the 3 groups over 9 months at the household and individual level.",
+      "populationDescription": "Participants reporting SSTI throughout the longitudinal study",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "9 months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "192"
+         },
+         {
+          "groupId": "OG001",
+          "value": "144"
+         },
+         {
+          "groupId": "OG002",
+          "value": "238"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "84"
+           },
+           {
+            "groupId": "OG001",
+            "value": "71"
+           },
+           {
+            "groupId": "OG002",
+            "value": "135"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Incidence of SSTI",
+      "description": "We will compare the number of households in which at least one household member develops SSTI 1 month after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "populationDescription": "Household level",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_UNITS",
+      "unitOfMeasure": "Households",
+      "timeFrame": "1 month",
+      "typeUnitsAnalyzed": "Households",
+      "denomUnitsSelected": "Households",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "250"
+         },
+         {
+          "groupId": "OG001",
+          "value": "261"
+         },
+         {
+          "groupId": "OG002",
+          "value": "251"
+         }
+        ]
+       },
+       {
+        "units": "Households",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "61"
+         },
+         {
+          "groupId": "OG001",
+          "value": "60"
+         },
+         {
+          "groupId": "OG002",
+          "value": "61"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "14"
+           },
+           {
+            "groupId": "OG001",
+            "value": "13"
+           },
+           {
+            "groupId": "OG002",
+            "value": "16"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Incidence of SSTI",
+      "description": "We will compare the incidence of households in which at least one household member experiences an SSTI at the household level 6 months after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "populationDescription": "Households",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_UNITS",
+      "unitOfMeasure": "Households",
+      "timeFrame": "6 months",
+      "typeUnitsAnalyzed": "Households",
+      "denomUnitsSelected": "Households",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "217"
+         },
+         {
+          "groupId": "OG001",
+          "value": "242"
+         },
+         {
+          "groupId": "OG002",
+          "value": "226"
+         }
+        ]
+       },
+       {
+        "units": "Households",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "57"
+         },
+         {
+          "groupId": "OG001",
+          "value": "58"
+         },
+         {
+          "groupId": "OG002",
+          "value": "58"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "28"
+           },
+           {
+            "groupId": "OG001",
+            "value": "27"
+           },
+           {
+            "groupId": "OG002",
+            "value": "32"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Incidence of SSTI",
+      "description": "We will compare the number of households in which at least one household member develops SSTI 9 months after randomization between the Integrated Decolonization Group and the combined Personal Periodic Decolonization and Environmental Decontamination Groups.",
+      "populationDescription": "Households",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_UNITS",
+      "unitOfMeasure": "Households",
+      "timeFrame": "9 months",
+      "typeUnitsAnalyzed": "Households",
+      "denomUnitsSelected": "Households",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "213"
+         },
+         {
+          "groupId": "OG001",
+          "value": "242"
+         },
+         {
+          "groupId": "OG002",
+          "value": "222"
+         }
+        ]
+       },
+       {
+        "units": "Households",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "56"
+         },
+         {
+          "groupId": "OG001",
+          "value": "58"
+         },
+         {
+          "groupId": "OG002",
+          "value": "58"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "30"
+           },
+           {
+            "groupId": "OG001",
+            "value": "32"
+           },
+           {
+            "groupId": "OG002",
+            "value": "38"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Mupirocin Resistance",
+      "description": "Measure the prevalence of mupirocin resistance in S. aureus strains recovered at serial samplings over the study period of 9 months.",
+      "populationDescription": "Participants sampled at 9 months",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "9 months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "213"
+         },
+         {
+          "groupId": "OG001",
+          "value": "242"
+         },
+         {
+          "groupId": "OG002",
+          "value": "222"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "6"
+           },
+           {
+            "groupId": "OG001",
+            "value": "1"
+           },
+           {
+            "groupId": "OG002",
+            "value": "2"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Number of Patients With Adverse Events Due to Study Intervention",
+      "description": "We will describe the number of participants with adverse events due to study intervention (e.g., rhinorrhea, rash, dry skin) and compare between the three groups.",
+      "populationDescription": "Participants providing AE data",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "3 months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months.\n\nChlorhexidine\n\nMupirocin"
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission.\n\nHousehold cleaning"
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2.\n\nChlorhexidine\n\nMupirocin\n\nHousehold cleaning"
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "274"
+         },
+         {
+          "groupId": "OG001",
+          "value": "269"
+         },
+         {
+          "groupId": "OG002",
+          "value": "292"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "111"
+           },
+           {
+            "groupId": "OG001",
+            "value": "92"
+           },
+           {
+            "groupId": "OG002",
+            "value": "137"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "Number of Participants Adhering to Study Intervention Procedures",
+      "description": "We will describe the number of participants completing chlorhexidine baths, mupirocin applications, and household hygiene measures.",
+      "populationDescription": "Participants completing the 3 month intervention",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "3 months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "247"
+         },
+         {
+          "groupId": "OG001",
+          "value": "259"
+         },
+         {
+          "groupId": "OG002",
+          "value": "246"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "112"
+           },
+           {
+            "groupId": "OG001",
+            "value": "45"
+           },
+           {
+            "groupId": "OG002",
+            "value": "55"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "populationDescription": "Individual Participants",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "1 Month",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "250"
+         },
+         {
+          "groupId": "OG001",
+          "value": "262"
+         },
+         {
+          "groupId": "OG002",
+          "value": "249"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "18"
+           },
+           {
+            "groupId": "OG001",
+            "value": "16"
+           },
+           {
+            "groupId": "OG002",
+            "value": "19"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "populationDescription": "Participants",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "3 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "235"
+         },
+         {
+          "groupId": "OG001",
+          "value": "220"
+         },
+         {
+          "groupId": "OG002",
+          "value": "225"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "29"
+           },
+           {
+            "groupId": "OG001",
+            "value": "24"
+           },
+           {
+            "groupId": "OG002",
+            "value": "29"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Individual Level",
+      "description": "Individual Participant SSTI Incidence",
+      "populationDescription": "Participants",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "6 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       },
+       {
+        "id": "OG002",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "225"
+         },
+         {
+          "groupId": "OG001",
+          "value": "248"
+         },
+         {
+          "groupId": "OG002",
+          "value": "228"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "39"
+           },
+           {
+            "groupId": "OG001",
+            "value": "31"
+           },
+           {
+            "groupId": "OG002",
+            "value": "43"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "populationDescription": "Participants with SSTI in Prior Year",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "1 Month",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "108"
+         },
+         {
+          "groupId": "OG001",
+          "value": "101"
+         },
+         {
+          "groupId": "OG002",
+          "value": "96"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "17"
+           },
+           {
+            "groupId": "OG001",
+            "value": "13"
+           },
+           {
+            "groupId": "OG002",
+            "value": "10"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "populationDescription": "Participants who Experienced an SSTI in the Year Prior to Enrollment",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "3 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "100"
+         },
+         {
+          "groupId": "OG001",
+          "value": "96"
+         },
+         {
+          "groupId": "OG002",
+          "value": "92"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "25"
+           },
+           {
+            "groupId": "OG001",
+            "value": "22"
+           },
+           {
+            "groupId": "OG002",
+            "value": "18"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "populationDescription": "Participants with SSTI in the Prior Year",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "6 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "97"
+         },
+         {
+          "groupId": "OG001",
+          "value": "93"
+         },
+         {
+          "groupId": "OG002",
+          "value": "90"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "32"
+           },
+           {
+            "groupId": "OG001",
+            "value": "33"
+           },
+           {
+            "groupId": "OG002",
+            "value": "20"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Participants With SSTI in the Year Prior to Trial Enrollment",
+      "description": "Incidence of SSTI in Participants who Experienced an SSTI in the Year Prior to Enrollment. During the enrollment survey, all participants were asked if they had ever had an SSTI, and when the SSTI occurred. If a participant had experienced an SSTI before joining this study, and that SSTI occurred less than a year before their enrollment date, they were included in this subgroup.",
+      "populationDescription": "Participant with SSTI in the Prior Year",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "9 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "95"
+         },
+         {
+          "groupId": "OG001",
+          "value": "93"
+         },
+         {
+          "groupId": "OG002",
+          "value": "89"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "36"
+           },
+           {
+            "groupId": "OG001",
+            "value": "40"
+           },
+           {
+            "groupId": "OG002",
+            "value": "25"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "populationDescription": "Index Patients",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "1 Month",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "61"
+         },
+         {
+          "groupId": "OG001",
+          "value": "61"
+         },
+         {
+          "groupId": "OG002",
+          "value": "60"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "8"
+           },
+           {
+            "groupId": "OG001",
+            "value": "11"
+           },
+           {
+            "groupId": "OG002",
+            "value": "7"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "populationDescription": "Index Patients",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "3 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "58"
+         },
+         {
+          "groupId": "OG001",
+          "value": "60"
+         },
+         {
+          "groupId": "OG002",
+          "value": "59"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "15"
+           },
+           {
+            "groupId": "OG001",
+            "value": "16"
+           },
+           {
+            "groupId": "OG002",
+            "value": "12"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "populationDescription": "Index Patients",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "6 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "57"
+         },
+         {
+          "groupId": "OG001",
+          "value": "58"
+         },
+         {
+          "groupId": "OG002",
+          "value": "57"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "21"
+           },
+           {
+            "groupId": "OG001",
+            "value": "23"
+           },
+           {
+            "groupId": "OG002",
+            "value": "13"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "type": "SECONDARY",
+      "title": "SSTI Incidence: Index Patients",
+      "description": "Cumulative Incidence of SSTI in Index Patients",
+      "populationDescription": "Index Patients",
+      "reportingStatus": "POSTED",
+      "paramType": "COUNT_OF_PARTICIPANTS",
+      "unitOfMeasure": "Participants",
+      "timeFrame": "9 Months",
+      "groups": [
+       {
+        "id": "OG000",
+        "title": "Periodic Personal Decolonization",
+        "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months."
+       },
+       {
+        "id": "OG001",
+        "title": "Household Environmental Hygiene",
+        "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission."
+       },
+       {
+        "id": "OG002",
+        "title": "Integrated Personal/Household Hygiene",
+        "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2."
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "OG000",
+          "value": "56"
+         },
+         {
+          "groupId": "OG001",
+          "value": "58"
+         },
+         {
+          "groupId": "OG002",
+          "value": "57"
+         }
+        ]
+       }
+      ],
+      "classes": [
+       {
+        "categories": [
+         {
+          "measurements": [
+           {
+            "groupId": "OG000",
+            "value": "23"
+           },
+           {
+            "groupId": "OG001",
+            "value": "27"
+           },
+           {
+            "groupId": "OG002",
+            "value": "16"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "adverseEventsModule": {
+    "frequencyThreshold": "0",
+    "timeFrame": "Adverse events were recorded during the baseline and 3 month intervention period (3.5 months).",
+    "eventGroups": [
+     {
+      "id": "EG000",
+      "title": "Periodic Personal Decolonization",
+      "description": "All household participants will perform chlorhexidine body washes twice weekly for 3 months and apply mupirocin ointment to the anterior nares twice daily for five consecutive days each month for 3 months.\n\nChlorhexidine\n\nMupirocin",
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 274,
+      "seriousNumAffected": 0,
+      "seriousNumAtRisk": 274,
+      "otherNumAffected": 111,
+      "otherNumAtRisk": 274
+     },
+     {
+      "id": "EG001",
+      "title": "Household Environmental Hygiene",
+      "description": "In addition to their usual cleaning, households will be asked to perform targeted household hygiene focusing on sources known to harbor S. aureus and serve as reservoirs for transmission.\n\nHousehold cleaning",
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 269,
+      "seriousNumAffected": 0,
+      "seriousNumAtRisk": 269,
+      "otherNumAffected": 93,
+      "otherNumAtRisk": 269
+     },
+     {
+      "id": "EG002",
+      "title": "Integrated Personal/Household Hygiene",
+      "description": "Participants in households randomized to this arm will perform the Periodic Personal Decolonization plus the Household Environmental Hygiene, described above in arms 1 and 2.\n\nChlorhexidine\n\nMupirocin\n\nHousehold cleaning",
+      "deathsNumAffected": 0,
+      "deathsNumAtRisk": 292,
+      "seriousNumAffected": 0,
+      "seriousNumAtRisk": 292,
+      "otherNumAffected": 137,
+      "otherNumAtRisk": 292
+     }
+    ],
+    "otherEvents": [
+     {
+      "term": "Adverse Event from Chlorhexidine application",
+      "organSystem": "Skin and subcutaneous tissue disorders",
+      "assessmentType": "SYSTEMATIC_ASSESSMENT",
+      "notes": "Effects included dry skin, itching, and rash",
+      "stats": [
+       {
+        "groupId": "EG000",
+        "numEvents": 61,
+        "numAffected": 61,
+        "numAtRisk": 274
+       },
+       {
+        "groupId": "EG001",
+        "numEvents": 62,
+        "numAffected": 62,
+        "numAtRisk": 269
+       },
+       {
+        "groupId": "EG002",
+        "numEvents": 101,
+        "numAffected": 101,
+        "numAtRisk": 292
+       }
+      ]
+     },
+     {
+      "term": "Adverse Event from Mupirocin application",
+      "organSystem": "Skin and subcutaneous tissue disorders",
+      "assessmentType": "SYSTEMATIC_ASSESSMENT",
+      "notes": "Effects included runny nose, itching, and burning of the nose.",
+      "stats": [
+       {
+        "groupId": "EG000",
+        "numEvents": 74,
+        "numAffected": 74,
+        "numAtRisk": 274
+       },
+       {
+        "groupId": "EG001",
+        "numEvents": 64,
+        "numAffected": 64,
+        "numAtRisk": 269
+       },
+       {
+        "groupId": "EG002",
+        "numEvents": 88,
+        "numAffected": 88,
+        "numAtRisk": 292
+       }
+      ]
+     }
+    ]
+   },
+   "moreInfoModule": {
+    "limitationsAndCaveats": {
+     "description": "Due to the COVID-19 pandemic, we stopped early at 196, rather than 207 households."
+    },
+    "certainAgreement": {
+     "piSponsorEmployee": false,
+     "restrictiveAgreement": false
+    },
+    "pointOfContact": {
+     "title": "Dr. Stephanie Fritz",
+     "organization": "Washington University School of Medicine",
+     "email": "fritz.s@wustl.edu",
+     "phone": "3144546050"
+    }
+   }
+  },
+  "documentSection": {
+   "largeDocumentModule": {
+    "largeDocs": [
+     {
+      "typeAbbrev": "Prot_SAP",
+      "hasProtocol": true,
+      "hasSap": true,
+      "hasIcf": false,
+      "label": "Study Protocol and Statistical Analysis Plan",
+      "date": "2025-03-10",
+      "uploadDate": "2025-12-16T11:15",
+      "filename": "Prot_SAP_000.pdf",
+      "size": 1676485
+     }
+    ]
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D013203",
+      "term": "Staphylococcal Infections"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D016908",
+      "term": "Gram-Positive Bacterial Infections"
+     },
+     {
+      "id": "D001424",
+      "term": "Bacterial Infections"
+     },
+     {
+      "id": "D001423",
+      "term": "Bacterial Infections and Mycoses"
+     },
+     {
+      "id": "D007239",
+      "term": "Infections"
+     }
+    ]
+   },
+   "interventionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D002710",
+      "term": "Chlorhexidine"
+     },
+     {
+      "id": "C010882",
+      "term": "chlorhexidine gluconate"
+     },
+     {
+      "id": "D016712",
+      "term": "Mupirocin"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D001645",
+      "term": "Biguanides"
+     },
+     {
+      "id": "D006146",
+      "term": "Guanidines"
+     },
+     {
+      "id": "D000578",
+      "term": "Amidines"
+     },
+     {
+      "id": "D009930",
+      "term": "Organic Chemicals"
+     },
+     {
+      "id": "D004852",
+      "term": "Epoxy Compounds"
+     },
+     {
+      "id": "D004988",
+      "term": "Ethers, Cyclic"
+     },
+     {
+      "id": "D004987",
+      "term": "Ethers"
+     },
+     {
+      "id": "D011714",
+      "term": "Pyrans"
+     },
+     {
+      "id": "D006573",
+      "term": "Heterocyclic Compounds, 1-Ring"
+     },
+     {
+      "id": "D006571",
+      "term": "Heterocyclic Compounds"
+     },
+     {
+      "id": "D005227",
+      "term": "Fatty Acids"
+     },
+     {
+      "id": "D008055",
+      "term": "Lipids"
+     }
+    ]
+   }
+  },
+  "hasResults": true
+ }
+}

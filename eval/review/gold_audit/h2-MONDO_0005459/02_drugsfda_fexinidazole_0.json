@@ -1,0 +1,247 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22fexinidazole%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:52.699145+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 1
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20210716",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "68113",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/214429Orig1s000ltr.pdf",
+        "date": "20210719",
+        "type": "Letter"
+       },
+       {
+        "id": "68136",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214429s000lbl.pdf",
+        "date": "20210720",
+        "type": "Label"
+       },
+       {
+        "id": "68341",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214429Orig1s000TOC.html",
+        "date": "20210811",
+        "type": "Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20240920",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "79702",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/214429s003s004lbl.pdf",
+        "date": "20240923",
+        "type": "Label"
+       },
+       {
+        "id": "79719",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/214429Orig1s003, s004ltr.pdf",
+        "date": "20240924",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20240920",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "79701",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/214429s003s004lbl.pdf",
+        "date": "20240923",
+        "type": "Label"
+       },
+       {
+        "id": "79718",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/214429Orig1s003, s004ltr.pdf",
+        "date": "20240924",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20211215",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "submission_property_type": [
+       {
+        "code": "Orphan"
+       }
+      ],
+      "application_docs": [
+       {
+        "id": "69616",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2021/214429s001lbl.pdf",
+        "date": "20211217",
+        "type": "Label"
+       },
+       {
+        "id": "69706",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/214429Orig1s001ltr.pdf",
+        "date": "20211221",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA214429",
+    "sponsor_name": "SANOFI",
+    "openfda": {
+     "application_number": [
+      "NDA214429"
+     ],
+     "brand_name": [
+      "FEXINIDAZOLE"
+     ],
+     "generic_name": [
+      "FEXINIDAZOLE"
+     ],
+     "manufacturer_name": [
+      "Sanofi-Aventis U.S. LLC"
+     ],
+     "product_ndc": [
+      "0024-4512"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "FEXINIDAZOLE"
+     ],
+     "rxcui": [
+      "2564151",
+      "2564152",
+      "2564153"
+     ],
+     "spl_id": [
+      "1b3dbe65-328a-450b-bc3d-0b46d9acd832"
+     ],
+     "spl_set_id": [
+      "74a611bc-9977-46bb-b626-0370b3031628"
+     ],
+     "package_ndc": [
+      "0024-4512-14",
+      "0024-4512-24"
+     ],
+     "nui": [
+      "N0000175435",
+      "M0014907",
+      "N0000182138",
+      "N0000182139",
+      "N0000182140",
+      "N0000182137",
+      "N0000182141",
+      "N0000190115",
+      "N0000191266",
+      "N0000187064",
+      "N0000190107",
+      "N0000190108",
+      "N0000187061",
+      "N0000190110",
+      "N0000190111",
+      "N0000191423",
+      "N0000193932"
+     ],
+     "pharm_class_epc": [
+      "Nitroimidazole Antimicrobial [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Nitroimidazoles [CS]"
+     ],
+     "pharm_class_moa": [
+      "Cytochrome P450 1A2 Inhibitors [MoA]",
+      "Cytochrome P450 2B6 Inhibitors [MoA]",
+      "Cytochrome P450 2C19 Inhibitors [MoA]",
+      "Cytochrome P450 2D6 Inhibitors [MoA]",
+      "Cytochrome P450 3A4 Inhibitors [MoA]",
+      "Cytochrome P450 3A5 Inhibitors [MoA]",
+      "Cytochrome P450 1A2 Inducers [MoA]",
+      "Cytochrome P450 2B6 Inducers [MoA]",
+      "Organic Anion Transporting Polypeptide 1B1 Inhibitors [MoA]",
+      "Organic Anion Transporting Polypeptide 1B3 Inhibitors [MoA]",
+      "Organic Cation Transporter 2 Inhibitors [MoA]",
+      "Organic Anion Transporter 1 Inhibitors [MoA]",
+      "Organic Anion Transporter 3 Inhibitors [MoA]",
+      "Multidrug and Toxin Extrusion Transporter 1 Inhibitors [MoA]",
+      "Multidrug and Toxin Extrusion Transporter 2 K Inhibitors [MoA]"
+     ],
+     "unii": [
+      "306ERL82IR"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "FEXINIDAZOLE",
+      "active_ingredients": [
+       {
+        "name": "FEXINIDAZOLE",
+        "strength": "600MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription"
+     }
+    ]
+   }
+  ]
+ }
+}

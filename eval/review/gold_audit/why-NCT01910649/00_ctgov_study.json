@@ -1,0 +1,270 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT01910649",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:45.521015+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01910649",
+    "orgStudyIdInfo": {
+     "id": "114673"
+    },
+    "secondaryIdInfos": [
+     {
+      "id": "2007-004819-54",
+      "type": "EUDRACT_NUMBER"
+     }
+    ],
+    "organization": {
+     "fullName": "BioMarin Pharmaceutical",
+     "class": "INDUSTRY"
+    },
+    "briefTitle": "A Phase I/II, Open Label, Escalating Dose, Pilot Study to Assess Effect, Safety, Tolerability and PK of Multiple SC Doses of Drisapersen in Patients With Duchenne Muscular Dystrophy and to Assess the Potential for IV Dosing as an Alternative Route of Administration",
+    "officialTitle": "A Phase I/II, Open Label, Escalating Dose, Pilot Study to Assess the Effect, Safety, Tolerability and Pharmacokinetics of Multiple Subcutaneous Doses of Drisapersen in Patients With Duchenne Muscular Dystrophy and to Assess the Potential for Intravenous Dosing as an Alternative Route of Administration"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2016-11",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Regulatory approval was not obtained for drisapersen, hence BioMarin is stopping the development of all exon skipping oligonucleotides in DMD.",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2008-03"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2016-09",
+     "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+     "date": "2016-09",
+     "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2012-08-02",
+    "studyFirstSubmitQcDate": "2013-07-25",
+    "studyFirstPostDateStruct": {
+     "date": "2013-07-29",
+     "type": "ESTIMATED"
+    },
+    "lastUpdateSubmitDate": "2016-11-04",
+    "lastUpdatePostDateStruct": {
+     "date": "2016-11-07",
+     "type": "ESTIMATED"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "SPONSOR"
+    },
+    "leadSponsor": {
+     "name": "BioMarin Pharmaceutical",
+     "class": "INDUSTRY"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": true
+   },
+   "descriptionModule": {
+    "briefSummary": "The purpose of the extension phase of this study is to determine whether Drisapersen is effective in the treatment of boys with Duchenne muscular dystrophy resulting from a mutation thought to be corrected by exon 51 skipping."
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Muscular Dystrophies"
+    ],
+    "keywords": [
+     "drisapersen"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE2"
+    ],
+    "designInfo": {
+     "allocation": "NA",
+     "interventionModel": "SINGLE_GROUP",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 12,
+     "type": "ACTUAL"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Drisapersen",
+      "type": "EXPERIMENTAL",
+      "description": "Extension phase of treatment. Intravenous dosing of drisapersen will be investigated as an alternative route of administration",
+      "interventionNames": [
+       "Drug: Drisapersen"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "DRUG",
+      "name": "Drisapersen",
+      "description": "Subcutaneous and Intravenous",
+      "armGroupLabels": [
+       "Drisapersen"
+      ],
+      "otherNames": [
+       "PRO051"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Acute phase: Safety data",
+      "description": "Summarized per dose group",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Acute phase and Continued Treatment Phase : Pharmacokinetics measured by T1/2, Cmax, Ctrough, 7d, tmax, and volume of distribution and clearance",
+      "description": "Plasma concentration versus time profiles of PRO051 (GSK2402968)",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Acute phase and Continued Treatment Phase : Safety as assessed by the collection of adverse events (AEs)",
+      "description": "Change from baseline and summarized values",
+      "timeFrame": "72 weeks"
+     },
+     {
+      "measure": "Continued Treatment Phase :Safety as assessed by laboratory parameters",
+      "description": "Change from baseline and summarized values",
+      "timeFrame": "72 weeks"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Acute phase: Production of exon skip 51 messenger Ribonucleic acid (mRNA)",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Acute phase: Presence of dystrophin expression",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Acute phase: Muscle function",
+      "description": "Timed tests and 6-minutes walk",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Acute phase: Muscle strength",
+      "description": "Quantitative Muscle Testing \\[QMT\\]- Cooperative International Neuromuscular Research Group (CINRG) and Manual Muscle Testing \\[MMT\\]",
+      "timeFrame": "18 weeks"
+     },
+     {
+      "measure": "Continued Treatment Phase: Exon skip efficiency",
+      "timeFrame": "72 weeks"
+     },
+     {
+      "measure": "Continued Treatment Phase Dystrophin expression in muscle biopsy",
+      "timeFrame": "72 weeks"
+     },
+     {
+      "measure": "Continued Treatment Phase: Muscle function",
+      "description": "Timed tests and 6-minutes walk",
+      "timeFrame": "300 weeks"
+     },
+     {
+      "measure": "Continued Treatment Phase: Muscle strength",
+      "description": "Handheld myometry and spirometry",
+      "timeFrame": "300 weeks"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n* Boys aged between 5 and 16 years inclusive.\n* Duchenne muscular dystrophy resulting from a mutation correctable by treatment with PRO051.\n* Not ventilator dependent.\n* Life expectancy of at least six months.\n* No previous treatment with investigational medicinal treatment within six months prior to the study.\n* Willing and able to adhere to the study visit schedule and other protocol requirements.\n\nExclusion Criteria:\n\n* Aberrant RNA splicing and/or aberrant response to PRO051, detected by in vitro PRO051 assay during screening.\n* Known presence of dystrophin in 5% of fibers in a pre-study diagnostic muscle biopsy.\n* Severe muscle abnormalities defined as increased signal intensity in \\>50% of the tibialis anterior muscle at MRI.\n* FEV1 and/or FVC \\<60% of predicted.\n* Current or history of liver or renal disease.\n* Acute illness within 4 weeks prior to treatment (Day 1) which may interfere with the measurements.\n* Severe mental retardation which in the opinion of the investigator prohibits participation in this study.\n* Severe cardiac myopathy which in the opinion of the investigator prohibits participation in this study.\n* Need for mechanical ventilation.\n* Creatinine concentration above 1.5 times the upper limit of normal (age corrected).\n* Serum ASAT and/or ALAT concentration(s) which suggest hepatic impairment.\n* Use of anticoagulants, antithrombotics or antiplatelet agents.\n* Subject has donated blood less than 90 days before the start of the study.\n* Current or history of drug and/or alcohol abuse.\n* Participation in another trial with an investigational product.",
+    "healthyVolunteers": false,
+    "sex": "MALE",
+    "minimumAge": "5 Years",
+    "maximumAge": "16 Years",
+    "stdAges": [
+     "CHILD"
+    ]
+   },
+   "contactsLocationsModule": {
+    "overallOfficials": [
+     {
+      "name": "N Goemans, Dr.",
+      "affiliation": "UZ Leuven",
+      "role": "PRINCIPAL_INVESTIGATOR"
+     }
+    ]
+   },
+   "referencesModule": {
+    "references": [
+     {
+      "pmid": "21428760",
+      "type": "RESULT",
+      "citation": "Goemans NM, Tulinius M, van den Akker JT, Burm BE, Ekhart PF, Heuvelmans N, Holling T, Janson AA, Platenburg GJ, Sipkens JA, Sitsen JM, Aartsma-Rus A, van Ommen GJ, Buyse G, Darin N, Verschuuren JJ, Campion GV, de Kimpe SJ, van Deutekom JC. Systemic administration of PRO051 in Duchenne's muscular dystrophy. N Engl J Med. 2011 Apr 21;364(16):1513-22. doi: 10.1056/NEJMoa1011367. Epub 2011 Mar 23."
+     },
+     {
+      "pmid": "27588424",
+      "type": "DERIVED",
+      "citation": "Goemans NM, Tulinius M, van den Hauwe M, Kroksmark AK, Buyse G, Wilson RJ, van Deutekom JC, de Kimpe SJ, Lourbakos A, Campion G. Long-Term Efficacy, Safety, and Pharmacokinetics of Drisapersen in Duchenne Muscular Dystrophy: Results from an Open-Label Extension Study. PLoS One. 2016 Sep 2;11(9):e0161955. doi: 10.1371/journal.pone.0161955. eCollection 2016."
+     }
+    ]
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D009136",
+      "term": "Muscular Dystrophies"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D020966",
+      "term": "Muscular Disorders, Atrophic"
+     },
+     {
+      "id": "D009135",
+      "term": "Muscular Diseases"
+     },
+     {
+      "id": "D009140",
+      "term": "Musculoskeletal Diseases"
+     },
+     {
+      "id": "D009468",
+      "term": "Neuromuscular Diseases"
+     },
+     {
+      "id": "D009422",
+      "term": "Nervous System Diseases"
+     },
+     {
+      "id": "D030342",
+      "term": "Genetic Diseases, Inborn"
+     },
+     {
+      "id": "D009358",
+      "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+     }
+    ]
+   },
+   "interventionBrowseModule": {
+    "meshes": [
+     {
+      "id": "C525434",
+      "term": "PRO051"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

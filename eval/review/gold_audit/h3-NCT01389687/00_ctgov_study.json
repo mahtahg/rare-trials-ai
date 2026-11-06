@@ -1,0 +1,263 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT01389687",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.798382+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01389687",
+    "orgStudyIdInfo": {
+     "id": "IPV35 (EFC12403)"
+    },
+    "secondaryIdInfos": [
+     {
+      "id": "U1111-1120-1735",
+      "type": "OTHER",
+      "domain": "WHO"
+     }
+    ],
+    "organization": {
+     "fullName": "Sanofi",
+     "class": "INDUSTRY"
+    },
+    "briefTitle": "Study of SP059 Given Subcutaneously as a Three-dose Primary and Booster Vaccination in Infants in Japan",
+    "officialTitle": "Immunogenicity and Safety of the SP059 Given Subcutaneously as a Three-dose Primary and Booster Vaccination in Infants in Japan"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2013-03",
+    "overallStatus": "COMPLETED",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2011-07"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2012-01",
+     "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+     "date": "2012-01",
+     "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2011-07-05",
+    "studyFirstSubmitQcDate": "2011-07-06",
+    "studyFirstPostDateStruct": {
+     "date": "2011-07-08",
+     "type": "ESTIMATED"
+    },
+    "lastUpdateSubmitDate": "2013-03-28",
+    "lastUpdatePostDateStruct": {
+     "date": "2013-03-29",
+     "type": "ESTIMATED"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "type": "SPONSOR"
+    },
+    "leadSponsor": {
+     "name": "Sanofi Pasteur, a Sanofi Company",
+     "class": "INDUSTRY"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": false
+   },
+   "descriptionModule": {
+    "briefSummary": "The aim of the study is to assess the immunogenicity and safety of SP059 as a three-dose primary and booster vaccination in Japanese infants aged 3 through 68 months.\n\nPrimary objective:\n\n* To assess that the seroprotection rates against polio types 1, 2 and 3 are over 90% approximately one month following the three dose primary vaccination series with inactivated polio vaccine (IPV).\n\nSecondary objective:\n\n* To describe the immunogenicity (in terms of seroprotection / seroconversion vaccine response rates and Geometric Mean Titers) of IPV before and after the primary vaccination and before and after the booster vaccination.\n* To describe the safety after each dose of IPV.",
+    "detailedDescription": "Study participants will receive three doses of inactivated polio vaccine (IPV) (at each visit and given 3-8 weeks apart) as a three-dose primary vaccination starting at 3-68 months of age and followed by a single dose of IPV as a booster vaccination 6-18 months after completion of the three-dose primary vaccination.\n\nSubjects will be observed by the Investigator or sub-Investigator for 30 minutes following the vaccine injection.\n\nThe duration of each participant's participation in the trial will be approximately 1 year."
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Poliomyelitis",
+     "Polio"
+    ],
+    "keywords": [
+     "Poliomyelitis",
+     "Inactivated polio vaccine",
+     "Polio",
+     "Poliovirus"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE3"
+    ],
+    "designInfo": {
+     "allocation": "NON_RANDOMIZED",
+     "interventionModel": "SINGLE_GROUP",
+     "primaryPurpose": "PREVENTION",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 74,
+     "type": "ACTUAL"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Study Group",
+      "type": "EXPERIMENTAL",
+      "interventionNames": [
+       "Biological: Inactive Poliovirus Vaccine"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "Inactive Poliovirus Vaccine",
+      "description": "0.5 mL, Subcutaneous",
+      "armGroupLabels": [
+       "Study Group"
+      ],
+      "otherNames": [
+       "SP059"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "A description of the anti-Polio 1, 2 and 3 antibody titers post-vaccination",
+      "description": "Anti-Polio 1, 2 and 3 antibody titers will be determined by the Seroneutralization assay.",
+      "timeFrame": "1 month post-vaccination 3"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Immunogenicity (in terms of seroprotection and Geometric Mean Titers) of inactivated polio vaccine (IPV) before and after the primary vaccination and before and after the booster vaccination.",
+      "timeFrame": "Day 0 and 1 month post-vaccination"
+     },
+     {
+      "measure": "Description of the safety profile in terms of solicited injection site and systemic reaction, and serious adverse events after each vaccination with IPV",
+      "description": "Solicited injection site: Tenderness (3 to 23 months); Pain (2 to 11 years), Redness, and Swelling. Solicited Systemic reaction: 3 to 23 month olds: Fever (Temperature), Vomiting, Abnormal crying, Drowsiness, Loss of Appetite, and Irritability: 2 to 11 year olds: Fever (Temperature), Headache, Malaise, and Myalgia.",
+      "timeFrame": "Day 0 up to 12 months post-vaccination"
+     },
+     {
+      "measure": "Immunogenicity (in terms of anti-Polio 1, 2, and 3 titers ≥ 8 [1/dilution], individual antibodies' titers and Geometric Mean Titers) of inactivated polio vaccine (IPV) after the booster vaccination.",
+      "description": "Anti-Polio 1, 2 and 3 antibody titers will be determined by the Seroneutralization assay.",
+      "timeFrame": "1 month post-booster vaccination"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 3 to 68 months inclusive (recommended 3 to 8 months) on the day of inclusion\n* Informed consent form signed by the parent(s) or other legal representative\n* Able to attend all scheduled visits and to comply with all trial procedures Exclusion Criteria:\n* Fever ≥ 37.5°C (axillary temperature) on the day of inclusion\n* Any serious disease whether acute or chronic\n* History of poliomyelitis infection\n* History of a life threatening reaction to a vaccine containing the same substances of the study vaccine\n* History of anaphylaxis or allergy to any of the study vaccine components\n* Previous vaccination against the poliomyelitis diseases infection with a trial vaccine or another vaccine\n* Congenital or current/ previous acquired immunodeficiency, immunosuppressive therapy such as long-term systemic corticosteroids therapy\n* Participation in another clinical trial preceding the trial inclusion\n* Planned participation in another clinical trial during the present trial period\n* Blood or blood-derived products received in the past or current or planned administration during the trial (including immunoglobulins).\n* Any vaccination with live vaccines within the past 27 days preceding the first trial vaccination.\n* Any vaccination with inactivated vaccines within the past 6 days preceding the first trial vaccination.\n* Clinical or known serological evidence of systemic illness including Hepatitis B, Hepatitis C and/or human immunodeficiency virus infection\n* Subject ineligible according to the investigator's clinical judgment.",
+    "healthyVolunteers": true,
+    "sex": "ALL",
+    "minimumAge": "3 Months",
+    "maximumAge": "68 Months",
+    "stdAges": [
+     "CHILD"
+    ]
+   },
+   "contactsLocationsModule": {
+    "overallOfficials": [
+     {
+      "name": "Medical Director",
+      "affiliation": "Sanofi Aventis K.K.",
+      "role": "STUDY_DIRECTOR"
+     }
+    ],
+    "locations": [
+     {
+      "city": "Fukui-shi",
+      "state": "Fukui",
+      "country": "Japan",
+      "geoPoint": {
+       "lat": 36.06443,
+       "lon": 136.22257
+      }
+     },
+     {
+      "city": "Sapporo",
+      "state": "Hokkaido",
+      "country": "Japan",
+      "geoPoint": {
+       "lat": 43.06667,
+       "lon": 141.35
+      }
+     }
+    ]
+   },
+   "referencesModule": {
+    "seeAlsoLinks": [
+     {
+      "label": "Related Info",
+      "url": "http://www.sanofipasteur.com"
+     }
+    ]
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "D011051",
+      "term": "Poliomyelitis"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D009187",
+      "term": "Myelitis"
+     },
+     {
+      "id": "D002494",
+      "term": "Central Nervous System Infections"
+     },
+     {
+      "id": "D007239",
+      "term": "Infections"
+     },
+     {
+      "id": "D004769",
+      "term": "Enterovirus Infections"
+     },
+     {
+      "id": "D010850",
+      "term": "Picornaviridae Infections"
+     },
+     {
+      "id": "D012327",
+      "term": "RNA Virus Infections"
+     },
+     {
+      "id": "D014777",
+      "term": "Virus Diseases"
+     },
+     {
+      "id": "D002493",
+      "term": "Central Nervous System Diseases"
+     },
+     {
+      "id": "D009422",
+      "term": "Nervous System Diseases"
+     },
+     {
+      "id": "D013118",
+      "term": "Spinal Cord Diseases"
+     },
+     {
+      "id": "D000090862",
+      "term": "Neuroinflammatory Diseases"
+     },
+     {
+      "id": "D009468",
+      "term": "Neuromuscular Diseases"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

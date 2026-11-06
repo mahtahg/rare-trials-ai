@@ -1,0 +1,259 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies/NCT01344798",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.916661+00:00",
+ "body": {
+  "protocolSection": {
+   "identificationModule": {
+    "nctId": "NCT01344798",
+    "orgStudyIdInfo": {
+     "id": "GTG001.06"
+    },
+    "organization": {
+     "fullName": "Genethon",
+     "class": "OTHER"
+    },
+    "briefTitle": "Clinical Study of AAV1-gamma-sarcoglycan Gene Therapy for Limb Girdle Muscular Dystrophy Type 2C",
+    "officialTitle": "Phase I Clinical Study of AAV1-gamma-sarcoglycan Gene Therapy for Limb Girdle Muscular Dystrophy Type 2C"
+   },
+   "statusModule": {
+    "statusVerifiedDate": "2011-04",
+    "overallStatus": "COMPLETED",
+    "expandedAccessInfo": {
+     "hasExpandedAccess": false
+    },
+    "startDateStruct": {
+     "date": "2006-11"
+    },
+    "primaryCompletionDateStruct": {
+     "date": "2010-06",
+     "type": "ACTUAL"
+    },
+    "completionDateStruct": {
+     "date": "2010-06",
+     "type": "ACTUAL"
+    },
+    "studyFirstSubmitDate": "2011-03-17",
+    "studyFirstSubmitQcDate": "2011-04-28",
+    "studyFirstPostDateStruct": {
+     "date": "2011-04-29",
+     "type": "ESTIMATED"
+    },
+    "lastUpdateSubmitDate": "2011-04-28",
+    "lastUpdatePostDateStruct": {
+     "date": "2011-04-29",
+     "type": "ESTIMATED"
+    }
+   },
+   "sponsorCollaboratorsModule": {
+    "responsibleParty": {
+     "oldNameTitle": "Frederic Revah, CEO",
+     "oldOrganization": "Genethon"
+    },
+    "leadSponsor": {
+     "name": "Genethon",
+     "class": "OTHER"
+    }
+   },
+   "oversightModule": {
+    "oversightHasDmc": true
+   },
+   "descriptionModule": {
+    "briefSummary": "The purpose of this trial is to study the evaluation of clinical safety and feasibility of gene therapy in patients with limb girdle muscular dystrophy type 2C (gamma-sarcoglycanopathy)."
+   },
+   "conditionsModule": {
+    "conditions": [
+     "Limb Girdle Muscular Dystrophy Type 2C",
+     "Gamma-sarcoglycanopathy"
+    ],
+    "keywords": [
+     "limb girdle muscular dystrophy type 2C",
+     "gamma-sarcoglycanopathy",
+     "gene therapy",
+     "AAV vector",
+     "neuromuscular disease",
+     "orphan disease"
+    ]
+   },
+   "designModule": {
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+     "PHASE1"
+    ],
+    "designInfo": {
+     "allocation": "NON_RANDOMIZED",
+     "interventionModel": "SINGLE_GROUP",
+     "primaryPurpose": "TREATMENT",
+     "maskingInfo": {
+      "masking": "NONE"
+     }
+    },
+    "enrollmentInfo": {
+     "count": 9,
+     "type": "ACTUAL"
+    }
+   },
+   "armsInterventionsModule": {
+    "armGroups": [
+     {
+      "label": "Dose level 1",
+      "type": "EXPERIMENTAL",
+      "description": "AAV1-gamma-sarcoglycan vector dose level: 3x10e9 vg/100µl",
+      "interventionNames": [
+       "Biological: AAV1-gamma-sarcoglycan vector injection"
+      ]
+     },
+     {
+      "label": "Dose level 2",
+      "type": "EXPERIMENTAL",
+      "description": "AAV1-gamma-sarcoglycan vector dose level: 1.5x10e10 vg/100µl",
+      "interventionNames": [
+       "Biological: AAV1-gamma-sarcoglycan vector injection"
+      ]
+     },
+     {
+      "label": "Dose level 3",
+      "type": "EXPERIMENTAL",
+      "description": "AAV1-gamma-sarcoglycan vector dose level: 4.5x10e10 vg/300µl",
+      "interventionNames": [
+       "Biological: AAV1-gamma-sarcoglycan vector injection"
+      ]
+     }
+    ],
+    "interventions": [
+     {
+      "type": "BIOLOGICAL",
+      "name": "AAV1-gamma-sarcoglycan vector injection",
+      "description": "single intramuscular injection into carpi radialis muscle under open procedure",
+      "armGroupLabels": [
+       "Dose level 1",
+       "Dose level 2",
+       "Dose level 3"
+      ],
+      "otherNames": [
+       "in vivo gene therapy - Intramuscular route"
+      ]
+     }
+    ]
+   },
+   "outcomesModule": {
+    "primaryOutcomes": [
+     {
+      "measure": "Number of patients with adverse events or general or local signs as a measure of clinical safety",
+      "description": "Standard general and local clinical examination as well as vital signs assessement, including pain, local inflammation, stiffness and fatigability.",
+      "timeFrame": "6 months"
+     }
+    ],
+    "secondaryOutcomes": [
+     {
+      "measure": "Number of patients with modified biological values (blood count, standard biochemistry, viral serology)",
+      "description": "Assessment of biological tolerance:\n\n* blood count\n* standard biochemistry\n* CPK viral serology (hepatitis B \\& C)",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "number of patients with changed or increased humoral immunity to AAV",
+      "description": "assessment of anti-AAV antibodies titers",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "Number of patients with changed/increased humoral immunity to transgene",
+      "description": "assessment of anti-gamma-sarcoglycan antibodies titers",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "Number of patients with changed/increased cellular immunity to AAV",
+      "description": "assessment cellular immunity against AAV (ELispot assay)",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "Number of patients with changed/increased cellular immunity to transgene",
+      "description": "assessment cellular immunity against gamma-sarcoglycan (ELispot assay)",
+      "timeFrame": "6 months"
+     },
+     {
+      "measure": "number of patients with positively stained muscular fibers to gamma-sarcoglycan protein",
+      "description": "Muscular biopsy immunohistaining for the detection of gamma-sarcoglycan",
+      "timeFrame": "30 days"
+     },
+     {
+      "measure": "Number of patients with modified/decreased muscular force",
+      "description": "functional testing of treated muscle through a specially designed ergometer",
+      "timeFrame": "6 months"
+     }
+    ]
+   },
+   "eligibilityModule": {
+    "eligibilityCriteria": "Inclusion Criteria:\n\n1. Confirmed diagnosis of LGMD 2C including:\n\n   * Molecular analysis proving del525T mutation on γ-sarcoglycan gene (chromosome 13) at homozygous state\n   * Muscle biopsy with immunohistochemical and/or Western blot analyses showing marked decrease or absence of γ-sarcoglycan staining in muscle, as well as a fibrosis assessment should be available. If not, an initial muscular biopsy may be performed during the pre-enrollment period\n2. Lower age limit of 15 years\n3. Males and females may be equally enrolled\n4. Adequate carpi radialis muscle bulk for muscle biopsy as assessed by examination. Subjects should be able to communicate with the investigation staff. They should be able to understand, to comply with and to perform all needed evaluations during the trial period, including muscle strength tests. Forearm muscle strength should be of at least 3+ as assessed through the British Medical Research Council (MRC) Manual Muscle Testing (MMT) scale.\n\n   Subjects should also have already lost ambulation\n5. Subjects should be able and willing to return for follow up\n6. Subjects should be able and willing to give signed informed consent. For minor subjects, a signed informed consent will be given by legally authorized representative\n7. Eligible subjects belonging to a multiplex family should not be enrolled in the same cohort.\n\nExclusion Criteria:\n\n1. Severity of disease and presence of ill-prognosis complications:\n\n   * Severe respiratory dysfunction such as subjects with tracheostomy or forced vital capacity (FVC) \\< 1000 ml and/or \\< 30%;\n   * Uncompensated heart failure;\n   * An ejection fraction (EF) \\< 30% as measured on either echocardiography or scintigraphy;\n   * Severe rhythm disturbances and/or high degree conduction defect in the absence of a pacemaker insertion.\n2. Underlying conditions, diseases or active viral infections likely to increase risk of complications or to interfere with the investigational treatment:\n\n   * contraindications for injections and muscle biopsies\n   * Platelet count \\< 100,000 / mm3\n   * Total bilirubin \\> 10 mg/l (\\> 17 µmol/l)\n   * Serum creatinin \\> 110 µmol/l\n   * Lymphocytes CD4+ \\< 250/mm3 (\\< 15%)\n   * History of diabetes mellitus\n   * Current infectious diseases, including known positive HIV serology, hepatitis B and C\n   * Abnormal profile on protein immunoelectrophoresis\n   * Immunizations of any kind within the past month\n   * receipt of another investigational agent within 4 weeks of study enrollment\n   * History of or current steroid medication for indications other than muscular dystrophy, chemotherapy, radiotherapy or other immunosuppressive therapy. Steroid medication, if any, should be discontinued at least 3 months before entering the protocol and not received during the study\n   * Pregnant or lactating women. Females or males of childbearing age must be willing to employ adequate contraception, that is to use condoms during the 3 months following the administration of the product\n   * Pre-injection neutralizing anti-AAV1 antibodies titer (on pre-enrollment / D-30 visit) superior or equal to 1/800.",
+    "healthyVolunteers": false,
+    "sex": "ALL",
+    "minimumAge": "15 Years",
+    "stdAges": [
+     "CHILD",
+     "ADULT",
+     "OLDER_ADULT"
+    ]
+   },
+   "contactsLocationsModule": {
+    "overallOfficials": [
+     {
+      "name": "Serge Herson, Prof",
+      "affiliation": "Assistance Publique - Hôpitaux de Paris",
+      "role": "PRINCIPAL_INVESTIGATOR"
+     }
+    ],
+    "locations": [
+     {
+      "facility": "Hôpital Pitié-Salpêtrière",
+      "city": "Paris",
+      "zip": "75013",
+      "country": "France",
+      "geoPoint": {
+       "lat": 48.85341,
+       "lon": 2.3488
+      }
+     }
+    ]
+   }
+  },
+  "derivedSection": {
+   "miscInfoModule": {
+    "versionHolder": "2026-11-05"
+   },
+   "conditionBrowseModule": {
+    "meshes": [
+     {
+      "id": "C535900",
+      "term": "Limb-girdle muscular dystrophy, type 2C"
+     },
+     {
+      "id": "D009468",
+      "term": "Neuromuscular Diseases"
+     },
+     {
+      "id": "D035583",
+      "term": "Rare Diseases"
+     }
+    ],
+    "ancestors": [
+     {
+      "id": "D009422",
+      "term": "Nervous System Diseases"
+     },
+     {
+      "id": "D020969",
+      "term": "Disease Attributes"
+     },
+     {
+      "id": "D010335",
+      "term": "Pathologic Processes"
+     },
+     {
+      "id": "D013568",
+      "term": "Pathological Conditions, Signs and Symptoms"
+     }
+    ]
+   }
+  },
+  "hasResults": false
+ }
+}

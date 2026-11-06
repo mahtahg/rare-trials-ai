@@ -1,0 +1,987 @@
+{
+ "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Botulism&filter.overallStatus=TERMINATED%2CWITHDRAWN&query.term=AREA%5BStudyType%5DINTERVENTIONAL&countTotal=true&pageSize=100",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:46.051012+00:00",
+ "body": {
+  "totalCount": 2,
+  "studies": [
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT01940315",
+      "orgStudyIdInfo": {
+       "id": "rBV A/B-03"
+      },
+      "organization": {
+       "fullName": "DynPort Vaccine Company LLC, A GDIT Company",
+       "class": "INDUSTRY"
+      },
+      "briefTitle": "Phase 3, Randomized, Safety, Lot Consistency and Clinical Benefit Study of Recombinant Botulinum Vaccine A/B",
+      "officialTitle": "A Phase 3, Double Blind, Placebo Controlled, Randomized, Multicenter Clinical Trial to Demonstrate the Safety, Lot Consistency and Clinical Benefit of Recombinant Botulinum Vaccine A/B (rBV A/B)",
+      "acronym": "rBV A/B"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2018-11",
+      "overallStatus": "WITHDRAWN",
+      "whyStopped": "Sponsor decision due to product manufacturing and redesign of clinical trial.",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2017-10",
+       "type": "ESTIMATED"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2019-03",
+       "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+       "date": "2019-09",
+       "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2013-09-06",
+      "studyFirstSubmitQcDate": "2013-09-09",
+      "studyFirstPostDateStruct": {
+       "date": "2013-09-12",
+       "type": "ESTIMATED"
+      },
+      "lastUpdateSubmitDate": "2018-11-30",
+      "lastUpdatePostDateStruct": {
+       "date": "2018-12-04",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "DynPort Vaccine Company LLC, A GDIT Company",
+       "class": "INDUSTRY"
+      }
+     },
+     "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+     },
+     "descriptionModule": {
+      "briefSummary": "This Phase 3 clinical trial is a double blind, placebo-controlled, randomized, multicenter investigation of rBV A/B in male and female healthy adults 18 to 55 years of age.",
+      "detailedDescription": "Currently, there are no licensed vaccines or pre-exposure prophylactic medical countermeasures available to provide protection against botulism. The rBV A/B is under development to provide protection of adults 18 to 55 years of age from fatal botulism caused by inhalational intoxication with botulinum neurotoxin complex (BoNT) serotype A, subtype A1 (BoNT/A1) and botulinum neurotoxin complex serotype B, subtype B1 (BoNT/B1). Volunteers will not be exposed to botulism. Protective antibody titers will be measured in serum after vaccination."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Botulism"
+      ],
+      "keywords": [
+       "Defender Study",
+       "experimental vaccine",
+       "inhalational intoxication"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "PHASE3"
+      ],
+      "designInfo": {
+       "allocation": "RANDOMIZED",
+       "interventionModel": "PARALLEL",
+       "primaryPurpose": "PREVENTION",
+       "maskingInfo": {
+        "masking": "QUADRUPLE",
+        "whoMasked": [
+         "PARTICIPANT",
+         "CARE_PROVIDER",
+         "INVESTIGATOR",
+         "OUTCOMES_ASSESSOR"
+        ]
+       }
+      },
+      "enrollmentInfo": {
+       "count": 0,
+       "type": "ACTUAL"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "rBV A/B",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "0.5 mL dose of rBV A/B (40 µg) will be administered intramuscularly (IM) in a three-dose dosing schedule given at Days 0, 28 ± 5 days, and 182 ± 9 days",
+        "interventionNames": [
+         "Biological: rBV A/B"
+        ]
+       },
+       {
+        "label": "Placebo",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "0.5 mL dose of placebo will be administered intramuscularly (IM) given at Days 0, 28 ± 5 days, and 182 ± 9 days",
+        "interventionNames": [
+         "Biological: Placebo (USP sterile saline for injection)"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "BIOLOGICAL",
+        "name": "rBV A/B",
+        "description": "0.5 mL dose of rBV A/B (40 µg) given at Days 0, 28 ± 5 days, and 182 ± 9 days",
+        "armGroupLabels": [
+         "rBV A/B"
+        ]
+       },
+       {
+        "type": "BIOLOGICAL",
+        "name": "Placebo (USP sterile saline for injection)",
+        "description": "0.5 mL dose of Placebo will be given at Days 0, 28 ± 5 days, and 182 ± 9 days",
+        "armGroupLabels": [
+         "Placebo"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "The primary safety objective is to demonstrate the safety of rBV A/B through Day 365.",
+        "description": "The primary safety endpoints are the incidence, severity and relationship to treatment of solicited local, systemic and neuromuscular adverse events (AEs) with onset on the day of and for 7 days after each administration of study product; treatment-emergent AEs (TEAEs) with onset within 28 days after each administration of study product; and medically-attended AEs (MAEs), neuromuscular AEs and serious AEs (SAEs) from the time of first dose (Day 0) through 6 months after the last dose (Day 365).",
+        "timeFrame": "1 year after first dose [Dose 1] / 6 months after the last dose [Dose 3]"
+       },
+       {
+        "measure": "The primary immunogenicity objectives are to demonstrate lot consistency for three lots of rBV A/B and to infer clinical benefit of rBV A/B.",
+        "description": "* The criterion to demonstrate lot consistency will be based on the geometric mean ratios of neutrailzing antibodies concentrations (NAC) to vaccine antigens BoNT/A1 and BoNT/B1.\n* The criterion to demonstrate clinical benefit is the proportion of volunteers with NAC values at or above the putative protective levels for anti-BoNT/A1 and anti-BoNT/B1 simultaneously.",
+        "timeFrame": "Study Day 210, approximately 28 days after the last dose [Dose 3]"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "The secondary safety objective is to demonstrate the safety of rBV A/B from Day 365 through Day 547.",
+        "description": "The secondary safety endpoints are the incidence, severity and relationship to treatment of MAEs, neuromuscular AEs and SAEs.",
+        "timeFrame": "1 year after last dose [Dose 3] in a subset of volunteers"
+       },
+       {
+        "measure": "The secondary immunogenicity endpoints is duration of protection through Day 547.",
+        "description": "The criterion to demonstrate duration of protection is the proportion of volunteers with NAC values at or above the putative protective levels for anti-BoNT/A1 and anti-BoNT/B1 simultaneously.",
+        "timeFrame": "Evalution through Study Days 365 and 547 (6 months and 1 year after last dose [Dose 3])"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. The volunteer is a U.S. citizen or permanent resident alien of the U.S.\n2. The volunteer has signed the informed consent form.\n3. The volunteer is 18 to 55 years of age.\n4. The volunteer agrees not to donate blood or blood product for therapeutic or research purposes.\n5. The volunteer is willing to comply with the requirements of the protocol through the last scheduled visit.\n6. The volunteer is accessible by telephone or electronic mail to receive reminders from the investigative site.\n7. Female volunteers of childbearing potential must not be pregnant or lactating and agree to use two types of an acceptable form of FDA-approved contraception through end of study.\n8. The volunteer is in good health.\n9. The volunteer has clinical laboratory tests within acceptable ranges listed in the protocol.\n\nExclusion Criteria:\n\n1. The volunteer has a history of botulism or prior receipt of any botulinum vaccine, toxoid or antitoxin.\n2. The volunteer has previously been treated or expects to be treated with any therapeutic products containing BoNTs such as Botox®, Myobloc®/Neurobloc™ and Botox® Cosmetic.\n3. The volunteer has a history of hypersensitivity or significant adverse reaction to other vaccines, aluminum compounds or yeast.\n4. The volunteer has a history of severe allergic reactions or anaphylaxis.\n5. The volunteer has donated one or more units of blood (≥ 450 mL) or undergone plasmapheresis within the past 28 days prior to receiving first administration of study product.\n6. The volunteer received any blood product or immunoglobulin in the previous 6 months prior to receiving first vaccination or plans to receive such products during the clinical trial.\n7. The volunteer received any investigational vaccine in the previous 6 months.\n8. The volunteer received or intends to receive any licensed nonliving vaccine within 14 days before or after a scheduled administration of study product.\n9. The volunteer received or intends to receive any licensed live vaccine, including FluMist® within 60 days before or after a scheduled administration of study product.\n10. Vaccination with commercially available inactivated or non-living influenza vaccine preparations (other than FluMist®) if received 14 days before and after a scheduled administration of study product.\n11. The volunteer received any investigational drug therapy within 30 days before the first vaccination or before the last scheduled visit.\n12. The volunteer received therapy with immunosuppressive agents, including use of moderate to high-dose oral inhaled or systemic corticosteroids (prednisone-equivalent dose of ≥ 20 mg/day).\n13. The volunteer has or develops medically diagnosed chronic migraine headaches (persistent and recurrent) or a neurological condition associated with a cranial nerve or spasticity or abnormal muscle contraction, demyelination, other abnormalities of smooth or skeletal muscle function or hyperhidrosis.\n14. The volunteer had systemic or recurrent disease or condition that would place the volunteer at an unacceptable risk of injury or requires frequent or continuous medical intervention for treatment, has required hospitalization, or is likely to require surgical intervention during the course of the study.\n15. The volunteer has current active mental illness, history of mental illness or hospitalization for mental illness within the past 12 months prior to first of administration of study product is exclusionary.\n16. The volunteer has a history of immunodeficiency or autoimmune disease.\n17. The volunteer has a systemic medical condition that is ongoing or has required hospitalization or administration of antimicrobial agents within 6 months before screening.\n18. The volunteer has a history of or active rheumatoid arthritis or any autoimmune mediated arthritis.\n19. The volunteer has an acute self-limited illness that has not resolved by the time of first vaccination including oral temperature greater than 99.5 °F.\n20. The volunteer has a history of abuse of alcohol or drugs within the 12 months before clinical trial screening.\n21. The volunteer has occupational or other responsibilities that would prevent completion of participation in the clinical trial in the opinion of the Investigator.\n22. The volunteer has a body mass index (BMI) ≥ 35 kg/m2.\n23. The volunteer is a member of the team conducting this clinical trial or is in a dependent relationship with the clinical trial investigator.\n24. The volunteer has a confirmed positive result on a urine drug screen that tests for common substances of abuse such as amphetamines, barbiturates, benzodiazepines, cocaine, opiates and cannabinoids.\n25. The volunteer was seropositive on screening tests for human HIV, Hepatitis C virus or hepatitis B surface antigen.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+       "ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "overallOfficials": [
+       {
+        "name": "George A Saviolakis, M.D., Ph.D.",
+        "affiliation": "DynPort Vaccine Company LLC, A GDIT Company",
+        "role": "STUDY_DIRECTOR"
+       }
+      ]
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05",
+      "removedCountries": [
+       "United States"
+      ]
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D001906",
+        "term": "Botulism"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D003015",
+        "term": "Clostridium Infections"
+       },
+       {
+        "id": "D016908",
+        "term": "Gram-Positive Bacterial Infections"
+       },
+       {
+        "id": "D001424",
+        "term": "Bacterial Infections"
+       },
+       {
+        "id": "D001423",
+        "term": "Bacterial Infections and Mycoses"
+       },
+       {
+        "id": "D007239",
+        "term": "Infections"
+       },
+       {
+        "id": "D020511",
+        "term": "Neuromuscular Junction Diseases"
+       },
+       {
+        "id": "D009468",
+        "term": "Neuromuscular Diseases"
+       },
+       {
+        "id": "D009422",
+        "term": "Nervous System Diseases"
+       },
+       {
+        "id": "D020258",
+        "term": "Neurotoxicity Syndromes"
+       },
+       {
+        "id": "D005517",
+        "term": "Foodborne Diseases"
+       },
+       {
+        "id": "D011041",
+        "term": "Poisoning"
+       },
+       {
+        "id": "D064419",
+        "term": "Chemically-Induced Disorders"
+       }
+      ]
+     },
+     "interventionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D007267",
+        "term": "Injections"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D004333",
+        "term": "Drug Administration Routes"
+       },
+       {
+        "id": "D004358",
+        "term": "Drug Therapy"
+       },
+       {
+        "id": "D013812",
+        "term": "Therapeutics"
+       }
+      ]
+     }
+    },
+    "hasResults": false
+   },
+   {
+    "protocolSection": {
+     "identificationModule": {
+      "nctId": "NCT01045694",
+      "orgStudyIdInfo": {
+       "id": "1146517"
+      },
+      "organization": {
+       "fullName": "University of Missouri-Columbia",
+       "class": "OTHER"
+      },
+      "briefTitle": "Botulism Toxin Injection as a Treatment for Arthritis of the Basal Thumb Joint",
+      "officialTitle": "Botulinum Toxin Versus Steroid Injection for Basal Joint Arthritis of the Thumb: a Randomized, Double Blind, Placebo-controlled Clinical Trial"
+     },
+     "statusModule": {
+      "statusVerifiedDate": "2017-09",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Unable to acquire additional funding needed to continue this study.",
+      "expandedAccessInfo": {
+       "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+       "date": "2011-03"
+      },
+      "primaryCompletionDateStruct": {
+       "date": "2012-08",
+       "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+       "date": "2015-10",
+       "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2010-01-07",
+      "studyFirstSubmitQcDate": "2010-01-08",
+      "studyFirstPostDateStruct": {
+       "date": "2010-01-11",
+       "type": "ESTIMATED"
+      },
+      "resultsFirstSubmitDate": "2017-05-18",
+      "resultsFirstSubmitQcDate": "2017-06-14",
+      "resultsFirstPostDateStruct": {
+       "date": "2017-07-13",
+       "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2017-09-07",
+      "lastUpdatePostDateStruct": {
+       "date": "2017-10-06",
+       "type": "ACTUAL"
+      }
+     },
+     "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+       "type": "SPONSOR"
+      },
+      "leadSponsor": {
+       "name": "University of Missouri-Columbia",
+       "class": "OTHER"
+      }
+     },
+     "oversightModule": {
+      "oversightHasDmc": true
+     },
+     "descriptionModule": {
+      "briefSummary": "Basal arthritis of the thumb is a common condition with increased prevalence in post-menopausal women, obese persons, and the elderly. Surgical options are varied and efficacious, but not all patients are candidates for surgery. The successes and pitfalls of previous, similar trials are carefully considered in the creation of our own. Though steroid injection is the standard of care in basal joint arthritis, current data does not support its efficacy beyond placebo effect. No trial has yet examined the efficacy of botulinum toxin type A (BTX-A) injection into the basal thumb joint nor compared it to steroid. Since efficacy of steroid is questionable at best, our hope is that BTX-A injection of the basal joint might be the next great tool in treating this common, debilitating disease.",
+      "detailedDescription": "Purpose: Basal joint arthritis, or carpometacarpal (CMC) osteoarthritis, of the thumb is very common, particularly in the elderly. Morbidities include pain, decreased range of motion, and decreased strength. Nonsurgical treatments for CMC arthritis include oral analgesics, splinting, and steroid injection. In multiple recent trials, botulinum toxin A (BTX-A) injection has been shown to be an efficacious nonsurgical option for osteoarthritis of large joints, including those that have failed steroid injections. To our knowledge, the efficacy of BTX-A injection in thumb CMC arthritis has not been examined.\n\nMethods: Patients with a clinical and radiographic diagnosis of basal joint arthritis who are appropriate and willing candidates for injection therapy will be selected. The primary symptom indicating need for injection would be pain not controlled with more conservative measures (e.g. nonsteroidal anti-inflammatory drugs (NSAIDs), splinting, physical therapy, etc.) Weakness and impaired functioning are also considered. Exclusion criteria will include any injection within the last 12 months or surgical treatment. All patients will undergo Eaton staging radiographically prior to treatment. Informed consent will be obtained and patients will be randomly assigned to one of three groups. One group will receive BTX-A injections, the second group will receive triamcinolone plus lidocaine injections, and the third group will receive saline plus lidocaine injections of the thumb CMC joint. Prior to treatment, patients' baseline function will be assessed with pinch, grip, and range of motion measurements, and the affect of their disease will be measured with a visual analog pain scale and the Disabilities of the Arm, Shoulder, and Hand (DASH) questionnaire. Pain scales and DASH questionnaires will be completed at twenty-four hours, ten days, twelve weeks, six months, and one year after treatment. Pain scales will be recorded for average pain and maximum pain. Clinical evaluations with pinch, grip, and range of motion measurements will occur ten days, twelve weeks, six months, and one year after treatment. All patients will be asked to return when sufficient symptoms recur to warrant further treatment.\n\nExpected Results: We hypothesize that BTX-A injection will have equal or better efficacy than steroid injection for the treatment of basal joint arthritis.\n\nExpected Conclusion: No study to date has examined BTX-A as a treatment for basal joint arthritis. Some patients are not surgical candidates and are reliant on non-surgical treatments for pain control and maintenance of function. BTX-A has shown to be effective in treating osteoarthritis of larger joints that undergo frequent use, including cases resistant to steroid injections. The basal thumb joint also undergoes frequent use and is often resistant to steroid injection. We believe that BTX-A will provide another efficacious non-surgical option for treatment of the CMC joint of the thumb. We estimate that the study will require approximately three to four years to achieve adequate patient numbers for each group."
+     },
+     "conditionsModule": {
+      "conditions": [
+       "Arthritis Multiple Joint"
+      ],
+      "keywords": [
+       "Carpometacarpal Joints",
+       "Osteoarthritis",
+       "Basal thumb joint arthritis",
+       "Trapeziometacarpal arthritis"
+      ]
+     },
+     "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+       "PHASE4"
+      ],
+      "designInfo": {
+       "allocation": "RANDOMIZED",
+       "interventionModel": "PARALLEL",
+       "primaryPurpose": "TREATMENT",
+       "maskingInfo": {
+        "masking": "QUADRUPLE",
+        "whoMasked": [
+         "PARTICIPANT",
+         "CARE_PROVIDER",
+         "INVESTIGATOR",
+         "OUTCOMES_ASSESSOR"
+        ]
+       }
+      },
+      "enrollmentInfo": {
+       "count": 8,
+       "type": "ACTUAL"
+      }
+     },
+     "armsInterventionsModule": {
+      "armGroups": [
+       {
+        "label": "Botulinum Toxin Type A",
+        "type": "EXPERIMENTAL",
+        "description": "Arm investigates the efficacy of Botulinum Toxin A injection for the treatment of basal thumb joint arthritis",
+        "interventionNames": [
+         "Drug: Botulinum Toxin Type A"
+        ]
+       },
+       {
+        "label": "Steroid - Triamcinolone Acetonide",
+        "type": "ACTIVE_COMPARATOR",
+        "description": "Arm uses the standard of care - Steroid injection - as an active comparator to the experimental injection of Botulinum Toxin A for the treatment of basal thumb joint arthritis",
+        "interventionNames": [
+         "Drug: Steroid - Triamcinolone Acetonide"
+        ]
+       },
+       {
+        "label": "Lidocaine",
+        "type": "PLACEBO_COMPARATOR",
+        "description": "Arm uses plain lidocaine injection to serve as a baseline for evaluating the efficacy of Botulinum toxin as compared to steroid injection for the treatment of basal thumb joint arthritis.",
+        "interventionNames": [
+         "Drug: Lidocaine"
+        ]
+       }
+      ],
+      "interventions": [
+       {
+        "type": "DRUG",
+        "name": "Botulinum Toxin Type A",
+        "description": "One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule",
+        "armGroupLabels": [
+         "Botulinum Toxin Type A"
+        ],
+        "otherNames": [
+         "Botox Cosmetic",
+         "Botox"
+        ]
+       },
+       {
+        "type": "DRUG",
+        "name": "Steroid - Triamcinolone Acetonide",
+        "description": "Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution",
+        "armGroupLabels": [
+         "Steroid - Triamcinolone Acetonide"
+        ],
+        "otherNames": [
+         "Kenalog-40"
+        ]
+       },
+       {
+        "type": "DRUG",
+        "name": "Lidocaine",
+        "description": "Single injection of 1 - 3 mL of 2% Lidocaine",
+        "armGroupLabels": [
+         "Lidocaine"
+        ],
+        "otherNames": [
+         "Xylocaine"
+        ]
+       }
+      ]
+     },
+     "outcomesModule": {
+      "primaryOutcomes": [
+       {
+        "measure": "Pain",
+        "timeFrame": "twenty-four hours, ten days, twelve weeks, six months, and one year"
+       }
+      ],
+      "secondaryOutcomes": [
+       {
+        "measure": "Range of Motion",
+        "timeFrame": "twelve weeks, six months, and one year"
+       },
+       {
+        "measure": "Strength",
+        "timeFrame": "twelve weeks, six months, and one year"
+       }
+      ]
+     },
+     "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Radiographic evidence of basal joint arthritis\n* Associated symptoms of basal joint arthritis including:\n* Pain\n* Decreased range of motion\n* Decreased thumb strength\n\nExclusion Criteria:\n\n* Persons under the age of 18\n* Women who are currently pregnant\n* Incompetent persons or persons otherwise incapable of effectively communicating the subjective experience of pain\n* Prior surgery on the joint\n* Injection in the last 12 months",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+       "ADULT",
+       "OLDER_ADULT"
+      ]
+     },
+     "contactsLocationsModule": {
+      "overallOfficials": [
+       {
+        "name": "Stephen H. Colbert, MD",
+        "affiliation": "University of Missouri-Department of Surgery-Division of Plastic Surgery",
+        "role": "PRINCIPAL_INVESTIGATOR"
+       }
+      ],
+      "locations": [
+       {
+        "facility": "University of Missouri",
+        "city": "Columbia",
+        "state": "Missouri",
+        "zip": "65212",
+        "country": "United States",
+        "geoPoint": {
+         "lat": 38.95171,
+         "lon": -92.33407
+        }
+       }
+      ]
+     },
+     "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+     }
+    },
+    "resultsSection": {
+     "participantFlowModule": {
+      "preAssignmentDetails": "8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group.",
+      "recruitmentDetails": "Study had 8 enrollments: 6 completed and 2 withdrew voluntarily. Study was terminated early due to lack of funds. No data analysis was completed.",
+      "groups": [
+       {
+        "id": "FG000",
+        "title": "Arthritis Treatment",
+        "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution"
+       }
+      ],
+      "periods": [
+       {
+        "title": "Overall Study",
+        "milestones": [
+         {
+          "type": "STARTED",
+          "achievements": [
+           {
+            "groupId": "FG000",
+            "numSubjects": "8"
+           }
+          ]
+         },
+         {
+          "type": "COMPLETED",
+          "achievements": [
+           {
+            "groupId": "FG000",
+            "numSubjects": "6"
+           }
+          ]
+         },
+         {
+          "type": "NOT COMPLETED",
+          "achievements": [
+           {
+            "groupId": "FG000",
+            "numSubjects": "2"
+           }
+          ]
+         }
+        ],
+        "dropWithdraws": [
+         {
+          "type": "Withdrawal by Subject",
+          "reasons": [
+           {
+            "groupId": "FG000",
+            "numSubjects": "2"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "baselineCharacteristicsModule": {
+      "populationDescription": "8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group.",
+      "groups": [
+       {
+        "id": "BG000",
+        "title": "Arthritis Treatment",
+        "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution"
+       }
+      ],
+      "denoms": [
+       {
+        "units": "Participants",
+        "counts": [
+         {
+          "groupId": "BG000",
+          "value": "8"
+         }
+        ]
+       }
+      ],
+      "measures": [
+       {
+        "title": "Age, Categorical",
+        "paramType": "COUNT_OF_PARTICIPANTS",
+        "unitOfMeasure": "Participants",
+        "classes": [
+         {
+          "denoms": [
+           {
+            "units": "Participants",
+            "counts": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           }
+          ],
+          "categories": [
+           {
+            "title": "<=18 years",
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "0"
+             }
+            ]
+           },
+           {
+            "title": "Between 18 and 65 years",
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           },
+           {
+            "title": ">=65 years",
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "0"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "title": "Sex: Female, Male",
+        "paramType": "COUNT_OF_PARTICIPANTS",
+        "unitOfMeasure": "Participants",
+        "classes": [
+         {
+          "denoms": [
+           {
+            "units": "Participants",
+            "counts": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           }
+          ],
+          "categories": [
+           {
+            "title": "Female",
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           },
+           {
+            "title": "Male",
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "0"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "title": "Race and Ethnicity Not Collected",
+        "populationDescription": "Race and Ethnicity were not collected from any participant.",
+        "paramType": "COUNT_OF_PARTICIPANTS",
+        "unitOfMeasure": "Participants",
+        "classes": [
+         {
+          "denoms": [
+           {
+            "units": "Participants",
+            "counts": [
+             {
+              "groupId": "BG000",
+              "value": "0"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "title": "Region of Enrollment",
+        "paramType": "NUMBER",
+        "unitOfMeasure": "participants",
+        "classes": [
+         {
+          "title": "United States",
+          "denoms": [
+           {
+            "units": "Participants",
+            "counts": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           }
+          ],
+          "categories": [
+           {
+            "measurements": [
+             {
+              "groupId": "BG000",
+              "value": "8"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "outcomeMeasuresModule": {
+      "outcomeMeasures": [
+       {
+        "type": "PRIMARY",
+        "title": "Pain",
+        "populationDescription": "8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group. Data was not collected or analyzed.",
+        "reportingStatus": "POSTED",
+        "timeFrame": "twenty-four hours, ten days, twelve weeks, six months, and one year",
+        "groups": [
+         {
+          "id": "OG000",
+          "title": "Arthritis Treatment",
+          "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution"
+         }
+        ],
+        "denoms": [
+         {
+          "units": "Participants",
+          "counts": [
+           {
+            "groupId": "OG000",
+            "value": "0"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "SECONDARY",
+        "title": "Range of Motion",
+        "populationDescription": "8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group. Data was not collected or analyzed.",
+        "reportingStatus": "POSTED",
+        "timeFrame": "twelve weeks, six months, and one year",
+        "groups": [
+         {
+          "id": "OG000",
+          "title": "Arthritis Treatment",
+          "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution"
+         }
+        ],
+        "denoms": [
+         {
+          "units": "Participants",
+          "counts": [
+           {
+            "groupId": "OG000",
+            "value": "0"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "SECONDARY",
+        "title": "Strength",
+        "populationDescription": "8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group. Data was not collected or analyzed.",
+        "reportingStatus": "POSTED",
+        "timeFrame": "twelve weeks, six months, and one year",
+        "groups": [
+         {
+          "id": "OG000",
+          "title": "Arthritis Treatment",
+          "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution"
+         }
+        ],
+        "denoms": [
+         {
+          "units": "Participants",
+          "counts": [
+           {
+            "groupId": "OG000",
+            "value": "0"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "adverseEventsModule": {
+      "frequencyThreshold": "0",
+      "eventGroups": [
+       {
+        "id": "EG000",
+        "title": "Arthritis Treatment",
+        "description": "Participants received one of three treatments:\n\n* Botulism Toxin Type A: One-time injection of 50 units of Botulinum Toxin A suspended in 2 mL of normal saline, with approximately 1 mL injected or sufficient quantity to fill joint capsule\n* Lidocaine: Single injection of 1 - 3 mL of 2% Lidocaine\n* Triamcinolone Acetonide: Single injection of 1 - 3 mL of 40mg/mL Triamcinolone acetonide solution\n\n  8 participants were randomized; 2 withdrew voluntarily. Study was terminated due to lack of funds, and unblinding did not occur - it is not known how many participants were placed in each group.",
+        "deathsNumAffected": 0,
+        "deathsNumAtRisk": 8,
+        "seriousNumAffected": 0,
+        "seriousNumAtRisk": 8,
+        "otherNumAffected": 0,
+        "otherNumAtRisk": 8
+       }
+      ]
+     },
+     "moreInfoModule": {
+      "limitationsAndCaveats": {
+       "description": "The study was terminated early due to lack of funds and no data was analyzed."
+      },
+      "certainAgreement": {
+       "piSponsorEmployee": true
+      },
+      "pointOfContact": {
+       "title": "Stephen Colbert",
+       "organization": "University of Missouri-Columbia",
+       "email": "colberts@health.missouri.edu",
+       "phone": "573-882-2275"
+      }
+     }
+    },
+    "derivedSection": {
+     "miscInfoModule": {
+      "versionHolder": "2026-11-05"
+     },
+     "conditionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D010003",
+        "term": "Osteoarthritis"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D001168",
+        "term": "Arthritis"
+       },
+       {
+        "id": "D007592",
+        "term": "Joint Diseases"
+       },
+       {
+        "id": "D009140",
+        "term": "Musculoskeletal Diseases"
+       },
+       {
+        "id": "D012216",
+        "term": "Rheumatic Diseases"
+       }
+      ]
+     },
+     "interventionBrowseModule": {
+      "meshes": [
+       {
+        "id": "D019274",
+        "term": "Botulinum Toxins, Type A"
+       },
+       {
+        "id": "D014221",
+        "term": "Triamcinolone"
+       },
+       {
+        "id": "D008012",
+        "term": "Lidocaine"
+       }
+      ],
+      "ancestors": [
+       {
+        "id": "D001905",
+        "term": "Botulinum Toxins"
+       },
+       {
+        "id": "D008666",
+        "term": "Metalloendopeptidases"
+       },
+       {
+        "id": "D010450",
+        "term": "Endopeptidases"
+       },
+       {
+        "id": "D010447",
+        "term": "Peptide Hydrolases"
+       },
+       {
+        "id": "D006867",
+        "term": "Hydrolases"
+       },
+       {
+        "id": "D004798",
+        "term": "Enzymes"
+       },
+       {
+        "id": "D045762",
+        "term": "Enzymes and Coenzymes"
+       },
+       {
+        "id": "D045726",
+        "term": "Metalloproteases"
+       },
+       {
+        "id": "D001426",
+        "term": "Bacterial Proteins"
+       },
+       {
+        "id": "D011506",
+        "term": "Proteins"
+       },
+       {
+        "id": "D000602",
+        "term": "Amino Acids, Peptides, and Proteins"
+       },
+       {
+        "id": "D001427",
+        "term": "Bacterial Toxins"
+       },
+       {
+        "id": "D014118",
+        "term": "Toxins, Biological"
+       },
+       {
+        "id": "D001685",
+        "term": "Biological Factors"
+       },
+       {
+        "id": "D011245",
+        "term": "Pregnadienes"
+       },
+       {
+        "id": "D011278",
+        "term": "Pregnanes"
+       },
+       {
+        "id": "D013256",
+        "term": "Steroids"
+       },
+       {
+        "id": "D000072473",
+        "term": "Fused-Ring Compounds"
+       },
+       {
+        "id": "D011083",
+        "term": "Polycyclic Compounds"
+       },
+       {
+        "id": "D013259",
+        "term": "Steroids, Fluorinated"
+       },
+       {
+        "id": "D000083",
+        "term": "Acetanilides"
+       },
+       {
+        "id": "D000813",
+        "term": "Anilides"
+       },
+       {
+        "id": "D000577",
+        "term": "Amides"
+       },
+       {
+        "id": "D009930",
+        "term": "Organic Chemicals"
+       },
+       {
+        "id": "D000814",
+        "term": "Aniline Compounds"
+       },
+       {
+        "id": "D000588",
+        "term": "Amines"
+       }
+      ]
+     }
+    },
+    "hasResults": true
+   }
+  ]
+ }
+}

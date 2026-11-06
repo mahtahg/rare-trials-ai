@@ -1,0 +1,228 @@
+{
+ "url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2096650.json",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:56.277999+00:00",
+ "body": {
+  "atc_classifications": [],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 0,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [
+   {
+    "xref_id": "sodium%20thiosulfate",
+    "xref_name": "sodium thiosulfate",
+    "xref_src": "DailyMed"
+   },
+   {
+    "xref_id": "human/EPAR/pedmarqsi",
+    "xref_name": "pedmarqsi",
+    "xref_src": "EMA"
+   }
+  ],
+  "dosed_ingredient": true,
+  "first_approval": 1992,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL2096650",
+  "molecule_hierarchy": {
+   "active_chembl_id": "CHEMBL1208642",
+   "molecule_chembl_id": "CHEMBL2096650",
+   "parent_chembl_id": "CHEMBL1208642"
+  },
+  "molecule_properties": {
+   "alogp": "-0.32",
+   "aromatic_rings": 0,
+   "full_molformula": "H10Na2O8S2",
+   "full_mwt": "248.19",
+   "hba": 2,
+   "hbd": 2,
+   "heavy_atoms": 5,
+   "mw_freebase": "114.15",
+   "np_likeness_score": "-0.15",
+   "num_ro5_violations": 0,
+   "psa": "57.53",
+   "qed_weighted": "0.45",
+   "ro3_pass": "Y",
+   "rtb": 0
+  },
+  "molecule_structures": {
+   "canonical_smiles": "O.O.O.O.O.O=S([O-])([O-])=S.[Na+].[Na+]",
+   "molfile": "\n     RDKit          2D\n\n 12  4  0  0  0  0  0  0  0  0999 V2000\n   15.5571  -10.2241    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.1624   -7.9502    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   11.5690   -7.2290    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   11.8740   -8.3617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4508   -8.3617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.7412   -7.2290    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.5794   -8.4004    0.0000 Na  0  0  0  0  0 15  0  0  0  0  0  0\n   12.5856   -8.3617    0.0000 Na  0  0  0  0  0 15  0  0  0  0  0  0\n    9.6348  -10.1946    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.8723  -10.2241    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   12.3750  -10.2241    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4652  -10.2241    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  3  2  2  0\n  4  2  1  0\n  5  2  1  0\n  6  2  2  0\nM  CHG  4   4  -1   5  -1   7   1   8   1\nM  END\n> <chembl_id>\nCHEMBL2096650\n\n> <chembl_pref_name>\nSODIUM THIOSULFATE",
+   "standard_inchi": "InChI=1S/2Na.H2O3S2.5H2O/c;;1-5(2,3)4;;;;;/h;;(H2,1,2,3,4);5*1H2/q2*+1;;;;;;/p-2",
+   "standard_inchi_key": "PODWXQQNRWNDGD-UHFFFAOYSA-L"
+  },
+  "molecule_synonyms": [
+   {
+    "molecule_synonym": "Ametox",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "Ametox"
+   },
+   {
+    "molecule_synonym": "Db-020",
+    "syn_type": "OTHER",
+    "synonyms": "DB-020"
+   },
+   {
+    "molecule_synonym": "DB-020",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "DB-020"
+   },
+   {
+    "molecule_synonym": "E-539",
+    "syn_type": "OTHER",
+    "synonyms": "E-539"
+   },
+   {
+    "molecule_synonym": "E539",
+    "syn_type": "E_NUMBER",
+    "synonyms": "E539"
+   },
+   {
+    "molecule_synonym": "Ins-539",
+    "syn_type": "OTHER",
+    "synonyms": "INS-539"
+   },
+   {
+    "molecule_synonym": "Ins no.539",
+    "syn_type": "OTHER",
+    "synonyms": "INS NO.539"
+   },
+   {
+    "molecule_synonym": "Natrii thiosulfas",
+    "syn_type": "OTHER",
+    "synonyms": "NATRII THIOSULFAS"
+   },
+   {
+    "molecule_synonym": "NSC-45624",
+    "syn_type": "RESEARCH_CODE",
+    "synonyms": "NSC-45624"
+   },
+   {
+    "molecule_synonym": "Pedmark",
+    "syn_type": "OTHER",
+    "synonyms": "PEDMARK"
+   },
+   {
+    "molecule_synonym": "Pedmark",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "PEDMARK"
+   },
+   {
+    "molecule_synonym": "Pedmarqsi",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "PEDMARQSI"
+   },
+   {
+    "molecule_synonym": "Sodium hyposulfite",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM HYPOSULFITE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "BNF",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "EMA",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "FDA",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "SODIUM THIOSULFATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate anhydrous",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULFATE ANHYDROUS"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate, anhydrous",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULFATE, ANHYDROUS"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate component of nithiodote",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "SODIUM THIOSULFATE COMPONENT OF NITHIODOTE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate hydrate",
+    "syn_type": "JAN",
+    "synonyms": "SODIUM THIOSULFATE HYDRATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate pentahydrate",
+    "syn_type": "MERCK_INDEX",
+    "synonyms": "SODIUM THIOSULFATE PENTAHYDRATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulfate pentahydrate",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULFATE PENTAHYDRATE"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulphate anhydrous",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULPHATE ANHYDROUS"
+   },
+   {
+    "molecule_synonym": "Sodium thiosulphate, anhydrous",
+    "syn_type": "OTHER",
+    "synonyms": "SODIUM THIOSULPHATE, ANHYDROUS"
+   },
+   {
+    "molecule_synonym": "Sodothiol",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "Sodothiol"
+   },
+   {
+    "molecule_synonym": "Sulfothiorine",
+    "syn_type": "TRADE_NAME",
+    "synonyms": "Sulfothiorine"
+   },
+   {
+    "molecule_synonym": "Thiosulfuric acid, disodium salt",
+    "syn_type": "OTHER",
+    "synonyms": "THIOSULFURIC ACID, DISODIUM SALT"
+   }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 0,
+  "oral": false,
+  "orphan": 0,
+  "parenteral": true,
+  "polymer_flag": 0,
+  "pref_name": "SODIUM THIOSULFATE",
+  "prodrug": 0,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": null,
+  "usan_stem_definition": null,
+  "usan_substem": null,
+  "usan_year": null,
+  "veterinary": 0,
+  "withdrawn_flag": false
+ }
+}

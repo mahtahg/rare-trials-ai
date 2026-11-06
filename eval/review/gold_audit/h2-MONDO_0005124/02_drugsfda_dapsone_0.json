@@ -1,0 +1,2663 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22dapsone%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:53.570898+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 23
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20260625",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA213414",
+    "sponsor_name": "ALEMBIC",
+    "openfda": {
+     "application_number": [
+      "ANDA213414"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Alembic Pharmaceuticals Inc.",
+      "Alembic Pharmaceuticals Limited"
+     ],
+     "product_ndc": [
+      "62332-551",
+      "46708-551"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "d9849120-ccaa-4820-8e8d-3a8c7d809ffb",
+      "1a5c37bb-155e-4a03-afc6-4a4ef1f9dce1"
+     ],
+     "spl_set_id": [
+      "7249f655-1d8e-482a-889a-1e7e1a19500c",
+      "0f1301f6-884d-4fc7-a5b2-421b2375b985"
+     ],
+     "package_ndc": [
+      "62332-551-60",
+      "62332-551-90",
+      "62332-551-30",
+      "46708-551-60",
+      "46708-551-90",
+      "46708-551-30"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20260708",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA218335",
+    "sponsor_name": "MACLEODS PHARMS",
+    "openfda": {
+     "application_number": [
+      "ANDA218335"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Macleods Pharmaceuticals Limited"
+     ],
+     "product_ndc": [
+      "33342-534",
+      "33342-535"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "839d7440-ba0e-4c56-b648-d374b155cf03"
+     ],
+     "spl_set_id": [
+      "839d7440-ba0e-4c56-b648-d374b155cf03"
+     ],
+     "package_ndc": [
+      "33342-534-07",
+      "33342-534-11",
+      "33342-535-07",
+      "33342-535-11"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     },
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20160506",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA203887",
+    "sponsor_name": "SOLIS PHARMS",
+    "openfda": {
+     "application_number": [
+      "ANDA203887"
+     ],
+     "brand_name": [
+      "DAPSONE 25MG",
+      "DAPSONE 100MG"
+     ],
+     "generic_name": [
+      "DAPSONE 25MG",
+      "DAPSONE 100MG"
+     ],
+     "manufacturer_name": [
+      "Solis Pharmaceuticals Inc."
+     ],
+     "product_ndc": [
+      "85185-104",
+      "85185-105"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "50209cd1-afc6-53f4-e063-6394a90af9cf"
+     ],
+     "spl_set_id": [
+      "50204029-4c29-5b8d-e063-6394a90af383"
+     ],
+     "package_ndc": [
+      "85185-105-01",
+      "85185-105-02",
+      "85185-104-01",
+      "85185-104-02"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     },
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250404",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA218457",
+    "sponsor_name": "AUROBINDO PHARMA LTD",
+    "openfda": {
+     "application_number": [
+      "ANDA218457"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Aurobindo Pharma Limited"
+     ],
+     "product_ndc": [
+      "59651-666"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "83966a34-02d4-4794-bc2b-3e612b121973"
+     ],
+     "spl_set_id": [
+      "acd33f0b-8563-467a-93db-a11902331528"
+     ],
+     "package_ndc": [
+      "59651-666-60",
+      "59651-666-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231013",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA212383",
+    "sponsor_name": "ENCUBE",
+    "openfda": {
+     "application_number": [
+      "ANDA212383"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE GEL, 5%",
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Encube Ethicals, Inc.",
+      "Mayne Pharma"
+     ],
+     "product_ndc": [
+      "21922-018",
+      "51862-123"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "4805ec1d-1a52-438d-8601-2878f5f40e08",
+      "45c41a7a-58d6-48fd-bfe3-f9bc9508c335"
+     ],
+     "spl_set_id": [
+      "4205a1a9-c459-47bb-9538-1dd559ca71f1",
+      "dc495e54-8917-42de-a9fa-1f961bd99d61"
+     ],
+     "package_ndc": [
+      "21922-018-07",
+      "21922-018-08",
+      "51862-123-60"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20260226",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA220103",
+    "sponsor_name": "ZYDUS LIFESCIENCES",
+    "openfda": {
+     "application_number": [
+      "ANDA220103"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Viona Pharmaceuticals Inc",
+      "Zydus Lifesciences Limited"
+     ],
+     "product_ndc": [
+      "72578-177",
+      "72578-178",
+      "70771-1979",
+      "70771-1980"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "710844ec-6a59-45fa-b72a-4d75a4857361",
+      "a4ce6655-3e02-434d-87ad-5bcec90202c1"
+     ],
+     "spl_set_id": [
+      "58e7b363-99fb-4225-8df1-db2114d74928",
+      "1d6bc112-ba2f-40ab-975d-9cfbc853cd11"
+     ],
+     "package_ndc": [
+      "72578-177-06",
+      "72578-177-01",
+      "72578-178-06",
+      "72578-178-01",
+      "70771-1979-1",
+      "70771-1979-3",
+      "70771-1980-1",
+      "70771-1980-3"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     },
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20230606",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA213907",
+    "sponsor_name": "TP ANDA HOLDINGS",
+    "openfda": {
+     "application_number": [
+      "ANDA213907"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE GEL, 5%"
+     ],
+     "manufacturer_name": [
+      "Trupharma, LLC"
+     ],
+     "product_ndc": [
+      "52817-831"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "3e0f42a7-3013-cad1-e063-6394a90a7dfb"
+     ],
+     "spl_set_id": [
+      "699b6157-3245-43b6-91ee-c86ea262bc83"
+     ],
+     "package_ndc": [
+      "52817-831-60",
+      "52817-831-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220210",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20250617",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA214722",
+    "sponsor_name": "TORRENT",
+    "openfda": {
+     "application_number": [
+      "ANDA214722"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Torrent Pharmaceuticals Limited",
+      "Mayne Pharma Commercial LLC"
+     ],
+     "product_ndc": [
+      "13668-605",
+      "68308-342"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905"
+     ],
+     "spl_id": [
+      "2c733874-9036-42d0-8820-d5a4a35b5adc",
+      "2aca889b-4e07-496c-aba0-02a5c0cea041"
+     ],
+     "spl_set_id": [
+      "f8cffc24-8310-4f21-ae77-7f6ad6095551",
+      "cbf9e81e-00ef-4218-975e-6a1610b7f1dd"
+     ],
+     "package_ndc": [
+      "13668-605-05",
+      "13668-605-08",
+      "68308-342-60",
+      "68308-342-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "4",
+      "submission_status": "AP",
+      "submission_status_date": "20190910",
+      "review_priority": "PRIORITY",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "59967",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/207154Orig1s004ltr.pdf",
+        "date": "20190911",
+        "type": "Letter"
+       },
+       {
+        "id": "59983",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2019/207154s004lbl.pdf",
+        "date": "20190912",
+        "type": "Label"
+       },
+       {
+        "id": "66830",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/471_207154s4 dapsone clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       },
+       {
+        "id": "66831",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/470_207154s4 dapsone clinpharm prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Clinical Pharmacology Review"
+       }
+      ]
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20160224",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 5",
+      "submission_class_code_description": "Type 5 - New Formulation or New Manufacturer",
+      "application_docs": [
+       {
+        "id": "46009",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/207154Orig1s000TOC.html",
+        "date": "20161202",
+        "type": "Review"
+       },
+       {
+        "id": "52585",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/117_207154 dapsone clinical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Medical Review"
+       },
+       {
+        "id": "52586",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/118_207154 dapsone clinpharm prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Clinical Pharmacology Review"
+       },
+       {
+        "id": "52587",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/119_207154 dapsone statistical prea.pdf",
+        "date": "19000101",
+        "type": "Pediatric Statistical Review"
+       },
+       {
+        "id": "19959",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2016/207154s000lbl.pdf",
+        "date": "20160226",
+        "type": "Label"
+       },
+       {
+        "id": "32848",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/207154Orig1s000ltr.pdf",
+        "date": "20160226",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20180518",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "54282",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/207154s003lbl.pdf",
+        "date": "20180522",
+        "type": "Label"
+       },
+       {
+        "id": "54321",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/207154Orig1s003ltr.pdf",
+        "date": "20180524",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA207154",
+    "sponsor_name": "ALMIRALL",
+    "openfda": {
+     "application_number": [
+      "NDA207154"
+     ],
+     "brand_name": [
+      "ACZONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Almirall, LLC"
+     ],
+     "product_ndc": [
+      "16110-526"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905",
+      "1741907"
+     ],
+     "spl_id": [
+      "fee319ef-b2af-415e-8e91-32aaccc024da"
+     ],
+     "spl_set_id": [
+      "22058b7d-a578-4eaa-a476-ac982337f02a"
+     ],
+     "package_ndc": [
+      "16110-526-30",
+      "16110-526-60",
+      "16110-526-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "ACZONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190508",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA207165",
+    "sponsor_name": "RISING",
+    "openfda": {
+     "application_number": [
+      "ANDA207165"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Rising Pharma Holdings, Inc."
+     ],
+     "product_ndc": [
+      "64980-566",
+      "64980-567"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "e1aaf1ed-de8a-4c31-85de-68d728c95e86"
+     ],
+     "spl_set_id": [
+      "e369b26d-219a-4e23-b8d4-f94048d36acd"
+     ],
+     "package_ndc": [
+      "64980-566-01",
+      "64980-566-03",
+      "64980-567-01",
+      "64980-567-03"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     },
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20160510",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA204074",
+    "sponsor_name": "CHARTWELL RX",
+    "openfda": {
+     "application_number": [
+      "ANDA204074"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Chartwell RX, LLC"
+     ],
+     "product_ndc": [
+      "62135-965",
+      "62135-966"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "33eb8d96-1ab4-2d54-e063-6294a90a9339"
+     ],
+     "spl_set_id": [
+      "93028aff-54f0-4f94-b925-a91400118294"
+     ],
+     "package_ndc": [
+      "62135-965-30",
+      "62135-966-30"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     },
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190301",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA209430",
+    "sponsor_name": "TARO",
+    "openfda": {
+     "application_number": [
+      "ANDA209430"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Sun Pharmaceutical Industries, Inc."
+     ],
+     "product_ndc": [
+      "51672-4197",
+      "51672-4198"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "4d449249-4225-5741-e063-6394a90aa772"
+     ],
+     "spl_set_id": [
+      "cb312185-b9f1-4fa4-9481-bcf5d9bb3edf"
+     ],
+     "package_ndc": [
+      "51672-4197-6",
+      "51672-4197-2",
+      "51672-4198-6",
+      "51672-4198-2"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     },
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Discontinued"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240508",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA214019",
+    "sponsor_name": "ZYDUS LIFESCIENCES",
+    "openfda": {
+     "application_number": [
+      "ANDA214019"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Zydus Lifesciences Limited",
+      "Viona Pharmaceuticals Inc"
+     ],
+     "product_ndc": [
+      "70771-1538",
+      "72578-094"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905"
+     ],
+     "spl_id": [
+      "ae448df2-611f-4d56-911f-11d01983726f",
+      "fbed711e-945e-46aa-8883-fee0b7604485"
+     ],
+     "spl_set_id": [
+      "8b63b653-0507-4f95-9bfa-70fd071e15a6",
+      "30867c69-cf3c-4360-8e56-db96e0b0c3ab"
+     ],
+     "package_ndc": [
+      "70771-1538-2",
+      "70771-1538-3",
+      "70771-1538-8",
+      "72578-094-01",
+      "72578-094-02",
+      "72578-094-03"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20161201",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "24",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA206505",
+    "sponsor_name": "NOVITIUM PHARMA",
+    "openfda": {
+     "application_number": [
+      "ANDA206505"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "ANI Pharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "70954-135",
+      "70954-136"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "846ff8b6-d395-4e67-98ea-9dbfd688b97e"
+     ],
+     "spl_set_id": [
+      "57a47368-d1f6-4d61-a2ee-c5f1fe7ff690"
+     ],
+     "package_ndc": [
+      "70954-135-10",
+      "70954-135-20",
+      "70954-136-10",
+      "70954-136-20"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "002",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     },
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240826",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA213636",
+    "sponsor_name": "TP ANDA HOLDINGS",
+    "openfda": {
+     "application_number": [
+      "ANDA213636"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Trupharma, LLC"
+     ],
+     "product_ndc": [
+      "52817-832"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905"
+     ],
+     "spl_id": [
+      "3e0fc779-85c7-f2b1-e063-6294a90adc6e"
+     ],
+     "spl_set_id": [
+      "2763bcbb-e249-be2b-e063-6394a90a5015"
+     ],
+     "package_ndc": [
+      "52817-832-60",
+      "52817-832-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19790703"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "19820505",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19820505",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "22",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "19831202",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "19920814",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "19",
+      "submission_status": "AP",
+      "submission_status_date": "20090824",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA086841",
+    "sponsor_name": "EVEREST LIFE SCI",
+    "openfda": {
+     "application_number": [
+      "ANDA086841"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Westminster Pharmaceuticals, LLC",
+      "AvKARE"
+     ],
+     "product_ndc": [
+      "69367-409",
+      "69367-410",
+      "69367-378",
+      "69367-379",
+      "42291-008"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "94a7ec84-91fc-4cb2-9ddc-49e82e94408f",
+      "133a7b8c-5bf0-41f7-84e1-7dac278986d7",
+      "484819b5-cdfe-b9fe-e063-6394a90a1880"
+     ],
+     "spl_set_id": [
+      "7d317576-5edd-4c27-a00d-68b5944c04a8",
+      "d3fc4934-d48b-4a29-9022-0c82bbdad399",
+      "13002250-b4c5-5890-e063-6394a90a2036"
+     ],
+     "package_ndc": [
+      "69367-409-30",
+      "69367-409-01",
+      "69367-410-30",
+      "69367-410-01",
+      "69367-378-30",
+      "69367-378-01",
+      "69367-379-30",
+      "69367-379-01",
+      "42291-008-01"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "25MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "9",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "19880713",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "19820504",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19820504",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "21",
+      "submission_status": "AP",
+      "submission_status_date": "20250423",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "19920819",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "8",
+      "submission_status": "AP",
+      "submission_status_date": "19831202",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "19790703"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "18",
+      "submission_status": "AP",
+      "submission_status_date": "20090824",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA086842",
+    "sponsor_name": "EVEREST LIFE SCI",
+    "openfda": {
+     "application_number": [
+      "ANDA086842"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Westminster Pharmaceuticals, LLC"
+     ],
+     "product_ndc": [
+      "69367-410",
+      "69367-409",
+      "69367-379",
+      "69367-378"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "ORAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "197557",
+      "197558"
+     ],
+     "spl_id": [
+      "94a7ec84-91fc-4cb2-9ddc-49e82e94408f",
+      "133a7b8c-5bf0-41f7-84e1-7dac278986d7"
+     ],
+     "spl_set_id": [
+      "7d317576-5edd-4c27-a00d-68b5944c04a8",
+      "d3fc4934-d48b-4a29-9022-0c82bbdad399"
+     ],
+     "package_ndc": [
+      "69367-409-30",
+      "69367-409-01",
+      "69367-410-30",
+      "69367-410-01",
+      "69367-378-30",
+      "69367-378-01",
+      "69367-379-30",
+      "69367-379-01"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "100MG"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "TABLET",
+      "route": "ORAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231027",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA215718",
+    "sponsor_name": "ALEMBIC",
+    "openfda": {
+     "application_number": [
+      "ANDA215718"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Alembic Pharmaceuticals Inc.",
+      "Alembic Pharmaceuticals Limited"
+     ],
+     "product_ndc": [
+      "62332-663",
+      "46708-663"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905"
+     ],
+     "spl_id": [
+      "5fa76202-2367-486b-bfe8-73f3dcd5a574",
+      "f201a2ad-d969-428f-bb66-13401c124c0a"
+     ],
+     "spl_set_id": [
+      "2811f7de-13bf-45cd-8413-5b04d11f40ff",
+      "d71eba65-3d78-4252-acb8-90eea60921d1"
+     ],
+     "package_ndc": [
+      "62332-663-30",
+      "62332-663-60",
+      "62332-663-90",
+      "46708-663-30",
+      "46708-663-60",
+      "46708-663-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190927",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20171016",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "50088",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/209506Orig1s000ltr.pdf",
+        "date": "20171018",
+        "type": "Letter"
+       },
+       {
+        "id": "50095",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209506Orig1s000lbl.pdf",
+        "date": "20171018",
+        "type": "Label"
+       }
+      ]
+     }
+    ],
+    "application_number": "ANDA209506",
+    "sponsor_name": "SUN PHARMA CANADA",
+    "openfda": {
+     "application_number": [
+      "ANDA209506"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Sun Pharmaceutical Industries, Inc.",
+      "NORTHSTAR RX LLC"
+     ],
+     "product_ndc": [
+      "51672-1387",
+      "16714-956"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "38e593e2-d4a5-b8dd-e063-6394a90a62c6",
+      "3980a223-560e-186f-e063-6394a90a0d68"
+     ],
+     "spl_set_id": [
+      "97e6444c-1496-4508-9434-8a2a93225e17",
+      "91d027f1-cbc6-4066-870b-01b1ddb1f48f"
+     ],
+     "package_ndc": [
+      "51672-1387-2",
+      "51672-1387-3",
+      "51672-1387-8",
+      "16714-956-01",
+      "16714-956-02"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20220331",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA210178",
+    "sponsor_name": "COSETTE PHARMS NC",
+    "openfda": {
+     "application_number": [
+      "ANDA210178"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Cosette Pharmaceuticals, Inc."
+     ],
+     "product_ndc": [
+      "0713-0886"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "fb368415-d58a-0601-e053-6394a90a92af"
+     ],
+     "spl_set_id": [
+      "bc035edf-50d0-47ba-9b60-fe394ab3c32f"
+     ],
+     "package_ndc": [
+      "0713-0886-60",
+      "0713-0886-18"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "13",
+      "submission_status": "AP",
+      "submission_status_date": "20150709",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "37659",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/021794s013lbl.pdf",
+        "date": "20150724",
+        "type": "Label"
+       },
+       {
+        "id": "28610",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/021794Orig1s013ltr.pdf",
+        "date": "20150713",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "11",
+      "submission_status": "AP",
+      "submission_status_date": "20131003",
+      "review_priority": "STANDARD",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "6",
+      "submission_status": "AP",
+      "submission_status_date": "20090326",
+      "review_priority": "N/A",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)",
+      "application_docs": [
+       {
+        "id": "37658",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/021794s006lbl.pdf",
+        "date": "20090403",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "16",
+      "submission_status": "AP",
+      "submission_status_date": "20180518",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling",
+      "application_docs": [
+       {
+        "id": "54277",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/021794Orig1s016ltr.pdf",
+        "date": "20180521",
+        "type": "Letter"
+       },
+       {
+        "id": "54283",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2018/021794s016lbl.pdf",
+        "date": "20180522",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "14",
+      "submission_status": "AP",
+      "submission_status_date": "20150903",
+      "review_priority": "STANDARD",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "12",
+      "submission_status": "AP",
+      "submission_status_date": "20131108",
+      "review_priority": "UNKNOWN",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "10",
+      "submission_status": "AP",
+      "submission_status_date": "20131031",
+      "review_priority": "STANDARD",
+      "submission_class_code": "MANUF (CMC)",
+      "submission_class_code_description": "Manufacturing (CMC)"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20050707",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 3",
+      "submission_class_code_description": "Type 3 - New Dosage Form",
+      "application_docs": [
+       {
+        "id": "6197",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2005/021794ltr.pdf",
+        "date": "20050715",
+        "type": "Letter"
+       },
+       {
+        "id": "21820",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2005/021794s000TOC.html",
+        "date": "20070913",
+        "type": "Review"
+       },
+       {
+        "id": "37656",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2005/021794lbl.pdf",
+        "date": "20050708",
+        "type": "Label"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "5",
+      "submission_status": "AP",
+      "submission_status_date": "20080314",
+      "review_priority": "STANDARD",
+      "submission_class_code": "EFFICACY",
+      "submission_class_code_description": "Efficacy",
+      "application_docs": [
+       {
+        "id": "37657",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2008/021794s005lbl.pdf",
+        "date": "20080317",
+        "type": "Label"
+       },
+       {
+        "id": "6198",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2008/021794s005ltr.pdf",
+        "date": "20080318",
+        "type": "Letter"
+       }
+      ]
+     }
+    ],
+    "application_number": "NDA021794",
+    "sponsor_name": "ALMIRALL",
+    "openfda": {
+     "application_number": [
+      "NDA021794"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Pacific Pharma, Inc."
+     ],
+     "product_ndc": [
+      "60758-670"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "41079403-219e-4194-90e8-3b9b83dcf298"
+     ],
+     "spl_set_id": [
+      "8dbe1a41-6d9d-414f-aa9c-09bd95857e2a"
+     ],
+     "package_ndc": [
+      "60758-670-30",
+      "60758-670-60",
+      "60758-670-90"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "Yes",
+      "brand_name": "ACZONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "Yes",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "2",
+      "submission_status": "AP",
+      "submission_status_date": "20230227",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     },
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20190626",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN",
+      "application_docs": [
+       {
+        "id": "59239",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/210191Orig1s000ltr.pdf",
+        "date": "20190705",
+        "type": "Letter"
+       }
+      ]
+     },
+     {
+      "submission_type": "SUPPL",
+      "submission_number": "3",
+      "submission_status": "AP",
+      "submission_status_date": "20230227",
+      "review_priority": "STANDARD",
+      "submission_class_code": "LABELING",
+      "submission_class_code_description": "Labeling"
+     }
+    ],
+    "application_number": "ANDA210191",
+    "sponsor_name": "SUN PHARMA CANADA",
+    "openfda": {
+     "application_number": [
+      "ANDA210191"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Sun Pharmaceutical Industries, Inc.",
+      "NORTHSTAR RX LLC"
+     ],
+     "product_ndc": [
+      "51672-1388",
+      "16714-975"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "1741905"
+     ],
+     "spl_id": [
+      "38efc7a1-c4c6-61ad-e063-6294a90af18b",
+      "3980db5f-3ff2-2443-e063-6394a90ab484"
+     ],
+     "spl_set_id": [
+      "32fcb7e0-5a6d-4d95-b81c-148012a54112",
+      "51ebcb4d-4368-4748-a6f3-1ec2100fed63"
+     ],
+     "package_ndc": [
+      "51672-1388-2",
+      "51672-1388-3",
+      "51672-1388-8",
+      "16714-975-02",
+      "16714-975-01"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "7.5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   },
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20231019",
+      "review_priority": "STANDARD",
+      "submission_class_code": "UNKNOWN"
+     }
+    ],
+    "application_number": "ANDA209890",
+    "sponsor_name": "AMNEAL",
+    "openfda": {
+     "application_number": [
+      "ANDA209890"
+     ],
+     "brand_name": [
+      "DAPSONE"
+     ],
+     "generic_name": [
+      "DAPSONE"
+     ],
+     "manufacturer_name": [
+      "Amneal Pharmaceuticals LLC"
+     ],
+     "product_ndc": [
+      "65162-339"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "TOPICAL"
+     ],
+     "substance_name": [
+      "DAPSONE"
+     ],
+     "rxcui": [
+      "607295"
+     ],
+     "spl_id": [
+      "e09d2bfe-ca6f-4f12-ba61-993371b94478"
+     ],
+     "spl_set_id": [
+      "f3e33970-ac11-4bb6-9f39-6f58d86fdefb"
+     ],
+     "package_ndc": [
+      "65162-339-63",
+      "65162-339-85",
+      "65162-339-91"
+     ],
+     "nui": [
+      "N0000175881",
+      "M0020791"
+     ],
+     "pharm_class_epc": [
+      "Sulfone [EPC]"
+     ],
+     "pharm_class_cs": [
+      "Sulfones [CS]"
+     ],
+     "unii": [
+      "8W5C518302"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "DAPSONE",
+      "active_ingredients": [
+       {
+        "name": "DAPSONE",
+        "strength": "5%"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "GEL",
+      "route": "TOPICAL",
+      "marketing_status": "Prescription",
+      "te_code": "AB"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "url": "https://api.fda.gov/drug/drugsfda.json?search=openfda.generic_name%3A%22letibotulinumtoxina%22&limit=100&skip=0",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:54.477033+00:00",
+ "body": {
+  "meta": {
+   "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+   "terms": "https://open.fda.gov/terms/",
+   "license": "https://open.fda.gov/license/",
+   "last_updated": "2026-11-05",
+   "results": {
+    "skip": 0,
+    "limit": 100,
+    "total": 1
+   }
+  },
+  "results": [
+   {
+    "submissions": [
+     {
+      "submission_type": "ORIG",
+      "submission_number": "1",
+      "submission_status": "AP",
+      "submission_status_date": "20240229",
+      "review_priority": "STANDARD",
+      "submission_class_code": "TYPE 1",
+      "submission_class_code_description": "Type 1 - New Molecular Entity",
+      "application_docs": [
+       {
+        "id": "77677",
+        "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761225s000lbl.pdf",
+        "date": "20240301",
+        "type": "Label"
+       },
+       {
+        "id": "77678",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761225s000lbl.pdf#page=12",
+        "date": "20240301",
+        "type": "Medication Guide"
+       },
+       {
+        "id": "77687",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761225Orig1s000ltr.pdf",
+        "date": "20240301",
+        "type": "Letter"
+       },
+       {
+        "id": "77925",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761225Orig1s000TOC.html",
+        "date": "20240325",
+        "type": "Review"
+       }
+      ]
+     }
+    ],
+    "application_number": "BLA761225",
+    "sponsor_name": "HUGEL INC",
+    "openfda": {
+     "application_number": [
+      "BLA761225"
+     ],
+     "brand_name": [
+      "LETYBO"
+     ],
+     "generic_name": [
+      "LETIBOTULINUMTOXINA-WLBG"
+     ],
+     "manufacturer_name": [
+      "Hugel, Inc."
+     ],
+     "product_ndc": [
+      "81165-050",
+      "81165-100"
+     ],
+     "product_type": [
+      "HUMAN PRESCRIPTION DRUG"
+     ],
+     "route": [
+      "INTRAMUSCULAR"
+     ],
+     "substance_name": [
+      "LETIBOTULINUMTOXINA"
+     ],
+     "rxcui": [
+      "2689290",
+      "2689297",
+      "2689299",
+      "2689301"
+     ],
+     "spl_id": [
+      "2784ba3d-d3f8-1059-e063-6394a90a2ff1"
+     ],
+     "spl_set_id": [
+      "910e5d0e-4d0b-4de8-8e2d-97879a044181"
+     ],
+     "package_ndc": [
+      "81165-050-01",
+      "81165-100-01"
+     ],
+     "nui": [
+      "N0000175771",
+      "N0000175770",
+      "N0000193962",
+      "N0000175731"
+     ],
+     "pharm_class_epc": [
+      "Acetylcholine Release Inhibitor [EPC]",
+      "Neuromuscular Blocker [EPC]"
+     ],
+     "pharm_class_moa": [
+      "Acetylcholine Release Inhibitors [MoA]"
+     ],
+     "pharm_class_pe": [
+      "Neuromuscular Blockade [PE]"
+     ],
+     "unii": [
+      "W5O50S8A59"
+     ]
+    },
+    "products": [
+     {
+      "product_number": "001",
+      "reference_drug": "No",
+      "brand_name": "LETYBO",
+      "active_ingredients": [
+       {
+        "name": "LETIBOTULINUMTOXINA-WLBG",
+        "strength": "0.1ML(4UNITS)"
+       }
+      ],
+      "reference_standard": "No",
+      "dosage_form": "POWDER, FOR SOLUTION",
+      "route": null,
+      "marketing_status": "Prescription"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:52.341423+00:00",
+ "body": {
+  "query": "query($id:String!){disease(efoId:$id){name drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "MONDO_0005459"
+  },
+  "response": {
+   "data": {
+    "disease": {
+     "name": "human African trypanosomiasis",
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_1",
+        "drug": {
+         "id": "CHEMBL265502",
+         "name": "SURAMIN"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL2107359",
+         "name": "PAFURAMIDINE MALEATE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL55",
+         "name": "PENTAMIDINE"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL1631694",
+         "name": "FEXINIDAZOLE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL319669",
+         "name": "PAFURAMIDINE"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL166",
+         "name": "MELARSOPROL"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL290960",
+         "name": "NIFURTIMOX"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2_3",
+        "drug": {
+         "id": "CHEMBL2347704",
+         "name": "ACOZIBOROLE"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL830",
+         "name": "EFLORNITHINE"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

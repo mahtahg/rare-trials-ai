@@ -1,0 +1,112 @@
+{
+ "url": "https://api.platform.opentargets.org/api/v4/graphql",
+ "status": 200,
+ "retrieved_at": "2026-11-06T11:16:57.030705+00:00",
+ "body": {
+  "query": "query($id:String!){target(ensemblId:$id){drugAndClinicalCandidates{rows{maxClinicalStage drug{id name}}}}}",
+  "variables": {
+   "id": "ENSG00000001626"
+  },
+  "response": {
+   "data": {
+    "target": {
+     "drugAndClinicalCandidates": {
+      "rows": [
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4101487",
+         "name": "GALICAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4297649",
+         "name": "OLACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_3",
+        "drug": {
+         "id": "CHEMBL4297849",
+         "name": "BAMOCAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL4297603",
+         "name": "DEUTIVACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL3544914",
+         "name": "TEZACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4650318",
+         "name": "ICENTICAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL2010601",
+         "name": "IVACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL2108184",
+         "name": "CROFELEMER"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4802150",
+         "name": "NAVOCAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL4298128",
+         "name": "ELEXACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_2",
+        "drug": {
+         "id": "CHEMBL4297392",
+         "name": "IOWH-032"
+        }
+       },
+       {
+        "maxClinicalStage": "PHASE_4",
+        "drug": {
+         "id": "CHEMBL2103870",
+         "name": "LUMACAFTOR"
+        }
+       },
+       {
+        "maxClinicalStage": "APPROVAL",
+        "drug": {
+         "id": "CHEMBL5314934",
+         "name": "VANZACAFTOR"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}
