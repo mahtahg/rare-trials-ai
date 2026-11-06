@@ -12,6 +12,13 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 ROOT = Path(__file__).resolve().parents[2]
 rows = [json.loads(x) for x in (ROOT / "eval/review/gold_audit.jsonl").read_text().splitlines() if x.strip()]
+_gc = ROOT / "eval/gold_corrections_v1_1.json"
+CORR = json.loads(_gc.read_text())["corrections"] if _gc.exists() else {}
+for _r in rows:  # show the current (v1.1) gold and its evidence for corrected items
+    if _r["id"] in CORR:
+        c = CORR[_r["id"]]
+        _r["evidence"] = f"[Gold corrected in v1.1; v1 gold was {json.dumps(c['old'])}] " + c["evidence"]
+        _r["gold"] = c["new"]
 F = "Arial"
 b, h, t = Font(name=F, size=10), Font(name=F, size=10, bold=True, color="FFFFFF"), Font(name=F, size=13, bold=True)
 fill_h, fill_in = PatternFill("solid", fgColor="1F3A5F"), PatternFill("solid", fgColor="FFF4C2")
@@ -31,8 +38,10 @@ for i, (k, v) in enumerate([
     ("Your job", ("Read the question, the gold answer and the primary-record extract. If the extract supports the gold, choose Yes; if not, No and say why. "
                   "Open the source link if the extract is unclear. Unsure only if the extract and the live record both fail to settle it.")),
     ("Fill in", "Yellow cells only: Confirmed?, Reviewer initials, Note."),
-    ("Machine check", "The automatic re-derivation (separate code from the question builder) matched all 41 gold answers. That is not human verification; this sheet is."),
+    ("Machine check", "An automatic re-derivation by separate code matched all 41 v1 gold answers, but used the same Drugs@FDA search as the gold. A broader search then found one of these 41 wrong (now corrected, marked below). Machine checks are not human verification; this sheet is."),
     ("Example", "Confirmed? = Yes; Initials = MHG; Note = (blank unless No/Unsure)"),
+    ("Corrected items", "Rows marked [Gold corrected in v1.1] had a wrong v1 gold, found by this audit: the original Drugs@FDA search missed older applications. Confirm the corrected answer against the source link."),
+    ("Independence", "Check each row yourself against the source link or the archived extract. Do not use an AI assistant to decide. Sign the attestation below when done."),
 ], 3):
     ins.cell(i, 1, k).font = Font(name=F, size=10, bold=True)
     c = ins.cell(i, 2, v)
@@ -61,6 +70,11 @@ ws.add_data_validation(dv)
 dv.add(f"J2:J{last}")
 ws.freeze_panes = "D2"
 ws.auto_filter.ref = f"A1:L{last}"
+for _i, _k in enumerate(("I checked every row myself, without AI assistance (Yes/No)", "Name", "Date finished"), 13):
+    ins.cell(_i, 1, _k).font = b
+    ins.cell(_i, 1).alignment = wrap
+    ins.cell(_i, 2).fill = fill_in
+ins.cell(12, 1, "Attestation").font = Font(name=F, size=10, bold=True)
 ins.cell(10, 1, "Confirmed so far").font = Font(name=F, size=10, bold=True)
 ins.cell(10, 2, f'=COUNTIF(Confirm!J2:J{last},"Yes")&" yes / "&COUNTIF(Confirm!J2:J{last},"No")&" no / "&COUNTIF(Confirm!J2:J{last},"Unsure")&" unsure of {len(rows)}"').font = b
 wb.active = 1
