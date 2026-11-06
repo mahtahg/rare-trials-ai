@@ -14,23 +14,31 @@
    "finished_at": "2026-11-06T03:31:16.534353+00:00",
    "completed_runs": 2,
    "stopped_for_usage_limit": false
+  },
+  {
+   "started_at": "2026-11-06T15:32:29.641421+00:00",
+   "pending_jobs": 60,
+   "finished_at": "2026-11-06T15:44:04.519239+00:00",
+   "completed_runs": 60,
+   "stopped_for_usage_limit": false
   }
  ],
  "args": {
   "questions": "eval/questions_hard.jsonl",
   "models": "claude-haiku-5-5",
-  "conditions": "no_tools,web_search,biomcp",
+  "conditions": "biomcp_go",
   "repeats": 1,
   "limit": 0,
-  "sample": false,
+  "sample": true,
   "seed": 20261103,
   "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 60.0,
+  "max_minutes": 240.0,
   "run_id": "hard-haiku"
  },
  "n_questions": 60,
  "auth": "claude-subscription-oauth",
  "system_prompt": "You are assisting a clinical-development team working on rare and neglected diseases.\nAnswer the question accurately. Use the tools available to you when they help; do not use tools you were not given.\nIf you cannot determine the answer, or the entity does not exist, say so: set \"not_found\": true or give a low confidence. Never invent identifiers.\n\nEnd your reply with exactly one block:\n<answer>{\"answer\": <value in the requested format>, \"identifiers\": [<every NCT/CHEMBL/PMID/EFO/MONDO/ORPHA/Ensembl ID you relied on>], \"not_found\": <true|false>, \"confidence\": <0.0-1.0>}</answer>",
- "max_turns": 20
+ "max_turns": 20,
+ "external_comparator_version": "biomcp-cli==0.9.3"
 }
