@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-concurrency: { group: nightly, cancel-in-progress: false }
+concurrency: { group: p6-extract, cancel-in-progress: false }  # shares a group with p6-extract: both append to llm_extract_v1.jsonl
 jobs:
   night:
     runs-on: ubuntu-latest
