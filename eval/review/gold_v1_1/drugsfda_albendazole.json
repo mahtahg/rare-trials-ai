@@ -1,0 +1,167 @@
+{
+ "name": "albendazole",
+ "retrieved_at": "2026-11-06T15:30:38.909569+00:00",
+ "n": 10,
+ "applications": [
+  {
+   "application_number": "ANDA213435",
+   "sponsor": "MSN",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210122"
+   ]
+  },
+  {
+   "application_number": "ANDA211034",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210126"
+   ]
+  },
+  {
+   "application_number": "ANDA211117",
+   "sponsor": "EDENBRIDGE PHARMS",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190514"
+   ]
+  },
+  {
+   "application_number": "ANDA215652",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240904"
+   ]
+  },
+  {
+   "application_number": "NDA020666",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "ALBENZA",
+     "status": "Discontinued",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19960611"
+   ]
+  },
+  {
+   "application_number": "ANDA208094",
+   "sponsor": "ACTAVIS ELIZABETH",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190520"
+   ]
+  },
+  {
+   "application_number": "ANDA211636",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200610"
+   ]
+  },
+  {
+   "application_number": "ANDA210011",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181207"
+   ]
+  },
+  {
+   "application_number": "ANDA208979",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181214"
+   ]
+  },
+  {
+   "application_number": "ANDA210434",
+   "sponsor": "CIPLA LTD",
+   "products": [
+    {
+     "brand": "ALBENDAZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ALBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180921"
+   ]
+  }
+ ]
+}

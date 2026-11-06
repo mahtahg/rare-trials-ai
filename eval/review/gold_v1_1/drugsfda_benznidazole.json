@@ -1,0 +1,30 @@
+{
+ "name": "benznidazole",
+ "retrieved_at": "2026-11-06T15:31:08.533819+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA209570",
+   "sponsor": "CHEMO RESEARCH SL",
+   "products": [
+    {
+     "brand": "BENZNIDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "BENZNIDAZOLE"
+     ]
+    },
+    {
+     "brand": "BENZNIDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "BENZNIDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170829"
+   ]
+  }
+ ]
+}

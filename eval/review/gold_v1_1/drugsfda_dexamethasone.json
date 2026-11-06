@@ -1,0 +1,2783 @@
+{
+ "name": "dexamethasone",
+ "retrieved_at": "2026-11-06T15:30:57.056717+00:00",
+ "n": 155,
+ "applications": [
+  {
+   "application_number": "ANDA210966",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200605"
+   ]
+  },
+  {
+   "application_number": "ANDA080399",
+   "sponsor": "PRASCO",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19711020"
+   ]
+  },
+  {
+   "application_number": "ANDA218372",
+   "sponsor": "SOLGEN",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240917"
+   ]
+  },
+  {
+   "application_number": "ANDA203129",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150930"
+   ]
+  },
+  {
+   "application_number": "ANDA216282",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240207"
+   ]
+  },
+  {
+   "application_number": "ANDA216283",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240207"
+   ]
+  },
+  {
+   "application_number": "ANDA216284",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240509"
+   ]
+  },
+  {
+   "application_number": "ANDA216295",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220908"
+   ]
+  },
+  {
+   "application_number": "ANDA217538",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230426"
+   ]
+  },
+  {
+   "application_number": "ANDA040069",
+   "sponsor": "BAUSCH AND LOMB INC",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19960726"
+   ]
+  },
+  {
+   "application_number": "NDA021537",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "CIPRODEX",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030718"
+   ]
+  },
+  {
+   "application_number": "ANDA207442",
+   "sponsor": "SOMERSET THERAPS LLC",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE PRESERVATIVE FREE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180419"
+   ]
+  },
+  {
+   "application_number": "ANDA062341",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "MAXITROL",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19840522"
+   ]
+  },
+  {
+   "application_number": "NDA022315",
+   "sponsor": "ABBVIE",
+   "products": [
+    {
+     "brand": "OZURDEX",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090617"
+   ]
+  },
+  {
+   "application_number": "ANDA088248",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830901"
+   ]
+  },
+  {
+   "application_number": "ANDA088252",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE INTENSOL",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830901"
+   ]
+  },
+  {
+   "application_number": "ANDA205548",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200810"
+   ]
+  },
+  {
+   "application_number": "ANDA212715",
+   "sponsor": "PADAGIS US",
+   "products": [
+    {
+     "brand": "TOBRAMYCIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220211"
+   ]
+  },
+  {
+   "application_number": "ANDA084612",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780719"
+   ]
+  },
+  {
+   "application_number": "ANDA211036",
+   "sponsor": "SOMERSET THERAPS LLC",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190510"
+   ]
+  },
+  {
+   "application_number": "ANDA215106",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20211014"
+   ]
+  },
+  {
+   "application_number": "NDA211379",
+   "sponsor": "DEXCEL",
+   "products": [
+    {
+     "brand": "HEMADY",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191003"
+   ]
+  },
+  {
+   "application_number": "ANDA091188",
+   "sponsor": "CHARTWELL MOLECULAR",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110511"
+   ]
+  },
+  {
+   "application_number": "ANDA064063",
+   "sponsor": "BAUSCH AND LOMB INC",
+   "products": [
+    {
+     "brand": "NEOMYCIN AND POLYMYXIN B SULFATES AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19940725"
+   ]
+  },
+  {
+   "application_number": "ANDA207521",
+   "sponsor": "SOMERSET",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180608"
+   ]
+  },
+  {
+   "application_number": "NDA050818",
+   "sponsor": "HARROW EYE",
+   "products": [
+    {
+     "brand": "TOBRADEX ST",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090213"
+   ]
+  },
+  {
+   "application_number": "ANDA206781",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151201"
+   ]
+  },
+  {
+   "application_number": "ANDA215604",
+   "sponsor": "NOVITIUM PHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220808"
+   ]
+  },
+  {
+   "application_number": "ANDA208690",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE PRESERVATIVE FREE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180822"
+   ]
+  },
+  {
+   "application_number": "ANDA217695",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230823"
+   ]
+  },
+  {
+   "application_number": "ANDA217696",
+   "sponsor": "NOVITIUM PHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230509"
+   ]
+  },
+  {
+   "application_number": "ANDA208689",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180822"
+   ]
+  },
+  {
+   "application_number": "ANDA040803",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080829"
+   ]
+  },
+  {
+   "application_number": "ANDA040491",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE PRESERVATIVE FREE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030411"
+   ]
+  },
+  {
+   "application_number": "ANDA040802",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080829"
+   ]
+  },
+  {
+   "application_number": "ANDA090891",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110712"
+   ]
+  },
+  {
+   "application_number": "ANDA210967",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190607"
+   ]
+  },
+  {
+   "application_number": "ANDA064134",
+   "sponsor": "BAUSCH AND LOMB INC",
+   "products": [
+    {
+     "brand": "TOBRAMYCIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19991027"
+   ]
+  },
+  {
+   "application_number": "ANDA216487",
+   "sponsor": "UPSHER SMITH LABS",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260106"
+   ]
+  },
+  {
+   "application_number": "ANDA064135",
+   "sponsor": "BAUSCH AND LOMB INC",
+   "products": [
+    {
+     "brand": "DEXASPORIN",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950913"
+   ]
+  },
+  {
+   "application_number": "ANDA215654",
+   "sponsor": "GLAND",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210804"
+   ]
+  },
+  {
+   "application_number": "ANDA216501",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240322"
+   ]
+  },
+  {
+   "application_number": "ANDA084282",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19750715"
+   ]
+  },
+  {
+   "application_number": "NDA208742",
+   "sponsor": "OCULAR THERAPEUTIX",
+   "products": [
+    {
+     "brand": "DEXTENZA",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181130"
+   ]
+  },
+  {
+   "application_number": "ANDA087702",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820907"
+   ]
+  },
+  {
+   "application_number": "ANDA084754",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19760921"
+   ]
+  },
+  {
+   "application_number": "ANDA210470",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220830"
+   ]
+  },
+  {
+   "application_number": "ANDA217797",
+   "sponsor": "MICRO LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240327"
+   ]
+  },
+  {
+   "application_number": "ANDA040572",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050422"
+   ]
+  },
+  {
+   "application_number": "NDA050616",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "TOBRADEX",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19880928"
+   ]
+  },
+  {
+   "application_number": "ANDA217001",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230419"
+   ]
+  },
+  {
+   "application_number": "ANDA201270",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170717"
+   ]
+  },
+  {
+   "application_number": "ANDA215768",
+   "sponsor": "SENTISS",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230609"
+   ]
+  },
+  {
+   "application_number": "ANDA209192",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180706"
+   ]
+  },
+  {
+   "application_number": "NDA050023",
+   "sponsor": "HARROW EYE",
+   "products": [
+    {
+     "brand": "MAXITROL",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19630606"
+   ]
+  },
+  {
+   "application_number": "ANDA084916",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19770906"
+   ]
+  },
+  {
+   "application_number": "NDA050065",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "MAXITROL",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19630719"
+   ]
+  },
+  {
+   "application_number": "NDA013422",
+   "sponsor": "HARROW EYE",
+   "products": [
+    {
+     "brand": "MAXIDEX",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19620620"
+   ]
+  },
+  {
+   "application_number": "ANDA088149",
+   "sponsor": "PANGEA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830428"
+   ]
+  },
+  {
+   "application_number": "ANDA088481",
+   "sponsor": "ALVOGEN",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19831215"
+   ]
+  },
+  {
+   "application_number": "ANDA083342",
+   "sponsor": "ALCON",
+   "products": [
+    {
+     "brand": "MAXIDEX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19731023"
+   ]
+  },
+  {
+   "application_number": "ANDA087440",
+   "sponsor": "LUITPOLD",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820721"
+   ]
+  },
+  {
+   "application_number": "ANDA085376",
+   "sponsor": "IMPAX LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA085840",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA089169",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860409"
+   ]
+  },
+  {
+   "application_number": "ANDA089170",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA212991",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "TOBRAMYCIN AND DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210715"
+   ]
+  },
+  {
+   "application_number": "NDA012674",
+   "sponsor": "ASPEN GLOBAL INC",
+   "products": [
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19601221"
+   ]
+  },
+  {
+   "application_number": "ANDA084457",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA083296",
+   "sponsor": "ALLERGAN HERBERT",
+   "products": [
+    {
+     "brand": "AEROSEB-DEX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA012675",
+   "sponsor": "ASPEN GLOBAL INC",
+   "products": [
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19620420"
+   ]
+  },
+  {
+   "application_number": "ANDA088522",
+   "sponsor": "INTL MEDICATION",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084993",
+   "sponsor": "SOLVAY",
+   "products": [
+    {
+     "brand": "DEXONE 0.75",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA085456",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19770208"
+   ]
+  },
+  {
+   "application_number": "ANDA084493",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084990",
+   "sponsor": "SOLVAY",
+   "products": [
+    {
+     "brand": "DEXONE 1.5",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19751218"
+   ]
+  },
+  {
+   "application_number": "ANDA084991",
+   "sponsor": "SOLVAY",
+   "products": [
+    {
+     "brand": "DEXONE 0.5",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084992",
+   "sponsor": "SOLVAY",
+   "products": [
+    {
+     "brand": "DEXONE 4",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA085455",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19770208"
+   ]
+  },
+  {
+   "application_number": "NDA013538",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADERM",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA085458",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19770208"
+   ]
+  },
+  {
+   "application_number": "NDA208912",
+   "sponsor": "EYEPOINT PHARMS",
+   "products": [
+    {
+     "brand": "DEXYCU KIT",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180209"
+   ]
+  },
+  {
+   "application_number": "ANDA080968",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19730503"
+   ]
+  },
+  {
+   "application_number": "ANDA087065",
+   "sponsor": "LYPHOMED",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19810529"
+   ]
+  },
+  {
+   "application_number": "ANDA062714",
+   "sponsor": "ALCON PHARMS LTD",
+   "products": [
+    {
+     "brand": "NEOMYCIN SULFATE-DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "NEOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860721"
+   ]
+  },
+  {
+   "application_number": "ANDA084013",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740621"
+   ]
+  },
+  {
+   "application_number": "ANDA087533",
+   "sponsor": "UPSHER SMITH",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA040700",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080815"
+   ]
+  },
+  {
+   "application_number": "ANDA088237",
+   "sponsor": "KEY THERAP",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830428"
+   ]
+  },
+  {
+   "application_number": "ANDA087534",
+   "sponsor": "UPSHER SMITH",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062721",
+   "sponsor": "ALCON PHARMS LTD",
+   "products": [
+    {
+     "brand": "NEOMYCIN AND POLYMYXIN B SULFATES AND DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19861117"
+   ]
+  },
+  {
+   "application_number": "ANDA088254",
+   "sponsor": "PHARMOBEDIENT CNSLTG",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830727"
+   ]
+  },
+  {
+   "application_number": "NDA050322",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "NEODECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "NEOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19690702"
+   ]
+  },
+  {
+   "application_number": "ANDA083420",
+   "sponsor": "PVT FORM",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19760901"
+   ]
+  },
+  {
+   "application_number": "NDA050324",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "NEODECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "NEOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19690915"
+   ]
+  },
+  {
+   "application_number": "ANDA084084",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740710"
+   ]
+  },
+  {
+   "application_number": "NDA014242",
+   "sponsor": "UCB INC",
+   "products": [
+    {
+     "brand": "DEXACORT",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19651217"
+   ]
+  },
+  {
+   "application_number": "ANDA084081",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740703"
+   ]
+  },
+  {
+   "application_number": "ANDA089280",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084086",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740627"
+   ]
+  },
+  {
+   "application_number": "ANDA089281",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA089282",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA081125",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19900831"
+   ]
+  },
+  {
+   "application_number": "ANDA081126",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19900831"
+   ]
+  },
+  {
+   "application_number": "ANDA084614",
+   "sponsor": "ROXANE",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA011664",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19581030"
+   ]
+  },
+  {
+   "application_number": "ANDA062411",
+   "sponsor": "PHARMAFAIR",
+   "products": [
+    {
+     "brand": "DEXASPORIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA064055",
+   "sponsor": "BAUSCH AND LOMB",
+   "products": [
+    {
+     "brand": "NEOMYCIN SULFATE AND DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "NEOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951030"
+   ]
+  },
+  {
+   "application_number": "ANDA062428",
+   "sponsor": "PHARMAFAIR",
+   "products": [
+    {
+     "brand": "DEXASPORIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA011977",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19590902"
+   ]
+  },
+  {
+   "application_number": "ANDA085606",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA088316",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830915"
+   ]
+  },
+  {
+   "application_number": "NDA012731",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECASPRAY",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19610329"
+   ]
+  },
+  {
+   "application_number": "ANDA084173",
+   "sponsor": "SOLA BARNES HIND",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19750218"
+   ]
+  },
+  {
+   "application_number": "ANDA084170",
+   "sponsor": "SOLA BARNES HIND",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19741219"
+   ]
+  },
+  {
+   "application_number": "NDA011983",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19590826"
+   ]
+  },
+  {
+   "application_number": "NDA011984",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19590902"
+   ]
+  },
+  {
+   "application_number": "ANDA085641",
+   "sponsor": "WYETH AYERST",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA088997",
+   "sponsor": "ALPHARMA US PHARMS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA211451",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230801"
+   ]
+  },
+  {
+   "application_number": "ANDA217723",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "CIPROFLOXACIN AND DEXAMETHASONE",
+     "status": "Prescription",
+     "ingredients": [
+      "CIPROFLOXACIN",
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20261015"
+   ]
+  },
+  {
+   "application_number": "NDA013334",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON W/ XYLOCAINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "LIDOCAINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19620711"
+   ]
+  },
+  {
+   "application_number": "ANDA089372",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA087668",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820701"
+   ]
+  },
+  {
+   "application_number": "NDA012376",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19600707"
+   ]
+  },
+  {
+   "application_number": "ANDA084752",
+   "sponsor": "BEL MAR",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19790315"
+   ]
+  },
+  {
+   "application_number": "ANDA084763",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780323"
+   ]
+  },
+  {
+   "application_number": "ANDA084766",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780323"
+   ]
+  },
+  {
+   "application_number": "ANDA084764",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780323"
+   ]
+  },
+  {
+   "application_number": "ANDA087711",
+   "sponsor": "WATSON LABS TEVA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE ACETATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE ACETATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820524"
+   ]
+  },
+  {
+   "application_number": "ANDA084765",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780323"
+   ]
+  },
+  {
+   "application_number": "ANDA083702",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA088071",
+   "sponsor": "PHARMAFAIR",
+   "products": [
+    {
+     "brand": "DEXAIR",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084315",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE ACETATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE ACETATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19781108"
+   ]
+  },
+  {
+   "application_number": "NDA050592",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "TOBRADEX",
+     "status": "Prescription",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "TOBRAMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19880818"
+   ]
+  },
+  {
+   "application_number": "NDA016675",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON-LA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE ACETATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19730906"
+   ]
+  },
+  {
+   "application_number": "ANDA062938",
+   "sponsor": "PADAGIS US",
+   "products": [
+    {
+     "brand": "NEOMYCIN AND POLYMYXIN B SULFATES AND DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890731"
+   ]
+  },
+  {
+   "application_number": "ANDA062539",
+   "sponsor": "PHARMAFAIR",
+   "products": [
+    {
+     "brand": "NEOMYCIN SULFATE-DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE",
+      "NEOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA084327",
+   "sponsor": "WHITEWORTH TOWN PLSN",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19750218"
+   ]
+  },
+  {
+   "application_number": "ANDA062544",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "DEXACIDIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19841029"
+   ]
+  },
+  {
+   "application_number": "ANDA084342",
+   "sponsor": "CENT PHARMS",
+   "products": [
+    {
+     "brand": "DEXACEN-4",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA214890",
+   "sponsor": "QUAGEN",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230707"
+   ]
+  },
+  {
+   "application_number": "NDA013413",
+   "sponsor": "UCB INC",
+   "products": [
+    {
+     "brand": "DEXACORT",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19620917"
+   ]
+  },
+  {
+   "application_number": "ANDA088433",
+   "sponsor": "PHARMAFAIR",
+   "products": [
+    {
+     "brand": "DEXAIR",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA083161",
+   "sponsor": "DELL LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19780606"
+   ]
+  },
+  {
+   "application_number": "ANDA084355",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA012071",
+   "sponsor": "MERCK",
+   "products": [
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "DECADRON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19591006"
+   ]
+  },
+  {
+   "application_number": "ANDA088448",
+   "sponsor": "ABRAXIS PHARM",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062566",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "DEXACIDIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE",
+      "NEOMYCIN SULFATE",
+      "POLYMYXIN B SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19850222"
+   ]
+  },
+  {
+   "application_number": "ANDA084855",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19760629"
+   ]
+  },
+  {
+   "application_number": "ANDA083806",
+   "sponsor": "PHOENIX LABS NY",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740909"
+   ]
+  },
+  {
+   "application_number": "ANDA088469",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19840125"
+   ]
+  },
+  {
+   "application_number": "ANDA088771",
+   "sponsor": "CAPLIN",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE SODIUM PHOSPHATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19850116"
+   ]
+  },
+  {
+   "application_number": "NDA014694",
+   "sponsor": "ASPEN GLOBAL INC",
+   "products": [
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "HEXADROL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE SODIUM PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19641204"
+   ]
+  },
+  {
+   "application_number": "ANDA085818",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DEXAMETHASONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DEXAMETHASONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19771021"
+   ]
+  }
+ ]
+}

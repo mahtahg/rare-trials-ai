@@ -1,0 +1,402 @@
+{
+ "name": "selexipag",
+ "retrieved_at": "2026-11-06T15:31:09.922158+00:00",
+ "n": 7,
+ "applications": [
+  {
+   "application_number": "NDA214275",
+   "sponsor": "ACTELION",
+   "products": [
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210729"
+   ]
+  },
+  {
+   "application_number": "NDA207947",
+   "sponsor": "ACTELION",
+   "products": [
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "UPTRAVI",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA214302",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Discontinued",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221221"
+   ]
+  },
+  {
+   "application_number": "ANDA214367",
+   "sponsor": "MSN LABORATORIES PRIVATE LTD",
+   "products": [
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA214414",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231011"
+   ]
+  },
+  {
+   "application_number": "ANDA219117",
+   "sponsor": "LANNETT CO INC",
+   "products": [
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA214055",
+   "sponsor": "RK PHARMA",
+   "products": [
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    },
+    {
+     "brand": "SELEXIPAG",
+     "status": "Prescription",
+     "ingredients": [
+      "SELEXIPAG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260416"
+   ]
+  }
+ ]
+}

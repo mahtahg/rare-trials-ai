@@ -1,0 +1,669 @@
+{
+ "name": "doxorubicin hydrochloride",
+ "retrieved_at": "2026-11-06T15:30:43.122921+00:00",
+ "n": 30,
+ "applications": [
+  {
+   "application_number": "NDA050718",
+   "sponsor": "BAXTER HLTHCARE CORP",
+   "products": [
+    {
+     "brand": "DOXIL (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXIL (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951117"
+   ]
+  },
+  {
+   "application_number": "ANDA219881",
+   "sponsor": "QILU PHARM HAINAN",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260203"
+   ]
+  },
+  {
+   "application_number": "ANDA212299",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200910"
+   ]
+  },
+  {
+   "application_number": "ANDA091418",
+   "sponsor": "SUN PHARM INDS",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120215"
+   ]
+  },
+  {
+   "application_number": "ANDA208888",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170217"
+   ]
+  },
+  {
+   "application_number": "ANDA063277",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951026"
+   ]
+  },
+  {
+   "application_number": "ANDA203622",
+   "sponsor": "ACTAVIS INC",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140627"
+   ]
+  },
+  {
+   "application_number": "ANDA203263",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130204"
+   ]
+  },
+  {
+   "application_number": "ANDA064097",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19940913"
+   ]
+  },
+  {
+   "application_number": "ANDA215178",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240716"
+   ]
+  },
+  {
+   "application_number": "ANDA200170",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111028"
+   ]
+  },
+  {
+   "application_number": "ANDA062921",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890317"
+   ]
+  },
+  {
+   "application_number": "ANDA209825",
+   "sponsor": "GLAND",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170811"
+   ]
+  },
+  {
+   "application_number": "ANDA219199",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250627"
+   ]
+  },
+  {
+   "application_number": "ANDA062975",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890317"
+   ]
+  },
+  {
+   "application_number": "NDA050629",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19871223"
+   ]
+  },
+  {
+   "application_number": "ANDA063097",
+   "sponsor": "PHARMACHEMIE BV",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19900521"
+   ]
+  },
+  {
+   "application_number": "ANDA063165",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ADRIAMYCIN PFS",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "ADRIAMYCIN PFS",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19910130"
+   ]
+  },
+  {
+   "application_number": "ANDA063336",
+   "sponsor": "PHARMACHEMIE BV",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950228"
+   ]
+  },
+  {
+   "application_number": "ANDA091495",
+   "sponsor": "SAGENT PHARMS",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130318"
+   ]
+  },
+  {
+   "application_number": "ANDA208657",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170515"
+   ]
+  },
+  {
+   "application_number": "NDA050467",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740807"
+   ]
+  },
+  {
+   "application_number": "ANDA200901",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120214"
+   ]
+  },
+  {
+   "application_number": "ANDA200146",
+   "sponsor": "HLTHCARE",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120718"
+   ]
+  },
+  {
+   "application_number": "ANDA065515",
+   "sponsor": "ALMAJECT",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20121108"
+   ]
+  },
+  {
+   "application_number": "ANDA064140",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950728"
+   ]
+  },
+  {
+   "application_number": "ANDA207228",
+   "sponsor": "AYANA PHARMA LTD",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20211012"
+   ]
+  },
+  {
+   "application_number": "ANDA206062",
+   "sponsor": "HISUN PHARM HANGZHOU",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190513"
+   ]
+  },
+  {
+   "application_number": "ANDA062926",
+   "sponsor": "BRISTOL MYERS SQUIBB",
+   "products": [
+    {
+     "brand": "RUBEX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "RUBEX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "RUBEX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890413"
+   ]
+  },
+  {
+   "application_number": "ANDA212219",
+   "sponsor": "BAXTER HLTHCARE CORP",
+   "products": [
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DOXORUBICIN HYDROCHLORIDE (LIPOSOMAL)",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXORUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221019"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1187 @@
+{
+ "name": "carboplatin",
+ "retrieved_at": "2026-11-06T15:30:34.035670+00:00",
+ "n": 37,
+ "applications": [
+  {
+   "application_number": "ANDA205487",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160328"
+   ]
+  },
+  {
+   "application_number": "NDA219921",
+   "sponsor": "AVYXA HOLDINGS",
+   "products": [
+    {
+     "brand": "KYXATA",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "KYXATA",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "KYXATA",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250808"
+   ]
+  },
+  {
+   "application_number": "ANDA077059",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041123"
+   ]
+  },
+  {
+   "application_number": "ANDA076517",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041014"
+   ]
+  },
+  {
+   "application_number": "ANDA206775",
+   "sponsor": "ACCORD HLTHCARE",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170209"
+   ]
+  },
+  {
+   "application_number": "ANDA207324",
+   "sponsor": "GLAND",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170215"
+   ]
+  },
+  {
+   "application_number": "ANDA077861",
+   "sponsor": "TEYRO LABS",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070118"
+   ]
+  },
+  {
+   "application_number": "ANDA077269",
+   "sponsor": "PHARMACHEMIE BV",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041014"
+   ]
+  },
+  {
+   "application_number": "ANDA077266",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060215"
+   ]
+  },
+  {
+   "application_number": "ANDA076162",
+   "sponsor": "WATSON LABS TEVA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041014"
+   ]
+  },
+  {
+   "application_number": "ANDA091063",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111109"
+   ]
+  },
+  {
+   "application_number": "NDA020452",
+   "sponsor": "CORDENPHARMA",
+   "products": [
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030714"
+   ]
+  },
+  {
+   "application_number": "NDA019880",
+   "sponsor": "CORDEN PHARMA",
+   "products": [
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "PARAPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890303"
+   ]
+  },
+  {
+   "application_number": "ANDA076473",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041027"
+   ]
+  },
+  {
+   "application_number": "ANDA219999",
+   "sponsor": "QILU PHARM HAINAN",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260204"
+   ]
+  },
+  {
+   "application_number": "ANDA090475",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090729"
+   ]
+  },
+  {
+   "application_number": "ANDA091478",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111123"
+   ]
+  },
+  {
+   "application_number": "ANDA077679",
+   "sponsor": "PHARMACHEMIE BV",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090225"
+   ]
+  },
+  {
+   "application_number": "ANDA076235",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041014"
+   ]
+  },
+  {
+   "application_number": "ANDA078280",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080508"
+   ]
+  },
+  {
+   "application_number": "ANDA077389",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070330"
+   ]
+  },
+  {
+   "application_number": "ANDA077383",
+   "sponsor": "CIPLA LTD",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060127"
+   ]
+  },
+  {
+   "application_number": "ANDA077096",
+   "sponsor": "MEITHEAL",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050614"
+   ]
+  },
+  {
+   "application_number": "ANDA091510",
+   "sponsor": "NATCO PHARMA USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120529"
+   ]
+  },
+  {
+   "application_number": "ANDA077998",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070424"
+   ]
+  },
+  {
+   "application_number": "ANDA077432",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060929"
+   ]
+  },
+  {
+   "application_number": "ANDA078631",
+   "sponsor": "PLIVA LACHEMA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20081202"
+   ]
+  },
+  {
+   "application_number": "ANDA077139",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050921"
+   ]
+  },
+  {
+   "application_number": "ANDA077926",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080919"
+   ]
+  },
+  {
+   "application_number": "ANDA091268",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100728"
+   ]
+  },
+  {
+   "application_number": "ANDA076602",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041116"
+   ]
+  },
+  {
+   "application_number": "ANDA076099",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041014"
+   ]
+  },
+  {
+   "application_number": "ANDA077247",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041021"
+   ]
+  },
+  {
+   "application_number": "ANDA077244",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Prescription",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041015"
+   ]
+  },
+  {
+   "application_number": "ANDA078732",
+   "sponsor": "ACTAVIS TOTOWA",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120206"
+   ]
+  },
+  {
+   "application_number": "ANDA076959",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050318"
+   ]
+  },
+  {
+   "application_number": "ANDA208487",
+   "sponsor": "INGENUS PHARMS LLC",
+   "products": [
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    },
+    {
+     "brand": "CARBOPLATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "CARBOPLATIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170426"
+   ]
+  }
+ ]
+}

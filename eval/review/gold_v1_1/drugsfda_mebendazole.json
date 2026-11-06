@@ -1,0 +1,55 @@
+{
+ "name": "mebendazole",
+ "retrieved_at": "2026-11-06T15:30:55.449764+00:00",
+ "n": 3,
+ "applications": [
+  {
+   "application_number": "NDA208398",
+   "sponsor": "JANSSEN PHARMS",
+   "products": [
+    {
+     "brand": "VERMOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20161019"
+   ]
+  },
+  {
+   "application_number": "NDA017481",
+   "sponsor": "JANSSEN PHARMS",
+   "products": [
+    {
+     "brand": "VERMOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740628"
+   ]
+  },
+  {
+   "application_number": "ANDA073580",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "EMVERM",
+     "status": "Prescription",
+     "ingredients": [
+      "MEBENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950104"
+   ]
+  }
+ ]
+}

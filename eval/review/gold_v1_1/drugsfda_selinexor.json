@@ -1,0 +1,58 @@
+{
+ "name": "selinexor",
+ "retrieved_at": "2026-11-06T15:30:41.759538+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA212306",
+   "sponsor": "KARYOPHARM THERAPS",
+   "products": [
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    },
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    },
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    },
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    },
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    },
+    {
+     "brand": "XPOVIO",
+     "status": "Prescription",
+     "ingredients": [
+      "SELINEXOR"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190703"
+   ]
+  }
+ ]
+}

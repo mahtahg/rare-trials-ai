@@ -1,0 +1,1288 @@
+{
+ "name": "azithromycin",
+ "retrieved_at": "2026-11-06T15:30:39.567636+00:00",
+ "n": 75,
+ "applications": [
+  {
+   "application_number": "ANDA207370",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180705"
+   ]
+  },
+  {
+   "application_number": "ANDA207398",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180705"
+   ]
+  },
+  {
+   "application_number": "NDA050711",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19960718"
+   ]
+  },
+  {
+   "application_number": "NDA050710",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "ZITHROMAX",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951019"
+   ]
+  },
+  {
+   "application_number": "NDA050733",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19970130"
+   ]
+  },
+  {
+   "application_number": "ANDA065400",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150515"
+   ]
+  },
+  {
+   "application_number": "ANDA065398",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150515"
+   ]
+  },
+  {
+   "application_number": "ANDA065399",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150515"
+   ]
+  },
+  {
+   "application_number": "ANDA209999",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181226"
+   ]
+  },
+  {
+   "application_number": "ANDA210000",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190226"
+   ]
+  },
+  {
+   "application_number": "ANDA210001",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190226"
+   ]
+  },
+  {
+   "application_number": "ANDA208249",
+   "sponsor": "CSPC OUYI",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181025"
+   ]
+  },
+  {
+   "application_number": "ANDA208250",
+   "sponsor": "CSPC OUYI",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190417"
+   ]
+  },
+  {
+   "application_number": "NDA050784",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20020524"
+   ]
+  },
+  {
+   "application_number": "ANDA065179",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051213"
+   ]
+  },
+  {
+   "application_number": "NDA050810",
+   "sponsor": "THEA PHARMA",
+   "products": [
+    {
+     "brand": "AZASITE",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070427"
+   ]
+  },
+  {
+   "application_number": "ANDA207531",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180409"
+   ]
+  },
+  {
+   "application_number": "ANDA203294",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150619"
+   ]
+  },
+  {
+   "application_number": "ANDA065209",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA065211",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA065212",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA065488",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150515"
+   ]
+  },
+  {
+   "application_number": "ANDA207566",
+   "sponsor": "CSPC OUYI",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180924"
+   ]
+  },
+  {
+   "application_number": "ANDA209044",
+   "sponsor": "SUNSHINE",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181207"
+   ]
+  },
+  {
+   "application_number": "ANDA209045",
+   "sponsor": "SUNSHINE",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181207"
+   ]
+  },
+  {
+   "application_number": "ANDA065501",
+   "sponsor": "GLAND PHARMA LTD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20091109"
+   ]
+  },
+  {
+   "application_number": "ANDA211792",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200128"
+   ]
+  },
+  {
+   "application_number": "ANDA211791",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200128"
+   ]
+  },
+  {
+   "application_number": "ANDA211793",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200127"
+   ]
+  },
+  {
+   "application_number": "ANDA211147",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180731"
+   ]
+  },
+  {
+   "application_number": "ANDA203412",
+   "sponsor": "HAINAN POLY",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181009"
+   ]
+  },
+  {
+   "application_number": "ANDA217036",
+   "sponsor": "ZHEJIANG POLY PHARM",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230727"
+   ]
+  },
+  {
+   "application_number": "ANDA209201",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181009"
+   ]
+  },
+  {
+   "application_number": "NDA050670",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19911101"
+   ]
+  },
+  {
+   "application_number": "NDA050693",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19940928"
+   ]
+  },
+  {
+   "application_number": "ANDA065360",
+   "sponsor": "AUROBINDO PHARMA USA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070108"
+   ]
+  },
+  {
+   "application_number": "ANDA202793",
+   "sponsor": "NOVEL LABS INC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA065365",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070530"
+   ]
+  },
+  {
+   "application_number": "ANDA065366",
+   "sponsor": "EXTROVIS",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070530"
+   ]
+  },
+  {
+   "application_number": "NDA050730",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZITHROMAX",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19960612"
+   ]
+  },
+  {
+   "application_number": "ANDA211317",
+   "sponsor": "CARLSBAD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220726"
+   ]
+  },
+  {
+   "application_number": "ANDA211318",
+   "sponsor": "FOSUN PHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210317"
+   ]
+  },
+  {
+   "application_number": "ANDA065404",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080211"
+   ]
+  },
+  {
+   "application_number": "ANDA065405",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080211"
+   ]
+  },
+  {
+   "application_number": "ANDA204732",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170126"
+   ]
+  },
+  {
+   "application_number": "ANDA065150",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "NDA050762",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "TROVAN/ZITHROMAX COMPLIANCE PAK",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN DIHYDRATE",
+      "TROVAFLOXACIN MESYLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19981218"
+   ]
+  },
+  {
+   "application_number": "ANDA065153",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA065419",
+   "sponsor": "TEVA PHARMS",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080624"
+   ]
+  },
+  {
+   "application_number": "NDA050797",
+   "sponsor": "PF PRISM CV",
+   "products": [
+    {
+     "brand": "ZMAX",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050610"
+   ]
+  },
+  {
+   "application_number": "NDA050809",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20061219"
+   ]
+  },
+  {
+   "application_number": "ANDA065193",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA211068",
+   "sponsor": "CARLSBAD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200508"
+   ]
+  },
+  {
+   "application_number": "ANDA065218",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA209043",
+   "sponsor": "SUNSHINE",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181206"
+   ]
+  },
+  {
+   "application_number": "ANDA065500",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090626"
+   ]
+  },
+  {
+   "application_number": "ANDA065223",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA213056",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230407"
+   ]
+  },
+  {
+   "application_number": "ANDA065506",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090324"
+   ]
+  },
+  {
+   "application_number": "ANDA065225",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051114"
+   ]
+  },
+  {
+   "application_number": "ANDA205666",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180719"
+   ]
+  },
+  {
+   "application_number": "ANDA065507",
+   "sponsor": "APOTEX CORP",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110713"
+   ]
+  },
+  {
+   "application_number": "ANDA065508",
+   "sponsor": "APOTEX CORP",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110713"
+   ]
+  },
+  {
+   "application_number": "ANDA065509",
+   "sponsor": "APOTEX CORP",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110713"
+   ]
+  },
+  {
+   "application_number": "ANDA065511",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090626"
+   ]
+  },
+  {
+   "application_number": "ANDA090923",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130402"
+   ]
+  },
+  {
+   "application_number": "ANDA065246",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060706"
+   ]
+  },
+  {
+   "application_number": "ANDA202308",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA065265",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070118"
+   ]
+  },
+  {
+   "application_number": "ANDA211521",
+   "sponsor": "TARO",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191211"
+   ]
+  },
+  {
+   "application_number": "ANDA213275",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230411"
+   ]
+  },
+  {
+   "application_number": "ANDA065297",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    },
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060918"
+   ]
+  },
+  {
+   "application_number": "ANDA065302",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080211"
+   ]
+  },
+  {
+   "application_number": "ANDA215772",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220715"
+   ]
+  },
+  {
+   "application_number": "ANDA215773",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "AZITHROMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "AZITHROMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220712"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "name": "rilzabrutinib",
+ "retrieved_at": "2026-11-06T15:31:05.131142+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA219685",
+   "sponsor": "GENZYME CORP",
+   "products": [
+    {
+     "brand": "WAYRILZ",
+     "status": "Prescription",
+     "ingredients": [
+      "RILZABRUTINIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250829"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "name": "nifurtimox",
+ "retrieved_at": "2026-11-06T15:31:06.116570+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA213464",
+   "sponsor": "BAYER HEALTHCARE",
+   "products": [
+    {
+     "brand": "LAMPIT",
+     "status": "Prescription",
+     "ingredients": [
+      "NIFURTIMOX"
+     ]
+    },
+    {
+     "brand": "LAMPIT",
+     "status": "Prescription",
+     "ingredients": [
+      "NIFURTIMOX"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200806"
+   ]
+  }
+ ]
+}

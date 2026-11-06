@@ -1,0 +1,289 @@
+{
+ "name": "vincristine sulfate",
+ "retrieved_at": "2026-11-06T15:30:43.455644+00:00",
+ "n": 18,
+ "applications": [
+  {
+   "application_number": "ANDA071484",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE PFS",
+     "status": "Prescription",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19880419"
+   ]
+  },
+  {
+   "application_number": "ANDA070777",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA070778",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA071426",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "VINCASAR PFS",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19870717"
+   ]
+  },
+  {
+   "application_number": "NDA202497",
+   "sponsor": "ACROTECH",
+   "products": [
+    {
+     "brand": "MARQIBO KIT",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120809"
+   ]
+  },
+  {
+   "application_number": "ANDA071937",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA070867",
+   "sponsor": "BRISTOL MYERS SQUIBB",
+   "products": [
+    {
+     "brand": "VINCREX",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19880712"
+   ]
+  },
+  {
+   "application_number": "ANDA071560",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA071559",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA071561",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA070873",
+   "sponsor": "ABIC",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA071222",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA071223",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA076296",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20021220"
+   ]
+  },
+  {
+   "application_number": "ANDA075493",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE PFS",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19990901"
+   ]
+  },
+  {
+   "application_number": "NDA014103",
+   "sponsor": "LILLY",
+   "products": [
+    {
+     "brand": "ONCOVIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    },
+    {
+     "brand": "ONCOVIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    },
+    {
+     "brand": "ONCOVIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19630710"
+   ]
+  },
+  {
+   "application_number": "ANDA076401",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20031028"
+   ]
+  },
+  {
+   "application_number": "ANDA070411",
+   "sponsor": "ABRAXIS PHARM",
+   "products": [
+    {
+     "brand": "VINCRISTINE SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "VINCRISTINE SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  }
+ ]
+}

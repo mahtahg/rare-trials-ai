@@ -1,0 +1,23 @@
+{
+ "name": "vismodegib",
+ "retrieved_at": "2026-11-06T15:30:40.832121+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA203388",
+   "sponsor": "GENENTECH",
+   "products": [
+    {
+     "brand": "ERIVEDGE",
+     "status": "Prescription",
+     "ingredients": [
+      "VISMODEGIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120130"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "name": "busulfan",
+ "retrieved_at": "2026-11-06T15:30:33.716309+00:00",
+ "n": 17,
+ "applications": [
+  {
+   "application_number": "ANDA209580",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171218"
+   ]
+  },
+  {
+   "application_number": "ANDA215102",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240625"
+   ]
+  },
+  {
+   "application_number": "ANDA212127",
+   "sponsor": "MEITHEAL",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20201023"
+   ]
+  },
+  {
+   "application_number": "ANDA207050",
+   "sponsor": "PHARMASCIENCE INC",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170324"
+   ]
+  },
+  {
+   "application_number": "ANDA205672",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180731"
+   ]
+  },
+  {
+   "application_number": "NDA009386",
+   "sponsor": "WAYLIS THERAP",
+   "products": [
+    {
+     "brand": "MYLERAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19540626"
+   ]
+  },
+  {
+   "application_number": "ANDA210148",
+   "sponsor": "ACCORD HLTHCARE INC",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190222"
+   ]
+  },
+  {
+   "application_number": "ANDA210931",
+   "sponsor": "ADAPTIS",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190418"
+   ]
+  },
+  {
+   "application_number": "ANDA208536",
+   "sponsor": "MYLAN INSTITUTIONAL",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171120"
+   ]
+  },
+  {
+   "application_number": "ANDA207794",
+   "sponsor": "NEXUS",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190114"
+   ]
+  },
+  {
+   "application_number": "ANDA205106",
+   "sponsor": "QUAGEN",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180921"
+   ]
+  },
+  {
+   "application_number": "ANDA205139",
+   "sponsor": "ACTAVIS",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171208"
+   ]
+  },
+  {
+   "application_number": "ANDA205184",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180713"
+   ]
+  },
+  {
+   "application_number": "NDA020954",
+   "sponsor": "OTSUKA PHARM",
+   "products": [
+    {
+     "brand": "BUSULFEX",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19990204"
+   ]
+  },
+  {
+   "application_number": "ANDA202259",
+   "sponsor": "AM REGENT",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151222"
+   ]
+  },
+  {
+   "application_number": "ANDA210448",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190507"
+   ]
+  },
+  {
+   "application_number": "ANDA215235",
+   "sponsor": "PRINSTON",
+   "products": [
+    {
+     "brand": "BUSULFAN",
+     "status": "Prescription",
+     "ingredients": [
+      "BUSULFAN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240911"
+   ]
+  }
+ ]
+}

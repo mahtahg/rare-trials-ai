@@ -1,0 +1,46 @@
+{
+ "name": "botulinum toxin type a",
+ "retrieved_at": "2026-11-06T15:31:08.845192+00:00",
+ "n": 2,
+ "applications": [
+  {
+   "application_number": "BLA125274",
+   "sponsor": "IPSEN BIOPHARM LTD",
+   "products": [
+    {
+     "brand": "DYSPORT",
+     "status": "Prescription",
+     "ingredients": [
+      "abobotulinumtoxinA"
+     ]
+    },
+    {
+     "brand": "DYSPORT",
+     "status": "Prescription",
+     "ingredients": [
+      "abobotulinumtoxinA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090429"
+   ]
+  },
+  {
+   "application_number": "BLA761127",
+   "sponsor": "REVANCE THERAPEUTICS, INC.",
+   "products": [
+    {
+     "brand": "DAXXIFY",
+     "status": "Prescription",
+     "ingredients": [
+      "DAXIBOTULINUMTOXINA-LANM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220907"
+   ]
+  }
+ ]
+}

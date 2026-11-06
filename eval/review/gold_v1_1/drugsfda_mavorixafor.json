@@ -1,0 +1,23 @@
+{
+ "name": "mavorixafor",
+ "retrieved_at": "2026-11-06T15:30:42.064855+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA218709",
+   "sponsor": "X4 PHARMS",
+   "products": [
+    {
+     "brand": "XOLREMDI",
+     "status": "Prescription",
+     "ingredients": [
+      "MAVORIXAFOR"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240426"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "name": "praziquantel",
+ "retrieved_at": "2026-11-06T15:30:53.532128+00:00",
+ "n": 2,
+ "applications": [
+  {
+   "application_number": "NDA018714",
+   "sponsor": "BAYER HLTHCARE",
+   "products": [
+    {
+     "brand": "BILTRICIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "PRAZIQUANTEL"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19821229"
+   ]
+  },
+  {
+   "application_number": "ANDA208820",
+   "sponsor": "PH HEALTH",
+   "products": [
+    {
+     "brand": "PRAZIQUANTEL",
+     "status": "Prescription",
+     "ingredients": [
+      "PRAZIQUANTEL"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171127"
+   ]
+  }
+ ]
+}

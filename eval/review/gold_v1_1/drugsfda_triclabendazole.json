@@ -1,0 +1,23 @@
+{
+ "name": "triclabendazole",
+ "retrieved_at": "2026-11-06T15:30:38.595106+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA208711",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "EGATEN",
+     "status": "Prescription",
+     "ingredients": [
+      "TRICLABENDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190213"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "name": "eflornithine",
+ "retrieved_at": "2026-11-06T15:30:37.402037+00:00",
+ "n": 3,
+ "applications": [
+  {
+   "application_number": "NDA215500",
+   "sponsor": "USWM",
+   "products": [
+    {
+     "brand": "IWILFIN",
+     "status": "Prescription",
+     "ingredients": [
+      "EFLORNITHINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231213"
+   ]
+  },
+  {
+   "application_number": "NDA021145",
+   "sponsor": "ABBVIE",
+   "products": [
+    {
+     "brand": "VANIQA",
+     "status": "Discontinued",
+     "ingredients": [
+      "EFLORNITHINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000727"
+   ]
+  },
+  {
+   "application_number": "NDA019879",
+   "sponsor": "SANOFI AVENTIS US",
+   "products": [
+    {
+     "brand": "ORNIDYL",
+     "status": "Discontinued",
+     "ingredients": [
+      "EFLORNITHINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19901128"
+   ]
+  }
+ ]
+}

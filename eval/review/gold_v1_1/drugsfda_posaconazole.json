@@ -1,0 +1,437 @@
+{
+ "name": "posaconazole",
+ "retrieved_at": "2026-11-06T15:30:48.892194+00:00",
+ "n": 27,
+ "applications": [
+  {
+   "application_number": "ANDA217553",
+   "sponsor": "GLAND",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231226"
+   ]
+  },
+  {
+   "application_number": "ANDA218434",
+   "sponsor": "MSN",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250224"
+   ]
+  },
+  {
+   "application_number": "ANDA213454",
+   "sponsor": "AET PHARMA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210201"
+   ]
+  },
+  {
+   "application_number": "ANDA209983",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231226"
+   ]
+  },
+  {
+   "application_number": "ANDA214321",
+   "sponsor": "HETERO LABS LTD III",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221208"
+   ]
+  },
+  {
+   "application_number": "ANDA212411",
+   "sponsor": "SINOTHERAPEUTICS INC",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190821"
+   ]
+  },
+  {
+   "application_number": "NDA022003",
+   "sponsor": "SCHERING",
+   "products": [
+    {
+     "brand": "NOXAFIL",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060915"
+   ]
+  },
+  {
+   "application_number": "NDA205596",
+   "sponsor": "MERCK SHARP DOHME",
+   "products": [
+    {
+     "brand": "NOXAFIL",
+     "status": "Discontinued",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140313"
+   ]
+  },
+  {
+   "application_number": "ANDA219057",
+   "sponsor": "ASPIRO",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241223"
+   ]
+  },
+  {
+   "application_number": "NDA214770",
+   "sponsor": "MSD MERCK CO",
+   "products": [
+    {
+     "brand": "NOXAFIL POWDERMIX KIT",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210531"
+   ]
+  },
+  {
+   "application_number": "NDA205053",
+   "sponsor": "MERCK SHARP DOHME",
+   "products": [
+    {
+     "brand": "NOXAFIL",
+     "status": "Discontinued",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20131125"
+   ]
+  },
+  {
+   "application_number": "ANDA217119",
+   "sponsor": "AUROBINDO PHARMA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240718"
+   ]
+  },
+  {
+   "application_number": "ANDA216488",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230828"
+   ]
+  },
+  {
+   "application_number": "ANDA212500",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220407"
+   ]
+  },
+  {
+   "application_number": "ANDA214842",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231226"
+   ]
+  },
+  {
+   "application_number": "ANDA211500",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231226"
+   ]
+  },
+  {
+   "application_number": "ANDA208768",
+   "sponsor": "PH HEALTH",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220525"
+   ]
+  },
+  {
+   "application_number": "ANDA208773",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200515"
+   ]
+  },
+  {
+   "application_number": "ANDA212226",
+   "sponsor": "SPECGX LLC",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220510"
+   ]
+  },
+  {
+   "application_number": "ANDA216626",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221222"
+   ]
+  },
+  {
+   "application_number": "ANDA216326",
+   "sponsor": "SOMERSET THERAPS LLC",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230620"
+   ]
+  },
+  {
+   "application_number": "NDA022027",
+   "sponsor": "SCHERING",
+   "products": [
+    {
+     "brand": "NOXAFIL",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20061020"
+   ]
+  },
+  {
+   "application_number": "ANDA217709",
+   "sponsor": "HAINAN POLY PHARM",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA217720",
+   "sponsor": "QILU PHARM HAINAN",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250423"
+   ]
+  },
+  {
+   "application_number": "ANDA214476",
+   "sponsor": "BIOCON PHARMA",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220204"
+   ]
+  },
+  {
+   "application_number": "ANDA213331",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260629"
+   ]
+  },
+  {
+   "application_number": "ANDA207355",
+   "sponsor": "ACTAVIS LABS FL INC",
+   "products": [
+    {
+     "brand": "POSACONAZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "POSACONAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221130"
+   ]
+  }
+ ]
+}

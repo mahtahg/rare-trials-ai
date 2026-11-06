@@ -1,0 +1,119 @@
+{
+ "name": "dactinomycin",
+ "retrieved_at": "2026-11-06T15:30:42.810158+00:00",
+ "n": 7,
+ "applications": [
+  {
+   "application_number": "ANDA213463",
+   "sponsor": "MEITHEAL",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20201113"
+   ]
+  },
+  {
+   "application_number": "ANDA203999",
+   "sponsor": "XGEN PHARMS",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190520"
+   ]
+  },
+  {
+   "application_number": "ANDA207232",
+   "sponsor": "HISUN PHARM HANGZHOU",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190716"
+   ]
+  },
+  {
+   "application_number": "ANDA203385",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171109"
+   ]
+  },
+  {
+   "application_number": "NDA050682",
+   "sponsor": "RECORDATI RARE",
+   "products": [
+    {
+     "brand": "COSMEGEN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19641210"
+   ]
+  },
+  {
+   "application_number": "ANDA202562",
+   "sponsor": "AM REGENT",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130823"
+   ]
+  },
+  {
+   "application_number": "ANDA090304",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DACTINOMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACTINOMYCIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100316"
+   ]
+  }
+ ]
+}

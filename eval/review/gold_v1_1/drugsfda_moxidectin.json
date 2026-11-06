@@ -1,0 +1,23 @@
+{
+ "name": "moxidectin",
+ "retrieved_at": "2026-11-06T15:30:49.564135+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA210867",
+   "sponsor": "MDGH",
+   "products": [
+    {
+     "brand": "MOXIDECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "MOXIDECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180613"
+   ]
+  }
+ ]
+}

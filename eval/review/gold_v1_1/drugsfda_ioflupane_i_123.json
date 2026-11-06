@@ -1,0 +1,39 @@
+{
+ "name": "ioflupane i 123",
+ "retrieved_at": "2026-11-06T15:30:45.097754+00:00",
+ "n": 2,
+ "applications": [
+  {
+   "application_number": "ANDA213792",
+   "sponsor": "CURIUM",
+   "products": [
+    {
+     "brand": "IOFLUPANE I-123",
+     "status": "Prescription",
+     "ingredients": [
+      "IOFLUPANE I-123"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220330"
+   ]
+  },
+  {
+   "application_number": "NDA022454",
+   "sponsor": "GE HLTHCARE INC",
+   "products": [
+    {
+     "brand": "DATSCAN",
+     "status": "Prescription",
+     "ingredients": [
+      "IOFLUPANE I-123"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110114"
+   ]
+  }
+ ]
+}

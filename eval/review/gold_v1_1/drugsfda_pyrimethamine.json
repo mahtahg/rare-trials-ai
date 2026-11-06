@@ -1,0 +1,104 @@
+{
+ "name": "pyrimethamine",
+ "retrieved_at": "2026-11-06T15:30:53.862663+00:00",
+ "n": 6,
+ "applications": [
+  {
+   "application_number": "ANDA215506",
+   "sponsor": "TEVA PHARMS",
+   "products": [
+    {
+     "brand": "PYRIMETHAMINE",
+     "status": "Prescription",
+     "ingredients": [
+      "PYRIMETHAMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210813"
+   ]
+  },
+  {
+   "application_number": "ANDA207127",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "PYRIMETHAMINE",
+     "status": "Prescription",
+     "ingredients": [
+      "PYRIMETHAMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200228"
+   ]
+  },
+  {
+   "application_number": "NDA008578",
+   "sponsor": "TILDE SCIENCES",
+   "products": [
+    {
+     "brand": "DARAPRIM",
+     "status": "Prescription",
+     "ingredients": [
+      "PYRIMETHAMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19530123"
+   ]
+  },
+  {
+   "application_number": "ANDA216983",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "PYRIMETHAMINE",
+     "status": "Prescription",
+     "ingredients": [
+      "PYRIMETHAMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221025"
+   ]
+  },
+  {
+   "application_number": "ANDA211271",
+   "sponsor": "ALVOGEN",
+   "products": [
+    {
+     "brand": "PYRIMETHAMINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "PYRIMETHAMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210727"
+   ]
+  },
+  {
+   "application_number": "NDA018557",
+   "sponsor": "ROCHE",
+   "products": [
+    {
+     "brand": "FANSIDAR",
+     "status": "Discontinued",
+     "ingredients": [
+      "PYRIMETHAMINE",
+      "SULFADOXINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19811028"
+   ]
+  }
+ ]
+}

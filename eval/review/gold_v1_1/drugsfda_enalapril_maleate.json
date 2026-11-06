@@ -1,0 +1,1008 @@
+{
+ "name": "enalapril maleate",
+ "retrieved_at": "2026-11-06T15:30:40.193842+00:00",
+ "n": 36,
+ "applications": [
+  {
+   "application_number": "ANDA075909",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20011015"
+   ]
+  },
+  {
+   "application_number": "ANDA075657",
+   "sponsor": "TARO",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010123"
+   ]
+  },
+  {
+   "application_number": "ANDA212408",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210810"
+   ]
+  },
+  {
+   "application_number": "ANDA218531",
+   "sponsor": "UNIQUE PHARM",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240919"
+   ]
+  },
+  {
+   "application_number": "NDA208686",
+   "sponsor": "AZURITY",
+   "products": [
+    {
+     "brand": "EPANED",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160920"
+   ]
+  },
+  {
+   "application_number": "ANDA216458",
+   "sponsor": "AUROBINDO PHARMA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240108"
+   ]
+  },
+  {
+   "application_number": "NDA018998",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "VASOTEC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "VASOTEC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "VASOTEC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "VASOTEC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19851224"
+   ]
+  },
+  {
+   "application_number": "ANDA075459",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075178",
+   "sponsor": "AIPING PHARM INC",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010323"
+   ]
+  },
+  {
+   "application_number": "ANDA075479",
+   "sponsor": "HERITAGE PHARMA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "NDA019221",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "VASERETIC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "VASERETIC",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19861031"
+   ]
+  },
+  {
+   "application_number": "ANDA075788",
+   "sponsor": "TARO PHARM INDS",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010918"
+   ]
+  },
+  {
+   "application_number": "ANDA075496",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA214467",
+   "sponsor": "ANNORA PHARMA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220224"
+   ]
+  },
+  {
+   "application_number": "ANDA213273",
+   "sponsor": "PRINSTON",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220707"
+   ]
+  },
+  {
+   "application_number": "ANDA213714",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220330"
+   ]
+  },
+  {
+   "application_number": "ANDA075583",
+   "sponsor": "APOTHECON",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "NDA204308",
+   "sponsor": "AZURITY",
+   "products": [
+    {
+     "brand": "EPANED KIT",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130813"
+   ]
+  },
+  {
+   "application_number": "ANDA075621",
+   "sponsor": "REGCON HOLDINGS",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075624",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010918"
+   ]
+  },
+  {
+   "application_number": "ANDA076486",
+   "sponsor": "MPP PHARMA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041027"
+   ]
+  },
+  {
+   "application_number": "ANDA075048",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075370",
+   "sponsor": "KRKA DD NOVO MESTO",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075369",
+   "sponsor": "KRKA DD NOVO MESTO",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075727",
+   "sponsor": "COSETTE PHARMS NC",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010918"
+   ]
+  },
+  {
+   "application_number": "ANDA075736",
+   "sponsor": "IVAX SUB TEVA PHARMS",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030325"
+   ]
+  },
+  {
+   "application_number": "ANDA075472",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "NDA020507",
+   "sponsor": "BIOVAIL",
+   "products": [
+    {
+     "brand": "TECZEM",
+     "status": "Discontinued",
+     "ingredients": [
+      "DILTIAZEM MALATE",
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19961004"
+   ]
+  },
+  {
+   "application_number": "ANDA075483",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075480",
+   "sponsor": "AUROBINDO PHARMA USA",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA075482",
+   "sponsor": "IVAX SUB TEVA PHARMS",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "NDA020668",
+   "sponsor": "ASTRAZENECA",
+   "products": [
+    {
+     "brand": "LEXXEL",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "FELODIPINE"
+     ]
+    },
+    {
+     "brand": "LEXXEL",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "FELODIPINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19961227"
+   ]
+  },
+  {
+   "application_number": "ANDA212894",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220629"
+   ]
+  },
+  {
+   "application_number": "ANDA075501",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  },
+  {
+   "application_number": "ANDA076116",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE",
+      "HYDROCHLOROTHIAZIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010919"
+   ]
+  },
+  {
+   "application_number": "ANDA075556",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    },
+    {
+     "brand": "ENALAPRIL MALEATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ENALAPRIL MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000822"
+   ]
+  }
+ ]
+}

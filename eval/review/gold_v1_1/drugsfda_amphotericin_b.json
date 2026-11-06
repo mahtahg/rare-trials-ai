@@ -1,0 +1,286 @@
+{
+ "name": "amphotericin b",
+ "retrieved_at": "2026-11-06T15:30:47.098868+00:00",
+ "n": 17,
+ "applications": [
+  {
+   "application_number": "ANDA063206",
+   "sponsor": "XGEN PHARMS",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19920429"
+   ]
+  },
+  {
+   "application_number": "ANDA214010",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221117"
+   ]
+  },
+  {
+   "application_number": "ANDA212514",
+   "sponsor": "SPIL",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20211214"
+   ]
+  },
+  {
+   "application_number": "ANDA215354",
+   "sponsor": "AVET LIFESCIENCES",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250602"
+   ]
+  },
+  {
+   "application_number": "NDA050729",
+   "sponsor": "ALKOPHARMA USA",
+   "products": [
+    {
+     "brand": "AMPHOTEC",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    },
+    {
+     "brand": "AMPHOTEC",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19961122"
+   ]
+  },
+  {
+   "application_number": "NDA050740",
+   "sponsor": "ASTELLAS",
+   "products": [
+    {
+     "brand": "AMBISOME",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19970811"
+   ]
+  },
+  {
+   "application_number": "NDA050314",
+   "sponsor": "APOTHECON",
+   "products": [
+    {
+     "brand": "FUNGIZONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19660207"
+   ]
+  },
+  {
+   "application_number": "ANDA062728",
+   "sponsor": "ABRAXIS PHARM",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19870413"
+   ]
+  },
+  {
+   "application_number": "NDA050313",
+   "sponsor": "APOTHECON",
+   "products": [
+    {
+     "brand": "FUNGIZONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19651013"
+   ]
+  },
+  {
+   "application_number": "NDA050341",
+   "sponsor": "BRISTOL MYERS SQUIBB",
+   "products": [
+    {
+     "brand": "FUNGIZONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19710602"
+   ]
+  },
+  {
+   "application_number": "ANDA220139",
+   "sponsor": "QILU PHARM HAINAN",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20261014"
+   ]
+  },
+  {
+   "application_number": "ANDA064062",
+   "sponsor": "TEVA PARENTERAL",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950331"
+   ]
+  },
+  {
+   "application_number": "NDA050724",
+   "sponsor": "LEADIANT BIOSCI INC",
+   "products": [
+    {
+     "brand": "ABELCET",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951120"
+   ]
+  },
+  {
+   "application_number": "ANDA064141",
+   "sponsor": "ABBOTT",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19961223"
+   ]
+  },
+  {
+   "application_number": "ANDA060517",
+   "sponsor": "APOTHECON",
+   "products": [
+    {
+     "brand": "FUNGIZONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19660301"
+   ]
+  },
+  {
+   "application_number": "ANDA060570",
+   "sponsor": "APOTHECON",
+   "products": [
+    {
+     "brand": "FUNGIZONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19641112"
+   ]
+  },
+  {
+   "application_number": "ANDA212967",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "AMPHOTERICIN B",
+     "status": "Prescription",
+     "ingredients": [
+      "AMPHOTERICIN B"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250630"
+   ]
+  }
+ ]
+}

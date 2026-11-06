@@ -1,0 +1,30 @@
+{
+ "name": "clofazimine",
+ "retrieved_at": "2026-11-06T15:30:49.874764+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA019500",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "LAMPRENE",
+     "status": "Discontinued",
+     "ingredients": [
+      "CLOFAZIMINE"
+     ]
+    },
+    {
+     "brand": "LAMPRENE",
+     "status": "Discontinued",
+     "ingredients": [
+      "CLOFAZIMINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19861215"
+   ]
+  }
+ ]
+}

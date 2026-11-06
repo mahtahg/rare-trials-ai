@@ -1,0 +1,126 @@
+{
+ "name": "pazopanib",
+ "retrieved_at": "2026-11-06T15:30:54.794715+00:00",
+ "n": 7,
+ "applications": [
+  {
+   "application_number": "ANDA217517",
+   "sponsor": "TEVA PHARMS INC",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231019"
+   ]
+  },
+  {
+   "application_number": "ANDA215837",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231019"
+   ]
+  },
+  {
+   "application_number": "ANDA219922",
+   "sponsor": "TORRENT",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250904"
+   ]
+  },
+  {
+   "application_number": "ANDA219034",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241204"
+   ]
+  },
+  {
+   "application_number": "NDA022465",
+   "sponsor": "NOVARTIS",
+   "products": [
+    {
+     "brand": "VOTRIENT",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "VOTRIENT",
+     "status": "Discontinued",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20091019"
+   ]
+  },
+  {
+   "application_number": "ANDA218231",
+   "sponsor": "NOVUGEN",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240423"
+   ]
+  },
+  {
+   "application_number": "ANDA217713",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "PAZOPANIB HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAZOPANIB HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231019"
+   ]
+  }
+ ]
+}

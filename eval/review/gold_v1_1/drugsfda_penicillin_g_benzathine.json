@@ -1,0 +1,125 @@
+{
+ "name": "penicillin g benzathine",
+ "retrieved_at": "2026-11-06T15:30:56.418620+00:00",
+ "n": 6,
+ "applications": [
+  {
+   "application_number": "NDA050141",
+   "sponsor": "KING PHARMS LLC",
+   "products": [
+    {
+     "brand": "BICILLIN L-A",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    },
+    {
+     "brand": "BICILLIN L-A",
+     "status": "Prescription",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19520627"
+   ]
+  },
+  {
+   "application_number": "NDA050138",
+   "sponsor": "KING PHARMS LLC",
+   "products": [
+    {
+     "brand": "BICILLIN C-R",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE",
+      "PENICILLIN G PROCAINE"
+     ]
+    },
+    {
+     "brand": "BICILLIN C-R 900/300",
+     "status": "Prescription",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE",
+      "PENICILLIN G PROCAINE"
+     ]
+    },
+    {
+     "brand": "BICILLIN C-R",
+     "status": "Prescription",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE",
+      "PENICILLIN G PROCAINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19530518"
+   ]
+  },
+  {
+   "application_number": "NDA050126",
+   "sponsor": "WYETH AYERST",
+   "products": [
+    {
+     "brand": "BICILLIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19511122"
+   ]
+  },
+  {
+   "application_number": "NDA050128",
+   "sponsor": "WYETH AYERST",
+   "products": [
+    {
+     "brand": "BICILLIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA050131",
+   "sponsor": "WYETH AYERST",
+   "products": [
+    {
+     "brand": "BICILLIN L-A",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19581231"
+   ]
+  },
+  {
+   "application_number": "NDA060014",
+   "sponsor": "CASPER PHARMA LLC",
+   "products": [
+    {
+     "brand": "PERMAPEN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PENICILLIN G BENZATHINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19521216"
+   ]
+  }
+ ]
+}

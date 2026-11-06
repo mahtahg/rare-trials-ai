@@ -1,0 +1,3245 @@
+{
+ "name": "doxycycline",
+ "retrieved_at": "2026-11-06T15:30:37.971098+00:00",
+ "n": 151,
+ "applications": [
+  {
+   "application_number": "ANDA216631",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240408"
+   ]
+  },
+  {
+   "application_number": "ANDA217487",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241204"
+   ]
+  },
+  {
+   "application_number": "ANDA211584",
+   "sponsor": "AJANTA PHARMA LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200601"
+   ]
+  },
+  {
+   "application_number": "ANDA065070",
+   "sponsor": "STRIDES PHARMA INTL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20001215"
+   ]
+  },
+  {
+   "application_number": "ANDA207757",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170928"
+   ]
+  },
+  {
+   "application_number": "ANDA209582",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170928"
+   ]
+  },
+  {
+   "application_number": "ANDA062269",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19821108"
+   ]
+  },
+  {
+   "application_number": "ANDA091406",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120821"
+   ]
+  },
+  {
+   "application_number": "ANDA216690",
+   "sponsor": "PH HEALTH",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221207"
+   ]
+  },
+  {
+   "application_number": "ANDA207773",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171030"
+   ]
+  },
+  {
+   "application_number": "ANDA065095",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030702"
+   ]
+  },
+  {
+   "application_number": "ANDA207774",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180531"
+   ]
+  },
+  {
+   "application_number": "ANDA217098",
+   "sponsor": "PRINSTON",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250127"
+   ]
+  },
+  {
+   "application_number": "ANDA062676",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860710"
+   ]
+  },
+  {
+   "application_number": "ANDA062677",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860710"
+   ]
+  },
+  {
+   "application_number": "ANDA217972",
+   "sponsor": "STERISCIENCE",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20251106"
+   ]
+  },
+  {
+   "application_number": "ANDA219978",
+   "sponsor": "AIPING PHARM INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20251001"
+   ]
+  },
+  {
+   "application_number": "ANDA218888",
+   "sponsor": "ASPIRO",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250805"
+   ]
+  },
+  {
+   "application_number": "ANDA213075",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220103"
+   ]
+  },
+  {
+   "application_number": "ANDA090134",
+   "sponsor": "ACTAVIS ELIZABETH",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111214"
+   ]
+  },
+  {
+   "application_number": "ANDA065134",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050513"
+   ]
+  },
+  {
+   "application_number": "ANDA211012",
+   "sponsor": "AJANTA PHARMA LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180924"
+   ]
+  },
+  {
+   "application_number": "ANDA210664",
+   "sponsor": "ACELLA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200316"
+   ]
+  },
+  {
+   "application_number": "ANDA211343",
+   "sponsor": "CHANGZHOU PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191009"
+   ]
+  },
+  {
+   "application_number": "NDA205931",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ACTICLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "ACTICLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140725"
+   ]
+  },
+  {
+   "application_number": "ANDA205115",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160218"
+   ]
+  },
+  {
+   "application_number": "NDA208253",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ACTICLATE CAP",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160426"
+   ]
+  },
+  {
+   "application_number": "ANDA218034",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240408"
+   ]
+  },
+  {
+   "application_number": "ANDA207494",
+   "sponsor": "PRINSTON",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20161115"
+   ]
+  },
+  {
+   "application_number": "ANDA218053",
+   "sponsor": "EMERGE BIOSCIENCE",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241028"
+   ]
+  },
+  {
+   "application_number": "ANDA062396",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19841107"
+   ]
+  },
+  {
+   "application_number": "ANDA200856",
+   "sponsor": "HERITAGE",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130430"
+   ]
+  },
+  {
+   "application_number": "ANDA065182",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050513"
+   ]
+  },
+  {
+   "application_number": "NDA050795",
+   "sponsor": "MAYNE PHARMA",
+   "products": [
+    {
+     "brand": "DORYX MPC",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX MPC",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050506"
+   ]
+  },
+  {
+   "application_number": "ANDA201678",
+   "sponsor": "LUPIN LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130318"
+   ]
+  },
+  {
+   "application_number": "ANDA062421",
+   "sponsor": "ACTAVIS LABS FL INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830202"
+   ]
+  },
+  {
+   "application_number": "NDA050805",
+   "sponsor": "GALDERMA LABS LP",
+   "products": [
+    {
+     "brand": "ORACEA",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060526"
+   ]
+  },
+  {
+   "application_number": "ANDA215583",
+   "sponsor": "GLAND",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230412"
+   ]
+  },
+  {
+   "application_number": "ANDA065454",
+   "sponsor": "CHARTWELL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080716"
+   ]
+  },
+  {
+   "application_number": "ANDA210381",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250327"
+   ]
+  },
+  {
+   "application_number": "ANDA217674",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240627"
+   ]
+  },
+  {
+   "application_number": "ANDA211744",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200630"
+   ]
+  },
+  {
+   "application_number": "ANDA204446",
+   "sponsor": "COSETTE PHARMS NC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150528"
+   ]
+  },
+  {
+   "application_number": "ANDA211418",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20251119"
+   ]
+  },
+  {
+   "application_number": "ANDA207558",
+   "sponsor": "NOVEL LABS INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170906"
+   ]
+  },
+  {
+   "application_number": "ANDA209402",
+   "sponsor": "CHANGZHOU PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191007"
+   ]
+  },
+  {
+   "application_number": "ANDA062475",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DOXY 100",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXY 200",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19831209"
+   ]
+  },
+  {
+   "application_number": "ANDA062500",
+   "sponsor": "CHARTWELL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19840911"
+   ]
+  },
+  {
+   "application_number": "ANDA091605",
+   "sponsor": "HERITAGE",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111220"
+   ]
+  },
+  {
+   "application_number": "ANDA062505",
+   "sponsor": "CHARTWELL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19840911"
+   ]
+  },
+  {
+   "application_number": "ANDA211137",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20251209"
+   ]
+  },
+  {
+   "application_number": "ANDA217794",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240314"
+   ]
+  },
+  {
+   "application_number": "ANDA062538",
+   "sponsor": "STRIDES PHARMA INTL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860407"
+   ]
+  },
+  {
+   "application_number": "ANDA065277",
+   "sponsor": "CHARTWELL MOLECULAR",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051110"
+   ]
+  },
+  {
+   "application_number": "ANDA207289",
+   "sponsor": "AMNEAL PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160627"
+   ]
+  },
+  {
+   "application_number": "ANDA065285",
+   "sponsor": "LANNETT CO INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051208"
+   ]
+  },
+  {
+   "application_number": "ANDA065287",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060228"
+   ]
+  },
+  {
+   "application_number": "ANDA210527",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180613"
+   ]
+  },
+  {
+   "application_number": "ANDA209165",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170728"
+   ]
+  },
+  {
+   "application_number": "ANDA210536",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200514"
+   ]
+  },
+  {
+   "application_number": "ANDA062992",
+   "sponsor": "WEST-WARD PHARMS INT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890216"
+   ]
+  },
+  {
+   "application_number": "ANDA210537",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200304"
+   ]
+  },
+  {
+   "application_number": "ANDA217854",
+   "sponsor": "HERITAGE",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240723"
+   ]
+  },
+  {
+   "application_number": "ANDA204234",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140305"
+   ]
+  },
+  {
+   "application_number": "ANDA218753",
+   "sponsor": "DR REDDYS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250701"
+   ]
+  },
+  {
+   "application_number": "NDA050641",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "MONODOX",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "MONODOX",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "MONODOX",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "MONODOX",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19891229"
+   ]
+  },
+  {
+   "application_number": "ANDA065053",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20001122"
+   ]
+  },
+  {
+   "application_number": "ANDA065055",
+   "sponsor": "STRIDES PHARMA INTL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20001201"
+   ]
+  },
+  {
+   "application_number": "ANDA212610",
+   "sponsor": "ZHEJIANG YONGTAI",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200331"
+   ]
+  },
+  {
+   "application_number": "ANDA209560",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240415"
+   ]
+  },
+  {
+   "application_number": "ANDA062631",
+   "sponsor": "PVT FORM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860724"
+   ]
+  },
+  {
+   "application_number": "ANDA091052",
+   "sponsor": "AUROBINDO PHARMA USA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120208"
+   ]
+  },
+  {
+   "application_number": "ANDA062643",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062653",
+   "sponsor": "WARNER CHILCOTT",
+   "products": [
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19851030"
+   ]
+  },
+  {
+   "application_number": "ANDA217078",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250221"
+   ]
+  },
+  {
+   "application_number": "ANDA065356",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060531"
+   ]
+  },
+  {
+   "application_number": "ANDA065353",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20061127"
+   ]
+  },
+  {
+   "application_number": "ANDA202778",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120608"
+   ]
+  },
+  {
+   "application_number": "ANDA214207",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20201216"
+   ]
+  },
+  {
+   "application_number": "ANDA209243",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190415"
+   ]
+  },
+  {
+   "application_number": "ANDA065103",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050513"
+   ]
+  },
+  {
+   "application_number": "NDA209259",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "XYROSA",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA090431",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101228"
+   ]
+  },
+  {
+   "application_number": "ANDA209969",
+   "sponsor": "AVET LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181109"
+   ]
+  },
+  {
+   "application_number": "NDA050744",
+   "sponsor": "COLLAGENEX",
+   "products": [
+    {
+     "brand": "PERIOSTAT",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19980930"
+   ]
+  },
+  {
+   "application_number": "ANDA062337",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820329"
+   ]
+  },
+  {
+   "application_number": "ANDA217170",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240711"
+   ]
+  },
+  {
+   "application_number": "ANDA208942",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210121"
+   ]
+  },
+  {
+   "application_number": "ANDA209987",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20201005"
+   ]
+  },
+  {
+   "application_number": "NDA050751",
+   "sponsor": "DEN-MAT",
+   "products": [
+    {
+     "brand": "ATRIDOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19980903"
+   ]
+  },
+  {
+   "application_number": "ANDA213475",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210310"
+   ]
+  },
+  {
+   "application_number": "ANDA065427",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070608"
+   ]
+  },
+  {
+   "application_number": "ANDA065163",
+   "sponsor": "HERITAGE PHARMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050513"
+   ]
+  },
+  {
+   "application_number": "ANDA062392",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830331"
+   ]
+  },
+  {
+   "application_number": "ANDA062764",
+   "sponsor": "INTERPHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA050783",
+   "sponsor": "GALDERMA LABS LP",
+   "products": [
+    {
+     "brand": "PERIOSTAT",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010202"
+   ]
+  },
+  {
+   "application_number": "ANDA062391",
+   "sponsor": "MUTUAL PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820930"
+   ]
+  },
+  {
+   "application_number": "ANDA062763",
+   "sponsor": "INTERPHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA090505",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101228"
+   ]
+  },
+  {
+   "application_number": "ANDA208263",
+   "sponsor": "NESHER PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20211122"
+   ]
+  },
+  {
+   "application_number": "NDA050442",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19720905"
+   ]
+  },
+  {
+   "application_number": "ANDA061717",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19730717"
+   ]
+  },
+  {
+   "application_number": "ANDA062418",
+   "sponsor": "MUTUAL PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830128"
+   ]
+  },
+  {
+   "application_number": "ANDA061720",
+   "sponsor": "RACHELLE",
+   "products": [
+    {
+     "brand": "DOXYCHEL",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19730618"
+   ]
+  },
+  {
+   "application_number": "ANDA203276",
+   "sponsor": "AVET LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260219"
+   ]
+  },
+  {
+   "application_number": "NDA208286",
+   "sponsor": "DR REDDYS LABS LTD",
+   "products": [
+    {
+     "brand": "ZENAVOD",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA090855",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA203278",
+   "sponsor": "AMNEAL PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA206772",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181221"
+   ]
+  },
+  {
+   "application_number": "ANDA062432",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19830215"
+   ]
+  },
+  {
+   "application_number": "ANDA214356",
+   "sponsor": "TORRENT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240415"
+   ]
+  },
+  {
+   "application_number": "NDA050480",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE CALCIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19740923"
+   ]
+  },
+  {
+   "application_number": "ANDA209372",
+   "sponsor": "AMNEAL PHARMS CO",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171006"
+   ]
+  },
+  {
+   "application_number": "ANDA062434",
+   "sponsor": "PAR PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062442",
+   "sponsor": "PAR PHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA065471",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090417"
+   ]
+  },
+  {
+   "application_number": "ANDA200065",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110217"
+   ]
+  },
+  {
+   "application_number": "ANDA217685",
+   "sponsor": "HAINAN POLY",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240621"
+   ]
+  },
+  {
+   "application_number": "ANDA062450",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19831027"
+   ]
+  },
+  {
+   "application_number": "ANDA209393",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20201210"
+   ]
+  },
+  {
+   "application_number": "ANDA209396",
+   "sponsor": "DR REDDYS LABS SA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170929"
+   ]
+  },
+  {
+   "application_number": "ANDA062462",
+   "sponsor": "HEATHER",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062463",
+   "sponsor": "HEATHER",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA062469",
+   "sponsor": "SUPERPHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA063187",
+   "sponsor": "PLIVA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19920630"
+   ]
+  },
+  {
+   "application_number": "ANDA065377",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20061107"
+   ]
+  },
+  {
+   "application_number": "NDA050533",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VIBRA-TABS",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19800115"
+   ]
+  },
+  {
+   "application_number": "ANDA062479",
+   "sponsor": "RANBAXY",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19831223"
+   ]
+  },
+  {
+   "application_number": "ANDA062494",
+   "sponsor": "SUPERPHARM",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19850220"
+   ]
+  },
+  {
+   "application_number": "ANDA212487",
+   "sponsor": "QUAGEN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220330"
+   ]
+  },
+  {
+   "application_number": "ANDA061953",
+   "sponsor": "RACHELLE",
+   "products": [
+    {
+     "brand": "DOXYCHEL HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19800910"
+   ]
+  },
+  {
+   "application_number": "ANDA062497",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "DOXY-LEMMON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXY-LEMMON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19840823"
+   ]
+  },
+  {
+   "application_number": "ANDA091277",
+   "sponsor": "LUPIN LTD",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA208741",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230811"
+   ]
+  },
+  {
+   "application_number": "ANDA208765",
+   "sponsor": "DR REDDYS LABS SA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170614"
+   ]
+  },
+  {
+   "application_number": "ANDA062031",
+   "sponsor": "ACTAVIS LABS FL INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19821013"
+   ]
+  },
+  {
+   "application_number": "NDA050582",
+   "sponsor": "MAYNE PHARMA",
+   "products": [
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DORYX",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19850722"
+   ]
+  },
+  {
+   "application_number": "ANDA065281",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051221"
+   ]
+  },
+  {
+   "application_number": "ANDA062119",
+   "sponsor": "HALSEY",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA209844",
+   "sponsor": "CHARTWELL PHARMA",
+   "products": [
+    {
+     "brand": "LYMEPAK",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180615"
+   ]
+  },
+  {
+   "application_number": "ANDA062569",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19880309"
+   ]
+  },
+  {
+   "application_number": "ANDA062142",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19810812"
+   ]
+  },
+  {
+   "application_number": "ANDA062581",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "DOXY-LEMMON",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19850315"
+   ]
+  },
+  {
+   "application_number": "ANDA062593",
+   "sponsor": "WARNER CHILCOTT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA065032",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000630"
+   ]
+  },
+  {
+   "application_number": "ANDA208818",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Prescription",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170927"
+   ]
+  },
+  {
+   "application_number": "ANDA065041",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000428"
+   ]
+  },
+  {
+   "application_number": "ANDA062594",
+   "sponsor": "WARNER CHILCOTT",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA216599",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DOXYCYCLINE HYCLATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221024"
+   ]
+  },
+  {
+   "application_number": "NDA050006",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19671206"
+   ]
+  },
+  {
+   "application_number": "NDA050007",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    },
+    {
+     "brand": "VIBRAMYCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DOXYCYCLINE HYCLATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19671205"
+   ]
+  }
+ ]
+}

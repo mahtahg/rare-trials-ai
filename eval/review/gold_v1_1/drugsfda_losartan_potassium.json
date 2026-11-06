@@ -1,0 +1,1428 @@
+{
+ "name": "losartan potassium",
+ "retrieved_at": "2026-11-06T15:30:34.413746+00:00",
+ "n": 46,
+ "applications": [
+  {
+   "application_number": "NDA218772",
+   "sponsor": "SCIENTURE",
+   "products": [
+    {
+     "brand": "ARBLI",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250313"
+   ]
+  },
+  {
+   "application_number": "ANDA219869",
+   "sponsor": "HETERO LABS LTD V",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260527"
+   ]
+  },
+  {
+   "application_number": "ANDA090083",
+   "sponsor": "AUROBINDO PHARMA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA090428",
+   "sponsor": "ALEMBIC PHARMS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA078243",
+   "sponsor": "ZYDUS PHARMS USA INC",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA078245",
+   "sponsor": "LUPIN LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100521",
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "NDA020386",
+   "sponsor": "ORGANON",
+   "products": [
+    {
+     "brand": "COZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "COZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "COZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950414"
+   ]
+  },
+  {
+   "application_number": "NDA020387",
+   "sponsor": "ORGANON",
+   "products": [
+    {
+     "brand": "HYZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "HYZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "HYZAAR",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19950428"
+   ]
+  },
+  {
+   "application_number": "ANDA091497",
+   "sponsor": "PRINSTON INC",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110606"
+   ]
+  },
+  {
+   "application_number": "ANDA202230",
+   "sponsor": "MACLEODS PHARMS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120530"
+   ]
+  },
+  {
+   "application_number": "ANDA090544",
+   "sponsor": "AIPING PHARM INC",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA077157",
+   "sponsor": "TEVA PHARMS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100406"
+   ]
+  },
+  {
+   "application_number": "ANDA204832",
+   "sponsor": "UNICHEM",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170721"
+   ]
+  },
+  {
+   "application_number": "ANDA201845",
+   "sponsor": "JUBILANT CADISTA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120918"
+   ]
+  },
+  {
+   "application_number": "ANDA202289",
+   "sponsor": "MACLEODS PHARMS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120809"
+   ]
+  },
+  {
+   "application_number": "ANDA091617",
+   "sponsor": "ALEMBIC PHARMS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120217"
+   ]
+  },
+  {
+   "application_number": "ANDA091629",
+   "sponsor": "AUROBINDO PHARMA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA204901",
+   "sponsor": "PRINSTON",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171106"
+   ]
+  },
+  {
+   "application_number": "ANDA201170",
+   "sponsor": "JUBILANT CADISTA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120918"
+   ]
+  },
+  {
+   "application_number": "ANDA203835",
+   "sponsor": "HETERO LABS LTD V",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150812"
+   ]
+  },
+  {
+   "application_number": "ANDA090382",
+   "sponsor": "STRIDES PHARMA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA219859",
+   "sponsor": "GRAVITI PHARMS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250919"
+   ]
+  },
+  {
+   "application_number": "ANDA078232",
+   "sponsor": "LUPIN LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA091129",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA077948",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100819",
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA090790",
+   "sponsor": "APOTEX CORP",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA090467",
+   "sponsor": "TORRENT PHARMS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA090150",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100811",
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA218015",
+   "sponsor": "GRANULES",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230929"
+   ]
+  },
+  {
+   "application_number": "ANDA215959",
+   "sponsor": "GRANULES",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230223"
+   ]
+  },
+  {
+   "application_number": "ANDA201682",
+   "sponsor": "IPCA LABS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130301"
+   ]
+  },
+  {
+   "application_number": "ANDA077424",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA090528",
+   "sponsor": "TORRENT PHARMS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006",
+    "20100406"
+   ]
+  },
+  {
+   "application_number": "ANDA091541",
+   "sponsor": "MICRO LABS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120924"
+   ]
+  },
+  {
+   "application_number": "ANDA204795",
+   "sponsor": "HISUN PHARM HANGZHOU",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190404"
+   ]
+  },
+  {
+   "application_number": "ANDA218551",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240604"
+   ]
+  },
+  {
+   "application_number": "ANDA077732",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006",
+    "20100406"
+   ]
+  },
+  {
+   "application_number": "ANDA077459",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA091590",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA200180",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110112"
+   ]
+  },
+  {
+   "application_number": "ANDA078385",
+   "sponsor": "ZYDUS PHARMS USA INC",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006"
+   ]
+  },
+  {
+   "application_number": "ANDA217396",
+   "sponsor": "MSN",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230814"
+   ]
+  },
+  {
+   "application_number": "ANDA200290",
+   "sponsor": "IPCA LABS LTD",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130830"
+   ]
+  },
+  {
+   "application_number": "ANDA203030",
+   "sponsor": "UNICHEM",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Prescription",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151014"
+   ]
+  },
+  {
+   "application_number": "ANDA091652",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "HYDROCHLOROTHIAZIDE",
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20101006",
+    "20100406"
+   ]
+  },
+  {
+   "application_number": "ANDA076958",
+   "sponsor": "TEVA",
+   "products": [
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    },
+    {
+     "brand": "LOSARTAN POTASSIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "LOSARTAN POTASSIUM"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100406"
+   ]
+  }
+ ]
+}

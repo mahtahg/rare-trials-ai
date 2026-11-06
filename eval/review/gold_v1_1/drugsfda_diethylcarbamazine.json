@@ -1,0 +1,23 @@
+{
+ "name": "diethylcarbamazine",
+ "retrieved_at": "2026-11-06T15:30:55.753030+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA006459",
+   "sponsor": "LEDERLE",
+   "products": [
+    {
+     "brand": "HETRAZAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "DIETHYLCARBAMAZINE CITRATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19501113"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "name": "fexinidazole",
+ "retrieved_at": "2026-11-06T15:31:05.480051+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA214429",
+   "sponsor": "SANOFI",
+   "products": [
+    {
+     "brand": "FEXINIDAZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "FEXINIDAZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210716"
+   ]
+  }
+ ]
+}

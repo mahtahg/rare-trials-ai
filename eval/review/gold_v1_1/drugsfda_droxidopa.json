@@ -1,0 +1,517 @@
+{
+ "name": "droxidopa",
+ "retrieved_at": "2026-11-06T15:30:44.454211+00:00",
+ "n": 17,
+ "applications": [
+  {
+   "application_number": "ANDA213033",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210428"
+   ]
+  },
+  {
+   "application_number": "ANDA211652",
+   "sponsor": "LUPIN PHARMS",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "NDA203202",
+   "sponsor": "LUNDBECK NA LTD",
+   "products": [
+    {
+     "brand": "NORTHERA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "NORTHERA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "NORTHERA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140218"
+   ]
+  },
+  {
+   "application_number": "ANDA213911",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA211726",
+   "sponsor": "ANNORA",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA211741",
+   "sponsor": "MSN PHARMS INC",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214384",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214387",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214017",
+   "sponsor": "SCIEGEN PHARMS",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA215265",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20211101"
+   ]
+  },
+  {
+   "application_number": "ANDA211818",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214217",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220505"
+   ]
+  },
+  {
+   "application_number": "ANDA213162",
+   "sponsor": "TEVA PHARMS USA INC",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214391",
+   "sponsor": "JUBILANT CADISTA",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA212835",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA213661",
+   "sponsor": "UPSHER SMITH LABS",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Discontinued",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210218"
+   ]
+  },
+  {
+   "application_number": "ANDA214543",
+   "sponsor": "SOMERSET THERAPS LLC",
+   "products": [
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    },
+    {
+     "brand": "DROXIDOPA",
+     "status": "Prescription",
+     "ingredients": [
+      "DROXIDOPA"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210505"
+   ]
+  }
+ ]
+}

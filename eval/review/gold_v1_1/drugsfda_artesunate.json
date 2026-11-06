@@ -1,0 +1,23 @@
+{
+ "name": "artesunate",
+ "retrieved_at": "2026-11-06T15:30:52.538885+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA213036",
+   "sponsor": "AMIVAS",
+   "products": [
+    {
+     "brand": "ARTESUNATE",
+     "status": "Prescription",
+     "ingredients": [
+      "ARTESUNATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200526"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "name": "linezolid",
+ "retrieved_at": "2026-11-06T15:30:56.093055+00:00",
+ "n": 29,
+ "applications": [
+  {
+   "application_number": "ANDA207001",
+   "sponsor": "HQ SPCLT PHARMA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170707"
+   ]
+  },
+  {
+   "application_number": "ANDA205517",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA078845",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA204764",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160315"
+   ]
+  },
+  {
+   "application_number": "ANDA210702",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190425"
+   ]
+  },
+  {
+   "application_number": "ANDA210378",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241010"
+   ]
+  },
+  {
+   "application_number": "ANDA207526",
+   "sponsor": "NOVEL LABS INC",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160822"
+   ]
+  },
+  {
+   "application_number": "ANDA200904",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150716",
+    "20150716"
+   ]
+  },
+  {
+   "application_number": "ANDA200068",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150603"
+   ]
+  },
+  {
+   "application_number": "ANDA219558",
+   "sponsor": "CAPLIN",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20251208"
+   ]
+  },
+  {
+   "application_number": "ANDA205233",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA206454",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220822"
+   ]
+  },
+  {
+   "application_number": "NDA206473",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "LINEZOLID IN SODIUM CHLORIDE 0.9% IN PLASTIC CONTAINER",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150618"
+   ]
+  },
+  {
+   "application_number": "ANDA211813",
+   "sponsor": "HETERO LABS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221031"
+   ]
+  },
+  {
+   "application_number": "ANDA206917",
+   "sponsor": "EUGIA PHARMA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160804"
+   ]
+  },
+  {
+   "application_number": "NDA021130",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZYVOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "ZYVOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000418"
+   ]
+  },
+  {
+   "application_number": "NDA021131",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZYVOX",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "ZYVOX",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "ZYVOX",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000418"
+   ]
+  },
+  {
+   "application_number": "ANDA204239",
+   "sponsor": "HETERO LABS LTD V",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "NDA021132",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "ZYVOX",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000418"
+   ]
+  },
+  {
+   "application_number": "ANDA207354",
+   "sponsor": "NANG KUANG PHARM CO",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20161220"
+   ]
+  },
+  {
+   "application_number": "ANDA205442",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150707"
+   ]
+  },
+  {
+   "application_number": "ANDA204696",
+   "sponsor": "SAGENT PHARMS INC",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170302"
+   ]
+  },
+  {
+   "application_number": "ANDA205154",
+   "sponsor": "STERISCIENCE",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    },
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171206"
+   ]
+  },
+  {
+   "application_number": "ANDA091210",
+   "sponsor": "GATE PHARMS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160205"
+   ]
+  },
+  {
+   "application_number": "ANDA078061",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20150518"
+   ]
+  },
+  {
+   "application_number": "ANDA200222",
+   "sponsor": "TEVA PHARMS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120627"
+   ]
+  },
+  {
+   "application_number": "ANDA078987",
+   "sponsor": "GLENMARK SPECLT",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA204536",
+   "sponsor": "AMNEAL PHARMS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Discontinued",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20151221"
+   ]
+  },
+  {
+   "application_number": "ANDA206097",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "LINEZOLID",
+     "status": "Prescription",
+     "ingredients": [
+      "LINEZOLID"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170222"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "name": "sulfoxone sodium",
+ "retrieved_at": "2026-11-06T15:30:50.531008+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA006044",
+   "sponsor": "ABBVIE",
+   "products": [
+    {
+     "brand": "DIASONE SODIUM",
+     "status": "Discontinued",
+     "ingredients": [
+      "SULFOXONE SODIUM"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "name": "dapsone",
+ "retrieved_at": "2026-11-06T15:30:50.228624+00:00",
+ "n": 29,
+ "applications": [
+  {
+   "application_number": "ANDA218335",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260708"
+   ]
+  },
+  {
+   "application_number": "ANDA203887",
+   "sponsor": "SOLIS PHARMS",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160506"
+   ]
+  },
+  {
+   "application_number": "ANDA213414",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260625"
+   ]
+  },
+  {
+   "application_number": "ANDA218457",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250404"
+   ]
+  },
+  {
+   "application_number": "ANDA212383",
+   "sponsor": "ENCUBE",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231013"
+   ]
+  },
+  {
+   "application_number": "ANDA220103",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260226"
+   ]
+  },
+  {
+   "application_number": "ANDA213907",
+   "sponsor": "TP ANDA HOLDINGS",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230606"
+   ]
+  },
+  {
+   "application_number": "ANDA214722",
+   "sponsor": "TORRENT",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220210"
+   ]
+  },
+  {
+   "application_number": "NDA207154",
+   "sponsor": "ALMIRALL",
+   "products": [
+    {
+     "brand": "ACZONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160224"
+   ]
+  },
+  {
+   "application_number": "ANDA207165",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190508"
+   ]
+  },
+  {
+   "application_number": "ANDA204074",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160510"
+   ]
+  },
+  {
+   "application_number": "ANDA209430",
+   "sponsor": "TARO",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190301"
+   ]
+  },
+  {
+   "application_number": "ANDA214019",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240508"
+   ]
+  },
+  {
+   "application_number": "ANDA206505",
+   "sponsor": "NOVITIUM PHARMA",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20161201"
+   ]
+  },
+  {
+   "application_number": "ANDA213636",
+   "sponsor": "TP ANDA HOLDINGS",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240826"
+   ]
+  },
+  {
+   "application_number": "ANDA086841",
+   "sponsor": "EVEREST LIFE SCI",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19790703"
+   ]
+  },
+  {
+   "application_number": "ANDA086842",
+   "sponsor": "EVEREST LIFE SCI",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19790703"
+   ]
+  },
+  {
+   "application_number": "ANDA215718",
+   "sponsor": "ALEMBIC",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231027"
+   ]
+  },
+  {
+   "application_number": "ANDA209506",
+   "sponsor": "SUN PHARMA CANADA",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171016"
+   ]
+  },
+  {
+   "application_number": "ANDA210178",
+   "sponsor": "COSETTE PHARMS NC",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220331"
+   ]
+  },
+  {
+   "application_number": "NDA021794",
+   "sponsor": "ALMIRALL",
+   "products": [
+    {
+     "brand": "ACZONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050707"
+   ]
+  },
+  {
+   "application_number": "ANDA210191",
+   "sponsor": "SUN PHARMA CANADA",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190626"
+   ]
+  },
+  {
+   "application_number": "ANDA209890",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231019"
+   ]
+  },
+  {
+   "application_number": "ANDA205429",
+   "sponsor": "ALVOGEN",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160107"
+   ]
+  },
+  {
+   "application_number": "ANDA212657",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231101"
+   ]
+  },
+  {
+   "application_number": "ANDA212701",
+   "sponsor": "AMNEAL",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230531"
+   ]
+  },
+  {
+   "application_number": "ANDA213847",
+   "sponsor": "MYLAN",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220204"
+   ]
+  },
+  {
+   "application_number": "ANDA204380",
+   "sponsor": "ACTAVIS LLC",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    },
+    {
+     "brand": "DAPSONE",
+     "status": "Prescription",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170323"
+   ]
+  },
+  {
+   "application_number": "ANDA215087",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "DAPSONE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DAPSONE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20231031"
+   ]
+  }
+ ]
+}

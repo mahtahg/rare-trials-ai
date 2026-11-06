@@ -1,0 +1,72 @@
+{
+ "name": "sodium thiosulfate",
+ "retrieved_at": "2026-11-06T15:30:38.281815+00:00",
+ "n": 4,
+ "applications": [
+  {
+   "application_number": "NDA203923",
+   "sponsor": "HOPE PHARMS",
+   "products": [
+    {
+     "brand": "SODIUM THIOSULFATE",
+     "status": "Prescription",
+     "ingredients": [
+      "SODIUM THIOSULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120214"
+   ]
+  },
+  {
+   "application_number": "NDA201444",
+   "sponsor": "HOPE PHARMS",
+   "products": [
+    {
+     "brand": "NITHIODOTE",
+     "status": "Prescription",
+     "ingredients": [
+      "SODIUM NITRITE",
+      "SODIUM THIOSULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110114"
+   ]
+  },
+  {
+   "application_number": "NDA212937",
+   "sponsor": "FENNEC PHARMS INC",
+   "products": [
+    {
+     "brand": "PEDMARK",
+     "status": "Prescription",
+     "ingredients": [
+      "SODIUM THIOSULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220920"
+   ]
+  },
+  {
+   "application_number": "NDA020166",
+   "sponsor": "US ARMY",
+   "products": [
+    {
+     "brand": "SODIUM THIOSULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "SODIUM THIOSULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19920214"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "name": "dacarbazine",
+ "retrieved_at": "2026-11-06T15:30:39.879511+00:00",
+ "n": 10,
+ "applications": [
+  {
+   "application_number": "ANDA075371",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    },
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19990827"
+   ]
+  },
+  {
+   "application_number": "ANDA075812",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    },
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010615"
+   ]
+  },
+  {
+   "application_number": "ANDA075259",
+   "sponsor": "MEITHEAL",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    },
+    {
+     "brand": "DACARBAZINE",
+     "status": "Prescription",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19980827"
+   ]
+  },
+  {
+   "application_number": "ANDA070822",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA070821",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA075940",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20011018"
+   ]
+  },
+  {
+   "application_number": "ANDA071563",
+   "sponsor": "QUAD PHARMS",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA017575",
+   "sponsor": "BAYER HLTHCARE",
+   "products": [
+    {
+     "brand": "DTIC-DOME",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    },
+    {
+     "brand": "DTIC-DOME",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19750527"
+   ]
+  },
+  {
+   "application_number": "ANDA070962",
+   "sponsor": "ABRAXIS PHARM",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860828"
+   ]
+  },
+  {
+   "application_number": "ANDA070990",
+   "sponsor": "ABRAXIS PHARM",
+   "products": [
+    {
+     "brand": "DACARBAZINE",
+     "status": "Discontinued",
+     "ingredients": [
+      "DACARBAZINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19860828"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "name": "rifampin",
+ "retrieved_at": "2026-11-06T15:30:39.242334+00:00",
+ "n": 18,
+ "applications": [
+  {
+   "application_number": "ANDA219918",
+   "sponsor": "NOVITIUM PHARMA",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260629"
+   ]
+  },
+  {
+   "application_number": "ANDA205039",
+   "sponsor": "HIKMA PHARMS",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160303"
+   ]
+  },
+  {
+   "application_number": "ANDA065390",
+   "sponsor": "CHARTWELL MOLECULAR",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080328"
+   ]
+  },
+  {
+   "application_number": "ANDA065421",
+   "sponsor": "MYLAN LABS LTD",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080522"
+   ]
+  },
+  {
+   "application_number": "ANDA091181",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140821"
+   ]
+  },
+  {
+   "application_number": "ANDA064150",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19970528"
+   ]
+  },
+  {
+   "application_number": "ANDA090034",
+   "sponsor": "LUPIN PHARMS",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130821"
+   ]
+  },
+  {
+   "application_number": "NDA050705",
+   "sponsor": "SANOFI AVENTIS US",
+   "products": [
+    {
+     "brand": "RIFATER",
+     "status": "Discontinued",
+     "ingredients": [
+      "ISONIAZID",
+      "PYRAZINAMIDE",
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19940531"
+   ]
+  },
+  {
+   "application_number": "ANDA206736",
+   "sponsor": "WATSON PHARMS TEVA",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160119"
+   ]
+  },
+  {
+   "application_number": "NDA050420",
+   "sponsor": "SANOFI AVENTIS US",
+   "products": [
+    {
+     "brand": "RIFADIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFADIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19710521"
+   ]
+  },
+  {
+   "application_number": "NDA050429",
+   "sponsor": "TP ANDA HOLDINGS",
+   "products": [
+    {
+     "brand": "RIMACTANE",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19710521"
+   ]
+  },
+  {
+   "application_number": "ANDA065221",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "RIFAMPIN AND ISONIAZID",
+     "status": "Discontinued",
+     "ingredients": [
+      "ISONIAZID",
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20050729"
+   ]
+  },
+  {
+   "application_number": "ANDA061884",
+   "sponsor": "SANOFI AVENTIS US",
+   "products": [
+    {
+     "brand": "RIFAMATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ISONIAZID",
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19750711"
+   ]
+  },
+  {
+   "application_number": "ANDA065502",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100921"
+   ]
+  },
+  {
+   "application_number": "ANDA204101",
+   "sponsor": "AVET LIFESCIENCES",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140818"
+   ]
+  },
+  {
+   "application_number": "ANDA064217",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19991029"
+   ]
+  },
+  {
+   "application_number": "ANDA065028",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "RIFAMPIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    },
+    {
+     "brand": "RIFAMPIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010314"
+   ]
+  },
+  {
+   "application_number": "NDA050627",
+   "sponsor": "SANOFI AVENTIS US",
+   "products": [
+    {
+     "brand": "RIFADIN",
+     "status": "Prescription",
+     "ingredients": [
+      "RIFAMPIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890525"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "name": "ivermectin",
+ "retrieved_at": "2026-11-06T15:30:49.262156+00:00",
+ "n": 15,
+ "applications": [
+  {
+   "application_number": "ANDA210225",
+   "sponsor": "PADAGIS ISRAEL",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200413"
+   ]
+  },
+  {
+   "application_number": "ANDA218805",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250909"
+   ]
+  },
+  {
+   "application_number": "NDA206255",
+   "sponsor": "GALDERMA LABS LP",
+   "products": [
+    {
+     "brand": "SOOLANTRA",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20141219"
+   ]
+  },
+  {
+   "application_number": "ANDA215922",
+   "sponsor": "RUBICON RESEARCH",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    },
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250122"
+   ]
+  },
+  {
+   "application_number": "ANDA210019",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190913"
+   ]
+  },
+  {
+   "application_number": "ANDA218509",
+   "sponsor": "AJANTA PHARMA LTD",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260407"
+   ]
+  },
+  {
+   "application_number": "ANDA210720",
+   "sponsor": "TARO",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Over-the-counter",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200506"
+   ]
+  },
+  {
+   "application_number": "ANDA216863",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260226"
+   ]
+  },
+  {
+   "application_number": "ANDA215210",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220802"
+   ]
+  },
+  {
+   "application_number": "ANDA204154",
+   "sponsor": "EDENBRIDGE PHARMS",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20141024"
+   ]
+  },
+  {
+   "application_number": "NDA202736",
+   "sponsor": "ARBOR PHARMS LLC",
+   "products": [
+    {
+     "brand": "SKLICE",
+     "status": "Over-the-counter",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120207"
+   ]
+  },
+  {
+   "application_number": "ANDA218324",
+   "sponsor": "PHARMAZONE",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241016"
+   ]
+  },
+  {
+   "application_number": "NDA050742",
+   "sponsor": "MERCK SHARP DOHME",
+   "products": [
+    {
+     "brand": "STROMECTOL",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    },
+    {
+     "brand": "STROMECTOL",
+     "status": "Discontinued",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19961122"
+   ]
+  },
+  {
+   "application_number": "ANDA216808",
+   "sponsor": "E5 PHARMA",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260309"
+   ]
+  },
+  {
+   "application_number": "ANDA212485",
+   "sponsor": "TEVA PHARMS USA",
+   "products": [
+    {
+     "brand": "IVERMECTIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "IVERMECTIN"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220321"
+   ]
+  }
+ ]
+}

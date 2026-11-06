@@ -1,0 +1,68 @@
+{
+ "name": "acalabrutinib",
+ "retrieved_at": "2026-11-06T15:30:41.457831+00:00",
+ "n": 4,
+ "applications": [
+  {
+   "application_number": "NDA210259",
+   "sponsor": "ASTRAZENECA",
+   "products": [
+    {
+     "brand": "CALQUENCE",
+     "status": "Prescription",
+     "ingredients": [
+      "ACALABRUTINIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20171031"
+   ]
+  },
+  {
+   "application_number": "ANDA216775",
+   "sponsor": "ALEMBIC PHARMS LTD",
+   "products": [
+    {
+     "brand": "ACALABRUTINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "ACALABRUTINIB"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA216387",
+   "sponsor": "ASTRAZENECA",
+   "products": [
+    {
+     "brand": "CALQUENCE",
+     "status": "Prescription",
+     "ingredients": [
+      "ACALABRUTINIB MALEATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220803",
+    "20220803"
+   ]
+  },
+  {
+   "application_number": "ANDA216833",
+   "sponsor": "MSN LABORATORIES PRIVATE LTD",
+   "products": [
+    {
+     "brand": "ACALABRUTINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "ACALABRUTINIB"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  }
+ ]
+}

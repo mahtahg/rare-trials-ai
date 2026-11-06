@@ -1,0 +1,85 @@
+{
+ "name": "paromomycin",
+ "retrieved_at": "2026-11-06T15:30:47.852107+00:00",
+ "n": 5,
+ "applications": [
+  {
+   "application_number": "ANDA065173",
+   "sponsor": "HERITAGE",
+   "products": [
+    {
+     "brand": "PAROMOMYCIN SULFATE",
+     "status": "Prescription",
+     "ingredients": [
+      "PAROMOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20071214"
+   ]
+  },
+  {
+   "application_number": "ANDA062310",
+   "sponsor": "KING PFIZER",
+   "products": [
+    {
+     "brand": "HUMATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PAROMOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19810105"
+   ]
+  },
+  {
+   "application_number": "ANDA064171",
+   "sponsor": "SUN PHARM INDS INC",
+   "products": [
+    {
+     "brand": "PAROMOMYCIN SULFATE",
+     "status": "Discontinued",
+     "ingredients": [
+      "PAROMOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19970630"
+   ]
+  },
+  {
+   "application_number": "ANDA060521",
+   "sponsor": "PARKEDALE",
+   "products": [
+    {
+     "brand": "HUMATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PAROMOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19690324"
+   ]
+  },
+  {
+   "application_number": "ANDA060522",
+   "sponsor": "PARKE DAVIS",
+   "products": [
+    {
+     "brand": "HUMATIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "PAROMOMYCIN SULFATE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  }
+ ]
+}

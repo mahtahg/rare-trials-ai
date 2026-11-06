@@ -1,0 +1,380 @@
+{
+ "name": "epirubicin",
+ "retrieved_at": "2026-11-06T15:30:42.506427+00:00",
+ "n": 15,
+ "applications": [
+  {
+   "application_number": "NDA050778",
+   "sponsor": "PFIZER INC",
+   "products": [
+    {
+     "brand": "ELLENCE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "ELLENCE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19990915"
+   ]
+  },
+  {
+   "application_number": "ANDA065339",
+   "sponsor": "EBEWE PHARMA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20091222"
+   ]
+  },
+  {
+   "application_number": "ANDA065343",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070419"
+   ]
+  },
+  {
+   "application_number": "ANDA090075",
+   "sponsor": "HISUN PHARM HANGZHOU",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100325"
+   ]
+  },
+  {
+   "application_number": "ANDA065361",
+   "sponsor": "CIPLA LTD",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20071022"
+   ]
+  },
+  {
+   "application_number": "ANDA065371",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20071128"
+   ]
+  },
+  {
+   "application_number": "ANDA065408",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20071015"
+   ]
+  },
+  {
+   "application_number": "ANDA065411",
+   "sponsor": "FRESENIUS KABI USA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070820"
+   ]
+  },
+  {
+   "application_number": "ANDA090163",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090624"
+   ]
+  },
+  {
+   "application_number": "ANDA065445",
+   "sponsor": "ACTAVIS TOTOWA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080918"
+   ]
+  },
+  {
+   "application_number": "NDA050807",
+   "sponsor": "HOSPIRA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060915"
+   ]
+  },
+  {
+   "application_number": "ANDA090266",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20110415"
+   ]
+  },
+  {
+   "application_number": "ANDA091599",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120312"
+   ]
+  },
+  {
+   "application_number": "ANDA065289",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070627"
+   ]
+  },
+  {
+   "application_number": "ANDA065331",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "EPIRUBICIN HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "EPIRUBICIN HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070809"
+   ]
+  }
+ ]
+}

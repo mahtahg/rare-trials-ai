@@ -1,0 +1,103 @@
+{
+ "name": "mefloquine",
+ "retrieved_at": "2026-11-06T15:30:52.848026+00:00",
+ "n": 6,
+ "applications": [
+  {
+   "application_number": "ANDA076175",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "MEFLOQUINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20020220"
+   ]
+  },
+  {
+   "application_number": "ANDA076392",
+   "sponsor": "BARR",
+   "products": [
+    {
+     "brand": "MEFLOQUINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20031229"
+   ]
+  },
+  {
+   "application_number": "NDA019578",
+   "sponsor": "US ARMY WALTER REED",
+   "products": [
+    {
+     "brand": "MEFLOQUINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890502"
+   ]
+  },
+  {
+   "application_number": "NDA019591",
+   "sponsor": "ROCHE",
+   "products": [
+    {
+     "brand": "LARIAM",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19890502"
+   ]
+  },
+  {
+   "application_number": "ANDA076523",
+   "sponsor": "HIKMA",
+   "products": [
+    {
+     "brand": "MEFLOQUINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20041001"
+   ]
+  },
+  {
+   "application_number": "ANDA077699",
+   "sponsor": "HIKMA INTL PHARMS",
+   "products": [
+    {
+     "brand": "MEFLOQUINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MEFLOQUINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100421"
+   ]
+  }
+ ]
+}

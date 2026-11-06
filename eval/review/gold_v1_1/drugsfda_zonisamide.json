@@ -1,0 +1,623 @@
+{
+ "name": "zonisamide",
+ "retrieved_at": "2026-11-06T15:30:51.405750+00:00",
+ "n": 21,
+ "applications": [
+  {
+   "application_number": "ANDA077645",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "NDA214273",
+   "sponsor": "AZURITY",
+   "products": [
+    {
+     "brand": "ZONISADE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220715"
+   ]
+  },
+  {
+   "application_number": "ANDA077651",
+   "sponsor": "GLENMARK PHARMS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060130"
+   ]
+  },
+  {
+   "application_number": "ANDA077634",
+   "sponsor": "SUN PHARM INDS (IN)",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060317"
+   ]
+  },
+  {
+   "application_number": "ANDA214492",
+   "sponsor": "UNICHEM",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210126"
+   ]
+  },
+  {
+   "application_number": "ANDA077869",
+   "sponsor": "INVAGEN PHARMS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060531"
+   ]
+  },
+  {
+   "application_number": "ANDA077625",
+   "sponsor": "ZYDUS LIFESCIENCES",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20061016"
+   ]
+  },
+  {
+   "application_number": "ANDA077642",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077637",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077639",
+   "sponsor": "ANI PHARMS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077641",
+   "sponsor": "ANI PHARMS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077644",
+   "sponsor": "UPSHER SMITH LABS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077650",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060420"
+   ]
+  },
+  {
+   "application_number": "ANDA077647",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077648",
+   "sponsor": "ROXANE",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA219507",
+   "sponsor": "MACLEODS PHARMS",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20250512"
+   ]
+  },
+  {
+   "application_number": "ANDA077635",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "ANDA077636",
+   "sponsor": "GRANULES",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20051222"
+   ]
+  },
+  {
+   "application_number": "NDA020789",
+   "sponsor": "ADVANZ PHARMA",
+   "products": [
+    {
+     "brand": "ZONEGRAN",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONEGRAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONEGRAN",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20000327"
+   ]
+  },
+  {
+   "application_number": "ANDA077813",
+   "sponsor": "BIONPHARMA",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060816"
+   ]
+  },
+  {
+   "application_number": "ANDA077876",
+   "sponsor": "EPIC PHARMA LLC",
+   "products": [
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    },
+    {
+     "brand": "ZONISAMIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "ZONISAMIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20070221"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "name": "letibotulinumtoxina",
+ "retrieved_at": "2026-11-06T15:31:09.150373+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "BLA761225",
+   "sponsor": "HUGEL INC",
+   "products": [
+    {
+     "brand": "LETYBO",
+     "status": "Prescription",
+     "ingredients": [
+      "LETIBOTULINUMTOXINA-WLBG"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240229"
+   ]
+  }
+ ]
+}

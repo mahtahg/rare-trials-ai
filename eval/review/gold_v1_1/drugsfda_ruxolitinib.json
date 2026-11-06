@@ -1,0 +1,209 @@
+{
+ "name": "ruxolitinib",
+ "retrieved_at": "2026-11-06T15:30:34.744826+00:00",
+ "n": 6,
+ "applications": [
+  {
+   "application_number": "NDA217180",
+   "sponsor": "INCYTE CORP",
+   "products": [
+    {
+     "brand": "JAKAFI XR",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI XR",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI XR",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI XR",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI XR",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20260501"
+   ]
+  },
+  {
+   "application_number": "NDA202192",
+   "sponsor": "INCYTE CORP",
+   "products": [
+    {
+     "brand": "JAKAFI",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    },
+    {
+     "brand": "JAKAFI",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111116"
+   ]
+  },
+  {
+   "application_number": "NDA215309",
+   "sponsor": "INCYTE CORP",
+   "products": [
+    {
+     "brand": "OPZELURA",
+     "status": "Prescription",
+     "ingredients": [
+      "RUXOLITINIB PHOSPHATE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20210921"
+   ]
+  },
+  {
+   "application_number": "ANDA208869",
+   "sponsor": "APOTEX INC",
+   "products": [
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA219660",
+   "sponsor": "APOTEX",
+   "products": [
+    {
+     "brand": "Ruxolitinib",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "Ruxolitinib"
+     ]
+    },
+    {
+     "brand": "Ruxolitinib",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "Ruxolitinib"
+     ]
+    },
+    {
+     "brand": "Ruxolitinib",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "Ruxolitinib"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA220375",
+   "sponsor": "TORRENT PHARMACEUTICALS LTD",
+   "products": [
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    },
+    {
+     "brand": "RUXOLITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "RUXOLITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  }
+ ]
+}

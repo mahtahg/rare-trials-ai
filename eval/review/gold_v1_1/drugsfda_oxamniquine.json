@@ -1,0 +1,23 @@
+{
+ "name": "oxamniquine",
+ "retrieved_at": "2026-11-06T15:30:53.156909+00:00",
+ "n": 1,
+ "applications": [
+  {
+   "application_number": "NDA018069",
+   "sponsor": "PFIZER",
+   "products": [
+    {
+     "brand": "VANSIL",
+     "status": "Discontinued",
+     "ingredients": [
+      "OXAMNIQUINE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19800723"
+   ]
+  }
+ ]
+}

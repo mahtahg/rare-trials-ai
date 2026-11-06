@@ -1,0 +1,1347 @@
+{
+ "name": "minocycline",
+ "retrieved_at": "2026-11-06T15:30:45.454626+00:00",
+ "n": 41,
+ "applications": [
+  {
+   "application_number": "ANDA063065",
+   "sponsor": "WATSON LABS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19911230"
+   ]
+  },
+  {
+   "application_number": "ANDA065062",
+   "sponsor": "TORRENT",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20001130"
+   ]
+  },
+  {
+   "application_number": "ANDA091424",
+   "sponsor": "LUPIN",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20111130"
+   ]
+  },
+  {
+   "application_number": "ANDA203553",
+   "sponsor": "ZYDUS PHARMS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20230616",
+    "20171116"
+   ]
+  },
+  {
+   "application_number": "ANDA065131",
+   "sponsor": "STRIDES PHARMA INTL",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030416"
+   ]
+  },
+  {
+   "application_number": "NDA212379",
+   "sponsor": "JOURNEY",
+   "products": [
+    {
+     "brand": "AMZEEQ",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191018"
+   ]
+  },
+  {
+   "application_number": "ANDA065156",
+   "sponsor": "TORRENT",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20040106"
+   ]
+  },
+  {
+   "application_number": "NDA050781",
+   "sponsor": "ORAPHARMA",
+   "products": [
+    {
+     "brand": "ARESTIN",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20010216"
+   ]
+  },
+  {
+   "application_number": "ANDA065436",
+   "sponsor": "CHARTWELL RX",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20071226"
+   ]
+  },
+  {
+   "application_number": "NDA050444",
+   "sponsor": "REMPEX",
+   "products": [
+    {
+     "brand": "MINOCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19721026"
+   ]
+  },
+  {
+   "application_number": "NDA219015",
+   "sponsor": "JOURNEY",
+   "products": [
+    {
+     "brand": "EMROSI",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20241101"
+   ]
+  },
+  {
+   "application_number": "ANDA204453",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191219",
+    "20160928",
+    "20180316"
+   ]
+  },
+  {
+   "application_number": "ANDA202261",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180928",
+    "20121119",
+    "20190821",
+    "20160613"
+   ]
+  },
+  {
+   "application_number": "ANDA213662",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200501"
+   ]
+  },
+  {
+   "application_number": "NDA213690",
+   "sponsor": "JOURNEY",
+   "products": [
+    {
+     "brand": "ZILXI",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20200528"
+   ]
+  },
+  {
+   "application_number": "ANDA063009",
+   "sponsor": "ZYDUS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19920302"
+   ]
+  },
+  {
+   "application_number": "ANDA063011",
+   "sponsor": "ZYDUS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19920302"
+   ]
+  },
+  {
+   "application_number": "NDA209269",
+   "sponsor": "EPI HLTH",
+   "products": [
+    {
+     "brand": "MINOLIRA",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOLIRA",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20170508"
+   ]
+  },
+  {
+   "application_number": "ANDA063067",
+   "sponsor": "ALVOGEN",
+   "products": [
+    {
+     "brand": "DYNACIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DYNACIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "DYNACIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19900731"
+   ]
+  },
+  {
+   "application_number": "ANDA201467",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190730"
+   ]
+  },
+  {
+   "application_number": "ANDA090422",
+   "sponsor": "SANDOZ",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090813"
+   ]
+  },
+  {
+   "application_number": "ANDA091118",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191203",
+    "20140925"
+   ]
+  },
+  {
+   "application_number": "ANDA215466",
+   "sponsor": "REGCON HOLDINGS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20220527"
+   ]
+  },
+  {
+   "application_number": "NDA050315",
+   "sponsor": "TRIAX PHARMS",
+   "products": [
+    {
+     "brand": "MINOCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19710630"
+   ]
+  },
+  {
+   "application_number": "ANDA204394",
+   "sponsor": "SUN PHARM",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20221007",
+    "20151230"
+   ]
+  },
+  {
+   "application_number": "NDA050445",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "MINOCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19721026"
+   ]
+  },
+  {
+   "application_number": "NDA050451",
+   "sponsor": "TRIAX PHARMS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19820810"
+   ]
+  },
+  {
+   "application_number": "NDA050808",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "SOLODYN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20060508"
+   ]
+  },
+  {
+   "application_number": "ANDA065470",
+   "sponsor": "AUROBINDO PHARMA",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20080311"
+   ]
+  },
+  {
+   "application_number": "ANDA090217",
+   "sponsor": "SUN PHARM INDUSTRIES",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160129"
+   ]
+  },
+  {
+   "application_number": "ANDA090867",
+   "sponsor": "SUN PHARM INDS INC",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130513"
+   ]
+  },
+  {
+   "application_number": "ANDA065485",
+   "sponsor": "BARR LABS INC",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090317"
+   ]
+  },
+  {
+   "application_number": "ANDA063181",
+   "sponsor": "WATSON LABS TEVA",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19911230"
+   ]
+  },
+  {
+   "application_number": "ANDA090911",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20100720"
+   ]
+  },
+  {
+   "application_number": "NDA201922",
+   "sponsor": "JOURNEY",
+   "products": [
+    {
+     "brand": "XIMINO",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "XIMINO",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "XIMINO",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "XIMINO",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "XIMINO",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20120711"
+   ]
+  },
+  {
+   "application_number": "ANDA065005",
+   "sponsor": "IMPAX LABS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19990323"
+   ]
+  },
+  {
+   "application_number": "ANDA062139",
+   "sponsor": "LEDERLE",
+   "products": [
+    {
+     "brand": "MINOCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA203443",
+   "sponsor": "RISING",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20140822",
+    "20190821"
+   ]
+  },
+  {
+   "application_number": "ANDA090024",
+   "sponsor": "IMPAX LABS INC",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20090203"
+   ]
+  },
+  {
+   "application_number": "ANDA214934",
+   "sponsor": "NEXUS",
+   "products": [
+    {
+     "brand": "MINOCYCLINE HYDROCHLORIDE",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "NDA050649",
+   "sponsor": "BAUSCH",
+   "products": [
+    {
+     "brand": "MINOCIN",
+     "status": "Discontinued",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    },
+    {
+     "brand": "MINOCIN",
+     "status": "Prescription",
+     "ingredients": [
+      "MINOCYCLINE HYDROCHLORIDE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19900531"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "name": "riluzole",
+ "retrieved_at": "2026-11-06T15:30:46.082939+00:00",
+ "n": 12,
+ "applications": [
+  {
+   "application_number": "ANDA091394",
+   "sponsor": "GLENMARK PHARMS LTD",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130618"
+   ]
+  },
+  {
+   "application_number": "ANDA091417",
+   "sponsor": "SUN PHARM INDS LTD",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130618"
+   ]
+  },
+  {
+   "application_number": "ANDA204048",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20160330"
+   ]
+  },
+  {
+   "application_number": "NDA209080",
+   "sponsor": "ITALFARMACO SA",
+   "products": [
+    {
+     "brand": "TIGLUTIK KIT",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20180905"
+   ]
+  },
+  {
+   "application_number": "NDA212640",
+   "sponsor": "AQUESTIVE",
+   "products": [
+    {
+     "brand": "EXSERVAN",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191122"
+   ]
+  },
+  {
+   "application_number": "ANDA076173",
+   "sponsor": "IMPAX LABS",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20030129"
+   ]
+  },
+  {
+   "application_number": "ANDA204430",
+   "sponsor": "DAITO PHARMS CO LTD",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20181016"
+   ]
+  },
+  {
+   "application_number": "ANDA216035",
+   "sponsor": "ALKEM LABS LTD",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240822"
+   ]
+  },
+  {
+   "application_number": "NDA020599",
+   "sponsor": "AZURITY",
+   "products": [
+    {
+     "brand": "RILUTEK",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "19951212"
+   ]
+  },
+  {
+   "application_number": "ANDA206045",
+   "sponsor": "KENTON",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Prescription",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20191209"
+   ]
+  },
+  {
+   "application_number": "ANDA091300",
+   "sponsor": "APOTEX CORP",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130618"
+   ]
+  },
+  {
+   "application_number": "ANDA203042",
+   "sponsor": "PHARMOBEDIENT",
+   "products": [
+    {
+     "brand": "RILUZOLE",
+     "status": "Discontinued",
+     "ingredients": [
+      "RILUZOLE"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20130701"
+   ]
+  }
+ ]
+}

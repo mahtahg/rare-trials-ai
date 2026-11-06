@@ -1,0 +1,97 @@
+{
+ "name": "upadacitinib",
+ "retrieved_at": "2026-11-06T15:30:41.144414+00:00",
+ "n": 4,
+ "applications": [
+  {
+   "application_number": "NDA218347",
+   "sponsor": "ABBVIE",
+   "products": [
+    {
+     "brand": "RINVOQ LQ",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20240426"
+   ]
+  },
+  {
+   "application_number": "NDA211675",
+   "sponsor": "ABBVIE",
+   "products": [
+    {
+     "brand": "RINVOQ",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    },
+    {
+     "brand": "RINVOQ",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    },
+    {
+     "brand": "RINVOQ",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20190816"
+   ]
+  },
+  {
+   "application_number": "ANDA218792",
+   "sponsor": "SANDOZ INC",
+   "products": [
+    {
+     "brand": "UPADACITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    },
+    {
+     "brand": "UPADACITINIB",
+     "status": "None (Tentative Approval)",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": []
+  },
+  {
+   "application_number": "ANDA218866",
+   "sponsor": "AUROBINDO PHARMA LTD",
+   "products": [
+    {
+     "brand": "UPADACITINIB",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    },
+    {
+     "brand": "UPADACITINIB",
+     "status": "Prescription",
+     "ingredients": [
+      "UPADACITINIB"
+     ]
+    }
+   ],
+   "orig_approvals": [
+    "20261016"
+   ]
+  }
+ ]
+}
