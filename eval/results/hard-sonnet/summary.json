@@ -1,41 +1,63 @@
 {
+ "gold_version": "1.1",
  "by_condition": {
   "claude-sonnet-5-5|biomcp": {
    "n": 50,
-   "accuracy": 0.98,
+   "accuracy": 0.88,
    "accuracy_ci95": [
-    0.895,
-    0.9965
+    0.7619,
+    0.9438
    ],
-   "mean_score": 0.9733,
+   "mean_score": 0.8733,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 159,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.0976,
-   "brier": 0.0282,
+   "ece": 0.0472,
+   "brier": 0.1054,
    "mean_api_equiv_cost_usd": 0.03473,
    "total_api_equiv_cost_usd": 1.736,
    "median_latency_s": 11.46,
    "mean_tool_calls": 2.84,
    "tool_error_rate": 0.0282
   },
+  "claude-sonnet-5-5|biomcp_go": {
+   "n": 50,
+   "accuracy": 0.78,
+   "accuracy_ci95": [
+    0.6476,
+    0.8725
+   ],
+   "mean_score": 0.78,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 149,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.1324,
+   "brier": 0.1488,
+   "mean_api_equiv_cost_usd": 0.04883,
+   "total_api_equiv_cost_usd": 2.442,
+   "median_latency_s": 24.26,
+   "mean_tool_calls": 8.1,
+   "tool_error_rate": 0.363
+  },
   "claude-sonnet-5-5|no_tools": {
    "n": 50,
-   "accuracy": 0.3,
+   "accuracy": 0.36,
    "accuracy_ci95": [
-    0.191,
-    0.4375
+    0.2414,
+    0.4986
    ],
-   "mean_score": 0.276,
+   "mean_score": 0.336,
    "abstain_rate": 0.44,
    "parse_fail_rate": 0.0,
    "ids_emitted": 2,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.126,
-   "brier": 0.1312,
+   "ece": 0.074,
+   "brier": 0.1152,
    "mean_api_equiv_cost_usd": 0.00771,
    "total_api_equiv_cost_usd": 0.385,
    "median_latency_s": 7.19,
@@ -44,19 +66,19 @@
   },
   "claude-sonnet-5-5|web_search": {
    "n": 50,
-   "accuracy": 0.76,
+   "accuracy": 0.86,
    "accuracy_ci95": [
-    0.6259,
-    0.857
+    0.7381,
+    0.9305
    ],
-   "mean_score": 0.736,
+   "mean_score": 0.836,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 69,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": null,
-   "ece": 0.0956,
-   "brier": 0.1312,
+   "ece": 0.1556,
+   "brier": 0.1024,
    "mean_api_equiv_cost_usd": 0.0115,
    "total_api_equiv_cost_usd": 0.575,
    "median_latency_s": 10.32,
@@ -67,6 +89,11 @@
  "by_template": {
   "h_eligibility_check": {
    "claude-sonnet-5-5|biomcp": {
+    "n": 11,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
     "n": 11,
     "accuracy": 1.0,
     "mean_score": 1.0
@@ -88,6 +115,11 @@
     "accuracy": 0.9167,
     "mean_score": 0.9167
    },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.4167,
+    "mean_score": 0.4167
+   },
    "claude-sonnet-5-5|no_tools": {
     "n": 12,
     "accuracy": 0.3333,
@@ -101,6 +133,11 @@
   },
   "h_recruitment_footprint": {
    "claude-sonnet-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
     "n": 12,
     "accuracy": 1.0,
     "mean_score": 1.0
@@ -119,18 +156,23 @@
   "h_source_conflict": {
    "claude-sonnet-5-5|biomcp": {
     "n": 12,
-    "accuracy": 1.0,
-    "mean_score": 1.0
+    "accuracy": 0.5833,
+    "mean_score": 0.5833
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.75,
+    "mean_score": 0.75
    },
    "claude-sonnet-5-5|no_tools": {
     "n": 12,
-    "accuracy": 0.5833,
-    "mean_score": 0.5833
+    "accuracy": 0.8333,
+    "mean_score": 0.8333
    },
    "claude-sonnet-5-5|web_search": {
     "n": 12,
-    "accuracy": 0.5833,
-    "mean_score": 0.5833
+    "accuracy": 1.0,
+    "mean_score": 1.0
    }
   },
   "h_untested_target_drugs": {
@@ -138,6 +180,11 @@
     "n": 3,
     "accuracy": 1.0,
     "mean_score": 0.8889
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 3,
+    "accuracy": 0.6667,
+    "mean_score": 0.6667
    },
    "claude-sonnet-5-5|no_tools": {
     "n": 3,
@@ -152,36 +199,52 @@
   }
  },
  "paired": {
-  "claude-sonnet-5-5|biomcp_vs_no_tools": {
-   "n": 50,
-   "biomcp_only_correct": 35,
-   "other_only_correct": 1,
-   "mcnemar_p": 0.0,
-   "acc_diff_ci95": [
-    0.68,
-    0.54,
-    0.82
-   ],
-   "score_diff_ci95": [
-    0.6973,
-    0.56,
-    0.8267
-   ]
-  },
   "claude-sonnet-5-5|biomcp_vs_web_search": {
    "n": 50,
-   "biomcp_only_correct": 12,
-   "other_only_correct": 1,
-   "mcnemar_p": 0.003418,
+   "biomcp_only_correct": 7,
+   "other_only_correct": 6,
+   "mcnemar_p": 1.0,
    "acc_diff_ci95": [
-    0.22,
-    0.1,
-    0.34
+    0.02,
+    -0.12,
+    0.16
    ],
    "score_diff_ci95": [
-    0.2373,
-    0.1133,
-    0.3613
+    0.0373,
+    -0.1067,
+    0.18
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
+   "n": 50,
+   "biomcp_only_correct": 9,
+   "other_only_correct": 4,
+   "mcnemar_p": 0.266846,
+   "acc_diff_ci95": [
+    0.1,
+    -0.04,
+    0.24
+   ],
+   "score_diff_ci95": [
+    0.0933,
+    -0.04,
+    0.2267
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_no_tools": {
+   "n": 50,
+   "biomcp_only_correct": 31,
+   "other_only_correct": 5,
+   "mcnemar_p": 1.3e-05,
+   "acc_diff_ci95": [
+    0.52,
+    0.32,
+    0.7
+   ],
+   "score_diff_ci95": [
+    0.5373,
+    0.3453,
+    0.7107
    ]
   }
  },
