@@ -36,48 +36,62 @@ async def _search(endpoint: str, search: str, limit: int, skip: int, client: Htt
     return r
 
 
+SEARCH_FIELDS = ("openfda.generic_name", "products.active_ingredients.name")
+
+
 async def applications(ingredient: str, *, max_records: int = 300, client: HttpClient | None = None):
-    """All Drugs@FDA applications whose openFDA generic_name matches the ingredient."""
-    search = _q("openfda.generic_name", ingredient)
-    rows, provs, skip, total = [], [], 0, None
-    while True:
-        r = await _search("drugsfda", search, 100, skip, client)
-        if r is None:
-            break
-        provs.append(r.provenance)
-        total = (r.body.get("meta") or {}).get("results", {}).get("total")
-        for a in r.body.get("results", []):
-            prods = a.get("products") or []
-            rows.append({
-                "application_number": a.get("application_number"),
-                "kind": re.match(r"[A-Z]*", a.get("application_number") or "").group(),
-                "sponsor": a.get("sponsor_name"),
-                "products": [
-                    {
-                        "brand_name": p.get("brand_name"),
-                        "dosage_form": p.get("dosage_form"),
-                        "route": p.get("route"),
-                        "marketing_status": p.get("marketing_status"),
-                        "te_code": p.get("te_code"),
-                        "active_ingredients": [f"{i.get('name')} {i.get('strength')}" for i in p.get("active_ingredients") or []],
-                    }
-                    for p in prods
-                ],
-                "first_approval": min(
-                    (s.get("submission_status_date") for s in a.get("submissions") or [] if s.get("submission_type") == "ORIG" and s.get("submission_status") == "AP"),
-                    default=None,
-                ),
-            })
-        skip += 100
-        if total is None or skip >= min(total, max_records):
-            break
-    return rows, provs, total
+    """Drugs@FDA applications for an ingredient: union of the openFDA generic_name and active-ingredient searches.
+
+    v1.1: older applications often have no openFDA block, so a generic_name search alone misses them
+    (e.g. carboplatin's 1989 NDA). Results are de-duplicated by application number.
+    """
+    seen: dict[str, dict] = {}
+    provs, totals = [], []
+    for field in SEARCH_FIELDS:
+        search, skip, total = _q(field, ingredient), 0, None
+        while True:
+            r = await _search("drugsfda", search, 100, skip, client)
+            if r is None:
+                break
+            provs.append(r.provenance)
+            total = (r.body.get("meta") or {}).get("results", {}).get("total")
+            for a in r.body.get("results", []):
+                num = a.get("application_number")
+                if num in seen:
+                    continue
+                prods = a.get("products") or []
+                seen[num] = {
+                    "application_number": num,
+                    "kind": re.match(r"[A-Z]*", num or "").group(),
+                    "sponsor": a.get("sponsor_name"),
+                    "products": [
+                        {
+                            "brand_name": p.get("brand_name"),
+                            "dosage_form": p.get("dosage_form"),
+                            "route": p.get("route"),
+                            "marketing_status": p.get("marketing_status"),
+                            "te_code": p.get("te_code"),
+                            "active_ingredients": [f"{i.get('name')} {i.get('strength')}" for i in p.get("active_ingredients") or []],
+                        }
+                        for p in prods
+                    ],
+                    "first_approval": min(
+                        (x.get("submission_status_date") for x in a.get("submissions") or []
+                         if x.get("submission_type") == "ORIG" and x.get("submission_status") == "AP"),
+                        default=None,
+                    ),
+                }
+            skip += 100
+            if total is None or skip >= min(total, max_records):
+                break
+        totals.append(total or 0)
+    return list(seen.values()), provs, max(totals) if totals else None
 
 
 async def generic_availability(ingredient: str, client: HttpClient | None = None) -> dict[str, Any]:
     rows, provs, total = await applications(ingredient, client=client)
     if not rows:
-        return {"data": None, "notes": [f"no Drugs@FDA applications match generic_name '{ingredient}'"], "provenance": [p.to_dict() for p in provs]}
+        return {"data": None, "notes": [f"no Drugs@FDA applications match '{ingredient}' by generic name or active ingredient"], "provenance": [p.to_dict() for p in provs]}
     def marketed(a):
         return any(p["marketing_status"] in MARKETED for p in a["products"])
     andas = [a for a in rows if a["kind"] == "ANDA"]

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "raremcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP servers for public biomedical data used in rare and neglected disease drug development and trials"
 readme = "README.md"
 requires-python = ">=3.10"

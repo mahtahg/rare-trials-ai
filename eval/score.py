@@ -270,9 +270,18 @@ def main() -> int:
     ap.add_argument("--validate-ids", action="store_true")
     ap.add_argument("--exclude", default=str(ROOT / "eval/excluded_questions.json"), help="JSON list of question ids dropped in review")
     ap.add_argument("--prefix", default="", help="output file prefix, e.g. 'all_' for the unreviewed full-set sensitivity analysis")
+    ap.add_argument("--gold-corrections", default=str(ROOT / "eval/gold_corrections_v1_1.json"),
+                    help="gold corrections to apply (v1.1 Drugs@FDA fix); pass '' to score against the original v1 gold")
     a = ap.parse_args()
     run = Path(a.run)
     qs = {json.loads(line)["id"]: json.loads(line) for line in Path(a.questions).read_text().splitlines() if line.strip()}
+    gold_version = "1.0"
+    if a.gold_corrections and Path(a.gold_corrections).exists():
+        gc = json.loads(Path(a.gold_corrections).read_text())
+        for qid, c in gc["corrections"].items():
+            if qid in qs:
+                qs[qid]["gold"] = c["new"]
+        gold_version = gc["version"]
     recs = [json.loads(line) for line in (run / "raw.jsonl").read_text().splitlines() if line.strip()]
     # keep the last successful record per job
     dedup = {}
@@ -315,7 +324,7 @@ def main() -> int:
                          "difficulty": q.get("difficulty")})
     (run / f"{a.prefix}scored.jsonl").write_text("\n".join(json.dumps(x) for x in scored) + "\n")
 
-    summary: dict = {"by_condition": {}, "by_template": {}, "paired": {}, "id_validation": bool(valid),
+    summary: dict = {"gold_version": gold_version, "by_condition": {}, "by_template": {}, "paired": {}, "id_validation": bool(valid),
                      "n_errored_runs_excluded": len(errored), "n_questions_excluded_by_review": len(excluded)}
     groups = defaultdict(list)
     for s in scored:

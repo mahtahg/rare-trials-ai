@@ -95,6 +95,12 @@ async def test_fda_generic_and_label():
     assert "lymphangioleiomyomatosis" in (lab["data"]["indications_and_usage"] or "").lower()
 
 
+async def test_fda_finds_applications_without_openfda_block():
+    # v1.1 regression: carboplatin's original 1989 NDA has no openFDA block, so a generic_name-only search missed it
+    g = await fda.generic_availability("carboplatin")
+    assert g["data"]["earliest_nda_approval"][:4] == "1989"
+
+
 async def test_fda_unknown_ingredient():
     g = await fda.generic_availability("notarealdrugxyz")
     assert g["data"] is None

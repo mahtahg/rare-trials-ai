@@ -29,9 +29,11 @@ jobs:
             echo "== $run ($q)"
             python eval/score.py --questions "$q" --run "eval/results/$run" --validate-ids $EXCL
             python eval/score.py --questions "$q" --run "eval/results/$run" --validate-ids --exclude "" --prefix all_
+            python eval/score.py --questions "$q" --run "eval/results/$run" --exclude "" --gold-corrections "" --prefix v1gold_all_
           done
           python eval/compare.py
           python eval/compare.py all_
+          python eval/compare.py v1gold_all_
       - name: Commit
         if: always()
         run: |
