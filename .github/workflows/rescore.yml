@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       runs: { description: "Space-separated run_id:question_file pairs", required: true,
-              default: "v1-sonnet:eval/questions.jsonl hard-sonnet:eval/questions_hard.jsonl hard-haiku:eval/questions_hard.jsonl" }
+              default: "v1-sonnet:eval/questions.jsonl v1-haiku:eval/questions.jsonl hard-sonnet:eval/questions_hard.jsonl hard-haiku:eval/questions_hard.jsonl" }
 permissions:
   contents: write
 concurrency:
@@ -28,8 +28,10 @@ jobs:
             run="${pair%%:*}"; q="${pair#*:}"
             echo "== $run ($q)"
             python eval/score.py --questions "$q" --run "eval/results/$run" --validate-ids $EXCL
+            python eval/score.py --questions "$q" --run "eval/results/$run" --validate-ids --exclude "" --prefix all_
           done
           python eval/compare.py
+          python eval/compare.py all_
       - name: Commit
         if: always()
         run: |

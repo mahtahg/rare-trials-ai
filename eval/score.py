@@ -269,6 +269,7 @@ def main() -> int:
     ap.add_argument("--questions", default=str(ROOT / "eval/questions.jsonl"))
     ap.add_argument("--validate-ids", action="store_true")
     ap.add_argument("--exclude", default=str(ROOT / "eval/excluded_questions.json"), help="JSON list of question ids dropped in review")
+    ap.add_argument("--prefix", default="", help="output file prefix, e.g. 'all_' for the unreviewed full-set sensitivity analysis")
     a = ap.parse_args()
     run = Path(a.run)
     qs = {json.loads(line)["id"]: json.loads(line) for line in Path(a.questions).read_text().splitlines() if line.strip()}
@@ -292,7 +293,7 @@ def main() -> int:
             all_ids[k] |= set(v)
     valid = asyncio.run(validate_ids(all_ids)) if a.validate_ids else {}
     if valid:
-        (run / "id_validation.json").write_text(json.dumps(
+        (run / f"{a.prefix}id_validation.json").write_text(json.dumps(
             {i: {"valid": v, "chembl_entity": getattr(validate_ids, "kinds", {}).get(i)} for i, v in sorted(valid.items())}, indent=0))
 
     scored = []
@@ -312,7 +313,7 @@ def main() -> int:
                       | {"cost_usd": r.get("api_equivalent_cost_usd") or 0.0, "num_turns": r.get("num_turns")}
                       | {"n_tool_calls": len(r["tool_calls"]), "n_tool_errors": sum(t["is_error"] for t in r["tool_calls"]), **s,
                          "difficulty": q.get("difficulty")})
-    (run / "scored.jsonl").write_text("\n".join(json.dumps(x) for x in scored) + "\n")
+    (run / f"{a.prefix}scored.jsonl").write_text("\n".join(json.dumps(x) for x in scored) + "\n")
 
     summary: dict = {"by_condition": {}, "by_template": {}, "paired": {}, "id_validation": bool(valid),
                      "n_errored_runs_excluded": len(errored), "n_questions_excluded_by_review": len(excluded)}
@@ -365,7 +366,7 @@ def main() -> int:
                 "acc_diff_ci95": paired_bootstrap([float(x) for x in a_], [float(y) for y in b_]),
                 "score_diff_ci95": paired_bootstrap([r0[(q, "biomcp")]["score"] for q in qids], [r0[(q, other)]["score"] for q in qids]),
             }
-    (run / "summary.json").write_text(json.dumps(summary, indent=1))
+    (run / f"{a.prefix}summary.json").write_text(json.dumps(summary, indent=1))
 
     lines = ["| model | condition | n | accuracy (95% CI) | mean score | abstain | invalid IDs | ungrounded IDs | ECE | API-equiv $/q (not billed) | median s | tool calls |",
              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -381,7 +382,7 @@ def main() -> int:
     lines += ["", "| template | " + " | ".join(summary["by_condition"]) + " |", "|---|" + "---|" * len(summary["by_condition"])]
     for t, v in summary["by_template"].items():
         lines.append(f"| {t} | " + " | ".join(f"{v.get(k, {}).get('mean_score', float('nan')):.2f}" for k in summary["by_condition"]) + " |")
-    (run / "summary.md").write_text("\n".join(lines) + "\n")
+    (run / f"{a.prefix}summary.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
     return 0
 

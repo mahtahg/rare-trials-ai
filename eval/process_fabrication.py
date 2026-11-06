@@ -22,8 +22,8 @@ CLAIM = re.compile(
 
 def main() -> int:
     md = ["# Process fabrication screen (exploratory)", "",
-          "No-tools runs (zero tool calls by construction) whose answer narrates retrieved results. "
-          "Regex screen; each flag needs manual confirmation. Recall unknown, so rates are lower bounds.", "",
+          ("No-tools runs (zero tool calls by construction) whose answer narrates retrieved results. "
+           "Regex screen; each flag needs manual confirmation. Recall unknown, so rates are lower bounds."), "",
           "| run | model | n no-tools runs | flagged | rate |", "|---|---|---|---|---|"]
     detail = []
     for d in sorted(RES.iterdir()):

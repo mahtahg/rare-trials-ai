@@ -127,13 +127,15 @@ def h3(s, pool, rng, n):
         elif choice == "out_low":
             age = max(0.1, lo - (0.25 if lo < 2 else 1))
         elif choice == "in_high":
-            age = hi - (0.5 if hi < 2 else 1)
+            age = hi - (min(0.5, (hi - lo) / 2) if hi < 2 else 1)
         elif choice == "out_high":
             age = hi + (0.5 if hi < 2 else 1)
         else:
             age = lo + 1 if not hi else (lo + hi) / 2
         psex = ("male" if sex == "FEMALE" else "female") if (choice == "sex" and sex != "ALL") else rng.choice(
             ["female", "male"] if sex == "ALL" else [sex.lower()])
+        if age <= 0 or (age < 2 and round(age * 12) < 1):
+            continue  # never emit impossible ages (review found a '-4-month-old' from an 8-week upper limit)
         elig = (age >= lo) and (hi is None or age <= hi) and (sex == "ALL" or psex == sex.lower())
         age_txt = f"{round(age * 12)}-month-old" if age < 2 else f"{int(age)}-year-old"
         if age >= 2 and int(age) != age:
