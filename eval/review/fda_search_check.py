@@ -80,8 +80,8 @@ def main() -> int:
         print(rows[-1] if rows and rows[-1]["id"] == q["id"] else "", flush=True)
     (ROOT / "eval/review/fda_search_check.jsonl").write_text("\n".join(json.dumps(r) for r in rows) + "\n")
     ch = [r for r in rows if r["changes"]]
-    md = ["# Drugs@FDA search robustness", "", f"{len(rows)} Drugs@FDA-dependent questions re-derived with an active-ingredient search; "
-          f"{len(ch)} would change answer.", "", "| id | drug | gold | generic-name search | ingredient search |", "|---|---|---|---|---|"]
+    md = ["# Drugs@FDA search robustness", "", (f"{len(rows)} Drugs@FDA-dependent questions re-derived with an active-ingredient search; "
+           f"{len(ch)} would change answer."), "", "| id | drug | gold | generic-name search | ingredient search |", "|---|---|---|---|---|"]
     for r in rows:
         a = (r.get("nda_year_generic_search"), r.get("nda_year_ingredient_search")) if "chembl_year" in r else (r.get("generic_search"), r.get("ingredient_search"))
         md.append(f"| {r['id']} | {r['drug']} | {r['gold']} | {a[0]} | {a[1]} |" + (" **changes**" if r["changes"] else ""))

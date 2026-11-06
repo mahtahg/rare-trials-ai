@@ -1,6 +1,9 @@
 name: gold-audit
 # Re-fetch primary records for the gold-check questions, archive payloads, re-derive answers. No model calls.
-on: { workflow_dispatch: {} }
+on:
+  workflow_dispatch:
+    inputs:
+      fda_only: { type: boolean, default: true }
 permissions: { contents: write }
 jobs:
   audit:
@@ -12,6 +15,8 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install httpx
       - run: python eval/review/gold_audit.py
+        if: ${{ !inputs.fda_only }}
+      - run: python eval/review/fda_search_check.py
       - name: Commit
         if: always()
         run: |
