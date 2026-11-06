@@ -7,6 +7,13 @@
    "finished_at": "2026-11-05T11:16:53.701423+00:00",
    "completed_runs": 180,
    "stopped_for_usage_limit": false
+  },
+  {
+   "started_at": "2026-11-06T03:25:26.836454+00:00",
+   "pending_jobs": 2,
+   "finished_at": "2026-11-06T03:31:16.534353+00:00",
+   "completed_runs": 2,
+   "stopped_for_usage_limit": false
   }
  ],
  "args": {
@@ -17,9 +24,9 @@
   "limit": 0,
   "sample": false,
   "seed": 20261103,
-  "concurrency": 1,
+  "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 180.0,
+  "max_minutes": 60.0,
   "run_id": "hard-haiku"
  },
  "n_questions": 60,
