@@ -31,7 +31,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install -e ".[dev]"
       - name: Live contract tests (records cassettes)
-        env: { BIOMCP_CASSETTE_MODE: record }
+        env: { RAREMCP_CASSETTE_MODE: record }
         shell: bash
         run: pytest -m live -q -rA -s 2>&1 | tee live-tests.txt
       - name: Commit cassettes + report

@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import re
 
-from biomcp.core.envelope import clip, envelope
-from biomcp.core.http import HttpClient, shared_client
+from raremcp.core.envelope import clip, envelope
+from raremcp.core.http import HttpClient, shared_client
 
 SOURCE = "europepmc"
 BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest"

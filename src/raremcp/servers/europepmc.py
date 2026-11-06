@@ -4,8 +4,8 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import europepmc
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import europepmc
 
 INSTRUCTIONS = (
     "Europe PMC literature search (PubMed + PMC + preprints). europepmc_search accepts Europe PMC query syntax "
@@ -35,7 +35,7 @@ def register(server) -> None:
         return await europepmc.get_article(identifier)
 
 
-server = make_server("biomcp-europepmc", INSTRUCTIONS)
+server = make_server("raremcp-europepmc", INSTRUCTIONS)
 register(server)
 
 

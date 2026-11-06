@@ -1,13 +1,13 @@
 """Contract tests against real APIs.
 
-In CI they run with network and BIOMCP_CASSETTE_MODE=record, committing cassettes.
+In CI they run with network and RAREMCP_CASSETTE_MODE=record, committing cassettes.
 Locally they replay those cassettes, so the suite is deterministic offline.
 Assertions are biological/regulatory facts that should stay true across releases.
 """
 
 import pytest
 
-from biomcp.sources import chembl, ctgov, europepmc, fda, opentargets
+from raremcp.sources import chembl, ctgov, europepmc, fda, opentargets
 
 pytestmark = pytest.mark.live
 
@@ -111,7 +111,7 @@ async def test_europepmc_search_and_get():
 
 
 async def test_orphanet_lookup_and_prevalence():
-    from biomcp.sources import orphanet
+    from raremcp.sources import orphanet
 
     a = await orphanet.lookup("ORPHA:98896")
     _prov_ok(a)

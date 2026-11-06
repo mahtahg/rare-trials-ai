@@ -9,7 +9,7 @@ from __future__ import annotations
 from collections.abc import Iterable
 from typing import Any
 
-from biomcp.core.http import Provenance
+from raremcp.core.http import Provenance
 
 MAX_TEXT = 1500  # characters kept from any free-text field by default
 

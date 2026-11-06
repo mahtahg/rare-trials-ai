@@ -5,8 +5,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from biomcp.core.envelope import dig, envelope
-from biomcp.core.http import HttpClient, SourceError, shared_client
+from raremcp.core.envelope import dig, envelope
+from raremcp.core.http import HttpClient, SourceError, shared_client
 
 SOURCE = "chembl"
 BASE = "https://www.ebi.ac.uk/chembl/api/data"

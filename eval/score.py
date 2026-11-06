@@ -177,8 +177,8 @@ def grounded_ids(rec: dict) -> set[str]:
 
 
 async def validate_ids(all_ids: dict[str, set[str]]) -> dict[str, bool]:
-    from biomcp.core.http import HttpClient, set_shared_client
-    from biomcp.sources import chembl, ctgov, europepmc
+    from raremcp.core.http import HttpClient, set_shared_client
+    from raremcp.sources import chembl, ctgov, europepmc
 
     c = HttpClient(cassette_mode="off")
     set_shared_client(c)
@@ -306,7 +306,7 @@ def main() -> int:
         s.update({
             "n_ids": len(ids),
             "n_ids_invalid": sum(1 for i in ids if valid.get(i) is False) if valid else None,
-            "n_ids_ungrounded": sum(1 for i in ids if i not in g) if r["condition"] == "biomcp" else None,
+            "n_ids_ungrounded": sum(1 for i in ids if i not in g) if r["condition"] in ("biomcp", "biomcp_go") else None,
             "confidence": (r["parsed"] or {}).get("confidence"),
         })
         scored.append({k: r[k] for k in ("qid", "template", "model", "condition", "rep", "latency_s", "n_web_searches", "error")}
@@ -332,7 +332,7 @@ def main() -> int:
             "parse_fail_rate": round(sum(bool(x.get("parse_fail")) for x in xs) / n, 4),
             "ids_emitted": nid,
             "invalid_id_rate": round(sum(x["n_ids_invalid"] or 0 for x in xs) / nid, 4) if (valid and nid) else None,
-            "ungrounded_id_rate": round(sum(x["n_ids_ungrounded"] or 0 for x in xs) / nid, 4) if (c == "biomcp" and nid) else None,
+            "ungrounded_id_rate": round(sum(x["n_ids_ungrounded"] or 0 for x in xs) / nid, 4) if (c in ("biomcp", "biomcp_go") and nid) else None,
             "ece": ece([cf for cf, _ in conf], [ok for _, ok in conf]),
             "brier": round(sum((cf - ok) ** 2 for cf, ok in conf) / len(conf), 4) if conf else None,
             "mean_api_equiv_cost_usd": round(sum(x["cost_usd"] for x in xs) / n, 5),

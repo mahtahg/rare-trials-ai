@@ -1,11 +1,11 @@
-"""Shared async HTTP client for every biomcp source.
+"""Shared async HTTP client for every RareMCP source.
 
 Design goals
 - Polite: per-host minimum interval between requests, honest User-Agent.
 - Robust: bounded retries with exponential backoff on 429/5xx/transport errors,
   honouring Retry-After.
 - Reproducible: every response can be recorded to / replayed from a cassette
-  directory (BIOMCP_CASSETTE_MODE = off | record | replay | auto), so tests and
+  directory (RAREMCP_CASSETTE_MODE = off | record | replay | auto), so tests and
   eval runs can be repeated byte-for-byte without network access.
 - Traceable: every call returns a Provenance record (URL, params, status,
   retrieval time, content hash) that tools attach to their output.
@@ -27,9 +27,9 @@ from urllib.parse import urlencode, urlparse
 
 import httpx
 
-from biomcp import __version__
+from raremcp import __version__
 
-USER_AGENT = f"biomcp/{__version__} (+https://github.com/mahtahg/rare-trials-ai)"
+USER_AGENT = f"raremcp/{__version__} (+https://github.com/mahtahg/rare-trials-ai)"
 RETRY_STATUS = {408, 425, 429, 500, 502, 503, 504}
 
 
@@ -120,10 +120,10 @@ class HttpClient:
         self._last_call: dict[str, float] = {}
         self._locks: dict[str, asyncio.Lock] = {}
         self._client: httpx.AsyncClient | None = None
-        self.cassette_mode = (cassette_mode or os.getenv("BIOMCP_CASSETTE_MODE", "off")).lower()
+        self.cassette_mode = (cassette_mode or os.getenv("RAREMCP_CASSETTE_MODE") or os.getenv("BIOMCP_CASSETTE_MODE", "off")).lower()
         if self.cassette_mode not in {"off", "record", "replay", "auto"}:
-            raise ValueError(f"bad BIOMCP_CASSETTE_MODE: {self.cassette_mode}")
-        self.cassette_dir = Path(cassette_dir or os.getenv("BIOMCP_CASSETTE_DIR", "tests/cassettes"))
+            raise ValueError(f"bad RAREMCP_CASSETTE_MODE: {self.cassette_mode}")
+        self.cassette_dir = Path(cassette_dir or os.getenv("RAREMCP_CASSETTE_DIR") or os.getenv("BIOMCP_CASSETTE_DIR", "tests/cassettes"))
 
     async def _get_client(self) -> httpx.AsyncClient:
         if self._client is None:

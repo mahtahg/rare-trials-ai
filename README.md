@@ -2,21 +2,23 @@
 
 Open infrastructure and research for drug development in rare and neglected tropical diseases (NTDs).
 
-- **`biomcp`**: MCP servers that give Claude (or any MCP client) traceable access to six public biomedical sources.
+- **RareMCP** (`raremcp`): MCP servers that give Claude (or any MCP client) traceable access to six public biomedical sources.
 - **`eval/`**: a benchmark of 254 questions grounded in real clinical-development needs, with gold answers computed independently from source data.
 - **`project6/`**: a pre-registered meta-research study of stalled drug-repurposing trials, with LLM-assisted extraction validated against blinded dual human review.
 
-## biomcp servers
+## RareMCP servers
+
+Renamed from `biomcp-rare` on 2026-11-06 to avoid confusion with GenomOncology's unrelated BioMCP. The eval keeps the condition id `biomcp` for these servers so earlier runs stay comparable.
 
 | Server | Source | Tools |
 |---|---|---|
-| `biomcp-ctgov` | ClinicalTrials.gov API v2 | `ctgov_search_trials`, `ctgov_get_trial`, `ctgov_data_version` |
-| `biomcp-opentargets` | Open Targets Platform (GraphQL) | `opentargets_search`, `opentargets_disease_targets`, `opentargets_disease_drugs`, `opentargets_drug` |
-| `biomcp-chembl` | ChEMBL REST | `chembl_search_molecules`, `chembl_get_molecule`, `chembl_mechanisms`, `chembl_indications` |
-| `biomcp-fda` | openFDA (Drugs@FDA, SPL labels) | `fda_generic_availability`, `fda_label` |
-| `biomcp-europepmc` | Europe PMC | `europepmc_search`, `europepmc_get_article` |
-| `biomcp-orphanet` | Orphadata API (CC-BY-4.0) | `orphanet_lookup`, `orphanet_prevalence` |
-| `biomcp-all` | all of the above | 17 tools |
+| `raremcp-ctgov` | ClinicalTrials.gov API v2 | `ctgov_search_trials`, `ctgov_get_trial`, `ctgov_data_version` |
+| `raremcp-opentargets` | Open Targets Platform (GraphQL) | `opentargets_search`, `opentargets_disease_targets`, `opentargets_disease_drugs`, `opentargets_drug` |
+| `raremcp-chembl` | ChEMBL REST | `chembl_search_molecules`, `chembl_get_molecule`, `chembl_mechanisms`, `chembl_indications` |
+| `raremcp-fda` | openFDA (Drugs@FDA, SPL labels) | `fda_generic_availability`, `fda_label` |
+| `raremcp-europepmc` | Europe PMC | `europepmc_search`, `europepmc_get_article` |
+| `raremcp-orphanet` | Orphadata API (CC-BY-4.0) | `orphanet_lookup`, `orphanet_prevalence` |
+| `raremcp-all` | all of the above | 17 tools |
 
 Every tool returns the same envelope:
 
@@ -40,16 +42,16 @@ pip install "git+https://github.com/mahtahg/rare-trials-ai"
 Claude Desktop (`claude_desktop_config.json`), or any MCP client:
 
 ```json
-{"mcpServers": {"biomcp": {"command": "biomcp-all"}}}
+{"mcpServers": {"raremcp": {"command": "raremcp-all"}}}
 ```
 
-Claude Code: `claude mcp add biomcp -- biomcp-all`. For a shared HTTP endpoint: `biomcp-all --transport streamable-http --port 8000`.
+Claude Code: `claude mcp add raremcp -- raremcp-all`. For a shared HTTP endpoint: `raremcp-all --transport streamable-http --port 8000`.
 
 No API keys are needed; all sources are public. The client throttles each host politely and retries 429 and 5xx responses with backoff.
 
 ### Reproducibility
 
-`BIOMCP_CASSETTE_MODE=record|replay|auto` records every HTTP response to `tests/cassettes/`, or replays it from there. Replayed tests run offline and give identical results.
+`RAREMCP_CASSETTE_MODE=record|replay|auto` records every HTTP response to `tests/cassettes/`, or replays it from there. Replayed tests run offline and give identical results.
 
 CI runs a live contract check against every upstream API weekly. These tests have already caught real schema drift:
 
@@ -68,7 +70,8 @@ Gold answers come from raw source data through code that is independent of the t
 |---|---|
 | `no_tools` | none |
 | `web_search` | Claude Code WebSearch/WebFetch |
-| `biomcp` | the biomcp MCP server |
+| `biomcp` | the RareMCP servers |
+| `biomcp_go` | external comparator: GenomOncology BioMCP (`biomcp-cli==0.9.3`) |
 
 Runs use headless Claude Code authenticated with a Claude subscription token (`CLAUDE_CODE_OAUTH_TOKEN`). The harness refuses to start if `ANTHROPIC_API_KEY` is set.
 
@@ -77,7 +80,7 @@ Runs use headless Claude Code authenticated with a Claude subscription token (`C
 - deterministic accuracy with Wilson confidence intervals;
 - paired McNemar tests and bootstrap CIs between conditions;
 - hallucinated-identifier rate, with every emitted NCT/CHEMBL/PMID checked live;
-- for biomcp, the share of identifiers that never appeared in a tool output;
+- for tool conditions, the share of identifiers that never appeared in a tool output;
 - calibration (ECE, Brier), cost and latency.
 
 `eval/compare.py` builds the cross-run tables (`eval/results/COMPARISON.md` for the reviewed set, `all_COMPARISON.md` for the full set). `eval/process_fabrication.py` screens no-tools answers for narrated tool use. `eval/review/` holds the question review, the gold audit with archived primary-source payloads (`gold_audit.md`) and the workbook builders.

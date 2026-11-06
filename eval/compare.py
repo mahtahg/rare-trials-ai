@@ -22,7 +22,7 @@ from score import mcnemar_exact, wilson
 
 RES = ROOT / "eval/results"
 TIERS = {"v1-": "base", "hard-": "hard"}
-CONDS = ["no_tools", "web_search", "biomcp"]
+CONDS = ["no_tools", "web_search", "biomcp_go", "biomcp"]
 
 
 def short(m: str) -> str:
@@ -73,7 +73,7 @@ def main() -> int:
         md += ["", "**Tool benefit (paired, same questions)**", "",
                "| model | comparison | n | biomcp-only | other-only | McNemar p | Δacc (95% CI) |", "|---|---|---|---|---|---|---|"]
         for m in models:
-            for other in ("no_tools", "web_search"):
+            for other in ("no_tools", "web_search", "biomcp_go"):
                 a, b = cells.get((tier, m, "biomcp")), cells.get((tier, m, other))
                 if not a or not b:
                     continue

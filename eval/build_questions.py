@@ -29,7 +29,7 @@ import httpx
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from biomcp.sources.orphanet import classify_rarity  # the EU-rarity *definition* (a rule, not a data path)
+from raremcp.sources.orphanet import classify_rarity  # the EU-rarity *definition* (a rule, not a data path)
 
 UA = {"User-Agent": "biomcp-eval-builder/0.1 (+https://github.com/mahtahg/rare-trials-ai)"}
 CTG = "https://clinicaltrials.gov/api/v2"

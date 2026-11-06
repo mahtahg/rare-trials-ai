@@ -69,7 +69,7 @@ q.conditional_formatting.add(f"N2:N{last}", FormulaRule(formula=['AND(OR($K2="Ed
 
 # Instructions sheet
 ins.column_dimensions["A"].width = 30; ins.column_dimensions["B"].width = 95
-ins["A1"] = "biomcp eval: question review"; ins["A1"].font = title
+ins["A1"] = "RareMCP eval: question review"; ins["A1"].font = title
 rows = [
  ("Who", "Mahta Haghighat Ghahfarokhi (domain review of the eval question set)."),
  ("What", f"{len(items)} questions: 254 base tier + 60 hard tier. 41 are gold checks (shaded blue)."),

@@ -1,8 +1,8 @@
 import pytest
 
-from biomcp.core.envelope import clip, dig
-from biomcp.core.http import _canonical_url, _cassette_key
-from biomcp.sources import ctgov
+from raremcp.core.envelope import clip, dig
+from raremcp.core.http import _canonical_url, _cassette_key
+from raremcp.sources import ctgov
 
 
 def test_build_query_phases_dates_sponsor():
@@ -58,7 +58,7 @@ def test_helpers():
 
 
 def test_orphanet_rarity_rule():
-    from biomcp.sources.orphanet import classify_rarity
+    from raremcp.sources.orphanet import classify_rarity
 
     pv = lambda c, g="Worldwide", t="Point prevalence": {
         "PrevalenceType": t, "PrevalenceClass": c, "PrevalenceGeographic": g, "PrevalenceValidationStatus": "Validated"}

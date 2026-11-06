@@ -9,7 +9,7 @@ from mcp.server.mcpserver import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
-from biomcp import __version__
+from raremcp import __version__
 
 READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, idempotent_hint=True, open_world_hint=True)
 
@@ -27,7 +27,7 @@ def tool(server: MCPServer):
     def deco(fn):
         @functools.wraps(fn)
         async def wrapped(*args, **kwargs):
-            from biomcp.core.http import SourceError
+            from raremcp.core.http import SourceError
 
             try:
                 return await fn(*args, **kwargs)

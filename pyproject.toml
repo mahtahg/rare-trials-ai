@@ -3,7 +3,7 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [project]
-name = "biomcp-rare"
+name = "raremcp"
 version = "0.1.0"
 description = "MCP servers for public biomedical data used in rare and neglected disease drug development and trials"
 readme = "README.md"
@@ -20,16 +20,16 @@ dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6"]
 eval = ["pandas>=2.0"]
 
 [project.scripts]
-biomcp-ctgov = "biomcp.servers.ctgov:main"
-biomcp-opentargets = "biomcp.servers.opentargets:main"
-biomcp-chembl = "biomcp.servers.chembl:main"
-biomcp-fda = "biomcp.servers.fda:main"
-biomcp-europepmc = "biomcp.servers.europepmc:main"
-biomcp-orphanet = "biomcp.servers.orphanet:main"
-biomcp-all = "biomcp.servers.all:main"
+raremcp-ctgov = "raremcp.servers.ctgov:main"
+raremcp-opentargets = "raremcp.servers.opentargets:main"
+raremcp-chembl = "raremcp.servers.chembl:main"
+raremcp-fda = "raremcp.servers.fda:main"
+raremcp-europepmc = "raremcp.servers.europepmc:main"
+raremcp-orphanet = "raremcp.servers.orphanet:main"
+raremcp-all = "raremcp.servers.all:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/biomcp"]
+packages = ["src/raremcp"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

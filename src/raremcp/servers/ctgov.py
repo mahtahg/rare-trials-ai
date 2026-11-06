@@ -4,8 +4,8 @@ from typing import Annotated, Literal
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import ctgov
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import ctgov
 
 Status = Literal[
     "ACTIVE_NOT_RECRUITING", "COMPLETED", "ENROLLING_BY_INVITATION", "NOT_YET_RECRUITING", "RECRUITING",
@@ -60,7 +60,7 @@ def register(server) -> None:
         return await ctgov.version()
 
 
-server = make_server("biomcp-ctgov", INSTRUCTIONS)
+server = make_server("raremcp-ctgov", INSTRUCTIONS)
 register(server)
 
 

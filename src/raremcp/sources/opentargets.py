@@ -8,8 +8,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from biomcp.core.envelope import clip, envelope
-from biomcp.core.http import HttpClient, SourceError, shared_client
+from raremcp.core.envelope import clip, envelope
+from raremcp.core.http import HttpClient, SourceError, shared_client
 
 SOURCE = "opentargets"
 URL = "https://api.platform.opentargets.org/api/v4/graphql"

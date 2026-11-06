@@ -4,8 +4,8 @@ from typing import Annotated, Literal
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import opentargets as ot
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import opentargets as ot
 
 INSTRUCTIONS = (
     "Open Targets Platform. Resolve names to IDs with opentargets_search first (diseases use EFO/MONDO/Orphanet "
@@ -51,7 +51,7 @@ def register(server) -> None:
         return await ot.drug(chembl_id)
 
 
-server = make_server("biomcp-opentargets", INSTRUCTIONS)
+server = make_server("raremcp-opentargets", INSTRUCTIONS)
 register(server)
 
 

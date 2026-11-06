@@ -4,8 +4,8 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import fda
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import fda
 
 INSTRUCTIONS = (
     "US FDA via openFDA. fda_generic_availability tells you whether a medicine is generically available in the "
@@ -27,7 +27,7 @@ def register(server) -> None:
         return await fda.label(ingredient)
 
 
-server = make_server("biomcp-fda", INSTRUCTIONS)
+server = make_server("raremcp-fda", INSTRUCTIONS)
 register(server)
 
 

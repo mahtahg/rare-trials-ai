@@ -30,7 +30,7 @@ import httpx
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
-from biomcp.sources.orphanet import classify_rarity  # protocol §4.2 rarity rule
+from raremcp.sources.orphanet import classify_rarity  # protocol §4.2 rarity rule
 
 UA = {"User-Agent": "rare-trials-ai/project6 (+https://github.com/mahtahg/rare-trials-ai)"}
 CTG = "https://clinicaltrials.gov/api/v2/studies"

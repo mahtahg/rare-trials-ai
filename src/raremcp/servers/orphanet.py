@@ -4,8 +4,8 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import orphanet
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import orphanet
 
 INSTRUCTIONS = (
     "Orphanet (Orphadata API). orphanet_lookup gives an ORPHA entity's name, synonyms, definition and cross-references "
@@ -28,7 +28,7 @@ def register(server) -> None:
         return await orphanet.prevalence(orpha_code)
 
 
-server = make_server("biomcp-orphanet", INSTRUCTIONS)
+server = make_server("raremcp-orphanet", INSTRUCTIONS)
 register(server)
 
 

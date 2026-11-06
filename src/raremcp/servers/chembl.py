@@ -4,8 +4,8 @@ from typing import Annotated
 
 from pydantic import Field
 
-from biomcp.servers import make_server, run, tool
-from biomcp.sources import chembl
+from raremcp.servers import make_server, run, tool
+from raremcp.sources import chembl
 
 INSTRUCTIONS = (
     "ChEMBL. chembl_search_molecules resolves drug names/synonyms to ChEMBL IDs (exact matches ranked first; "
@@ -39,7 +39,7 @@ def register(server) -> None:
         return await chembl.indications(chembl_id, limit)
 
 
-server = make_server("biomcp-chembl", INSTRUCTIONS)
+server = make_server("raremcp-chembl", INSTRUCTIONS)
 register(server)
 
 

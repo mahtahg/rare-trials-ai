@@ -11,8 +11,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
-from biomcp.core.envelope import clip, dig, envelope
-from biomcp.core.http import HttpClient, SourceError, shared_client
+from raremcp.core.envelope import clip, dig, envelope
+from raremcp.core.http import HttpClient, SourceError, shared_client
 
 SOURCE = "clinicaltrials.gov"
 BASE = "https://clinicaltrials.gov/api/v2"

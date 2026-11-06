@@ -1,4 +1,6 @@
-"""Run the biomcp eval through headless Claude Code (`claude -p`).
+"""Run the RareMCP eval through headless Claude Code (`claude -p`).
+
+Condition id `biomcp` = the RareMCP servers (named biomcp-rare until 2026-11-06; the id is kept so earlier runs stay comparable).
 
 Authentication is the Claude subscription OAuth token (CLAUDE_CODE_OAUTH_TOKEN,
 from `claude setup-token`), so runs draw on subscription usage, not API billing.
@@ -8,7 +10,8 @@ never silently switch billing.
 Conditions (identical system prompt, model and turn cap; only the tools differ)
   no_tools    no built-in tools, no MCP servers
   web_search  Claude Code's WebSearch + WebFetch only
-  biomcp      the biomcp MCP server only (stdio, same code users install)
+  biomcp      the RareMCP servers only (stdio, same code users install)
+  biomcp_go   external comparator: GenomOncology BioMCP (biomcp-cli, pinned)
 
 Each run is recorded as one JSON line in eval/results/<run_id>/raw.jsonl with
 the full event stream (tool calls + results), turns, latency, the model that
@@ -59,8 +62,15 @@ def parse_answer(text: str) -> dict | None:
 
 
 def mcp_config(path: Path) -> Path:
-    exe = shutil.which("biomcp-all") or str(Path(sys.executable).parent / "biomcp-all")
-    path.write_text(json.dumps({"mcpServers": {"biomcp": {"command": exe, "args": []}}}))
+    exe = shutil.which("raremcp-all") or str(Path(sys.executable).parent / "raremcp-all")
+    path.write_text(json.dumps({"mcpServers": {"raremcp": {"command": exe, "args": []}}}))
+    return path
+
+
+def mcp_config_external(path: Path) -> Path:
+    """External comparator: GenomOncology BioMCP (`pip install biomcp-cli`, MIT), run over stdio as `biomcp serve`."""
+    exe = shutil.which("biomcp") or str(Path(sys.executable).parent / "biomcp")
+    path.write_text(json.dumps({"mcpServers": {"bgo": {"command": exe, "args": ["serve"]}}}))
     return path
 
 
@@ -81,7 +91,9 @@ def build_cmd(prompt: str, model: str, condition: str, cfg: Path) -> list[str]:
     elif condition == "web_search":
         cmd += ["--tools", "WebSearch,WebFetch", "--allowedTools", "WebSearch,WebFetch"]
     elif condition == "biomcp":
-        cmd += ["--tools", "", "--mcp-config", str(cfg), "--allowedTools", "mcp__biomcp__*"]
+        cmd += ["--tools", "", "--mcp-config", str(cfg), "--allowedTools", "mcp__raremcp__*"]
+    elif condition == "biomcp_go":
+        cmd += ["--tools", "", "--mcp-config", str(cfg.with_name("bgo-mcp.json")), "--allowedTools", "mcp__bgo__*"]
     else:
         raise ValueError(condition)
     return cmd
@@ -224,6 +236,10 @@ async def main() -> int:
 
     workdir = Path(tempfile.mkdtemp(prefix="biomcp-eval-"))  # empty cwd: no repo CLAUDE.md or files leak in
     cfg = mcp_config(workdir.parent / "biomcp-mcp.json")
+    if "biomcp_go" in a.conditions:
+        mcp_config_external(workdir.parent / "bgo-mcp.json")
+        meta["external_comparator_version"] = os.getenv("BGO_VERSION", "unrecorded")  # set by the workflow from `biomcp version`
+        meta_p.write_text(json.dumps(meta, indent=1))
     sem = asyncio.Semaphore(a.concurrency)
     lock = asyncio.Lock()
     stop = asyncio.Event()
