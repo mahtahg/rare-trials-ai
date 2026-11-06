@@ -326,7 +326,7 @@ def main() -> int:
         p = res["primary"]["non-oncology (headline)"]["p_ci"][0]
         res["misclassification_corrected"] = {"stall_rg": rogan_gladen(p, v["stall_se"], v["stall_sp"]), "inputs": v}
     (out / "results.json").write_text(json.dumps(res, indent=1, default=str))
-    with (out / "analysis_dataset.jsonl").open("w") as f:
+    with gzip.open(out / "analysis_dataset.jsonl.gz", "wt") as f:
         for x in rows:
             f.write(json.dumps({k: v for k, v in x.items() if k != "drugs_det"}) + "\n")
     write_md(res, out / "results.md")
