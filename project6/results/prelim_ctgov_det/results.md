@@ -168,25 +168,26 @@ Basis for repurposing: **det**. Snapshot 2026-11-03. ClinicalTrials.gov only (IC
 
 ## Reasons for stopping (non-oncology, LLM T3 labels)
 
-622 stopped trials; 102 labelled; 58 with no stated reason in the registry.
+622 stopped trials; 342 labelled; 58 with no stated reason in the registry.
 
 | primary reason | n |
 |---|---|
-| insufficient_accrual | 35 |
-| not_stated | 11 |
-| logistics_site_investigator | 9 |
-| funding | 9 |
-| other | 8 |
-| sponsor_business_decision | 8 |
-| safety | 6 |
-| efficacy_futility | 6 |
-| regulatory_ethics_contractual | 4 |
-| covid19 | 3 |
-| scientific_landscape_changed | 3 |
+| insufficient_accrual | 117 |
+| efficacy_futility | 36 |
+| not_stated | 32 |
+| sponsor_business_decision | 28 |
+| funding | 28 |
+| other | 24 |
+| logistics_site_investigator | 21 |
+| covid19 | 14 |
+| safety | 14 |
+| regulatory_ethics_contractual | 14 |
+| scientific_landscape_changed | 10 |
+| drug_supply | 4 |
 
 ## Repurposing label agreement: deterministic rule vs LLM (T2)
 
-n=2208; agreement 2033/2208; kappa 0.8093; rule-only 154; LLM-only 21.
+n=7231; agreement 6641/7231; kappa 0.8014; rule-only 514; LLM-only 76.
 
 ## Multivariable logistic regression (non-oncology; descriptive associations)
 
