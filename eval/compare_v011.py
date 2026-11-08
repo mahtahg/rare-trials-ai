@@ -17,8 +17,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "eval"))
-from compare import boot  # noqa: E402 - needs the eval path
-from score import mcnemar_exact, wilson  # noqa: E402
+from compare import boot
+from score import mcnemar_exact, wilson
 
 RES = ROOT / "eval/results"
 
