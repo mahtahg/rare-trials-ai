@@ -7,8 +7,8 @@
 
 | comparison | n | biomcp-only correct | other-only correct | McNemar p | Δacc (95% CI) |
 |---|---|---|---|---|---|
-| claude-sonnet-5-5|biomcp_vs_biomcp_go | 60 | 10 | 5 | 0.301758 | +0.083 (-0.050, +0.217) |
 | claude-sonnet-5-5|biomcp_vs_no_tools | 60 | 31 | 7 | 0.000116 | +0.400 (+0.217, +0.567) |
+| claude-sonnet-5-5|biomcp_vs_biomcp_go | 60 | 10 | 5 | 0.301758 | +0.083 (-0.050, +0.217) |
 | claude-sonnet-5-5|biomcp_vs_web_search | 60 | 7 | 7 | 1.0 | +0.000 (-0.117, +0.117) |
 
 | template | claude-sonnet-5-5|biomcp | claude-sonnet-5-5|biomcp_go | claude-sonnet-5-5|no_tools | claude-sonnet-5-5|web_search |

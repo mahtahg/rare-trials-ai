@@ -23,25 +23,25 @@
    "tool_error_rate": 0.0
   },
   "claude-haiku-5-5|biomcp_go": {
-   "n": 201,
-   "accuracy": 0.8308,
+   "n": 254,
+   "accuracy": 0.7953,
    "accuracy_ci95": [
-    0.7729,
-    0.8764
+    0.7414,
+    0.8403
    ],
-   "mean_score": 0.8307,
-   "abstain_rate": 0.0448,
+   "mean_score": 0.7877,
+   "abstain_rate": 0.1417,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 215,
+   "ids_emitted": 250,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.1251,
-   "brier": 0.102,
-   "mean_api_equiv_cost_usd": 0.00228,
-   "total_api_equiv_cost_usd": 0.459,
-   "median_latency_s": 8.61,
-   "mean_tool_calls": 4.57,
-   "tool_error_rate": 0.4614
+   "ece": 0.1215,
+   "brier": 0.1219,
+   "mean_api_equiv_cost_usd": 0.00249,
+   "total_api_equiv_cost_usd": 0.631,
+   "median_latency_s": 10.35,
+   "mean_tool_calls": 5.55,
+   "tool_error_rate": 0.5082
   },
   "claude-haiku-5-5|no_tools": {
    "n": 254,
@@ -114,6 +114,11 @@
     "n": 20,
     "accuracy": 0.75,
     "mean_score": 0.75
+   },
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.3,
+    "mean_score": 0.3
    },
    "claude-haiku-5-5|no_tools": {
     "n": 20,
@@ -221,9 +226,9 @@
     "mean_score": 0.9857
    },
    "claude-haiku-5-5|biomcp_go": {
-    "n": 1,
-    "accuracy": 1.0,
-    "mean_score": 0.75
+    "n": 14,
+    "accuracy": 0.7143,
+    "mean_score": 0.5607
    },
    "claude-haiku-5-5|no_tools": {
     "n": 14,
@@ -238,6 +243,11 @@
   },
   "not_found": {
    "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-haiku-5-5|biomcp_go": {
     "n": 20,
     "accuracy": 1.0,
     "mean_score": 1.0
@@ -381,22 +391,6 @@
     0.6477
    ]
   },
-  "claude-haiku-5-5|biomcp_vs_biomcp_go": {
-   "n": 201,
-   "biomcp_only_correct": 32,
-   "other_only_correct": 2,
-   "mcnemar_p": 0.0,
-   "acc_diff_ci95": [
-    0.1493,
-    0.0995,
-    0.204
-   ],
-   "score_diff_ci95": [
-    0.1464,
-    0.0985,
-    0.1962
-   ]
-  },
   "claude-haiku-5-5|biomcp_vs_web_search": {
    "n": 254,
    "biomcp_only_correct": 49,
@@ -411,6 +405,22 @@
     0.1878,
     0.1401,
     0.2384
+   ]
+  },
+  "claude-haiku-5-5|biomcp_vs_biomcp_go": {
+   "n": 254,
+   "biomcp_only_correct": 46,
+   "other_only_correct": 3,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.1693,
+    0.122,
+    0.2205
+   ],
+   "score_diff_ci95": [
+    0.1737,
+    0.1277,
+    0.2226
    ]
   }
  },

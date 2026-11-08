@@ -1,0 +1,60 @@
+{
+ "gold_version": "1.0",
+ "by_condition": {
+  "claude-haiku-5-5|biomcp": {
+   "n": 58,
+   "accuracy": 0.8793,
+   "accuracy_ci95": [
+    0.7712,
+    0.9403
+   ],
+   "mean_score": 0.8759,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 132,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.1014,
+   "brier": 0.1144,
+   "mean_api_equiv_cost_usd": 0.00171,
+   "total_api_equiv_cost_usd": 0.099,
+   "median_latency_s": 8.65,
+   "mean_tool_calls": 3.98,
+   "tool_error_rate": 0.0
+  }
+ },
+ "by_template": {
+  "drug_generic_us": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 0.9,
+    "mean_score": 0.9
+   }
+  },
+  "h_late_generic_boxed": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_source_conflict": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 12,
+    "accuracy": 0.5833,
+    "mean_score": 0.5833
+   }
+  },
+  "multihop_generic_late_stage": {
+   "claude-haiku-5-5|biomcp": {
+    "n": 14,
+    "accuracy": 1.0,
+    "mean_score": 0.9857
+   }
+  }
+ },
+ "paired": {},
+ "id_validation": false,
+ "n_errored_runs_excluded": 0,
+ "n_questions_excluded_by_review": 0
+}
