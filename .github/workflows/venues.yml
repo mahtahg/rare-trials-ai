@@ -1,0 +1,16 @@
+name: venues
+# Fetch public calls for papers / author instructions as text (artifact only; nothing committed). No model calls.
+on: { workflow_dispatch: {} }
+permissions: { contents: read }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install httpx
+      - run: python tools/fetch_venues.py tools/venue_urls.txt
+      - uses: actions/upload-artifact@v4
+        with: { name: venues, path: venues_out, retention-days: 3 }
