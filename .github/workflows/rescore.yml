@@ -34,6 +34,7 @@ jobs:
           python eval/compare.py
           python eval/compare.py all_
           python eval/compare.py v1gold_all_
+          [ -f eval/results/fda011-sonnet/all_scored.jsonl ] && python eval/compare_v011.py || true
       - name: Commit
         if: always()
         run: |
