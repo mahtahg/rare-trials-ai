@@ -7,6 +7,13 @@
    "finished_at": "2026-11-06T15:55:23.300198+00:00",
    "completed_runs": 0,
    "stopped_for_usage_limit": true
+  },
+  {
+   "started_at": "2026-11-08T02:42:12.979821+00:00",
+   "pending_jobs": 58,
+   "finished_at": "2026-11-08T02:46:50.967494+00:00",
+   "completed_runs": 58,
+   "stopped_for_usage_limit": false
   }
  ],
  "args": {
@@ -19,7 +26,7 @@
   "seed": 20261103,
   "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 120.0,
+  "max_minutes": 240.0,
   "run_id": "fda011-haiku"
  },
  "n_questions": 58,
