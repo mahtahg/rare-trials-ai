@@ -1,0 +1,834 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Supplementary Information</title><style>
+@page { size: A4; margin: 18mm 16mm; }
+* { color: #000; }
+body { font-family: Arial, Helvetica, 'Liberation Sans', sans-serif; font-size: 9pt; line-height: 1.35; }
+h1 { font-size: 14pt; margin: 0 0 6mm; } h2 { font-size: 11pt; margin: 9mm 0 2mm; break-after: avoid; }
+h3 { font-size: 10pt; margin: 6mm 0 2mm; break-after: avoid; }
+p { margin: 0 0 2.5mm; } .legend { font-size: 8.5pt; margin-top: 1.5mm; }
+table { border-collapse: collapse; width: 100%; font-size: 8pt; margin: 1mm 0 1mm; }
+th, td { text-align: left; vertical-align: top; padding: 1.2mm 1.6mm; border: none; }
+thead th { border-top: 0.8pt solid #000; border-bottom: 0.5pt solid #000; font-weight: bold; }
+tbody tr:last-child td { border-bottom: 0.8pt solid #000; }
+tr { break-inside: avoid; } ul { padding-left: 5mm; } li { margin-bottom: 2mm; }
+code { font-family: inherit; } .title { break-after: page; } .contents li { margin-bottom: 1mm; }
+</style></head><body><div class='title'><h1>Supplementary Information</h1><p><b>Open source-grounded tools for language models answering clinical-development questions in rare and neglected tropical diseases</b></p><p>Mahta Haghighat Ghahfarokhi and Amin Arshi, King's College London, London, UK</p><h3>Contents</h3><ul class='contents'><li>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</li><li>Supplementary Table 2. Accuracy against the original gold answers (v1.0) and the audited gold (v1.1)</li><li>Supplementary Table 3. Accuracy by population, condition and model (gold v1.1, all 314 questions, RareMCP 0.1.0; exploratory)</li><li>Supplementary Table 4. Gold answers corrected in v1.1</li><li>Supplementary Table 5. Fabricated tool-use excerpts (no-tools condition)</li><li>Supplementary Note 1. TRIPOD-LLM checklist</li></ul></div><h2>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</h2>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Template</th>
+<th>n</th>
+<th>No tools (S/H)</th>
+<th>Web search (S/H)</th>
+<th>BioMCP (S/H)</th>
+<th>RareMCP 0.1.0 (S/H)</th>
+<th>RareMCP 0.1.1 (S/H)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base</td>
+<td>Drugs at phase 3 or later</td>
+<td>20</td>
+<td>60/45</td>
+<td>55/15</td>
+<td>80/55</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>EU rarity (10 rare, 10 not)</td>
+<td>20</td>
+<td>50/45</td>
+<td>50/50</td>
+<td>50/30</td>
+<td>100/75</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Top five associated targets</td>
+<td>20</td>
+<td>15/5</td>
+<td>10/0</td>
+<td>85/80</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>First approval year</td>
+<td>20</td>
+<td>90/80</td>
+<td>100/100</td>
+<td>85/80</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Marketed US generic</td>
+<td>20</td>
+<td>85/85</td>
+<td>90/95</td>
+<td>90/100</td>
+<td>90/90</td>
+<td>100/100</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Drug targets</td>
+<td>20</td>
+<td>95/95</td>
+<td>100/95</td>
+<td>95/95</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Late-stage drugs with a US generic</td>
+<td>14</td>
+<td>57/50</td>
+<td>57/64</td>
+<td>79/71</td>
+<td>100/100</td>
+<td>100/100</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Non-existent identifier</td>
+<td>20</td>
+<td>100/95</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Terminated or withdrawn trial count</td>
+<td>20</td>
+<td>25/0</td>
+<td>95/95</td>
+<td>90/80</td>
+<td>100/90</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Enrolment (count and actual/estimated)</td>
+<td>20</td>
+<td>0/0</td>
+<td>100/100</td>
+<td>95/95</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Statistical analysis plan uploaded</td>
+<td>20</td>
+<td>35/0</td>
+<td>100/100</td>
+<td>90/45</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Number of sites</td>
+<td>20</td>
+<td>0/5</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Why a trial stopped</td>
+<td>20</td>
+<td>0/0</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Age and sex eligibility at a boundary</td>
+<td>12</td>
+<td>8/17</td>
+<td>100/100</td>
+<td>100/92</td>
+<td>100/92</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Late-stage, generic and boxed warning</td>
+<td>12</td>
+<td>33/42</td>
+<td>42/67</td>
+<td>42/75</td>
+<td>92/92</td>
+<td>92/100</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Countries recruiting for a disease</td>
+<td>12</td>
+<td>8/0</td>
+<td>100/92</td>
+<td>100/75</td>
+<td>100/100</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>12</td>
+<td>83/75</td>
+<td>100/100</td>
+<td>75/50</td>
+<td>58/58</td>
+<td>100/100</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Approved drugs on the top target not yet tested in the disease</td>
+<td>12</td>
+<td>75/8</td>
+<td>67/33</td>
+<td>50/25</td>
+<td>58/58</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<p class='legend'>Percentage of questions answered correctly by Claude Sonnet 5.5 / Claude Haiku 5.5 (S/H) against the audited gold answers (v1.1), one run per question, model and condition. RareMCP 0.1.1 is the post hoc re-run of the Drugs@FDA-dependent templates; – marks a template that was not re-run, whose answers are unchanged from RareMCP 0.1.0.</p>
+
+<h2>Supplementary Table 2. Accuracy against the original gold answers (v1.0) and the audited gold (v1.1)</h2>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Model</th>
+<th>Condition</th>
+<th>v1.0</th>
+<th>v1.1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base</td>
+<td>Sonnet</td>
+<td>No tools</td>
+<td>46.9%</td>
+<td>46.9%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Sonnet</td>
+<td>Web search</td>
+<td>81.9%</td>
+<td>81.9%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Sonnet</td>
+<td>BioMCP</td>
+<td>87.8%</td>
+<td>87.8%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Sonnet</td>
+<td>RareMCP 0.1.0</td>
+<td>100.0%</td>
+<td>99.2%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Haiku</td>
+<td>No tools</td>
+<td>38.6%</td>
+<td>38.6%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Haiku</td>
+<td>Web search</td>
+<td>78.3%</td>
+<td>78.3%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Haiku</td>
+<td>BioMCP</td>
+<td>78.7%</td>
+<td>79.5%</td>
+</tr>
+<tr>
+<td>Base</td>
+<td>Haiku</td>
+<td>RareMCP 0.1.0</td>
+<td>97.2%</td>
+<td>96.5%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Sonnet</td>
+<td>No tools</td>
+<td>36.7%</td>
+<td>41.7%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Sonnet</td>
+<td>Web search</td>
+<td>73.3%</td>
+<td>81.7%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Sonnet</td>
+<td>BioMCP</td>
+<td>71.7%</td>
+<td>73.3%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Sonnet</td>
+<td>RareMCP 0.1.0</td>
+<td>90.0%</td>
+<td>81.7%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Haiku</td>
+<td>No tools</td>
+<td>23.3%</td>
+<td>28.3%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Haiku</td>
+<td>Web search</td>
+<td>70.0%</td>
+<td>78.3%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Haiku</td>
+<td>BioMCP</td>
+<td>66.7%</td>
+<td>63.3%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>Haiku</td>
+<td>RareMCP 0.1.0</td>
+<td>88.3%</td>
+<td>80.0%</td>
+</tr>
+</tbody>
+</table>
+<p class='legend'>Accuracy of each condition scored against the original gold answers (v1.0) and against the audited gold answers (v1.1), which correct eight Drugs@FDA-dependent answers (Supplementary Table 4; Methods, Gold audit and correction).</p>
+
+<h2>Supplementary Table 3. Accuracy by population, condition and model (gold v1.1, all 314 questions, RareMCP 0.1.0; exploratory)</h2>
+<table>
+<thead>
+<tr>
+<th>Population</th>
+<th>n</th>
+<th>No tools (S/H)</th>
+<th>Web search (S/H)</th>
+<th>BioMCP (S/H)</th>
+<th>RareMCP 0.1.0 (S/H)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rare disease</td>
+<td>246</td>
+<td>48.0 / 35.0</td>
+<td>89.8 / 86.2</td>
+<td>90.2 / 80.5</td>
+<td>95.5 / 94.3</td>
+</tr>
+<tr>
+<td>Rare disease, NTD templates only</td>
+<td>62</td>
+<td>41.9 / 4.8</td>
+<td>62.9 / 48.4</td>
+<td>80.6 / 61.3</td>
+<td>93.5 / 90.3</td>
+</tr>
+<tr>
+<td>NTD</td>
+<td>48</td>
+<td>33.3 / 41.7</td>
+<td>54.2 / 50.0</td>
+<td>72.9 / 75.0</td>
+<td>95.8 / 95.8</td>
+</tr>
+<tr>
+<td>EU-rarity items (10 rare, 10 not)</td>
+<td>20</td>
+<td>50.0 / 45.0</td>
+<td>50.0 / 50.0</td>
+<td>50.0 / 30.0</td>
+<td>100.0 / 75.0</td>
+</tr>
+</tbody>
+</table>
+<p class='legend'>Exploratory. Percentage correct for Claude Sonnet 5.5 / Claude Haiku 5.5 against gold v1.1, with RareMCP 0.1.0. NTD questions come only from aggregate templates, so the second row restricts rare-disease questions to the same templates.</p>
+
+<h2>Supplementary Table 4. Gold answers corrected in v1.1</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Template</th>
+<th>v1.0</th>
+<th>v1.1</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>generic-CHEMBL3622821</td>
+<td>Marketed US generic</td>
+<td>false</td>
+<td>true</td>
+<td>1 marketed ANDAs (e.g. ANDA218866)</td>
+</tr>
+<tr>
+<td>generic-CHEMBL417</td>
+<td>Marketed US generic</td>
+<td>false</td>
+<td>true</td>
+<td>4 marketed ANDAs (e.g. ANDA065361, ANDA090163, ANDA065289)</td>
+</tr>
+<tr>
+<td>repurpose-MONDO_0005799</td>
+<td>Late-stage drugs with a US generic</td>
+<td>["ALBENDAZOLE", "IVERMECTIN"]</td>
+<td>["ALBENDAZOLE", "IVERMECTIN", "MEBENDAZOLE"]</td>
+<td>ALBENDAZOLE: 6 marketed ANDAs (e.g. ANDA213435, ANDA211034, ANDA211117) / EMODEPSIDE: no Drugs@FDA record / IVERMECTIN: 11 marketed ANDAs (e.g. ANDA210225, ANDA218805, ANDA215922) / MEBENDAZOLE: 1 marketed ANDAs (e.g. AN</td>
+</tr>
+<tr>
+<td>h4-CHEMBL1351</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>false</td>
+<td>true</td>
+<td>ChEMBL 1989; earliest original NDA approval 1989 (NDA019880)</td>
+</tr>
+<tr>
+<td>h4-CHEMBL830</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>false</td>
+<td>true</td>
+<td>ChEMBL 1990; earliest original NDA approval 1990 (NDA019879)</td>
+</tr>
+<tr>
+<td>h4-CHEMBL1200699</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>false</td>
+<td>true</td>
+<td>ChEMBL 1967; earliest original NDA approval 1967 (NDA050006)</td>
+</tr>
+<tr>
+<td>h4-CHEMBL2096650</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>false</td>
+<td>true</td>
+<td>ChEMBL 1992; earliest original NDA approval 1992 (NDA020166)</td>
+</tr>
+<tr>
+<td>h4-CHEMBL529</td>
+<td>ChEMBL versus FDA first-approval year</td>
+<td>false</td>
+<td>true</td>
+<td>ChEMBL 1991; earliest original NDA approval 1991 (NDA050670)</td>
+</tr>
+</tbody>
+</table>
+<p class='legend'>Rule for v1.1: Drugs@FDA applications are the union of searches on openfda.generic_name and products.active_ingredients.name, de-duplicated by application number. Evidence is summarised from the archived Drugs@FDA payloads in the code repository (eval/review/gold_v1_1). ANDA, abbreviated new drug application; NDA, new drug application.</p>
+
+<h2>Supplementary Table 5. Fabricated tool-use excerpts (no-tools condition)</h2>
+<ul>
+<li><strong>hard-haiku / h1-MONDO_0005996</strong>: …sults, and I've been spending effort rebooting the same request rather than reaching a conclusion. My situation:  - The API returned <code>[]</code> for every trichuriasis query, including the one with no status filter. An empty array for a common condition is su…</li>
+<li><strong>v1-haiku / sites-NCT01512277</strong>: …I couldn't retrieve the site count for NCT01512277. Every request to the ClinicalTrials.gov API returned no data, and the saved response file was empty. I don't have a verified number, so I'm not giving one.  To get the coun…</li>
+<li><strong>v1-haiku / sites-NCT01665690</strong>: …I could not get the site count for NCT01665690. The ClinicalTrials.gov API calls returned no output (curl exited with code 1), the site itself appears unreachable from this sandbox, and no local BioMCP tool is…</li>
+<li><strong>v1-haiku / latedrugs-MONDO_0019004</strong>: …&gt; </invoke> [?] {"data":{"disease":{"id":"MONDO_0019004","name":"Wilms tumor","knownDrugs":{"count":0,"rows":[]}}}} [?] The API returned the disease but zero known drugs. I'll check whether the disease is indexed under a different ID, since Open Targets of…</li>
+<li><strong>v1-haiku / latedrugs-MONDO_0017137</strong>: …ctin, at phase 4 for onchocerciasis, so the answer is <code>["ivermectin"]</code>.  The API reports 11 known-drug records, but the response returned 10 rows. All 10 are ivermectin (CHEMBL1200637) at phase 4 with status "Completed", and the drug's maximum clinical stag…</li>
+<li><strong>v1-haiku / latedrugs-MONDO_0015908</strong>: … application/json' -d '{"query":"{ disease(efoId: \"MONDO_0015908\") { id name } }"}'</parameter> </invoke> My previous query returned garbled output, so I'm retrying with a simpler request to see whether the API responds properly.   <invoke:Bash> &lt;param…</li>
+<li><strong>v1-haiku / repurpose-MONDO_0005445</strong>: …The Open Targets query only partly worked. The disease lookup returned MONDO_0005203 (visceral leishmaniasis). The knownDrugs call reported 30 rows, but the responses I got back showed only …</li>
+</ul>
+<p><p class='legend'>Excerpts from no-tools answers by Claude Haiku 5.5 that describe tool calls and their results although the run made no tool calls (7 of 314 answers). Identified by a regular-expression screen and confirmed by reading each answer; ellipses mark truncation and [?] an undecodable character in the logged output. Run and question identifiers refer to the raw logs in the code repository.</p></p>
+<h2>Supplementary Note 1. TRIPOD-LLM checklist</h2>
+<p>Checklist: TRIPOD-LLM (Gallifant et al., Nat. Med. 31, 60–69, 2025), 19 items and their subitems as published. Item wording is paraphrased; the answers are also entered on the official fillable checklist from the TRIPOD-LLM website.</p>
+<p><strong>Research design categories that apply:</strong> LLM methods (augmenting models with tools; no change to model weights) and LLM evaluation. Not de novo development, and not evaluation in a dedicated healthcare setting. <strong>LLM task categories:</strong> long-form question answering and information retrieval. Items limited to other designs or tasks are marked "Not applicable", with the reason. Locations refer to sections of the main manuscript (M) or this Supplementary Information (SI).</p>
+<h3>Title and abstract</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement (paraphrased)</th>
+<th>Applies</th>
+<th>Where and what is reported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Identify the study as developing, tuning or evaluating an LLM, with the task, population and outcome</td>
+<td>Yes</td>
+<td>Title: language models with tools; clinical-development question answering; rare and neglected tropical diseases</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Abstract following TRIPOD-LLM for Abstracts</td>
+<td>Yes</td>
+<td>Abstract (unstructured, 150 words, as the journal requires): objective, tools and sources, models, conditions, question set, number of runs, main accuracy results with P values, main limitation (shared error) and conclusion</td>
+</tr>
+</tbody>
+</table>
+<h3>Introduction</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement (paraphrased)</th>
+<th>Applies</th>
+<th>Where and what is reported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3a</td>
+<td>Healthcare use case, rationale and existing approaches</td>
+<td>Yes</td>
+<td>M, Introduction paragraphs 1–2: information needs of rare-disease and NTD clinical-development teams; limits of parametric memory; tool-using models (GeneGPT, Toolformer); prior MCP evaluations</td>
+</tr>
+<tr>
+<td>3b</td>
+<td>Target population, intended use in the care pathway and intended users</td>
+<td>Yes</td>
+<td>M, Introduction paragraph 1 (clinical-development and repurposing teams); Discussion, final paragraph (information look-up with human checking of cited records; not for decisions about individual patients)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Objectives, including whether development, tuning or evaluation</td>
+<td>Yes</td>
+<td>M, Introduction paragraph 3: build open MCP tools and a question set, and evaluate two existing models with four tool conditions; no model training or fine-tuning (Methods, Conditions and models)</td>
+</tr>
+</tbody>
+</table>
+<h3>Methods</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement (paraphrased)</th>
+<th>Applies</th>
+<th>Where and what is reported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5a</td>
+<td>Data sources for development, tuning or evaluation, and why chosen</td>
+<td>Yes</td>
+<td>M, Methods, Servers and Question set and gold answers: ClinicalTrials.gov, Open Targets, ChEMBL, openFDA, Europe PMC, Orphadata; Orphanet disorders with MONDO cross-references; WHO-listed NTDs</td>
+</tr>
+<tr>
+<td>5b</td>
+<td>Data points and their distribution</td>
+<td>Yes</td>
+<td>M, Results, Question set and runs; Table 1 (18 templates, tier, n, sources, answer types); SI Table 1</td>
+</tr>
+<tr>
+<td>5c</td>
+<td>Dates of the oldest and newest text used</td>
+<td>Yes</td>
+<td>M, Methods: gold answers computed from live sources on 3–4 November 2026; audit re-fetches in November 2026; each question stores its retrieval time; runs 3–8 November 2026</td>
+</tr>
+<tr>
+<td>5d</td>
+<td>Preprocessing and quality checks, and whether consistent across groups</td>
+<td>Yes</td>
+<td>M, Methods, Question set and gold answers (deterministic code separate from the servers; non-existent identifiers confirmed by HTTP 404) and Gold audit and correction (41-question re-derivation; full Drugs@FDA re-derivation); the same rules for rare-disease and NTD questions</td>
+</tr>
+<tr>
+<td>5e</td>
+<td>Missing and imbalanced data; reasons for omitting data</td>
+<td>Yes</td>
+<td>M, Results (41 unparseable no-tools answers scored incorrect); Methods, Conditions and models (172 infrastructure-failed attempts re-run); Methods, Question screening (10 exclusions, sensitivity only); rarity template balanced 10/10</td>
+</tr>
+<tr>
+<td>6a</td>
+<td>LLM name, version and training cut-off</td>
+<td>Yes</td>
+<td>M, Methods, Conditions and models: Claude Sonnet 5.5 (claude-sonnet-5-5) and Claude Haiku 5.5 (claude-haiku-5-5); published reliable knowledge cut-off June 2026; served model confirmed from logs</td>
+</tr>
+<tr>
+<td>6b</td>
+<td>Development details: architecture, training, fine-tuning, alignment (LLM methods)</td>
+<td>Yes, partly</td>
+<td>M, Methods, Servers: architecture of the tool layer (17 read-only MCP tools, response envelope, provenance, retries, record/replay). No training, fine-tuning or alignment was done</td>
+</tr>
+<tr>
+<td>6c</td>
+<td>How text was generated: prompting, output consistency, inference settings</td>
+<td>Yes</td>
+<td>M, Methods, Conditions and models: one shared system prompt (full text in repository); default sampling of headless Claude Code; 20 turns; 600 s timeout; one run per question, model and condition, so consistency was not measured (stated as a limitation)</td>
+</tr>
+<tr>
+<td>6d</td>
+<td>Initial and post-processed outputs</td>
+<td>Yes</td>
+<td>M, Methods, Outcomes: answer read from a final JSON block; unparseable blocks scored incorrect; raw outputs, tool calls and tool outputs archived (Data availability)</td>
+</tr>
+<tr>
+<td>6e</td>
+<td>Classification: how probabilities and thresholds were derived</td>
+<td>Not applicable</td>
+<td>Not a classification or forecasting task. Stated confidence was used only for calibration (M, Methods, Outcomes)</td>
+</tr>
+<tr>
+<td>7a</td>
+<td>Quality metrics for generated output against a reference</td>
+<td>Yes</td>
+<td>M, Table 1 (per-template scoring rules: exact match, tolerance, set F1, token F1, abstention); Methods, Outcomes (identifier validity, grounding, calibration)</td>
+</tr>
+<tr>
+<td>7b</td>
+<td>Relevance of metrics to deployment; correlation with human evaluation</td>
+<td>Yes</td>
+<td>M, Discussion paragraphs 1 and 6: metrics measure retrieval of source facts, not clinical truth. No human evaluation of outputs, so no correlation with human judgement is reported</td>
+</tr>
+<tr>
+<td>7c</td>
+<td>Outcome definition, how predictions were computed, inference dates for closed models</td>
+<td>Yes</td>
+<td>M, Methods, Outcomes and Conditions and models: inference 3–8 November 2026 (post hoc re-run 8 November 2026)</td>
+</tr>
+<tr>
+<td>7d</td>
+<td>Subjective assessment: assessors, instructions, agreement</td>
+<td>Not applicable</td>
+<td>All scoring was automatic. The AI-assisted question screening is described in M, Methods, Question screening; no human expert rating or inter-rater agreement is reported</td>
+</tr>
+<tr>
+<td>7e</td>
+<td>Comparison with other LLMs, humans or benchmarks</td>
+<td>Yes</td>
+<td>M, Methods, Conditions and models and Statistics: two models; no tools, web search and an external MCP server (BioMCP 0.9.3) as comparators; paired tests. No human comparator</td>
+</tr>
+<tr>
+<td>8a</td>
+<td>How text was labelled, with guidelines</td>
+<td>Yes</td>
+<td>M, Methods, Question set and gold answers: gold answers computed by deterministic code from raw source responses; rules in Table 1; code in repository</td>
+</tr>
+<tr>
+<td>8b</td>
+<td>Number of annotators, proportion double-annotated, inter-annotator agreement</td>
+<td>Yes</td>
+<td>No human annotators. Re-derivation by separate code: 41/41 agreement on a stratified sample; all 58 Drugs@FDA-dependent answers re-derived with a broader search, 8 changed (M, Methods, Gold audit and correction; SI Table 4)</td>
+</tr>
+<tr>
+<td>8c</td>
+<td>Annotator background, or characteristics of a labelling model</td>
+<td>Yes</td>
+<td>Labels from deterministic Python code (repository); the language model used for screening is named in M, Methods, Question screening and Use of language models in this study</td>
+</tr>
+<tr>
+<td>9a</td>
+<td>Prompt design, curation and selection</td>
+<td>Yes</td>
+<td>M, Methods, Conditions and models: one prompt for all conditions, written before the main runs and not iterated on evaluation results</td>
+</tr>
+<tr>
+<td>9b</td>
+<td>Data used to develop prompts</td>
+<td>Yes</td>
+<td>No evaluation questions were used to develop the prompt (M, Methods, Conditions and models)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Preprocessing before summarisation</td>
+<td>Not applicable</td>
+<td>No summarisation task</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Instruction tuning or alignment: instructions, data, interface, evaluators</td>
+<td>Not applicable</td>
+<td>No instruction tuning or alignment was done</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Compute resources</td>
+<td>Yes</td>
+<td>M, Methods, Conditions and models: GitHub-hosted Linux runners, two runs at a time; about 10 h summed run time; about 3.9 million output tokens; API-equivalent cost about US$30</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Ethics body and consent, or waiver</td>
+<td>Yes</td>
+<td>M, Methods, Ethics and reporting: public, non-identifiable data only; no human participants; approval not required</td>
+</tr>
+<tr>
+<td>14a</td>
+<td>Funding and funders' role</td>
+<td>Yes</td>
+<td>M, Acknowledgements: no specific funding</td>
+</tr>
+<tr>
+<td>14b</td>
+<td>Conflicts of interest for all authors</td>
+<td>Yes</td>
+<td>M, Competing interests: none</td>
+</tr>
+<tr>
+<td>14c</td>
+<td>Protocol access, or that none was prepared</td>
+<td>Yes (reported although not required for this design)</td>
+<td>M, Methods, Ethics and reporting: no protocol published in advance; post hoc analyses labelled</td>
+</tr>
+<tr>
+<td>14d</td>
+<td>Registration, or that the study was not registered</td>
+<td>Yes (as 14c)</td>
+<td>M, Methods, Ethics and reporting: not registered</td>
+</tr>
+<tr>
+<td>14e</td>
+<td>Data availability</td>
+<td>Yes</td>
+<td>M, Data availability: questions, gold answers, corrections, audit payloads, raw logs and scores (GitHub; Zenodo archive)</td>
+</tr>
+<tr>
+<td>14f</td>
+<td>Code availability</td>
+<td>Yes</td>
+<td>M, Methods, Code availability: RareMCP 0.1.1, generators, harness and analysis code under the MIT licence</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Patient and public involvement</td>
+<td>Yes (as 14c)</td>
+<td>M, Methods, Ethics and reporting: none</td>
+</tr>
+</tbody>
+</table>
+<h3>Results</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement (paraphrased)</th>
+<th>Applies</th>
+<th>Where and what is reported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16a</td>
+<td>Flow of participants or records, numbers with and without outcome</td>
+<td>Not applicable</td>
+<td>No patient or EHR data. Flow of questions and runs: M, Results, Question set and runs (314 questions, 2,512 runs, 41 unparseable answers)</td>
+</tr>
+<tr>
+<td>16b</td>
+<td>Characteristics of the data overall and by source and split</td>
+<td>Not applicable</td>
+<td>No patient data. Question-set characteristics: Table 1; SI Tables 1 and 3</td>
+</tr>
+<tr>
+<td>16c</td>
+<td>Comparison of key variables between development and evaluation data</td>
+<td>Not applicable</td>
+<td>No development data; no model was trained</td>
+</tr>
+<tr>
+<td>16d</td>
+<td>Numbers of participants and events in each analysis</td>
+<td>Not applicable</td>
+<td>No patient data. The n for each analysis is given in Tables 2–4, SI Tables 1–3 and the text</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Performance against pre-specified metrics and human evaluation</td>
+<td>Yes</td>
+<td>M, Results; Fig. 1; Tables 2–4; SI Tables 1–3 and 5</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Results of any updating, including the updated model's performance</td>
+<td>Yes</td>
+<td>The tool, not the model, was updated: RareMCP 0.1.1 (Drugs@FDA fix), post hoc re-run of 58 questions (M, Results, A shared error between a tool and the gold answers; Fig. 1; Table 3)</td>
+</tr>
+</tbody>
+</table>
+<h3>Discussion</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement (paraphrased)</th>
+<th>Applies</th>
+<th>Where and what is reported</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19a</td>
+<td>Interpretation, including fairness, in light of objectives and prior work</td>
+<td>Yes</td>
+<td>M, Discussion paragraphs 1–5; rare-disease versus NTD performance in M, Results, Rare diseases and NTDs, and SI Table 3</td>
+</tr>
+<tr>
+<td>19b</td>
+<td>Limitations and their effect on bias, uncertainty and generalisability</td>
+<td>Yes</td>
+<td>M, Discussion paragraph 6</td>
+</tr>
+<tr>
+<td>19c</td>
+<td>Known data challenges for the task (representation, missingness, harmonisation, bias)</td>
+<td>Yes</td>
+<td>M, Results and Discussion: missing openFDA metadata in older Drugs@FDA records; several prevalence estimates per disorder; source drift; small NTD subset</td>
+</tr>
+<tr>
+<td>19d</td>
+<td>Intended use: input, end users, autonomy and human oversight</td>
+<td>Yes</td>
+<td>M, Discussion, final paragraph: look-up support for clinical-development and research teams, with a person checking the cited records via provenance; not for decisions about individual patients</td>
+</tr>
+<tr>
+<td>19e</td>
+<td>How poor-quality or unavailable input is assessed and handled</td>
+<td>Yes</td>
+<td>Non-existent identifiers used to test abstention (M, Methods, Question set and gold answers; Results, Identifiers, grounding and calibration); retries and provenance in M, Methods, Servers</td>
+</tr>
+<tr>
+<td>19f</td>
+<td>User interaction requirements and expertise</td>
+<td>Yes</td>
+<td>M, Discussion, final paragraph: any MCP-compatible client, no credentials needed; users check cited records</td>
+</tr>
+<tr>
+<td>19g</td>
+<td>Next steps for applicability and generalisability</td>
+<td>Yes</td>
+<td>M, Discussion, final paragraph: repeat runs, other model families and clients, independent expert review, use by repurposing teams</td>
+</tr>
+</tbody>
+</table></body></html>
