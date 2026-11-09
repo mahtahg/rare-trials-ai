@@ -1,0 +1,67 @@
+{
+ "gold_version": "1.1",
+ "by_condition": {
+  "claude-haiku-5-5|biomcp_go": {
+   "n": 8,
+   "accuracy": 0.75,
+   "accuracy_ci95": [
+    0.4093,
+    0.9285
+   ],
+   "mean_score": 0.75,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 19,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.2225,
+   "brier": 0.1661,
+   "mean_api_equiv_cost_usd": 0.01655,
+   "total_api_equiv_cost_usd": 0.132,
+   "median_latency_s": 25.9,
+   "mean_tool_calls": 10.75,
+   "tool_error_rate": 0.3488
+  }
+ },
+ "by_template": {
+  "h_eligibility_check": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 2,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_late_generic_boxed": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 2,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_recruitment_footprint": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "h_source_conflict": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 2,
+    "accuracy": 0.5,
+    "mean_score": 0.5
+   }
+  },
+  "h_untested_target_drugs": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 1,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   }
+  }
+ },
+ "paired": {},
+ "id_validation": true,
+ "n_errored_runs_excluded": 1,
+ "n_questions_excluded_by_review": 10
+}
