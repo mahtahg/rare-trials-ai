@@ -2,31 +2,38 @@
  "gold_version": "1.1",
  "by_condition": {
   "claude-haiku-5-5|biomcp_go": {
-   "n": 2,
-   "accuracy": 1.0,
+   "n": 23,
+   "accuracy": 0.7826,
    "accuracy_ci95": [
-    0.3424,
-    1.0
+    0.581,
+    0.9034
    ],
-   "mean_score": 1.0,
+   "mean_score": 0.7826,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 33,
+   "ids_emitted": 196,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.375,
-   "brier": 0.1562,
-   "mean_api_equiv_cost_usd": 0.02763,
-   "total_api_equiv_cost_usd": 0.055,
-   "median_latency_s": 39.09,
-   "mean_tool_calls": 25.5,
-   "tool_error_rate": 0.1765
+   "ece": 0.1935,
+   "brier": 0.1275,
+   "mean_api_equiv_cost_usd": 0.03242,
+   "total_api_equiv_cost_usd": 0.746,
+   "median_latency_s": 27.78,
+   "mean_tool_calls": 18.13,
+   "tool_error_rate": 0.1079
   }
  },
  "by_template": {
+  "h_late_generic_boxed": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 11,
+    "accuracy": 0.5455,
+    "mean_score": 0.5455
+   }
+  },
   "h_recruitment_footprint": {
    "claude-haiku-5-5|biomcp_go": {
-    "n": 2,
+    "n": 12,
     "accuracy": 1.0,
     "mean_score": 1.0
    }
