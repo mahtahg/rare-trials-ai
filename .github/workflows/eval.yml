@@ -56,13 +56,13 @@ jobs:
             --repeats ${{ inputs.repeats }} --max-minutes ${{ inputs.max_minutes }} --concurrency ${{ inputs.concurrency }}
       - name: Keep Claude Code MCP logs (BioMCP diagnostics)
         if: always() && contains(inputs.conditions, 'biomcp_go')
-        shell: bash
+        shell: bash {0}
         run: |
           d="eval/results/${{ inputs.run_id }}/mcp_logs"; mkdir -p "$d"
           find ~/.cache/claude-cli-nodejs ~/.claude -path '*mcp-logs*' -type f 2>/dev/null | head -400 | while read f; do
             cp "$f" "$d/$(echo "$f" | md5sum | cut -c1-8)_$(basename "$f")"; done
           find ~/.claude/debug -type f 2>/dev/null | head -50 | while read f; do cp "$f" "$d/debug_$(basename "$f")"; done
-          ls "$d" | wc -l
+          ls "$d" | wc -l || true
       - name: Score (with live identifier validation)
         if: always()
         run: python eval/score.py --questions "${{ inputs.questions }}" --run "eval/results/${{ inputs.run_id }}" --validate-ids || true
