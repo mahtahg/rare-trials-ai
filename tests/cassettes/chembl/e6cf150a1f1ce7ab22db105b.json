@@ -1,7 +1,7 @@
 {
  "json_body": null,
  "method": "GET",
- "retrieved_at": "2026-11-09T15:25:33+00:00",
+ "retrieved_at": "2026-11-09T15:27:23+00:00",
  "status": 200,
  "text": "{\"activities\": 24527044, \"chembl_db_version\": \"ChEMBL_37\", \"chembl_release_date\": \"2026-05-01\", \"compound_records\": 3824604, \"disinct_compounds\": 2921148, \"publications\": 101100, \"status\": \"UP\", \"targets\": 18552}",
  "url": "https://www.ebi.ac.uk/chembl/api/data/status.json"
