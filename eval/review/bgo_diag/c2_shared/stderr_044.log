@@ -1,0 +1,1 @@
+2026-11-09T15:09:29.987343Z  WARN biomcp_cli::cache::http: local HTTP cache write failed; continuing operation="write" category="local_io" io_kind=Some(WouldBlock) os_code=None

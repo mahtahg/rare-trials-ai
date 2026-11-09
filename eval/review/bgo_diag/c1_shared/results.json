@@ -1,0 +1,2204 @@
+{
+ "summary": {
+  "concurrency": 1,
+  "cache": "shared",
+  "n": 60,
+  "closed": 0
+ },
+ "runs": [
+  {
+   "i": 0,
+   "qid": "why-NCT03208296",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03208296",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT03208296\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 1,
+   "qid": "why-NCT01275976",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT01275976",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT01275976\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 2,
+   "qid": "why-NCT00506012",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00506012"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT00506012\n\nStatus: TERMINATED | Why stopped: Slow Recruitment of eligible patients | Phase: PHASE2 | Study Type: INTERVENTIONAL | Sponsor: Sun Pharmaceutica"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 3,
+   "qid": "why-NCT01910649",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT01910649",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT01910649\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 4,
+   "qid": "enrol-NCT03967925",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03967925",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT03967925\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 5,
+   "qid": "enrol-NCT06623201",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT06623201",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT06623201\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 6,
+   "qid": "enrol-NCT00832208",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00832208",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT00832208\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 7,
+   "qid": "enrol-NCT05934084",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT05934084",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT05934084\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 8,
+   "qid": "sap-NCT05925023",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT05925023",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT05925023",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT05925023\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 9,
+   "qid": "sap-NCT07881120",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT07881120",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT07881120",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT07881120\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 10,
+   "qid": "sap-NCT07628413",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT07628413",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT07628413",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT07628413\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 11,
+   "qid": "sap-NCT02516293",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02516293",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02516293",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02516293\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 12,
+   "qid": "sap-NCT01643018",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT01643018",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT01643018",
+       "json": true,
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT01643018\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 13,
+   "qid": "sap-NCT01529827",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT01529827",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 14,
+   "qid": "sap-NCT06369220",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT06369220",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT06369220",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT06369220\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 15,
+   "qid": "sap-NCT02572791",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02572791",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02572791",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02572791\"\n      }\n    ]"
+    },
+    {
+     "call": {
+      "name": "biomcp",
+      "input": {
+       "command": "get trial NCT02572791 documents"
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "Error: Invalid argument: Trial document manifests are JSON-only; rerun with --json (example: biomcp --json get trial NCT03361748 documents)"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 16,
+   "qid": "sap-NCT00004357",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00004357",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00004357",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT00004357\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 17,
+   "qid": "sap-NCT02085317",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02085317",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02085317",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02085317\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 18,
+   "qid": "sap-NCT02354261",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02354261",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02354261",
+       "json": true,
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02354261\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 19,
+   "qid": "sap-NCT03753763",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03753763",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03753763",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT03753763\"\n      }\n    ]"
+    },
+    {
+     "call": {
+      "name": "biomcp",
+      "input": {
+       "command": "get trial NCT03753763 assets"
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "Error: Invalid argument: Unknown section \"assets\" for trial. Available: eligibility, contacts, locations, outcomes, arms, references, all"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 20,
+   "qid": "sap-NCT03383614",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03383614",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03383614",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT03383614\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 21,
+   "qid": "sap-NCT02594735",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02594735",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02594735",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02594735\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 22,
+   "qid": "sap-NCT04041453",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04041453",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04041453",
+       "json": true,
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT04041453\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 23,
+   "qid": "sap-NCT04644484",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04644484",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04644484",
+       "sections": [
+        "all"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT04644484\"\n      }\n    ]"
+    },
+    {
+     "call": {
+      "name": "biomcp",
+      "input": {
+       "command": "get trial NCT04644484 documents"
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "Error: Invalid argument: Trial document manifests are JSON-only; rerun with --json (example: biomcp --json get trial NCT03361748 documents)"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 24,
+   "qid": "sap-NCT04188301",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04188301",
+       "sections": [
+        "assets"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT04188301",
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT04188301\n\nStatus: COMPLETED | Phase: PHASE2 | Study Type: INTERVENTIONAL | Sponsor: Washington University School of Medicine\n\nTitle: Safety and Efficacy of"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 25,
+   "qid": "sap-NCT03129646",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03129646",
+       "sections": [
+        "assets"
+       ],
+       "json": true
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid trial section: assets"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 26,
+   "qid": "sites-NCT06011343",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT06011343",
+       "sections": [
+        "locations"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT06011343 - locations\n## Locations (ClinicalTrials.gov)\n\n| Facility | City | Postal code | Country | Status | Contact |\n|---|---|---|---|---|---|\n| Corte de"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 27,
+   "qid": "sites-NCT00094718",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00094718",
+       "sections": [
+        "locations"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT00094718 - locations\n## Locations (ClinicalTrials.gov)\n\n| Facility | City | Postal code | Country | Status | Contact |\n|---|---|---|---|---|---|\n| Johns Ho"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 28,
+   "qid": "sites-NCT00694460",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00694460",
+       "sections": [
+        "locations"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT00694460 - locations\n## Locations (ClinicalTrials.gov)\n\n| Facility | City | Postal code | Country | Status | Contact |\n|---|---|---|---|---|---|\n| Tropical"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 29,
+   "qid": "sites-NCT02899039",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02899039",
+       "sections": [
+        "locations"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# NCT02899039 - locations\n## Locations (ClinicalTrials.gov)\n\n| Facility | City | Postal code | Country | Status | Contact |\n|---|---|---|---|---|---|\n| APHM | M"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 30,
+   "qid": "sites-NCT02458196",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT02458196",
+       "sections": [
+        "locations"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"ClinicalTrials.gov\",\n        \"url\": \"https://clinicaltrials.gov/study/NCT02458196\"\n      }\n    ]"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 31,
+   "qid": "count-MONDO_0019004",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Nephroblastoma"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 18 of 18\n\nQuery: condition=Nephroblastoma, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NC"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Nephroblastoma"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 8 of 8\n\nQuery: condition=Nephroblastoma, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT00"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00957736"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# NCT00957736\n\nStatus: TERMINATED | Why stopped: study closed prematurely upon PI's departure from VICC | Study Type: OBSERVATIONAL | Sponsor: Vanderbilt-Ingram"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 32,
+   "qid": "count-MONDO_0005445",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "visceral leishmaniasis"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 7 of 7\n\nQuery: condition=visceral leishmaniasis, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|--"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "visceral leishmaniasis"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 1 of 1\n\nQuery: condition=visceral leishmaniasis, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03013673"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# NCT03013673\n\nStatus: TERMINATED | Why stopped: Due to the ongoing conflict in the Tigray region | Study Type: OBSERVATIONAL | Sponsor: Institute of Tropical M"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 33,
+   "qid": "count-MONDO_0007803",
+   "n_calls": 4,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple system atrophy"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 25 of 36\n\nQuery: condition=Multiple system atrophy, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple system atrophy"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 9 of 9\n\nQuery: condition=Multiple system atrophy, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|--"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple system atrophy"
+       ],
+       "status": "terminated",
+       "limit": 25,
+       "offset": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.2,
+     "head": "# Trial Search Results\n\nResults: 11 of 36\n\nQuery: condition=Multiple system atrophy, status=terminated, offset=25\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple system atrophy"
+       ],
+       "status": "terminated",
+       "phase": "NA",
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "{\n  \"pagination\": {\n    \"offset\": 0,\n    \"limit\": 10,\n    \"returned\": 3,\n    \"total\": 3,\n    \"has_more\": false,\n    \"next_page_token\": null\n  },\n  \"count\": 3,\n "
+    }
+   ],
+   "secs": 0.4,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 34,
+   "qid": "count-MONDO_0005459",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "human African trypanosomiasis"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 3 of 3\n\nQuery: condition=human African trypanosomiasis, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "human African trypanosomiasis"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 2 of 2\n\nQuery: condition=human African trypanosomiasis, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03394976"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# NCT03394976\n\nStatus: WITHDRAWN | Why stopped: Funding | Study Type: OBSERVATIONAL | Sponsor: Foundation for Innovative New Diagnostics, Switzerland\n\nTitle: Pr"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 35,
+   "qid": "count-MONDO_0017137",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "onchocerciasis"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 2 of 2\n\nQuery: condition=onchocerciasis, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT0"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 36,
+   "qid": "count-MONDO_0016075",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "filariasis"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 5 of 5\n\nQuery: condition=filariasis, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT01213"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 37,
+   "qid": "count-MONDO_0005124",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "leprosy"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 2 of 2\n\nQuery: condition=leprosy, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT01751503"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "leprosy"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 1 of 1\n\nQuery: condition=leprosy, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT01885611|"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 38,
+   "qid": "count-MONDO_0005508",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple osteochondromas"
+       ],
+       "status": "terminated"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 3 of 3\n\nQuery: condition=Multiple osteochondromas, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Multiple osteochondromas"
+       ],
+       "status": "withdrawn"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nFound: 0 trial(s)\n\nQuery: condition=Multiple osteochondromas, status=withdrawn\n\n\nNo trials found matching the filters.\nTry broadening th"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT00473850"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# NCT00473850\n\nStatus: TERMINATED | Why stopped: This study is recruiting under a different title - \"Genotype-Phenotype Correlation of Multiple Hereditary Exost"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 39,
+   "qid": "count-MONDO_0019558",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Discoid lupus erythematosus"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 7 of 7\n\nQuery: condition=Discoid lupus erythematosus, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|-"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 40,
+   "qid": "count-MONDO_0033946",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Hereditary angioedema with C1Inh deficiency"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 4 of 4\n\nQuery: condition=Hereditary angioedema with C1Inh deficiency, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 41,
+   "qid": "count-MONDO_0008889",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Buerger disease"
+       ],
+       "status": "terminated",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 1 of 1\n\nQuery: condition=Buerger disease, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Buerger disease"
+       ],
+       "status": "withdrawn",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 1 of 1\n\nQuery: condition=Buerger disease, status=withdrawn\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT0"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Thromboangiitis Obliterans"
+       ],
+       "status": "terminated"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nResults: 1 of 1\n\nQuery: condition=Thromboangiitis Obliterans, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|--"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 42,
+   "qid": "count-MONDO_0007369",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Hereditary coproporphyria"
+       ],
+       "status": "terminated"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 3 of 3\n\nQuery: condition=Hereditary coproporphyria, status=terminated\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Hereditary coproporphyria"
+       ],
+       "status": "withdrawn"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# Trial Search Results\n\nFound: 0 trial(s)\n\nQuery: condition=Hereditary coproporphyria, status=withdrawn\n\n\nNo trials found matching the filters.\nTry broadening t"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "trial",
+       "id": "NCT03547297"
+      }
+     },
+     "is_error": false,
+     "secs": 0.1,
+     "head": "# NCT03547297\n\nStatus: TERMINATED | Why stopped: Sponsor elected not to continue with study | Study Type: OBSERVATIONAL | Sponsor: Alnylam Pharmaceuticals\n\nTitl"
+    }
+   ],
+   "secs": 0.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 43,
+   "qid": "toptargets-MONDO_0005738",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005738",
+       "sections": [
+        "genes"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 1.3,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"Monarch\",\n        \"url\": \"https://monarchinitiative.org/MONDO:0005738\"\n      }\n    ],\n    \"next_"
+    }
+   ],
+   "secs": 1.3,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 44,
+   "qid": "toptargets-MONDO_0015280",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0015280",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 1.2,
+     "head": "# cardiofaciocutaneous syndrome - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| MAP2K2 | gene associated with co"
+    }
+   ],
+   "secs": 1.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 45,
+   "qid": "toptargets-MONDO_0010684",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0010684",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 1.0,
+     "head": "# X-linked myopathy with excessive autophagy - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| VMA21 | gene associ"
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 46,
+   "qid": "toptargets-MONDO_0008251",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0008251",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 1.2,
+     "head": "# familial pityriasis rubra pilaris - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| CARD14 | gene associated wit"
+    }
+   ],
+   "secs": 1.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 47,
+   "qid": "toptargets-MONDO_0010977",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0010977",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 0.9,
+     "head": "# Brody myopathy - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| ATP2A1 | causes | [OpenTargets; infores:omim](h"
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 48,
+   "qid": "toptargets-MONDO_0007803",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0007803",
+       "sections": [
+        "genes"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 1.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"Monarch\",\n        \"url\": \"https://monarchinitiative.org/MONDO:0007803\"\n      },\n      {\n        "
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 49,
+   "qid": "toptargets-MONDO_0009126",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0009126",
+       "sections": [
+        "genes"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 0.9,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"Monarch\",\n        \"url\": \"https://monarchinitiative.org/MONDO:0009126\"\n      }\n    ],\n    \"next_"
+    }
+   ],
+   "secs": 0.9,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 50,
+   "qid": "toptargets-MONDO_0005445",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005445",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 1.0,
+     "head": "# visceral leishmaniasis - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| IFNG | associated with disease | OpenTa"
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 51,
+   "qid": "toptargets-MONDO_0000327",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0000327",
+       "sections": [
+        "genes"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 1.0,
+     "head": "# Buruli ulcer disease - genes\n## Associated Genes\n\n| Gene | Relationship | Source | OpenTargets |\n|---|---|---|---|\n| SLC11A1 | associated with disease | OpenT"
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 52,
+   "qid": "toptargets-MONDO_0005459",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005459",
+       "sections": [
+        "genes"
+       ],
+       "json": true
+      }
+     },
+     "is_error": false,
+     "secs": 1.0,
+     "head": "{\n  \"_meta\": {\n    \"evidence_urls\": [\n      {\n        \"label\": \"Monarch\",\n        \"url\": \"https://monarchinitiative.org/MONDO:0005459\"\n      }\n    ],\n    \"next_"
+    }
+   ],
+   "secs": 1.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 53,
+   "qid": "latedrugs-MONDO_0019004",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0019004",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "Wilms tumor"
+       ],
+       "phase": "3"
+      }
+     },
+     "is_error": false,
+     "secs": 0.4,
+     "head": "# Trial Search Results\n\nResults: 10 of 22\n\nQuery: condition=Wilms tumor, phase=3\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT06401330|A S"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0019004",
+       "sections": [
+        "drug_response",
+        "clinical_features"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: drug_response"
+    }
+   ],
+   "secs": 0.5,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 54,
+   "qid": "latedrugs-MONDO_0007803",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0007803",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "multiple system atrophy"
+       ],
+       "phase": "3"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 10 of 39\n\nQuery: condition=multiple system atrophy, phase=3\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0007803",
+       "sections": [
+        "druggability",
+        "genes"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: druggability"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 55,
+   "qid": "latedrugs-MONDO_0005445",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005445",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "visceral leishmaniasis"
+       ],
+       "phase": "3",
+       "limit": 25
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 13 of 13\n\nQuery: condition=visceral leishmaniasis, phase=3\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT0"
+    },
+    {
+     "call": {
+      "name": "biomcp",
+      "input": {
+       "command": "get disease MONDO:0005445 drugs"
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "Error: Invalid argument: Unknown section \"drugs\" for disease. Available: genes, pathways, phenotypes, diagnostics, variants, models, prevalence, survival, fundi"
+    }
+   ],
+   "secs": 0.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 56,
+   "qid": "latedrugs-MONDO_0005757",
+   "n_calls": 2,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005757",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0005757",
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 3.2,
+     "head": "# eumycotic mycetoma\n\nID: MONDO:0005757\n\n## Definition (MyDisease.info)\n\nA chronic granulomatous inflammation involving the deep dermis and the subcutaneous tis"
+    }
+   ],
+   "secs": 3.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 57,
+   "qid": "latedrugs-MONDO_0017287",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0017287",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "IgG4-related disease"
+       ],
+       "phase": "3"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 8 of 8\n\nQuery: condition=IgG4-related disease, phase=3\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---|\n|NCT07068"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0017287",
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": false,
+     "secs": 5.2,
+     "head": "# IgG4-related disease\n\nID: MONDO:0017287\n\n## Definition (MyDisease.info)\n\nA recently described mass-forming lesion that occurs in the pancreas, submandibular g"
+    }
+   ],
+   "secs": 5.2,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 58,
+   "qid": "latedrugs-MONDO_0005459",
+   "n_calls": 3,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO_0005459",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    },
+    {
+     "call": {
+      "name": "search",
+      "input": {
+       "entity": "trial",
+       "condition": [
+        "human African trypanosomiasis"
+       ],
+       "phase": "3"
+      }
+     },
+     "is_error": false,
+     "secs": 0.0,
+     "head": "# Trial Search Results\n\nResults: 10 of 12\n\nQuery: condition=human African trypanosomiasis, phase=3\n\n\n|NCT ID|Title|Status|Phase|Conditions|\n|---|---|---|---|---"
+    },
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO_0005459",
+       "sections": [
+        "all"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 3.1,
+     "head": "Error: disease 'MONDO_0005459' not found.\n\nTry searching: biomcp search disease -q \"MONDO_0005459\""
+    }
+   ],
+   "secs": 3.1,
+   "stderr_tail": "",
+   "closed": false
+  },
+  {
+   "i": 59,
+   "qid": "latedrugs-MONDO_0017137",
+   "n_calls": 1,
+   "results": [
+    {
+     "call": {
+      "name": "get",
+      "input": {
+       "entity": "disease",
+       "id": "MONDO:0017137",
+       "sections": [
+        "targets",
+        "indications"
+       ]
+      }
+     },
+     "is_error": true,
+     "secs": 0.0,
+     "head": "invalid disease section: targets"
+    }
+   ],
+   "secs": 0.0,
+   "stderr_tail": "",
+   "closed": false
+  }
+ ]
+}
