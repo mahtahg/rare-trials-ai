@@ -10,7 +10,7 @@
   }
  },
  "method": "POST",
- "retrieved_at": "2026-11-09T14:52:32+00:00",
+ "retrieved_at": "2026-11-09T15:09:34+00:00",
  "status": 200,
  "text": "{\"data\":{\"search\":{\"total\":635,\"hits\":[{\"id\":\"MONDO_0009061\",\"entity\":\"disease\",\"name\":\"cystic fibrosis\",\"description\":\"Autosomal recessive disorder caused by pathogenic variants in the CFTR gene (cystic fibrosis transmembrane conductance regulator), which encodes a chloride and bicarbonate channel expressed in epithelial cells, and follow the diagnosis criteria. Diagnosis requires evidence of CFTR dysfunction, defined as a sweat chloride concentration of 60 mmol/L or greater, or identification of two CF-causing CFTR pathogenic variants, or an abnormal nasal potential difference measurement. CF is a progressive, multi-organ disease characterized by chronic obstructive lung disease with recurrent infections, exocrine pancreatic insufficiency, intestinal obstruction (including meconium ileus in neonates), male infertility due to obstructive azoospermia, hepatobiliary complications, and elevated sweat chloride concentrations.\"}]}}}",
  "url": "https://api.platform.opentargets.org/api/v4/graphql"
