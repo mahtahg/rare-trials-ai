@@ -199,22 +199,6 @@
   }
  },
  "paired": {
-  "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
-   "n": 50,
-   "biomcp_only_correct": 9,
-   "other_only_correct": 4,
-   "mcnemar_p": 0.266846,
-   "acc_diff_ci95": [
-    0.1,
-    -0.04,
-    0.24
-   ],
-   "score_diff_ci95": [
-    0.0933,
-    -0.04,
-    0.2267
-   ]
-  },
   "claude-sonnet-5-5|biomcp_vs_web_search": {
    "n": 50,
    "biomcp_only_correct": 7,
@@ -229,6 +213,22 @@
     0.0373,
     -0.1067,
     0.18
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
+   "n": 50,
+   "biomcp_only_correct": 9,
+   "other_only_correct": 4,
+   "mcnemar_p": 0.266846,
+   "acc_diff_ci95": [
+    0.1,
+    -0.04,
+    0.24
+   ],
+   "score_diff_ci95": [
+    0.0933,
+    -0.04,
+    0.2267
    ]
   },
   "claude-sonnet-5-5|biomcp_vs_no_tools": {
