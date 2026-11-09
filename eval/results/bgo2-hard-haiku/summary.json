@@ -1,0 +1,39 @@
+{
+ "gold_version": "1.1",
+ "by_condition": {
+  "claude-haiku-5-5|biomcp_go": {
+   "n": 2,
+   "accuracy": 1.0,
+   "accuracy_ci95": [
+    0.3424,
+    1.0
+   ],
+   "mean_score": 1.0,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 33,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.375,
+   "brier": 0.1562,
+   "mean_api_equiv_cost_usd": 0.02763,
+   "total_api_equiv_cost_usd": 0.055,
+   "median_latency_s": 39.09,
+   "mean_tool_calls": 25.5,
+   "tool_error_rate": 0.1765
+  }
+ },
+ "by_template": {
+  "h_recruitment_footprint": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 2,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  }
+ },
+ "paired": {},
+ "id_validation": true,
+ "n_errored_runs_excluded": 0,
+ "n_questions_excluded_by_review": 10
+}
