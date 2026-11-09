@@ -70,7 +70,13 @@ def mcp_config(path: Path) -> Path:
 def mcp_config_external(path: Path) -> Path:
     """External comparator: GenomOncology BioMCP (`pip install biomcp-cli`, MIT), run over stdio as `biomcp serve`."""
     exe = shutil.which("biomcp") or str(Path(sys.executable).parent / "biomcp")
-    path.write_text(json.dumps({"mcpServers": {"bgo": {"command": exe, "args": ["serve"]}}}))
+    if os.getenv("BGO_PROXY") == "1":
+        # Pass-through proxy (tools/bgo_proxy.py): `biomcp serve` exits ~5 s after each Claude Code connection,
+        # failing in-flight calls with "Connection closed"; the proxy keeps one stable upstream session.
+        server = {"command": sys.executable, "args": [str(ROOT / "tools/bgo_proxy.py")], "env": {"BIOMCP_BIN": exe}}
+    else:
+        server = {"command": exe, "args": ["serve"]}
+    path.write_text(json.dumps({"mcpServers": {"bgo": server}}))
     return path
 
 
@@ -239,6 +245,7 @@ async def main() -> int:
     if "biomcp_go" in a.conditions:
         mcp_config_external(workdir.parent / "bgo-mcp.json")
         meta["external_comparator_version"] = os.getenv("BGO_VERSION", "unrecorded")  # set by the workflow from `biomcp version`
+        meta["external_comparator_proxy"] = os.getenv("BGO_PROXY") == "1"
         meta_p.write_text(json.dumps(meta, indent=1))
     sem = asyncio.Semaphore(a.concurrency)
     lock = asyncio.Lock()

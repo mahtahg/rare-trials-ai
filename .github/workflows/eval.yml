@@ -14,6 +14,7 @@ on:
       max_minutes: { default: "300" }
       concurrency: { default: "2" }
       bgo_version: { description: "biomcp-cli version for the biomcp_go comparator (pinned)", default: "0.9.3" }
+      bgo_proxy: { description: "run BioMCP behind tools/bgo_proxy.py (fixes 'Connection closed')", type: boolean, default: true }
 permissions:
   contents: write
 concurrency:
@@ -25,6 +26,7 @@ jobs:
     timeout-minutes: 330
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      BGO_PROXY: ${{ inputs.bgo_proxy && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
