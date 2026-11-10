@@ -4,64 +4,7 @@ The event loop scope for asynchronous fixtures will default to the "fixture" cac
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
 .....OT metformin stage: APPROVAL
 .OT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
-.F.....
-=================================== FAILURES ===================================
-____________________________ test_chembl_metformin _____________________________
-
-    async def test_chembl_metformin():
->       s = await chembl.search_molecules("metformin", 5)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-tests/test_sources_live.py:77: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-src/raremcp/sources/chembl.py:55: in search_molecules
-    r = await _get("molecule/search.json", {"q": query, "limit": max(1, min(limit, 50))}, client)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-src/raremcp/sources/chembl.py:28: in _get
-    r = await c.get_json(SOURCE, f"{BASE}/{path}", params)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-src/raremcp/core/http.py:253: in get_json
-    return await self.request(source, "GET", url, params=params, **kw)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-src/raremcp/core/http.py:188: in request
-    status, text = await self._fetch(method, url, params, json_body, headers)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-self = <raremcp.core.http.HttpClient object at 0x7fe869a85b80>, method = 'GET'
-url = 'https://www.ebi.ac.uk/chembl/api/data/molecule/search.json'
-params = {'q': 'metformin', 'limit': 5}, json_body = None, headers = None
-
-    async def _fetch(
-        self,
-        method: str,
-        url: str,
-        params: dict[str, Any] | None,
-        json_body: Any,
-        headers: dict[str, str] | None,
-    ) -> tuple[int, str]:
-        client = await self._get_client()
-        host = urlparse(url).hostname or ""
-        clean_params = {k: v for k, v in (params or {}).items() if v is not None}
-        last_exc: Exception | None = None
-        for attempt in range(self._max_retries + 1):
-            await self._throttle(host)
-            try:
-                r = await client.request(method, url, params=clean_params, json=json_body, headers=headers)
-            except (httpx.TransportError, httpx.TimeoutException) as exc:
-                last_exc = exc
-                await asyncio.sleep(min(30, (2**attempt) + random.random()))
-                continue
-            if r.status_code in RETRY_STATUS and attempt < self._max_retries:
-                ra = r.headers.get("Retry-After")
-                delay = float(ra) if ra and ra.isdigit() else (2**attempt) + random.random()
-                await asyncio.sleep(min(60, delay))
-                continue
-            return r.status_code, r.text
->       raise SourceError(f"transport failure after retries: {last_exc!r}", url=url)
-E       raremcp.core.http.SourceError: transport failure after retries: RemoteProtocolError('Server disconnected without sending a response.')
-
-src/raremcp/core/http.py:250: SourceError
+.......
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -71,10 +14,10 @@ PASSED tests/test_sources_live.py::test_ctgov_version
 PASSED tests/test_sources_live.py::test_opentargets_search_disease_and_targets
 PASSED tests/test_sources_live.py::test_opentargets_drug_metformin
 PASSED tests/test_sources_live.py::test_opentargets_disease_drugs
+PASSED tests/test_sources_live.py::test_chembl_metformin
 PASSED tests/test_sources_live.py::test_fda_generic_and_label
 PASSED tests/test_sources_live.py::test_fda_finds_applications_without_openfda_block
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-FAILED tests/test_sources_live.py::test_chembl_metformin - raremcp.core.http.SourceError: transport failure after retries: RemoteProtocolError('Server disconnected without sending a response.')
-1 failed, 12 passed, 17 deselected in 84.47s (0:01:24)
+13 passed, 17 deselected in 11.97s
