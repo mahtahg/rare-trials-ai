@@ -24,7 +24,7 @@ Checklist: TRIPOD-LLM (Gallifant et al., Nat. Med. 31, 60–69, 2025), 19 items 
 | Item | Requirement (paraphrased) | Applies | Where and what is reported |
 |---|---|---|---|
 | 5a | Data sources for development, tuning or evaluation, and why chosen | Yes | M, Methods, Servers and Question set and gold answers: ClinicalTrials.gov, Open Targets, ChEMBL, openFDA, Europe PMC, Orphadata; Orphanet disorders with MONDO cross-references; WHO-listed NTDs |
-| 5b | Data points and their distribution | Yes | M, Results, Question set and runs; Table 1 (18 templates, tier, n, sources, answer types); SI Table 1 |
+| 5b | Data points and their distribution | Yes | M, Results, Question set and runs; Fig. 1; Table 1 (18 templates, tier, n, sources, answer types); SI Table 1 |
 | 5c | Dates of the oldest and newest text used | Yes | M, Methods: gold answers computed from live sources on 3–4 November 2026; audit re-fetches in November 2026; each question stores its retrieval time; runs 3–10 November 2026 |
 | 5d | Preprocessing and quality checks, and whether consistent across groups | Yes | M, Methods, Question set and gold answers (deterministic code separate from the servers; non-existent identifiers confirmed by HTTP 404) and Gold audit and correction (41-question re-derivation; full Drugs@FDA re-derivation); the same rules for rare-disease and NTD questions |
 | 5e | Missing and imbalanced data; reasons for omitting data | Yes | M, Results (41 unparseable no-tools answers scored incorrect); Methods, Conditions and models (172 infrastructure-failed attempts re-run); Methods, Question screening (10 exclusions, sensitivity only); rarity template balanced 10/10 |
@@ -63,8 +63,8 @@ Checklist: TRIPOD-LLM (Gallifant et al., Nat. Med. 31, 60–69, 2025), 19 items 
 | 16b | Characteristics of the data overall and by source and split | Not applicable | No patient data. Question-set characteristics: Table 1; SI Tables 1 and 3 |
 | 16c | Comparison of key variables between development and evaluation data | Not applicable | No development data; no model was trained |
 | 16d | Numbers of participants and events in each analysis | Not applicable | No patient data. The n for each analysis is given in Tables 2–4, SI Tables 1–3 and the text |
-| 17 | Performance against pre-specified metrics and human evaluation | Yes | M, Results; Fig. 1; Tables 2–4; SI Tables 1–3 and 5 |
-| 18 | Results of any updating, including the updated model's performance | Yes | The tool, not the model, was updated: RareMCP 0.1.1 (Drugs@FDA fix), post hoc re-run of 58 questions (M, Results, A shared error between a tool and the gold answers; Fig. 1; Table 3) |
+| 17 | Performance against pre-specified metrics and human evaluation | Yes | M, Results; Figs. 2 and 3; Tables 2–4; SI Tables 1–3 and 5 |
+| 18 | Results of any updating, including the updated model's performance | Yes | The tool, not the model, was updated: RareMCP 0.1.1 (Drugs@FDA fix), post hoc re-run of 58 questions (M, Results, A shared error between a tool and the gold answers; Fig. 3; Table 3) |
 
 ### Discussion
 
