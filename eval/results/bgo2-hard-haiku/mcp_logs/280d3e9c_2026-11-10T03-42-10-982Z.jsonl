@@ -1,0 +1,29 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-10T03:42:10.983Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Successfully connected (transport: stdio) in 629ms","timestamp":"2026-11-10T03:42:11.560Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-10T03:42:11.560Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-10T03:42:11.561Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:13.200Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:13.462Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:42:13.667Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'biomcp' completed successfully in 169ms","timestamp":"2026-11-10T03:42:13.836Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' completed successfully in 864ms","timestamp":"2026-11-10T03:42:14.064Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"error":"Error: disease 'MONDO_0007548' not found.\n\nTry searching: biomcp search disease -q \"MONDO_0007548\"","timestamp":"2026-11-10T03:42:14.440Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' failed after 0s: Error: disease 'MONDO_0007548' not found.\n\nTry searching: biomcp search disease -q \"MONDO_0007548\"","timestamp":"2026-11-10T03:42:14.440Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:16.696Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' completed successfully in 227ms","timestamp":"2026-11-10T03:42:16.922Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:17.029Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:17.369Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' completed successfully in 214ms","timestamp":"2026-11-10T03:42:17.583Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:42:17.672Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' completed successfully in 707ms","timestamp":"2026-11-10T03:42:17.736Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'search' completed successfully in 94ms","timestamp":"2026-11-10T03:42:17.766Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:21.092Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:42:21.333Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"error":"Error: drug 'DRON:00016742' not found.\n\nTry searching: biomcp search drug -q \"DRON:00016742\"","timestamp":"2026-11-10T03:42:21.889Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' failed after 0s: Error: drug 'DRON:00016742' not found.\n\nTry searching: biomcp search drug -q \"DRON:00016742\"","timestamp":"2026-11-10T03:42:21.889Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Tool 'get' completed successfully in 1s","timestamp":"2026-11-10T03:42:22.524Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-10T03:42:28.259Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-10T03:42:28.359Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"UNKNOWN connection closed after 16s (cleanly)","timestamp":"2026-11-10T03:42:28.364Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-10T03:42:28.364Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-10T03:42:28.409Z","sessionId":"613402ce-96bb-4807-902b-6c9523c99fc3","cwd":"/tmp/biomcp-eval-v1sur9e0"}
