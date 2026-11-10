@@ -1,0 +1,18 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-10T03:39:48.546Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Successfully connected (transport: stdio) in 780ms","timestamp":"2026-11-10T03:39:49.261Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-10T03:39:49.261Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-10T03:39:49.262Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:39:51.609Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:39:51.617Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Tool 'search' completed successfully in 158ms","timestamp":"2026-11-10T03:39:51.775Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Tool 'get' completed successfully in 939ms","timestamp":"2026-11-10T03:39:52.549Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:39:54.715Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"error":"invalid typed search entity; valid entities: author, gene, pgx, gwas, article, trial, variant, protein","timestamp":"2026-11-10T03:39:54.722Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Tool 'search' failed after 0s: invalid typed search entity; valid entities: author, gene, pgx, gwas, article, trial, variant, protein","timestamp":"2026-11-10T03:39:54.722Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:39:55.949Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Tool 'biomcp' completed successfully in 352ms","timestamp":"2026-11-10T03:39:56.301Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-10T03:40:02.096Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-10T03:40:02.201Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"UNKNOWN connection closed after 12s (cleanly)","timestamp":"2026-11-10T03:40:02.206Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-10T03:40:02.206Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-10T03:40:02.252Z","sessionId":"22f284b8-23ad-44cf-b916-2010c03abe2b","cwd":"/tmp/biomcp-eval-yz5gsa9x"}

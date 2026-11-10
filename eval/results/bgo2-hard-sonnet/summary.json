@@ -2,31 +2,31 @@
  "gold_version": "1.1",
  "by_condition": {
   "claude-sonnet-5-5|biomcp_go": {
-   "n": 29,
-   "accuracy": 0.7586,
+   "n": 50,
+   "accuracy": 0.82,
    "accuracy_ci95": [
-    0.5789,
-    0.8778
+    0.692,
+    0.9023
    ],
-   "mean_score": 0.7586,
+   "mean_score": 0.7993,
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 167,
+   "ids_emitted": 173,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.1859,
-   "brier": 0.1316,
-   "mean_api_equiv_cost_usd": 0.08597,
-   "total_api_equiv_cost_usd": 2.493,
-   "median_latency_s": 22.25,
-   "mean_tool_calls": 9.55,
-   "tool_error_rate": 0.1588
+   "ece": 0.1298,
+   "brier": 0.1274,
+   "mean_api_equiv_cost_usd": 0.06187,
+   "total_api_equiv_cost_usd": 3.094,
+   "median_latency_s": 15.66,
+   "mean_tool_calls": 6.64,
+   "tool_error_rate": 0.1988
   }
  },
  "by_template": {
   "h_eligibility_check": {
    "claude-sonnet-5-5|biomcp_go": {
-    "n": 5,
+    "n": 11,
     "accuracy": 1.0,
     "mean_score": 1.0
    }
@@ -43,6 +43,20 @@
     "n": 12,
     "accuracy": 1.0,
     "mean_score": 1.0
+   }
+  },
+  "h_source_conflict": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 12,
+    "accuracy": 0.8333,
+    "mean_score": 0.8333
+   }
+  },
+  "h_untested_target_drugs": {
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 3,
+    "accuracy": 1.0,
+    "mean_score": 0.6556
    }
   }
  },
