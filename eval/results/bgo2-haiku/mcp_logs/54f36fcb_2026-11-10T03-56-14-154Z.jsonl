@@ -1,0 +1,24 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-10T03:56:14.154Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Successfully connected (transport: stdio) in 487ms","timestamp":"2026-11-10T03:56:14.600Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-10T03:56:14.600Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-10T03:56:14.601Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:56:15.576Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"Error: disease 'ORPHA:175' not found.\n\nTry searching: biomcp search disease -q \"ORPHA:175\"","timestamp":"2026-11-10T03:56:16.508Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'get' failed after 0s: Error: disease 'ORPHA:175' not found.\n\nTry searching: biomcp search disease -q \"ORPHA:175\"","timestamp":"2026-11-10T03:56:16.508Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:56:17.768Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"invalid typed search entity; valid entities: author, gene, pgx, gwas, article, trial, variant, protein","timestamp":"2026-11-10T03:56:17.770Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'search' failed after 0s: invalid typed search entity; valid entities: author, gene, pgx, gwas, article, trial, variant, protein","timestamp":"2026-11-10T03:56:17.771Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:56:17.933Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 1s","timestamp":"2026-11-10T03:56:19.047Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:56:20.318Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"invalid disease section: xrefs","timestamp":"2026-11-10T03:56:20.323Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'get' failed after 0s: invalid disease section: xrefs","timestamp":"2026-11-10T03:56:20.323Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:56:21.248Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:56:21.359Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'get' completed successfully in 1s","timestamp":"2026-11-10T03:56:22.406Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 1s","timestamp":"2026-11-10T03:56:22.910Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-10T03:56:28.279Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-10T03:56:28.380Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"UNKNOWN connection closed after 13s (cleanly)","timestamp":"2026-11-10T03:56:28.385Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-10T03:56:28.385Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-10T03:56:28.430Z","sessionId":"cd7d9921-52eb-46d2-8dff-121e6041a435","cwd":"/tmp/biomcp-eval-wkj9t6t7"}

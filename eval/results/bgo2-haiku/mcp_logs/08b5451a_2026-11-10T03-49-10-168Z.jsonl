@@ -1,0 +1,55 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-10T03:49:10.168Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Successfully connected (transport: stdio) in 536ms","timestamp":"2026-11-10T03:49:10.662Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-10T03:49:10.662Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-10T03:49:10.663Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:49:11.765Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"unknown article search field: query","timestamp":"2026-11-10T03:49:11.769Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'search' failed after 0s: unknown article search field: query","timestamp":"2026-11-10T03:49:11.770Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:11.897Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"Error: Invalid argument: Unknown section \"drugs\" for disease. Available: genes, pathways, phenotypes, diagnostics, variants, models, prevalence, survival, funding, civic, disgenet, clinical_features, all. If \"drugs\" is part of a multi-word disease name, use `biomcp get disease --name \"Wilms tumor drugs\"`.","timestamp":"2026-11-10T03:49:11.902Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' failed after 0s: Error: Invalid argument: Unknown section \"drugs\" for disease. Available: genes, pathways, phenotypes, diagnostics, variants, models, prevalence, survival, funding, civic, disgenet, clinical_features, all. If \"drugs\" is part of a multi-word disease name, use `biomcp get disease --name \"Wilms tumor drugs\"`.","timestamp":"2026-11-10T03:49:11.902Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:49:12.725Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:12.821Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 4ms","timestamp":"2026-11-10T03:49:12.825Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'get' completed successfully in 1s","timestamp":"2026-11-10T03:49:14.666Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:16.246Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 48ms","timestamp":"2026-11-10T03:49:16.294Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:17.299Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 47ms","timestamp":"2026-11-10T03:49:17.346Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:49:17.599Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"invalid disease section: treatments","timestamp":"2026-11-10T03:49:17.603Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'get' failed after 0s: invalid disease section: treatments","timestamp":"2026-11-10T03:49:17.603Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:22.177Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:22.349Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:22.351Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 848ms","timestamp":"2026-11-10T03:49:23.026Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 3s","timestamp":"2026-11-10T03:49:26.204Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 6s","timestamp":"2026-11-10T03:49:29.199Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:32.482Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"error":"Error: Invalid argument: No label record owns the exact drug name 'vincristine'. Try `biomcp search drug -q \"vincristine\"` to find a product by name.","timestamp":"2026-11-10T03:49:32.649Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' failed after 0s: Error: Invalid argument: No label record owns the exact drug name 'vincristine'. Try `biomcp search drug -q \"vincristine\"` to find a product by name.","timestamp":"2026-11-10T03:49:32.649Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:33.058Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:33.235Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:33.237Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 219ms","timestamp":"2026-11-10T03:49:33.277Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:33.706Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 537ms","timestamp":"2026-11-10T03:49:33.772Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:33.881Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:34.037Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:34.088Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 108ms","timestamp":"2026-11-10T03:49:34.196Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 393ms","timestamp":"2026-11-10T03:49:34.273Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 1s","timestamp":"2026-11-10T03:49:34.791Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 1s","timestamp":"2026-11-10T03:49:35.290Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 2s","timestamp":"2026-11-10T03:49:35.781Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:39.192Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:39.416Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 342ms","timestamp":"2026-11-10T03:49:39.534Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:49:39.578Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 315ms","timestamp":"2026-11-10T03:49:39.731Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Tool 'biomcp' completed successfully in 320ms","timestamp":"2026-11-10T03:49:39.898Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-10T03:49:45.481Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-10T03:49:45.581Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"UNKNOWN connection closed after 34s (cleanly)","timestamp":"2026-11-10T03:49:45.586Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-10T03:49:45.586Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-10T03:49:45.631Z","sessionId":"7594fbe3-bb6c-4308-abda-a93bb45a3a85","cwd":"/tmp/biomcp-eval-wkj9t6t7"}

@@ -2,33 +2,89 @@
  "gold_version": "1.1",
  "by_condition": {
   "claude-haiku-5-5|biomcp_go": {
-   "n": 96,
-   "accuracy": 0.8646,
+   "n": 254,
+   "accuracy": 0.7913,
    "accuracy_ci95": [
-    0.782,
-    0.9191
+    0.7372,
+    0.8368
    ],
-   "mean_score": 0.8698,
-   "abstain_rate": 0.0,
+   "mean_score": 0.7852,
+   "abstain_rate": 0.1378,
    "parse_fail_rate": 0.0,
-   "ids_emitted": 116,
+   "ids_emitted": 236,
    "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
-   "ece": 0.0974,
-   "brier": 0.0794,
-   "mean_api_equiv_cost_usd": 0.00205,
-   "total_api_equiv_cost_usd": 0.197,
-   "median_latency_s": 6.08,
-   "mean_tool_calls": 2.67,
-   "tool_error_rate": 0.1953
+   "ece": 0.0904,
+   "brier": 0.1135,
+   "mean_api_equiv_cost_usd": 0.00246,
+   "total_api_equiv_cost_usd": 0.626,
+   "median_latency_s": 10.1,
+   "mean_tool_calls": 4.49,
+   "tool_error_rate": 0.4105
   }
  },
  "by_template": {
+  "disease_late_stage_drugs": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.45,
+    "mean_score": 0.381
+   }
+  },
+  "disease_rarity": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.25,
+    "mean_score": 0.25
+   }
+  },
+  "disease_top_targets": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.85,
+    "mean_score": 0.87
+   }
+  },
+  "drug_first_approval": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.85,
+    "mean_score": 0.85
+   }
+  },
+  "drug_generic_us": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "drug_targets": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.9394
+   }
+  },
+  "multihop_generic_late_stage": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 14,
+    "accuracy": 0.5714,
+    "mean_score": 0.5103
+   }
+  },
+  "not_found": {
+   "claude-haiku-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
   "trial_count": {
    "claude-haiku-5-5|biomcp_go": {
-    "n": 16,
-    "accuracy": 0.8125,
-    "mean_score": 0.8125
+    "n": 20,
+    "accuracy": 0.8,
+    "mean_score": 0.8
    }
   },
   "trial_enrollment": {

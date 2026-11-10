@@ -19,11 +19,359 @@
 "valid": true,
 "chembl_entity": null
 },
+"CHEMBL1009": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1043": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1086440": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL118": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1200659": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1200699": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1201142": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1201554": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1201567": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1201583": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1201834": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1208642": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL121": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL125": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1292": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1351": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1397": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1433": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1434": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1440": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1456": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1483": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1534": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1554": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL157101": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1631694": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1741": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1743034": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL177": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1789844": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL1789941": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL191": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2096650": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2103827": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2104404": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2104415": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2107456": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2108574": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL2109334": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL221959": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL267345": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL294029": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL32": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL33": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL333325": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL3545185": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL3622821": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL370143": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL3707348": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL374478": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL3753202": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL3833373": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL417": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL4297646": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL4594458": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL4594571": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL468": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL473417": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL476": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL477772": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL518924": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL529": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL578": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL635": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL638": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL64391": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL685": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL750": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL820": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL822": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL830": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL852": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL887": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL92550825": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL93204475": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL94895880": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL960": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL96900377": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL976": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL98533373": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL98751044": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL99053181": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL995": {
+"valid": true,
+"chembl_entity": "molecule"
+},
+"CHEMBL99565678": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL99577877": {
+"valid": false,
+"chembl_entity": "none"
+},
+"CHEMBL99781738": {
+"valid": false,
+"chembl_entity": "none"
+},
 "NCT00004357": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT00035958": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT00049959": {
 "valid": true,
 "chembl_entity": null
 },
@@ -99,6 +447,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT00680290": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT00694460": {
 "valid": true,
 "chembl_entity": null
@@ -119,6 +471,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT00919815": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT00982904": {
 "valid": true,
 "chembl_entity": null
@@ -136,6 +492,14 @@
 "chembl_entity": null
 },
 "NCT01045694": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01055028": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT01104480": {
 "valid": true,
 "chembl_entity": null
 },
@@ -259,6 +623,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT01806805": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT01815840": {
 "valid": true,
 "chembl_entity": null
@@ -320,6 +688,10 @@
 "chembl_entity": null
 },
 "NCT02164097": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02212015": {
 "valid": true,
 "chembl_entity": null
 },
@@ -423,7 +795,15 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT02922413": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT02945527": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT02979899": {
 "valid": true,
 "chembl_entity": null
 },
@@ -432,6 +812,10 @@
 "chembl_entity": null
 },
 "NCT03051698": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03056742": {
 "valid": true,
 "chembl_entity": null
 },
@@ -455,6 +839,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03324035": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03333486": {
 "valid": true,
 "chembl_entity": null
@@ -475,6 +863,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03547297": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03589976": {
 "valid": true,
 "chembl_entity": null
@@ -483,7 +875,19 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03662022": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03669861": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03672487": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT03703310": {
 "valid": true,
 "chembl_entity": null
 },
@@ -511,6 +915,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT03921073": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT03929016": {
 "valid": true,
 "chembl_entity": null
@@ -524,6 +932,10 @@
 "chembl_entity": null
 },
 "NCT04020198": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04024163": {
 "valid": true,
 "chembl_entity": null
 },
@@ -551,11 +963,23 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT04308395": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT04316494": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT04414631": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04540497": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04607200": {
 "valid": true,
 "chembl_entity": null
 },
@@ -571,7 +995,15 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT04897516": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT04898309": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT04906876": {
 "valid": true,
 "chembl_entity": null
 },
@@ -595,6 +1027,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05026736": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05047185": {
 "valid": true,
 "chembl_entity": null
@@ -604,6 +1040,14 @@
 "chembl_entity": null
 },
 "NCT05084560": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05116800": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05168475": {
 "valid": true,
 "chembl_entity": null
 },
@@ -619,11 +1063,27 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT05597280": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05645822": {
 "valid": true,
 "chembl_entity": null
 },
+"NCT05662241": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT05695378": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05729425": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT05799612": {
 "valid": true,
 "chembl_entity": null
 },
@@ -659,6 +1119,10 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT06357663": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT06369220": {
 "valid": true,
 "chembl_entity": null
@@ -667,11 +1131,23 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT06565507": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT06623201": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT06679881": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT06706622": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT06736691": {
 "valid": true,
 "chembl_entity": null
 },
@@ -692,6 +1168,14 @@
 "chembl_entity": null
 },
 "NCT07064031": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT07068165": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT07190196": {
 "valid": true,
 "chembl_entity": null
 },
@@ -719,12 +1203,60 @@
 "valid": true,
 "chembl_entity": null
 },
+"NCT07719543": {
+"valid": true,
+"chembl_entity": null
+},
+"NCT07825402": {
+"valid": true,
+"chembl_entity": null
+},
 "NCT07881120": {
 "valid": true,
 "chembl_entity": null
 },
 "NCT07882680": {
 "valid": true,
+"chembl_entity": null
+},
+"NCT90027096": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT91518328": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT92204694": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT92418538": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT92921516": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT95696854": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT96215048": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT96370251": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT96651360": {
+"valid": false,
+"chembl_entity": null
+},
+"NCT98136606": {
+"valid": false,
 "chembl_entity": null
 }
 }
