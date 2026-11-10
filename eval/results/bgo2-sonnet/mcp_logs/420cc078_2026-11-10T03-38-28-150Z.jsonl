@@ -1,0 +1,23 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-10T03:38:28.150Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Successfully connected (transport: stdio) in 717ms","timestamp":"2026-11-10T03:38:28.809Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-10T03:38:28.810Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-10T03:38:28.810Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:38:31.478Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"error":"invalid disease section: drugs","timestamp":"2026-11-10T03:38:31.490Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'get' failed after 0s: invalid disease section: drugs","timestamp":"2026-11-10T03:38:31.490Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-10T03:38:31.989Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'search' completed successfully in 711ms","timestamp":"2026-11-10T03:38:32.700Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-10T03:38:36.264Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"error":"invalid disease section: targets","timestamp":"2026-11-10T03:38:36.266Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'get' failed after 0s: invalid disease section: targets","timestamp":"2026-11-10T03:38:36.267Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:38:37.398Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'biomcp' completed successfully in 6s","timestamp":"2026-11-10T03:38:43.995Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:38:45.304Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-10T03:38:45.504Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'biomcp' completed successfully in 26ms","timestamp":"2026-11-10T03:38:45.529Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Tool 'biomcp' completed successfully in 330ms","timestamp":"2026-11-10T03:38:45.634Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-10T03:38:48.391Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-10T03:38:48.491Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"UNKNOWN connection closed after 19s (cleanly)","timestamp":"2026-11-10T03:38:48.497Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-10T03:38:48.497Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-10T03:38:48.541Z","sessionId":"a83b5d7c-de16-4df4-b6c8-551e4e1e63cd","cwd":"/tmp/biomcp-eval-34itwi9z"}
