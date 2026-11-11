@@ -52,8 +52,8 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL1201288": {
-"valid": true,
-"chembl_entity": "molecule"
+"valid": false,
+"chembl_entity": null
 },
 "CHEMBL1201574": {
 "valid": true,
@@ -112,8 +112,8 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL157101": {
-"valid": true,
-"chembl_entity": "molecule"
+"valid": false,
+"chembl_entity": null
 },
 "CHEMBL1631694": {
 "valid": true,
