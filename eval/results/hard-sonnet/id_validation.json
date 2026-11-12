@@ -8,28 +8,28 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL110": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL118": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1200580": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1200659": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1200699": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1201288": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1201574": {
 "valid": true,
@@ -44,8 +44,8 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL1351": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1397": {
 "valid": true,
@@ -56,40 +56,40 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL1434": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1483": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1554": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL157101": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1631694": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL166": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL177367": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL1789941": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL191": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL2096650": {
 "valid": true,
@@ -112,20 +112,20 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL238804": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL2396661": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL267345": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL290960": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL3218576": {
 "valid": true,
@@ -140,40 +140,40 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL370143": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL3702854": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL3707322": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL374478": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL4": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL4297862": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL4298134": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL4594312": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL4594328": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL4650215": {
 "valid": true,
@@ -188,8 +188,8 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL55": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL578": {
 "valid": true,
@@ -204,32 +204,32 @@
 "chembl_entity": "molecule"
 },
 "CHEMBL6067962": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL633": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL744": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL820": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL830": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "CHEMBL928": {
 "valid": true,
 "chembl_entity": "molecule"
 },
 "CHEMBL995": {
-"valid": false,
-"chembl_entity": null
+"valid": true,
+"chembl_entity": "molecule"
 },
 "NCT00216346": {
 "valid": true,

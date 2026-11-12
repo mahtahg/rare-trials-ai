@@ -12,7 +12,7 @@
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 159,
-   "invalid_id_rate": 0.1258,
+   "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
    "ece": 0.0472,
    "brier": 0.1054,
@@ -33,7 +33,7 @@
    "abstain_rate": 0.0,
    "parse_fail_rate": 0.0,
    "ids_emitted": 173,
-   "invalid_id_rate": 0.0405,
+   "invalid_id_rate": 0.0,
    "ungrounded_id_rate": 0.0,
    "ece": 0.1298,
    "brier": 0.1274,
@@ -199,22 +199,6 @@
   }
  },
  "paired": {
-  "claude-sonnet-5-5|biomcp_vs_no_tools": {
-   "n": 50,
-   "biomcp_only_correct": 31,
-   "other_only_correct": 5,
-   "mcnemar_p": 1.3e-05,
-   "acc_diff_ci95": [
-    0.52,
-    0.32,
-    0.7
-   ],
-   "score_diff_ci95": [
-    0.5373,
-    0.3453,
-    0.7107
-   ]
-  },
   "claude-sonnet-5-5|biomcp_vs_web_search": {
    "n": 50,
    "biomcp_only_correct": 7,
@@ -229,6 +213,22 @@
     0.0373,
     -0.1067,
     0.18
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_no_tools": {
+   "n": 50,
+   "biomcp_only_correct": 31,
+   "other_only_correct": 5,
+   "mcnemar_p": 1.3e-05,
+   "acc_diff_ci95": [
+    0.52,
+    0.32,
+    0.7
+   ],
+   "score_diff_ci95": [
+    0.5373,
+    0.3453,
+    0.7107
    ]
   },
   "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
