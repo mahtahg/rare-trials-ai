@@ -1,0 +1,10 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:09:42.165Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Successfully connected (transport: stdio) in 696ms","timestamp":"2026-11-16T12:09:42.834Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":true,\"hasResources\":true,\"hasResourceSubscribe\":true,\"serverVersion\":{\"name\":\"raremcp-all\",\"version\":\"0.1.0\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:09:42.835Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Calling MCP tool: ctgov_get_trial","timestamp":"2026-11-16T12:09:43.859Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Tool 'ctgov_get_trial' completed successfully in 76ms","timestamp":"2026-11-16T12:09:43.935Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:09:45.404Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:09:45.504Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"UNKNOWN connection closed after 2s (cleanly)","timestamp":"2026-11-16T12:09:45.511Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:09:45.511Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:09:45.554Z","sessionId":"6f3a5933-832f-4146-a5dc-90105aab7ce1","cwd":"/tmp/biomcp-eval-r102wnmh"}

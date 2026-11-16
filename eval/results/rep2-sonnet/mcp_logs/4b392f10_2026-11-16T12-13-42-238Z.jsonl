@@ -1,0 +1,16 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:13:42.239Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Successfully connected (transport: stdio) in 659ms","timestamp":"2026-11-16T12:13:42.866Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-16T12:13:42.866Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:13:42.868Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:13:44.144Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Tool 'get' completed successfully in 43ms","timestamp":"2026-11-16T12:13:44.187Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:13:44.600Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"error":"invalid trial section: assets","timestamp":"2026-11-16T12:13:44.603Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Tool 'get' failed after 0s: invalid trial section: assets","timestamp":"2026-11-16T12:13:44.603Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-16T12:13:46.012Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Tool 'biomcp' completed successfully in 36ms","timestamp":"2026-11-16T12:13:46.048Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:13:48.545Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:13:48.645Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"UNKNOWN connection closed after 5s (cleanly)","timestamp":"2026-11-16T12:13:48.650Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:13:48.651Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:13:48.696Z","sessionId":"0752fbaa-d9b5-45a5-a564-520055a8d665","cwd":"/tmp/biomcp-eval-r102wnmh"}

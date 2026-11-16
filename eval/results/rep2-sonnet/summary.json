@@ -1,0 +1,210 @@
+{
+ "gold_version": "1.1",
+ "by_condition": {
+  "claude-sonnet-5-5|biomcp": {
+   "n": 55,
+   "accuracy": 1.0,
+   "accuracy_ci95": [
+    0.9347,
+    1.0
+   ],
+   "mean_score": 1.0,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 1,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.0229,
+   "brier": 0.0008,
+   "mean_api_equiv_cost_usd": 0.01346,
+   "total_api_equiv_cost_usd": 0.74,
+   "median_latency_s": 4.34,
+   "mean_tool_calls": 1.05,
+   "tool_error_rate": 0.0
+  },
+  "claude-sonnet-5-5|biomcp_go": {
+   "n": 55,
+   "accuracy": 0.9636,
+   "accuracy_ci95": [
+    0.8768,
+    0.99
+   ],
+   "mean_score": 0.9727,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 1,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": 0.0,
+   "ece": 0.136,
+   "brier": 0.0357,
+   "mean_api_equiv_cost_usd": 0.02066,
+   "total_api_equiv_cost_usd": 1.136,
+   "median_latency_s": 4.71,
+   "mean_tool_calls": 1.25,
+   "tool_error_rate": 0.1449
+  },
+  "claude-sonnet-5-5|no_tools": {
+   "n": 55,
+   "accuracy": 0.0545,
+   "accuracy_ci95": [
+    0.0187,
+    0.1485
+   ],
+   "mean_score": 0.0545,
+   "abstain_rate": 0.7273,
+   "parse_fail_rate": 0.2,
+   "ids_emitted": 0,
+   "invalid_id_rate": null,
+   "ungrounded_id_rate": null,
+   "ece": 0.0409,
+   "brier": 0.0266,
+   "mean_api_equiv_cost_usd": 0.00518,
+   "total_api_equiv_cost_usd": 0.285,
+   "median_latency_s": 4.23,
+   "mean_tool_calls": 0.0,
+   "tool_error_rate": 0.0
+  },
+  "claude-sonnet-5-5|web_search": {
+   "n": 56,
+   "accuracy": 1.0,
+   "accuracy_ci95": [
+    0.9358,
+    1.0
+   ],
+   "mean_score": 0.9991,
+   "abstain_rate": 0.0,
+   "parse_fail_rate": 0.0,
+   "ids_emitted": 1,
+   "invalid_id_rate": 0.0,
+   "ungrounded_id_rate": null,
+   "ece": 0.0695,
+   "brier": 0.006,
+   "mean_api_equiv_cost_usd": 0.00789,
+   "total_api_equiv_cost_usd": 0.442,
+   "median_latency_s": 5.48,
+   "mean_tool_calls": 1.23,
+   "tool_error_rate": 0.0
+  }
+ },
+ "by_template": {
+  "trial_enrollment": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 0.95,
+    "mean_score": 0.975
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_has_sap": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 15,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 15,
+    "accuracy": 0.9333,
+    "mean_score": 0.9333
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 15,
+    "accuracy": 0.2,
+    "mean_score": 0.2
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 16,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   }
+  },
+  "trial_why_stopped": {
+   "claude-sonnet-5-5|biomcp": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|biomcp_go": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 1.0
+   },
+   "claude-sonnet-5-5|no_tools": {
+    "n": 20,
+    "accuracy": 0.0,
+    "mean_score": 0.0
+   },
+   "claude-sonnet-5-5|web_search": {
+    "n": 20,
+    "accuracy": 1.0,
+    "mean_score": 0.9974
+   }
+  }
+ },
+ "paired": {
+  "claude-sonnet-5-5|biomcp_vs_no_tools": {
+   "n": 54,
+   "biomcp_only_correct": 51,
+   "other_only_correct": 0,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.9444,
+    0.8704,
+    1.0
+   ],
+   "score_diff_ci95": [
+    0.9444,
+    0.8704,
+    1.0
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_web_search": {
+   "n": 55,
+   "biomcp_only_correct": 0,
+   "other_only_correct": 0,
+   "mcnemar_p": 1.0,
+   "acc_diff_ci95": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "score_diff_ci95": [
+    0.001,
+    0.0,
+    0.0029
+   ]
+  },
+  "claude-sonnet-5-5|biomcp_vs_biomcp_go": {
+   "n": 55,
+   "biomcp_only_correct": 2,
+   "other_only_correct": 0,
+   "mcnemar_p": 0.5,
+   "acc_diff_ci95": [
+    0.0364,
+    0.0,
+    0.0909
+   ],
+   "score_diff_ci95": [
+    0.0273,
+    0.0,
+    0.0727
+   ]
+  }
+ },
+ "id_validation": true,
+ "n_errored_runs_excluded": 0,
+ "n_questions_excluded_by_review": 10
+}
