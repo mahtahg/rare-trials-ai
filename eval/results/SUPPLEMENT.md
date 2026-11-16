@@ -81,3 +81,15 @@ Rule: Drugs@FDA applications = union of openfda.generic_name and products.active
 - **v1-haiku / latedrugs-MONDO_0017137**: …ctin, at phase 4 for onchocerciasis, so the answer is `["ivermectin"]`.  The API reports 11 known-drug records, but the response returned 10 rows. All 10 are ivermectin (CHEMBL1200637) at phase 4 with status "Completed", and the drug's maximum clinical stag…
 - **v1-haiku / latedrugs-MONDO_0015908**: … application/json' -d '{"query":"{ disease(efoId: \"MONDO_0015908\") { id name } }"}'</parameter> </invoke> My previous query returned garbled output, so I'm retrying with a simpler request to see whether the API responds properly.   <invoke:Bash> <param…
 - **v1-haiku / repurpose-MONDO_0005445**: …The Open Targets query only partly worked. The disease lookup returned MONDO_0005203 (visceral leishmaniasis). The knownDrugs call reported 30 rows, but the responses I got back showed only …
+
+## Supplementary Table 6. Causes of incorrect web-search answers (125 answers, both models, gold v1.1)
+
+| Category | Definition | n | % |
+|---|---|---|---|
+| Abstained | Model reported that it could not find the answer | 49 | 39 |
+| Not retrieved | Neither the gold nor the given answer appeared in the retrieved text | 34 | 27 |
+| Source disagrees | Retrieved text supported the given answer but not the gold (possible staleness) | 12 | 10 |
+| Gold retrieved | Retrieved text contained the gold answer; the error was in reading or reasoning | 8 | 6 |
+| Yes/no judgement, prevalence retrieved | EU-rarity item; a prevalence figure was retrieved | 9 | 7 |
+| Yes/no judgement, no prevalence retrieved | EU-rarity item; no prevalence figure was retrieved | 10 | 8 |
+| Yes/no judgement | Other yes/no item (string matching not informative) | 3 | 2 |

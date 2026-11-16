@@ -11,7 +11,7 @@ thead th { border-top: 0.8pt solid #000; border-bottom: 0.5pt solid #000; font-w
 tbody tr:last-child td { border-bottom: 0.8pt solid #000; }
 tr { break-inside: avoid; } ul { padding-left: 5mm; } li { margin-bottom: 2mm; }
 code { font-family: inherit; } .title { break-after: page; } .contents li { margin-bottom: 1mm; }
-</style></head><body><div class='title'><h1>Supplementary Information</h1><p><b>Open source-grounded tools for language models answering clinical-development questions in rare and neglected tropical diseases</b></p><p>Mahta Haghighat Ghahfarokhi and Amin Arshi, King's College London, London, UK</p><h3>Contents</h3><ul class='contents'><li>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</li><li>Supplementary Table 2. Accuracy against the original gold answers (v1.0) and the audited gold (v1.1)</li><li>Supplementary Table 3. Accuracy by population, condition and model (gold v1.1, all 314 questions, RareMCP 0.1.0; exploratory)</li><li>Supplementary Table 4. Gold answers corrected in v1.1</li><li>Supplementary Table 5. Fabricated tool-use excerpts (no-tools condition)</li><li>Supplementary Note 1. TRIPOD-LLM checklist</li></ul></div><h2>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</h2>
+</style></head><body><div class='title'><h1>Supplementary Information</h1><p><b>Open source-grounded tools for language models answering clinical-development questions in rare and neglected tropical diseases</b></p><p>Mahta Haghighat Ghahfarokhi and Amin Arshi, King's College London, London, UK</p><h3>Contents</h3><ul class='contents'><li>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</li><li>Supplementary Table 2. Accuracy against the original gold answers (v1.0) and the audited gold (v1.1)</li><li>Supplementary Table 3. Accuracy by population, condition and model (gold v1.1, all 314 questions, RareMCP 0.1.0; exploratory)</li><li>Supplementary Table 4. Gold answers corrected in v1.1</li><li>Supplementary Table 5. Fabricated tool-use excerpts (no-tools condition)</li><li>Supplementary Table 6. Causes of incorrect web-search answers (125 answers, both models, gold v1.1)</li><li>Supplementary Note 1. TRIPOD-LLM checklist</li></ul></div><h2>Supplementary Table 1. Accuracy by template, condition and model (gold v1.1, all questions)</h2>
 <table>
 <thead>
 <tr>
@@ -470,6 +470,63 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <li><strong>v1-haiku / repurpose-MONDO_0005445</strong>: …The Open Targets query only partly worked. The disease lookup returned MONDO_0005203 (visceral leishmaniasis). The knownDrugs call reported 30 rows, but the responses I got back showed only …</li>
 </ul>
 <p><p class='legend'>Excerpts from no-tools answers by Claude Haiku 5.5 that describe tool calls and their results although the run made no tool calls (7 of 314 answers). Identified by a regular-expression screen and confirmed by reading each answer; ellipses mark truncation and [?] an undecodable character in the logged output. Run and question identifiers refer to the raw logs in the code repository.</p></p>
+<h2>Supplementary Table 6. Causes of incorrect web-search answers (125 answers, both models, gold v1.1)</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Definition</th>
+<th>n</th>
+<th>%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abstained</td>
+<td>Model reported that it could not find the answer</td>
+<td>49</td>
+<td>39</td>
+</tr>
+<tr>
+<td>Not retrieved</td>
+<td>Neither the gold nor the given answer appeared in the retrieved text</td>
+<td>34</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Source disagrees</td>
+<td>Retrieved text supported the given answer but not the gold (possible staleness)</td>
+<td>12</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Gold retrieved</td>
+<td>Retrieved text contained the gold answer; the error was in reading or reasoning</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Yes/no judgement, prevalence retrieved</td>
+<td>EU-rarity item; a prevalence figure was retrieved</td>
+<td>9</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Yes/no judgement, no prevalence retrieved</td>
+<td>EU-rarity item; no prevalence figure was retrieved</td>
+<td>10</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Yes/no judgement</td>
+<td>Other yes/no item (string matching not informative)</td>
+<td>3</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p class='legend'>Every web-search answer scored incorrect was compared with the text the run retrieved (WebSearch results and WebFetch page summaries). String matching misses synonyms, so ‘not retrieved’ is an upper bound and ‘gold retrieved’ a lower bound. Only the ‘source disagrees’ category is consistent with stale or disagreeing web sources. Code: eval/staleness_check.py.</p>
+
 <h2>Supplementary Note 1. TRIPOD-LLM checklist</h2>
 <p>Checklist: TRIPOD-LLM (Gallifant et al., Nat. Med. 31, 60–69, 2025), 19 items and their subitems as published. Item wording is paraphrased; the answers are also entered on the official fillable checklist from the TRIPOD-LLM website.</p>
 <p><strong>Research design categories that apply:</strong> LLM methods (augmenting models with tools; no change to model weights) and LLM evaluation. Not de novo development, and not evaluation in a dedicated healthcare setting. <strong>LLM task categories:</strong> long-form question answering and information retrieval. Items limited to other designs or tasks are marked "Not applicable", with the reason. Locations refer to sections of the main manuscript (M) or this Supplementary Information (SI).</p>

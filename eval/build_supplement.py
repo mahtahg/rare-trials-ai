@@ -84,6 +84,26 @@ def main() -> int:
     # Supplementary Table 5: fabrication excerpts
     pf = RES / "PROCESS_FABRICATION.md"
     L += ["", "## Supplementary Table 5. Fabricated tool-use excerpts (no-tools condition)", "", pf.read_text().split("## Flagged excerpts (confirm manually)")[-1].strip()]
+    # Supplementary Table 6: why web search was wrong (staleness check, eval/staleness_check.py)
+    ws = RES / "WEB_STALENESS.json"
+    if ws.exists():
+        d = json.loads(ws.read_text())
+        rows = d["rows"]
+        cats = ["abstained", "not retrieved", "source disagrees", "gold retrieved", "yes/no judgement, prevalence retrieved",
+                "yes/no judgement, no prevalence retrieved", "yes/no judgement"]
+        L += ["", f"## Supplementary Table 6. Causes of incorrect web-search answers ({len(rows)} answers, both models, gold v1.1)", "",
+              "| Category | Definition | n | % |", "|---|---|---|---|"]
+        defs = {"abstained": "Model reported that it could not find the answer",
+                "not retrieved": "Neither the gold nor the given answer appeared in the retrieved text",
+                "source disagrees": "Retrieved text supported the given answer but not the gold (possible staleness)",
+                "gold retrieved": "Retrieved text contained the gold answer; the error was in reading or reasoning",
+                "yes/no judgement, prevalence retrieved": "EU-rarity item; a prevalence figure was retrieved",
+                "yes/no judgement, no prevalence retrieved": "EU-rarity item; no prevalence figure was retrieved",
+                "yes/no judgement": "Other yes/no item (string matching not informative)"}
+        for c in cats:
+            n = sum(r["category"] == c for r in rows)
+            if n:
+                L.append(f"| {c[0].upper() + c[1:]} | {defs[c]} | {n} | {100 * n / len(rows):.0f} |")
     (RES / "SUPPLEMENT.md").write_text("\n".join(L) + "\n")
     print(f"wrote {RES / 'SUPPLEMENT.md'} ({len(L)} lines)")
     return 0

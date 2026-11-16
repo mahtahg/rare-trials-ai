@@ -1,0 +1,1549 @@
+{
+ "summary": {
+  "gold retrieved": 8,
+  "abstained": 49,
+  "not retrieved": 34,
+  "source disagrees": 12,
+  "yes/no judgement": 3,
+  "yes/no judgement, no prevalence retrieved": 10,
+  "yes/no judgement, prevalence retrieved": 9
+ },
+ "rows": [
+  {
+   "run": "v1-sonnet",
+   "qid": "count-MONDO_0033946",
+   "template": "trial_count",
+   "category": "gold retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "clinicaltrials.gov"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:01+00:00",
+   "finished_at": "2026-11-03T21:09:07.412510+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0005738",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:12+00:00",
+   "finished_at": "2026-11-03T21:10:34.604569+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0016472",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:14+00:00",
+   "finished_at": "2026-11-03T21:10:47.472464+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0009943",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:15+00:00",
+   "finished_at": "2026-11-03T21:11:21.694269+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0010684",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:16+00:00",
+   "finished_at": "2026-11-03T21:11:35.238743+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0008251",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:16+00:00",
+   "finished_at": "2026-11-03T21:11:55.893674+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0010482",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:17+00:00",
+   "finished_at": "2026-11-03T21:12:14.450243+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0010977",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:18+00:00",
+   "finished_at": "2026-11-03T21:12:48.177995+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0010758",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:19+00:00",
+   "finished_at": "2026-11-03T21:13:02.351454+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0007803",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:20+00:00",
+   "finished_at": "2026-11-03T21:13:20.060993+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0014274",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:21+00:00",
+   "finished_at": "2026-11-03T21:13:39.028298+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0009126",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:21+00:00",
+   "finished_at": "2026-11-03T21:14:15.935888+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0005445",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:22+00:00",
+   "finished_at": "2026-11-03T21:14:17.242121+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0005757",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:23+00:00",
+   "finished_at": "2026-11-03T21:14:42.174280+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0017287",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-03T21:14:56.511628+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0000327",
+   "template": "disease_top_targets",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-03T21:15:16.510188+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0005498",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:25+00:00",
+   "finished_at": "2026-11-03T21:15:42.066071+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0011575",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:26+00:00",
+   "finished_at": "2026-11-03T21:15:50.839885+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "toptargets-MONDO_0005459",
+   "template": "disease_top_targets",
+   "category": "source disagrees",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:27+00:00",
+   "finished_at": "2026-11-03T21:16:13.169154+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0005757",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:02:23+00:00",
+   "finished_at": "2026-11-03T21:17:02.783575+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0017287",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-03T21:17:10.848563+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0005124",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:31+00:00",
+   "finished_at": "2026-11-03T21:18:03.854632+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0005701",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:32+00:00",
+   "finished_at": "2026-11-03T21:18:27.098781+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0015908",
+   "template": "disease_late_stage_drugs",
+   "category": "gold retrieved",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:34+00:00",
+   "finished_at": "2026-11-03T21:18:50.291092+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0008889",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:50+00:00",
+   "finished_at": "2026-11-03T21:19:14.380973+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0016982",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:56+00:00",
+   "finished_at": "2026-11-03T21:20:09.550036+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0005799",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:06+00:00",
+   "finished_at": "2026-11-03T21:20:37.313154+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "latedrugs-MONDO_0006019",
+   "template": "disease_late_stage_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:21+00:00",
+   "finished_at": "2026-11-03T21:20:49.379975+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "generic-CHEMBL830",
+   "template": "drug_generic_us",
+   "category": "yes/no judgement",
+   "n_tool_calls": 1,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:04:06+00:00",
+   "finished_at": "2026-11-03T21:22:12.157409+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "generic-CHEMBL3622821",
+   "template": "drug_generic_us",
+   "category": "yes/no judgement",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:05:44+00:00",
+   "finished_at": "2026-11-03T21:24:05.046832+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0005757",
+   "template": "multihop_generic_late_stage",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:06:38+00:00",
+   "finished_at": "2026-11-04T00:42:45.617255+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0005124",
+   "template": "multihop_generic_late_stage",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:06:42+00:00",
+   "finished_at": "2026-11-04T00:43:09.651377+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0005701",
+   "template": "multihop_generic_late_stage",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:06:43+00:00",
+   "finished_at": "2026-11-04T00:43:20.115583+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0015908",
+   "template": "multihop_generic_late_stage",
+   "category": "source disagrees",
+   "n_tool_calls": 1,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:06:44+00:00",
+   "finished_at": "2026-11-04T00:43:39.263018+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0016982",
+   "template": "multihop_generic_late_stage",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:50+00:00",
+   "finished_at": "2026-11-04T00:44:19.860913+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "repurpose-MONDO_0006019",
+   "template": "multihop_generic_late_stage",
+   "category": "source disagrees",
+   "n_tool_calls": 1,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:06:54+00:00",
+   "finished_at": "2026-11-04T00:44:50.350210+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-603",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:08.802166+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-175",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:17.387307+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-2132",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:27.510758+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-158",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:31.515220+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-117",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:40.211499+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-98673",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:47.042172+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-3386",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:50:58.482730+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-25",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:51:05.890750+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-70476",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:51:13.382148+00:00"
+  },
+  {
+   "run": "v1-sonnet",
+   "qid": "rarity-342",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, no prevalence retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-04T00:51:20.405893+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "count-MONDO_0019734",
+   "template": "trial_count",
+   "category": "gold retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "clinicaltrials.gov"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:01:45+00:00",
+   "finished_at": "2026-11-05T11:16:56.733101+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0005738",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 8,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:12+00:00",
+   "finished_at": "2026-11-05T11:40:21.008038+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0016472",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:14+00:00",
+   "finished_at": "2026-11-05T11:41:00.743971+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0015280",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:14+00:00",
+   "finished_at": "2026-11-05T11:41:43.197017+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0009943",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:15+00:00",
+   "finished_at": "2026-11-05T11:42:19.382690+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0010684",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform-api.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:16+00:00",
+   "finished_at": "2026-11-05T11:42:56.344099+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0008251",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:16+00:00",
+   "finished_at": "2026-11-05T11:43:29.369514+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0010482",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:17+00:00",
+   "finished_at": "2026-11-05T11:44:04.232881+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0019004",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:18+00:00",
+   "finished_at": "2026-11-05T11:44:40.237061+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0010977",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:18+00:00",
+   "finished_at": "2026-11-05T11:45:26.415203+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0010758",
+   "template": "disease_top_targets",
+   "category": "source disagrees",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:19+00:00",
+   "finished_at": "2026-11-05T11:46:01.493568+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0007803",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:20+00:00",
+   "finished_at": "2026-11-05T11:46:34.766600+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0014274",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:21+00:00",
+   "finished_at": "2026-11-05T11:47:08.289775+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0009126",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:21+00:00",
+   "finished_at": "2026-11-05T11:47:39.709431+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0005445",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:22+00:00",
+   "finished_at": "2026-11-05T11:48:18.648458+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0005757",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:23+00:00",
+   "finished_at": "2026-11-05T11:48:53.439233+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0017287",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-05T11:49:28.714043+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0000327",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 8,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-05T11:50:15.917355+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0005498",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform-api.opentargets.io",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:25+00:00",
+   "finished_at": "2026-11-05T11:50:58.522452+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0011575",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform-api.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:26+00:00",
+   "finished_at": "2026-11-05T11:51:32.274152+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "toptargets-MONDO_0005459",
+   "template": "disease_top_targets",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:27+00:00",
+   "finished_at": "2026-11-05T11:52:12.478033+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0019004",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:18+00:00",
+   "finished_at": "2026-11-05T11:52:53.360062+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0007803",
+   "template": "disease_late_stage_drugs",
+   "category": "source disagrees",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:20+00:00",
+   "finished_at": "2026-11-05T11:53:38.755639+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0005445",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:22+00:00",
+   "finished_at": "2026-11-05T11:54:31.598503+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0005757",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:23+00:00",
+   "finished_at": "2026-11-05T11:55:10.826196+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0017287",
+   "template": "disease_late_stage_drugs",
+   "category": "gold retrieved",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:24+00:00",
+   "finished_at": "2026-11-05T11:56:02.784197+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0005459",
+   "template": "disease_late_stage_drugs",
+   "category": "source disagrees",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:27+00:00",
+   "finished_at": "2026-11-05T11:56:39.641755+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0005124",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:31+00:00",
+   "finished_at": "2026-11-05T11:58:11.790752+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0015908",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:34+00:00",
+   "finished_at": "2026-11-05T11:59:53.162994+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-EFO_0008559",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:40+00:00",
+   "finished_at": "2026-11-05T12:00:30.643614+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0008889",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:50+00:00",
+   "finished_at": "2026-11-05T12:01:14.876849+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0000903",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:51+00:00",
+   "finished_at": "2026-11-05T12:02:01.148215+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0015254",
+   "template": "disease_late_stage_drugs",
+   "category": "source disagrees",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:53+00:00",
+   "finished_at": "2026-11-05T12:02:40.889279+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0016982",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:02:56+00:00",
+   "finished_at": "2026-11-05T12:03:29.028097+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0005799",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:06+00:00",
+   "finished_at": "2026-11-05T12:04:41.913408+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0006019",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:21+00:00",
+   "finished_at": "2026-11-05T12:05:16.971394+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0007187",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:32+00:00",
+   "finished_at": "2026-11-05T12:05:54.903541+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "latedrugs-MONDO_0015484",
+   "template": "disease_late_stage_drugs",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:03:40+00:00",
+   "finished_at": "2026-11-05T12:06:39.829027+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "generic-CHEMBL3622821",
+   "template": "drug_generic_us",
+   "category": "yes/no judgement",
+   "n_tool_calls": 3,
+   "fetched_hosts": [
+    "www.accessdata.fda.gov",
+    "www.drugs.com"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:05:44+00:00",
+   "finished_at": "2026-11-05T12:16:09.698445+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "targets-CHEMBL830",
+   "template": "drug_targets",
+   "category": "abstained",
+   "n_tool_calls": 10,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org",
+    "www.ebi.ac.uk"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:04:06+00:00",
+   "finished_at": "2026-11-05T12:37:50.376922+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "repurpose-MONDO_0019004",
+   "template": "multihop_generic_late_stage",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform-api.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:30+00:00",
+   "finished_at": "2026-11-05T12:55:48.790677+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "repurpose-MONDO_0005757",
+   "template": "multihop_generic_late_stage",
+   "category": "abstained",
+   "n_tool_calls": 9,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org",
+    "www.ebi.ac.uk"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:38+00:00",
+   "finished_at": "2026-11-05T13:01:31.531792+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "repurpose-MONDO_0015908",
+   "template": "multihop_generic_late_stage",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:44+00:00",
+   "finished_at": "2026-11-05T13:03:27.698893+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "repurpose-MONDO_0000903",
+   "template": "multihop_generic_late_stage",
+   "category": "abstained",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:46+00:00",
+   "finished_at": "2026-11-05T13:04:07.278486+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "repurpose-MONDO_0006019",
+   "template": "multihop_generic_late_stage",
+   "category": "gold retrieved",
+   "n_tool_calls": 9,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:06:54+00:00",
+   "finished_at": "2026-11-05T13:07:38.928261+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-603",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:00:38.317138+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-175",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "iegext02.helmholtz-munich.de",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:00:51.137944+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-2132",
+   "template": "disease_rarity",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "globalgenes.org",
+    "rarediseases.org",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:01:23.590947+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-158",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:01:24.673319+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-117",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "iegext02.helmholtz-munich.de",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:02:00.523262+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-98673",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 4,
+   "fetched_hosts": [
+    "rarediseases.org",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:02:17.617816+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-25",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:02:49.225040+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-3386",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "www.orpha.net",
+    "www.orphadata.com"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:02:54.688637+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-70476",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "www.ncbi.nlm.nih.gov",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:03:30.524240+00:00"
+  },
+  {
+   "run": "v1-haiku",
+   "qid": "rarity-342",
+   "template": "disease_rarity",
+   "category": "yes/no judgement, prevalence retrieved",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "iegext02.helmholtz-munich.de",
+    "www.orpha.net"
+   ],
+   "gold_retrieved_at": "2026-11-03T20:40:08+00:00",
+   "finished_at": "2026-11-05T14:03:44.785048+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0019004",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:29+00:00",
+   "finished_at": "2026-11-05T10:03:59.189624+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0005757",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:38+00:00",
+   "finished_at": "2026-11-05T10:05:56.704790+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0017287",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:39+00:00",
+   "finished_at": "2026-11-05T10:06:31.678856+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0005124",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:45+00:00",
+   "finished_at": "2026-11-05T10:08:00.851230+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0005701",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:47+00:00",
+   "finished_at": "2026-11-05T10:08:42.140881+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0015908",
+   "template": "h_late_generic_boxed",
+   "category": "source disagrees",
+   "n_tool_calls": 1,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:48+00:00",
+   "finished_at": "2026-11-05T10:09:26.712747+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h2-MONDO_0008889",
+   "template": "h_late_generic_boxed",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:56:52+00:00",
+   "finished_at": "2026-11-05T10:10:39.501988+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h5-MONDO_0021023",
+   "template": "h_untested_target_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:57:51+00:00",
+   "finished_at": "2026-11-05T10:24:09.532079+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h5-MONDO_0009668",
+   "template": "h_untested_target_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:58:18+00:00",
+   "finished_at": "2026-11-05T10:25:40.572652+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h5-MONDO_0008092",
+   "template": "h_untested_target_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 0,
+   "fetched_hosts": [],
+   "gold_retrieved_at": "2026-11-04T00:58:40+00:00",
+   "finished_at": "2026-11-05T10:26:27.830061+00:00"
+  },
+  {
+   "run": "hard-sonnet",
+   "qid": "h5-MONDO_0006019",
+   "template": "h_untested_target_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:59:15+00:00",
+   "finished_at": "2026-11-05T10:28:24.258301+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h1-MONDO_0009710",
+   "template": "h_recruitment_footprint",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "clinicaltrials.gov"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:55:52+00:00",
+   "finished_at": "2026-11-05T09:56:46.194089+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h2-MONDO_0005757",
+   "template": "h_late_generic_boxed",
+   "category": "source disagrees",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:56:38+00:00",
+   "finished_at": "2026-11-05T10:09:38.527256+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h2-MONDO_0005124",
+   "template": "h_late_generic_boxed",
+   "category": "source disagrees",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:56:45+00:00",
+   "finished_at": "2026-11-05T10:13:41.502099+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h2-MONDO_0005701",
+   "template": "h_late_generic_boxed",
+   "category": "source disagrees",
+   "n_tool_calls": 2,
+   "fetched_hosts": [
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:56:47+00:00",
+   "finished_at": "2026-11-05T10:14:29.449298+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h2-MONDO_0015908",
+   "template": "h_late_generic_boxed",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org",
+    "www.ebi.ac.uk"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:56:48+00:00",
+   "finished_at": "2026-11-05T10:15:35.739906+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0010947",
+   "template": "h_untested_target_drugs",
+   "category": "abstained",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:57:30+00:00",
+   "finished_at": "2026-11-05T10:54:01.973944+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0015600",
+   "template": "h_untested_target_drugs",
+   "category": "gold retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:57:32+00:00",
+   "finished_at": "2026-11-05T10:55:08.722918+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0021023",
+   "template": "h_untested_target_drugs",
+   "category": "abstained",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:57:51+00:00",
+   "finished_at": "2026-11-05T10:56:13.368044+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0009024",
+   "template": "h_untested_target_drugs",
+   "category": "gold retrieved",
+   "n_tool_calls": 6,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:57:59+00:00",
+   "finished_at": "2026-11-05T10:57:33.684692+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0009668",
+   "template": "h_untested_target_drugs",
+   "category": "abstained",
+   "n_tool_calls": 7,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:58:18+00:00",
+   "finished_at": "2026-11-05T10:59:59.046074+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0008092",
+   "template": "h_untested_target_drugs",
+   "category": "source disagrees",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:58:40+00:00",
+   "finished_at": "2026-11-05T11:11:01.166377+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0007548",
+   "template": "h_untested_target_drugs",
+   "category": "gold retrieved",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org",
+    "platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:58:51+00:00",
+   "finished_at": "2026-11-05T11:13:56.296562+00:00"
+  },
+  {
+   "run": "hard-haiku",
+   "qid": "h5-MONDO_0006019",
+   "template": "h_untested_target_drugs",
+   "category": "not retrieved",
+   "n_tool_calls": 5,
+   "fetched_hosts": [
+    "api.platform.opentargets.org"
+   ],
+   "gold_retrieved_at": "2026-11-04T00:59:15+00:00",
+   "finished_at": "2026-11-05T11:14:56.333483+00:00"
+  }
+ ]
+}

@@ -12,7 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
-from style import BLACK, BLUE, LIGHTBLUE, MM, SIZE, save
+from style import BLACK, BLUE, LIGHTBLUE, MM, save
 
 W, H = 183, 98  # mm
 LH = 3.5  # line height, mm

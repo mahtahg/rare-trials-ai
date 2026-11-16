@@ -42,6 +42,10 @@ LEGENDS = {
     4: "Rule for v1.1: Drugs@FDA applications are the union of searches on openfda.generic_name and "
        "products.active_ingredients.name, de-duplicated by application number. Evidence is summarised from the archived "
        "Drugs@FDA payloads in the code repository (eval/review/gold_v1_1). ANDA, abbreviated new drug application; NDA, new drug application.",
+    6: "Every web-search answer scored incorrect was compared with the text the run retrieved (WebSearch results and "
+       "WebFetch page summaries). String matching misses synonyms, so \u2018not retrieved\u2019 is an upper bound and \u2018gold "
+       "retrieved\u2019 a lower bound. Only the \u2018source disagrees\u2019 category is consistent with stale or disagreeing web "
+       "sources. Code: eval/staleness_check.py.",
     5: "Excerpts from no-tools answers by Claude Haiku 5.5 that describe tool calls and their results although the run made "
        "no tool calls (7 of 314 answers). Identified by a regular-expression screen and confirmed by reading each answer; "
        "ellipses mark truncation and [?] an undecodable character in the logged output. Run and question identifiers refer to the raw logs in the code repository.",
@@ -72,7 +76,7 @@ def main() -> int:
     sup = re.sub(r"\| base \|", "| Base |", sup)
     sup = re.sub(r"\| hard \|", "| Hard |", sup)
     sup = sup.replace("NTD questions come only from aggregate templates; the 'NTD templates only' row restricts rare-disease questions to those templates.\n", "")
-    sup = re.sub(r"^Rule: .*\n", "", sup, flags=re.M)
+    sup = re.sub(r"^Rule: .*\n", "", sup, flags=re.MULTILINE)
     parts = re.split(r"(?m)^## (Supplementary Table (\d)\..*)$", sup)
     body = []
     for i in range(1, len(parts), 3):
