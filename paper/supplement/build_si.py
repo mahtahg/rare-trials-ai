@@ -83,9 +83,12 @@ def main() -> int:
         head, n, content = parts[i], int(parts[i + 1]), parts[i + 2].strip()
         body.append(f"## {head}\n\n{content}\n\n<p class='legend'>{LEGENDS[n]}</p>\n")
     tripod = (ROOT / "paper/supplement/tripod_llm.md").read_text()
-    contents = ("<ul class='contents'>" + "".join(f"<li>{re.sub(r'^## ', '', b.splitlines()[0]).split('. ')[0]}. "
-                f"{re.sub(r'^## Supplementary Table \d\. ', '', b.splitlines()[0])}</li>" for b in body)
-                + "<li>Supplementary Note 1. TRIPOD-LLM checklist</li></ul>")
+    items = []
+    for b in body:
+        head = b.splitlines()[0][3:]  # drop "## "
+        num, _, rest = head.partition(". ")
+        items.append(f"<li>{num}. {rest}</li>")
+    contents = "<ul class='contents'>" + "".join(items) + "<li>Supplementary Note 1. TRIPOD-LLM checklist</li></ul>"
     md = "\n".join(body) + "\n" + tripod
     html = markdown.markdown(md, extensions=["tables"])
     doc = (f"<!doctype html><html><head><meta charset='utf-8'><title>Supplementary Information</title><style>{CSS}</style></head><body>"
