@@ -643,7 +643,7 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <td>6c</td>
 <td>How text was generated: prompting, output consistency, inference settings</td>
 <td>Yes</td>
-<td>M, Methods, Conditions and models: one shared system prompt (full text in repository); default sampling of headless Claude Code; 20 turns; 600 s timeout; one run per question, model and condition, so consistency was not measured (stated as a limitation)</td>
+<td>M, Methods, Conditions and models: one shared system prompt (full text in repository); default sampling of headless Claude Code; 20 turns; 600 s timeout; consistency measured by one full repeat of the study: 90% agreement in correct/incorrect scoring, Cohen's κ = 0.80 (M, Methods, Repeat run)</td>
 </tr>
 <tr>
 <td>6d</td>
@@ -667,7 +667,7 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <td>7b</td>
 <td>Relevance of metrics to deployment; correlation with human evaluation</td>
 <td>Yes</td>
-<td>M, Discussion paragraphs 1 and 6: metrics measure retrieval of source facts, not clinical truth. No human evaluation of outputs, so no correlation with human judgement is reported</td>
+<td>M, Discussion paragraphs 1 and 6: metrics measure retrieval of source facts, not clinical truth. Outputs were not rated by humans; the questions were rated by three raters for clinical relevance, realism and gold-answer correctness (M, Methods, Expert review)</td>
 </tr>
 <tr>
 <td>7c</td>
@@ -678,8 +678,8 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <tr>
 <td>7d</td>
 <td>Subjective assessment: assessors, instructions, agreement</td>
-<td>Not applicable</td>
-<td>All scoring was automatic. The AI-assisted question screening is described in M, Methods, Question screening; no human expert rating or inter-rater agreement is reported</td>
+<td>Yes</td>
+<td>Output scoring was automatic. All 314 questions were rated by three raters (a clinical pharmacologist, a consultant epidemiologist and the first author) on 1–5 scales for clinical relevance, realism and gold-answer correctness; Fleiss' κ = 0.78 on scores grouped as low, moderate or high, pooled over dimensions (M, Methods, Expert review). AI-assisted screening: M, Methods, Question screening</td>
 </tr>
 <tr>
 <td>7e</td>
@@ -697,7 +697,7 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <td>8b</td>
 <td>Number of annotators, proportion double-annotated, inter-annotator agreement</td>
 <td>Yes</td>
-<td>No human annotators. Re-derivation by separate code: 41/41 agreement on a stratified sample; all 58 Drugs@FDA-dependent answers re-derived with a broader search, 8 changed (M, Methods, Gold audit and correction; SI Table 4)</td>
+<td>Gold answers were computed by code, not annotated; three raters scored every gold answer for correctness (M, Methods, Expert review). Re-derivation by separate code: 41/41 agreement on a stratified sample; all 58 Drugs@FDA-dependent answers re-derived with a broader search, 8 changed (M, Methods, Gold audit and correction; SI Table 4)</td>
 </tr>
 <tr>
 <td>8c</td>
@@ -885,7 +885,7 @@ code { font-family: inherit; } .title { break-after: page; } .contents li { marg
 <td>19g</td>
 <td>Next steps for applicability and generalisability</td>
 <td>Yes</td>
-<td>M, Discussion, final paragraph: repeat runs, other model families and clients, independent expert review, use by repurposing teams</td>
+<td>M, Discussion, final paragraph: other model families and clients, a larger independent expert panel, more repeat runs, use by repurposing teams</td>
 </tr>
 </tbody>
 </table></body></html>
