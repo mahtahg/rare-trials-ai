@@ -1,0 +1,10 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:03:08.405Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Successfully connected (transport: stdio) in 716ms","timestamp":"2026-11-16T12:03:09.103Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":true,\"hasResources\":true,\"hasResourceSubscribe\":true,\"serverVersion\":{\"name\":\"raremcp-all\",\"version\":\"0.1.0\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:03:09.103Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:03:10.643Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 289ms","timestamp":"2026-11-16T12:03:10.931Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:03:15.936Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:03:16.037Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"UNKNOWN connection closed after 6s (cleanly)","timestamp":"2026-11-16T12:03:16.044Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:03:16.044Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:03:16.087Z","sessionId":"3b8115c2-060b-4dfb-975d-234d726d7e48","cwd":"/tmp/biomcp-eval-k628u18s"}

@@ -1,0 +1,24 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:11:00.611Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Successfully connected (transport: stdio) in 696ms","timestamp":"2026-11-16T12:11:01.289Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":true,\"hasResources\":true,\"hasResourceSubscribe\":true,\"serverVersion\":{\"name\":\"raremcp-all\",\"version\":\"0.1.0\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:11:01.290Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: opentargets_search","timestamp":"2026-11-16T12:11:02.632Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'opentargets_search' completed successfully in 551ms","timestamp":"2026-11-16T12:11:03.182Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: opentargets_disease_drugs","timestamp":"2026-11-16T12:11:04.410Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'opentargets_disease_drugs' completed successfully in 176ms","timestamp":"2026-11-16T12:11:04.586Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_generic_availability","timestamp":"2026-11-16T12:11:05.870Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_generic_availability","timestamp":"2026-11-16T12:11:06.177Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_generic_availability' completed successfully in 451ms","timestamp":"2026-11-16T12:11:06.321Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_generic_availability","timestamp":"2026-11-16T12:11:06.438Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_generic_availability","timestamp":"2026-11-16T12:11:06.721Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_label","timestamp":"2026-11-16T12:11:06.906Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_generic_availability' completed successfully in 1s","timestamp":"2026-11-16T12:11:07.240Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_generic_availability' completed successfully in 1s","timestamp":"2026-11-16T12:11:07.813Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_label' completed successfully in 1s","timestamp":"2026-11-16T12:11:08.313Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_generic_availability' completed successfully in 1s","timestamp":"2026-11-16T12:11:08.583Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: fda_label","timestamp":"2026-11-16T12:11:10.384Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'fda_label' completed successfully in 149ms","timestamp":"2026-11-16T12:11:10.533Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:11:13.741Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:11:13.842Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"UNKNOWN connection closed after 12s (cleanly)","timestamp":"2026-11-16T12:11:13.847Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:11:13.847Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:11:13.893Z","sessionId":"aedadc1d-d6e8-491a-a0d5-c5b68223ef26","cwd":"/tmp/biomcp-eval-k628u18s"}

@@ -1,0 +1,20 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:07:08.812Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Successfully connected (transport: stdio) in 687ms","timestamp":"2026-11-16T12:07:09.479Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":true,\"hasResources\":true,\"hasResourceSubscribe\":true,\"serverVersion\":{\"name\":\"raremcp-all\",\"version\":\"0.1.0\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:07:09.480Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:10.941Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 349ms","timestamp":"2026-11-16T12:07:11.291Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:15.271Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 94ms","timestamp":"2026-11-16T12:07:15.365Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:18.269Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 74ms","timestamp":"2026-11-16T12:07:18.343Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:20.352Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 93ms","timestamp":"2026-11-16T12:07:20.445Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:22.268Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 110ms","timestamp":"2026-11-16T12:07:22.378Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: ctgov_search_trials","timestamp":"2026-11-16T12:07:24.311Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'ctgov_search_trials' completed successfully in 85ms","timestamp":"2026-11-16T12:07:24.396Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:07:28.448Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:07:28.548Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"UNKNOWN connection closed after 19s (cleanly)","timestamp":"2026-11-16T12:07:28.554Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:07:28.555Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:07:28.599Z","sessionId":"e352be40-8ba9-40c2-8976-dade6e2a1295","cwd":"/tmp/biomcp-eval-k628u18s"}

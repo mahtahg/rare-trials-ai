@@ -1,0 +1,30 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:11:23.487Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Successfully connected (transport: stdio) in 625ms","timestamp":"2026-11-16T12:11:24.094Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"no auto-opened subscriptions/listen on a modern connection; running the listen open through the reopen machinery (no-op if the server advertises no listChanged capability)","timestamp":"2026-11-16T12:11:24.094Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"hasResourceSubscribe\":false,\"serverVersion\":{\"name\":\"biomcp\",\"version\":\"0.9.3-proxied\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:11:24.095Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:25.754Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"error":"invalid disease section: targets","timestamp":"2026-11-16T12:11:25.759Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' failed after 0s: invalid disease section: targets","timestamp":"2026-11-16T12:11:25.759Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:27.562Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' completed successfully in 4s","timestamp":"2026-11-16T12:11:31.956Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: search","timestamp":"2026-11-16T12:11:33.306Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'search' completed successfully in 120ms","timestamp":"2026-11-16T12:11:33.426Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-16T12:11:33.517Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'biomcp' completed successfully in 396ms","timestamp":"2026-11-16T12:11:33.913Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-16T12:11:36.320Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'biomcp' completed successfully in 71ms","timestamp":"2026-11-16T12:11:36.391Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: biomcp","timestamp":"2026-11-16T12:11:36.572Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'biomcp' completed successfully in 55ms","timestamp":"2026-11-16T12:11:36.627Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:38.930Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:39.323Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' completed successfully in 799ms","timestamp":"2026-11-16T12:11:39.729Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' completed successfully in 948ms","timestamp":"2026-11-16T12:11:40.270Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:43.690Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' completed successfully in 240ms","timestamp":"2026-11-16T12:11:43.930Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Calling MCP tool: get","timestamp":"2026-11-16T12:11:44.011Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Tool 'get' completed successfully in 410ms","timestamp":"2026-11-16T12:11:44.421Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:11:50.198Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:11:50.298Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"UNKNOWN connection closed after 26s (cleanly)","timestamp":"2026-11-16T12:11:50.303Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:11:50.303Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:11:50.348Z","sessionId":"9d2319a6-cec7-489e-937c-119f2d8fa791","cwd":"/tmp/biomcp-eval-k628u18s"}
