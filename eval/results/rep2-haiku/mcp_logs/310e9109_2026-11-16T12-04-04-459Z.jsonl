@@ -1,0 +1,10 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-11-16T12:04:04.459Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Successfully connected (transport: stdio) in 581ms","timestamp":"2026-11-16T12:04:05.023Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":true,\"hasResources\":true,\"hasResourceSubscribe\":true,\"serverVersion\":{\"name\":\"raremcp-all\",\"version\":\"0.1.0\"},\"protocolEra\":\"modern\",\"negotiatedProtocolVersion\":\"2026-07-28\"}","timestamp":"2026-11-16T12:04:05.023Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Calling MCP tool: ctgov_get_trial","timestamp":"2026-11-16T12:04:05.850Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Tool 'ctgov_get_trial' completed successfully in 174ms","timestamp":"2026-11-16T12:04:06.024Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Sending SIGINT to MCP server process","timestamp":"2026-11-16T12:04:07.481Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"SIGINT failed, sending SIGTERM to MCP server process","timestamp":"2026-11-16T12:04:07.581Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"UNKNOWN connection closed after 2s (cleanly)","timestamp":"2026-11-16T12:04:07.585Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"Cleared connection cache for reconnection","timestamp":"2026-11-16T12:04:07.585Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
+{"debug":"MCP server process exited cleanly","timestamp":"2026-11-16T12:04:07.632Z","sessionId":"1e328f7c-1914-4fdc-a04e-2e74b085a82c","cwd":"/tmp/biomcp-eval-knsq9kcf"}
