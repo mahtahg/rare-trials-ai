@@ -4,7 +4,7 @@
   "variables": {}
  },
  "method": "POST",
- "retrieved_at": "2026-11-16T12:05:02+00:00",
+ "retrieved_at": "2026-11-16T12:07:17+00:00",
  "status": 200,
  "text": "{\"data\":{\"meta\":{\"dataVersion\":{\"year\":\"26\",\"month\":\"09\",\"iteration\":null},\"apiVersion\":{\"x\":\"26\",\"y\":\"9\",\"z\":\"0\"}}}}",
  "url": "https://api.platform.opentargets.org/api/v4/graphql"
