@@ -391,22 +391,6 @@
     0.2384
    ]
   },
-  "claude-haiku-5-5|biomcp_vs_no_tools": {
-   "n": 254,
-   "biomcp_only_correct": 148,
-   "other_only_correct": 1,
-   "mcnemar_p": 0.0,
-   "acc_diff_ci95": [
-    0.5787,
-    0.5157,
-    0.6378
-   ],
-   "score_diff_ci95": [
-    0.5887,
-    0.5296,
-    0.6477
-   ]
-  },
   "claude-haiku-5-5|biomcp_vs_biomcp_go": {
    "n": 254,
    "biomcp_only_correct": 46,
@@ -421,6 +405,22 @@
     0.1762,
     0.1318,
     0.2226
+   ]
+  },
+  "claude-haiku-5-5|biomcp_vs_no_tools": {
+   "n": 254,
+   "biomcp_only_correct": 148,
+   "other_only_correct": 1,
+   "mcnemar_p": 0.0,
+   "acc_diff_ci95": [
+    0.5787,
+    0.5157,
+    0.6378
+   ],
+   "score_diff_ci95": [
+    0.5887,
+    0.5296,
+    0.6477
    ]
   }
  },
