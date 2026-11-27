@@ -98,9 +98,10 @@ def open_run(run: str, tier: str) -> dict | None:
     nt = [r for (q, c), r in raw.items() if c == "no_tools"]
     fab = sum(1 for r in nt if not r["tool_calls"] and CLAIM.search(r.get("final_text") or ""))
     stops = Counter(r.get("stop_reason") for r in raw.values() if r.get("stop_reason"))
+    nudges = Counter(k for r in raw.values() for k in (r.get("nudges") or []))
     complete = all(len(cells.get(c, {})) == TIERS[tier][1] for c in CONDS)
     return {"cells": cells, "complete": complete, "n": {c: len(cells.get(c, {})) for c in CONDS}, "fab": (fab, len(nt)),
-            "stops": dict(stops), "parse_fail": sum(1 for c in cells.values() for x in c.values() if x.get("parse_fail")),
+            "stops": dict(stops), "nudges": dict(nudges), "runs": len(raw), "parse_fail": sum(1 for c in cells.values() for x in c.values() if x.get("parse_fail")),
             "provenance": sorted({p.read_text().strip() for p in d.glob("provenance.shard*.json")})}
 
 
@@ -240,12 +241,17 @@ def open_paragraph(op: dict) -> str:
             f"{pct(ah['web_search'][0] / 60)}\\%, {pct(ah['biomcp_go'][0] / 60)}\\% and {pct(ah['no_tools'][0] / 60)}\\%.")
     fabs = "; ".join(f"{n}: {op[(k, 'base')]['fab'][0] + op[(k, 'hard')]['fab'][0]} of "
                      f"{op[(k, 'base')]['fab'][1] + op[(k, 'hard')]['fab'][1]}" for k, n in done)
-    stops = Counter()
-    for k, _ in done:
+    stops, nud = Counter(), []
+    for k, n in done:
+        c, runs = Counter(), 0
         for t in TIERS:
             stops.update(op[(k, t)]["stops"])
+            c.update(op[(k, t)]["nudges"])
+            runs += op[(k, t)]["runs"]
+        nud.append(f"{n} {c.get('text_tool_call', 0)} text-written tool calls and {c.get('empty', 0)} empty turns in {runs:,} runs")
     return (" ".join(parts) + f" The fabricated-tool-use screen flagged no-tools answers as follows ({fabs}); "
             "\\textcolor{red}{[read and confirm each flag before submission]}. "
+            + f"The client's one-time reply was needed for {'; '.join(nud)}. "
             + (f"Model-side stops, scored incorrect: {', '.join(f'{v} {k.replace(chr(95), chr(32))}' for k, v in stops.items())}." if stops else "")
             + "\n")
 
@@ -347,7 +353,7 @@ def main() -> int:
     (GEN / "open_results.tex").write_text(open_paragraph(op))
     fig_accuracy(cc, op)
     fig_shared_error()
-    status = {f"{k}/{t}": {"complete": v["complete"], "n": v["n"], "stops": v["stops"], "fab": v["fab"], "provenance": v["provenance"]}
+    status = {f"{k}/{t}": {"complete": v["complete"], "n": v["n"], "stops": v["stops"], "nudges": v["nudges"], "fab": v["fab"], "provenance": v["provenance"]}
               for (k, t), v in op.items()}
     (GEN / "open_status.json").write_text(json.dumps(status, indent=1))
     print(json.dumps(status, indent=1) if status else "open-model results: none yet (tables show 'pending')")
