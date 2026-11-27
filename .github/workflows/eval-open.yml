@@ -1,0 +1,87 @@
+name: eval-open
+# Open-weight models served on the runner's CPU with llama.cpp: no API, no paid service.
+# Cost guard: jobs run only in a PUBLIC repository (GitHub Actions minutes are free and unlimited there),
+# unless allow_private is set by someone who has confirmed the account's Actions spending limit is $0.
+on:
+  workflow_dispatch:
+    inputs:
+      model: { description: "gemma4-26b-a4b | gpt-oss-20b", required: true, default: "gemma4-26b-a4b" }
+      questions: { description: "Question file", default: "eval/questions.jsonl" }
+      run_id: { description: "Run id (reuse to resume)", required: true, default: "open-gemma4" }
+      conditions: { default: "no_tools,web_search,biomcp_go,biomcp" }
+      shards: { description: "JSON list of shard indices to run", default: "[0,1,2,3,4,5,6,7]" }
+      n_shards: { default: "8" }
+      max_minutes: { default: "320" }
+      llama_tag: { description: "llama.cpp release tag (latest = newest; recorded in the run)", default: "latest" }
+      allow_private: { description: "Run even if the repo is private (only if the Actions spending limit is $0)", type: boolean, default: false }
+permissions:
+  contents: write
+jobs:
+  run:
+    if: ${{ !github.event.repository.private || inputs.allow_private }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJSON(inputs.shards) }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e ".[dev]" ddgs "huggingface_hub>=0.25"
+      - name: BioMCP comparator (pinned)
+        if: contains(inputs.conditions, 'biomcp_go')
+        run: pip install "biomcp-cli==0.9.3" && biomcp version
+      - name: Model choice (pinned weights)
+        id: m
+        shell: bash
+        run: |
+          case "${{ inputs.model }}" in
+            gemma4-26b-a4b) echo "repo=google/gemma-4-26B-A4B-it-qat-q4_0-gguf" >> $GITHUB_OUTPUT
+                            echo "rev=d1c082be9cf3c8a514acf63b8761f4b41935842e" >> $GITHUB_OUTPUT
+                            echo "file=gemma-4-26B_q4_0-it.gguf" >> $GITHUB_OUTPUT
+                            echo "label=gemma-4-26b-a4b-it-qat-q4_0" >> $GITHUB_OUTPUT ;;
+            gpt-oss-20b)    echo "repo=ggml-org/gpt-oss-20b-GGUF" >> $GITHUB_OUTPUT
+                            echo "rev=41e8a94d15d62070b36cf4553a0250717ecf46b8" >> $GITHUB_OUTPUT
+                            echo "file=gpt-oss-20b-MXFP4.gguf" >> $GITHUB_OUTPUT
+                            echo "label=gpt-oss-20b-mxfp4" >> $GITHUB_OUTPUT ;;
+            *) echo "unknown model"; exit 1 ;;
+          esac
+      - name: Download weights to /mnt (free; Hugging Face)
+        shell: bash
+        run: |
+          sudo mkdir -p /mnt/models && sudo chown $USER /mnt/models
+          python -c "from huggingface_hub import hf_hub_download as d; print(d('${{ steps.m.outputs.repo }}', '${{ steps.m.outputs.file }}', revision='${{ steps.m.outputs.rev }}', local_dir='/mnt/models'))"
+          ls -la /mnt/models
+      - name: llama.cpp (prebuilt CPU release)
+        shell: bash
+        run: |
+          TAG="${{ inputs.llama_tag }}"; [ "$TAG" = "latest" ] && TAG=$(gh release view --repo ggml-org/llama.cpp --json tagName -q .tagName)
+          gh release download "$TAG" --repo ggml-org/llama.cpp --pattern "llama-*-bin-ubuntu-x64.zip" --dir /mnt/llama
+          cd /mnt/llama && unzip -q *.zip && echo "LLAMA_TAG=$TAG" >> $GITHUB_ENV
+          echo "LLAMA_SERVER=$(find /mnt/llama -name llama-server -type f | head -1)" >> $GITHUB_ENV
+      - name: Start model server
+        shell: bash
+        run: |
+          chmod +x "$LLAMA_SERVER"; export LD_LIBRARY_PATH="$(dirname $LLAMA_SERVER):$LD_LIBRARY_PATH"
+          nohup "$LLAMA_SERVER" -m /mnt/models/${{ steps.m.outputs.file }} --jinja -c 32768 -t 4 -np 1 --port 8080 > /mnt/llama/server.log 2>&1 &
+          for i in $(seq 1 180); do curl -sf http://127.0.0.1:8080/health && break; sleep 5; done
+          curl -sf http://127.0.0.1:8080/health || (tail -50 /mnt/llama/server.log; exit 1)
+      - name: Run
+        shell: bash
+        run: |
+          python eval/harness_open.py --model-label "${{ steps.m.outputs.label }}" --questions "${{ inputs.questions }}" \
+            --conditions "${{ inputs.conditions }}" --run-id "${{ inputs.run_id }}" \
+            --shard "${{ matrix.shard }}/${{ inputs.n_shards }}" --max-minutes ${{ inputs.max_minutes }}
+          echo "{\"llama_cpp\": \"$LLAMA_TAG\", \"weights\": \"${{ steps.m.outputs.repo }}@${{ steps.m.outputs.rev }}/${{ steps.m.outputs.file }}\", \"cost_usd\": 0}" \
+            > "eval/results/${{ inputs.run_id }}/provenance.shard${{ matrix.shard }}.json"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "eval-bot"; git config user.email "eval-bot@users.noreply.github.com"
+          git add "eval/results/${{ inputs.run_id }}" || true
+          git commit -m "eval-open: ${{ inputs.run_id }} shard ${{ matrix.shard }} [skip ci]" || echo "no changes"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*7)); done
