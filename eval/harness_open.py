@@ -4,6 +4,10 @@ Same questions, system prompt, answer block, turn cap and record format as eval/
 compare.py and the figures work unchanged. Only the client differs: an OpenAI-compatible chat loop with tool
 calling against a model served on this machine.
 
+Stops caused by the model (turn cap, 1,200-s timeout, context window full) are recorded in stop_reason and scored
+from whatever answer block the model produced, usually none, so they count as incorrect. Only infrastructure failures
+(server unreachable, HTTP errors other than a full context) set `error`; score.py drops those and a resume re-runs them.
+
 Cost guard: the harness refuses any model endpoint that is not on localhost, so it cannot call a paid API.
 
 Conditions
@@ -127,8 +131,11 @@ def mcp_for(condition: str) -> McpTools | None:
     return None
 
 
+SAMPLING: dict = {"temperature": 1.0}  # set from the command line; defaults follow the model developers' recommendations
+
+
 async def chat(client: httpx.AsyncClient, base: str, messages: list, tools: list | None) -> dict:
-    body = {"model": "local", "messages": messages, "temperature": 0.7}
+    body = {"model": "local", "messages": messages, **SAMPLING}
     if tools:
         body["tools"] = tools
         body["tool_choice"] = "auto"
@@ -141,7 +148,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
     prompt = q["question"] + (f"\n\nAnswer format: {q['answer_format']}" if q.get("answer_format") else "")
     messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
     calls, outputs, served, usage = [], [], set(), {"prompt_tokens": 0, "completion_tokens": 0}
-    final, error, turns = "", None, 0
+    final, error, stop, turns = "", None, None, 0
     t0 = time.monotonic()
     mcp = mcp_for(condition)
     try:
@@ -155,7 +162,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
             async with httpx.AsyncClient(timeout=TIMEOUT_S) as client:
                 while turns < MAX_TURNS:
                     if time.monotonic() - t0 > TIMEOUT_S:
-                        error = "timeout"
+                        stop = "timeout"
                         break
                     turns += 1
                     resp = await chat(client, base, messages, tools)
@@ -191,12 +198,18 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
                         outputs.append(out)
                         messages.append({"role": "tool", "tool_call_id": tc.get("id", ""), "content": out})
                 else:
-                    error = "error_max_turns: "
+                    stop = "max_turns"
+    except httpx.HTTPStatusError as e:
+        body = e.response.text[:400]
+        if e.response.status_code == 400 and re.search(r"context|n_ctx|too long|exceed", body, re.IGNORECASE):
+            stop = "context_limit"  # the conversation outgrew the 32k-token window: a model-side stop, scored as answered
+        else:
+            error = f"error: HTTP {e.response.status_code}: {body}"
     except Exception as e:  # noqa: BLE001
         error = f"error: {type(e).__name__}: {str(e)[:400]}"
     return {"qid": q["id"], "template": q["template"], "model": label, "condition": condition, "rep": rep,
             "served_models": sorted(served), "parsed": parse_answer(final), "final_text": final[-4000:],
-            "error": error, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
+            "error": error, "stop_reason": stop, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
             "n_web_searches": sum(1 for c in calls if c["name"] == "WebSearch"), "num_turns": turns, "usage": usage,
             "api_equivalent_cost_usd": 0.0, "latency_s": round(time.monotonic() - t0, 2),
             "finished_at": datetime.now(timezone.utc).isoformat()}
@@ -211,7 +224,10 @@ async def main() -> int:
     ap.add_argument("--shard", default="0/1", help="i/N: run every N-th question starting at i")
     ap.add_argument("--max-minutes", type=float, default=330)
     ap.add_argument("--run-id", required=True)
+    ap.add_argument("--sampling", default='{"temperature": 1.0}', help="JSON sampling settings sent with every request")
     a = ap.parse_args()
+    SAMPLING.clear()
+    SAMPLING.update(json.loads(a.sampling))
     host = urlparse(a.base_url).hostname
     if host not in LOCAL_HOSTS:
         print(f"Refusing to run: {a.base_url} is not a local endpoint (cost guard).", file=sys.stderr)
@@ -243,6 +259,8 @@ async def main() -> int:
                   f"{rec['latency_s']}s {rec['error'] or ''}", flush=True)
     meta = out_dir / "meta.json"
     m = json.loads(meta.read_text()) if meta.exists() else {"run_id": a.run_id, "model": a.model_label, "sessions": []}
+    m["sampling"] = SAMPLING
+    m["tool_output_chars"], m["timeout_s"], m["max_turns"] = TOOL_OUTPUT_CHARS, TIMEOUT_S, MAX_TURNS
     m["sessions"].append({"shard": a.shard, "finished_at": datetime.now(timezone.utc).isoformat(), "pending_at_start": len(jobs)})
     meta.write_text(json.dumps(m, indent=1))
     return 0

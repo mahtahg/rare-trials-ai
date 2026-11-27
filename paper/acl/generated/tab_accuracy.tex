@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{llccccc}
+\toprule
+Tier & Model & No tools & Web search & BioMCP & RareMCP 0.1.0 & RareMCP 0.1.1 \\
+\midrule
+Base & Claude Sonnet 5.5 & 46.9 & 81.9 & 87.4 & \textbf{99.2} & 100.0$^\dagger$ \\
+Base & Claude Haiku 5.5 & 38.6 & 78.3 & 79.1 & \textbf{96.5} & 97.2$^\dagger$ \\
+Base & Gemma 4 26B-A4B & \pend & \pend & \pend & -- & \pend \\
+Base & gpt-oss-20b & \pend & \pend & \pend & -- & \pend \\
+\midrule
+Hard & Claude Sonnet 5.5 & 41.7 & 81.7 & 76.7 & \textbf{81.7} & 90.0$^\dagger$ \\
+Hard & Claude Haiku 5.5 & 28.3 & 78.3 & 68.3 & \textbf{80.0} & 90.0$^\dagger$ \\
+Hard & Gemma 4 26B-A4B & \pend & \pend & \pend & -- & \pend \\
+Hard & gpt-oss-20b & \pend & \pend & \pend & -- & \pend \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy (\%) by tool condition against the audited gold answers (v1.1), one run per question, model and condition. Base tier: 254 single-source questions; hard tier: 60 multi-step questions. Bold: RareMCP version as run. Claude models were run with RareMCP 0.1.0; $^\dagger$post hoc composite in which the 58 Drugs@FDA-dependent questions were re-run with 0.1.1 and all other answers kept (\S\ref{sec:shared}). Open-weight models were run once, with 0.1.1 throughout. Open-model web search is DuckDuckGo search plus page fetch rather than Claude Code's built-in tools (\S\ref{sec:setup}). 95\% Wilson intervals are in Figure~\ref{fig:acc}.}
+\label{tab:acc}
+\end{table*}

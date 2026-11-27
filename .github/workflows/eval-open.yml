@@ -43,11 +43,13 @@ jobs:
             gemma4-26b-a4b) echo "repo=google/gemma-4-26B-A4B-it-qat-q4_0-gguf" >> $GITHUB_OUTPUT
                             echo "rev=d1c082be9cf3c8a514acf63b8761f4b41935842e" >> $GITHUB_OUTPUT
                             echo "file=gemma-4-26B_q4_0-it.gguf" >> $GITHUB_OUTPUT
-                            echo "label=gemma-4-26b-a4b-it-qat-q4_0" >> $GITHUB_OUTPUT ;;
+                            echo "label=gemma-4-26b-a4b-it-qat-q4_0" >> $GITHUB_OUTPUT
+                            echo 'sampling={"temperature": 1.0, "top_p": 0.95, "top_k": 64}' >> $GITHUB_OUTPUT ;;
             gpt-oss-20b)    echo "repo=ggml-org/gpt-oss-20b-GGUF" >> $GITHUB_OUTPUT
                             echo "rev=41e8a94d15d62070b36cf4553a0250717ecf46b8" >> $GITHUB_OUTPUT
                             echo "file=gpt-oss-20b-MXFP4.gguf" >> $GITHUB_OUTPUT
-                            echo "label=gpt-oss-20b-mxfp4" >> $GITHUB_OUTPUT ;;
+                            echo "label=gpt-oss-20b-mxfp4" >> $GITHUB_OUTPUT
+                            echo 'sampling={"temperature": 1.0, "top_p": 1.0}' >> $GITHUB_OUTPUT ;;
             *) echo "unknown model"; exit 1 ;;
           esac
       - name: Download weights to /mnt (free; Hugging Face)
@@ -75,7 +77,8 @@ jobs:
         run: |
           python eval/harness_open.py --model-label "${{ steps.m.outputs.label }}" --questions "${{ inputs.questions }}" \
             --conditions "${{ inputs.conditions }}" --run-id "${{ inputs.run_id }}" \
-            --shard "${{ matrix.shard }}/${{ inputs.n_shards }}" --max-minutes ${{ inputs.max_minutes }}
+            --shard "${{ matrix.shard }}/${{ inputs.n_shards }}" --max-minutes ${{ inputs.max_minutes }} \
+            --sampling '${{ steps.m.outputs.sampling }}'
           echo "{\"llama_cpp\": \"$LLAMA_TAG\", \"weights\": \"${{ steps.m.outputs.repo }}@${{ steps.m.outputs.rev }}/${{ steps.m.outputs.file }}\", \"cost_usd\": 0}" \
             > "eval/results/${{ inputs.run_id }}/provenance.shard${{ matrix.shard }}.json"
       - name: Commit results
