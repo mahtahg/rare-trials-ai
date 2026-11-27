@@ -134,12 +134,19 @@ def mcp_for(condition: str) -> McpTools | None:
 SAMPLING: dict = {"temperature": 1.0}  # set from the command line; defaults follow the model developers' recommendations
 
 
-async def chat(client: httpx.AsyncClient, base: str, messages: list, tools: list | None) -> dict:
+# A turn that ends with no text, or with a tool call written as text (a call the server could not parse, usually
+# because no tools were offered), gets one reply, as Claude Code answers a call to a tool it does not have.
+TEXT_TOOL_CALL = re.compile(r"<\|?tool_call|<tool_call>|\bcall:[\w.]+[:{]|to=functions\.|\[TOOL_CALLS\]", re.IGNORECASE)
+NUDGE_NO_TOOLS = "No tools are available here. Answer from your own knowledge and end with the required <answer> block."
+NUDGE_EMPTY = "Your last turn had no text. Give your final answer now, ending with the required <answer> block."
+
+
+async def chat(client: httpx.AsyncClient, base: str, messages: list, tools: list | None, timeout: float) -> dict:
     body = {"model": "local", "messages": messages, **SAMPLING}
     if tools:
         body["tools"] = tools
         body["tool_choice"] = "auto"
-    r = await client.post(f"{base}/chat/completions", json=body)
+    r = await client.post(f"{base}/chat/completions", json=body, timeout=timeout)
     r.raise_for_status()
     return r.json()
 
@@ -148,7 +155,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
     prompt = q["question"] + (f"\n\nAnswer format: {q['answer_format']}" if q.get("answer_format") else "")
     messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
     calls, outputs, served, usage = [], [], set(), {"prompt_tokens": 0, "completion_tokens": 0}
-    final, error, stop, turns = "", None, None, 0
+    final, error, stop, turns, nudges, reasoning = "", None, None, 0, [], ""
     t0 = time.monotonic()
     mcp = mcp_for(condition)
     try:
@@ -165,16 +172,23 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
                         stop = "timeout"
                         break
                     turns += 1
-                    resp = await chat(client, base, messages, tools)
+                    resp = await chat(client, base, messages, tools, max(60.0, TIMEOUT_S - (time.monotonic() - t0) + 30))
                     served.add(resp.get("model") or label)
                     for k in usage:
                         usage[k] += (resp.get("usage") or {}).get(k, 0) or 0
                     msg = resp["choices"][0]["message"]
                     tcs = msg.get("tool_calls") or []
-                    messages.append({"role": "assistant", "content": msg.get("content") or "", **({"tool_calls": tcs} if tcs else {})})
-                    if msg.get("content"):
-                        final = msg["content"]
+                    content = msg.get("content") or ""
+                    reasoning = (msg.get("reasoning_content") or reasoning)[-2000:]
+                    messages.append({"role": "assistant", "content": content, **({"tool_calls": tcs} if tcs else {})})
+                    if content.strip():
+                        final = content
                     if not tcs:
+                        kind = "text_tool_call" if TEXT_TOOL_CALL.search(content) else "empty" if not content.strip() else None
+                        if kind and not nudges and parse_answer(content) is None:
+                            nudges.append(kind)
+                            messages.append({"role": "user", "content": NUDGE_NO_TOOLS if (kind == "text_tool_call" or not tools) else NUDGE_EMPTY})
+                            continue
                         break
                     for tc in tcs:
                         name = tc["function"]["name"]
@@ -209,7 +223,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
         error = f"error: {type(e).__name__}: {str(e)[:400]}"
     return {"qid": q["id"], "template": q["template"], "model": label, "condition": condition, "rep": rep,
             "served_models": sorted(served), "parsed": parse_answer(final), "final_text": final[-4000:],
-            "error": error, "stop_reason": stop, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
+            "error": error, "stop_reason": stop, "nudges": nudges, "reasoning_tail": reasoning, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
             "n_web_searches": sum(1 for c in calls if c["name"] == "WebSearch"), "num_turns": turns, "usage": usage,
             "api_equivalent_cost_usd": 0.0, "latency_s": round(time.monotonic() - t0, 2),
             "finished_at": datetime.now(timezone.utc).isoformat()}

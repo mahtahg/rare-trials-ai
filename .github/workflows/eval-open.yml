@@ -82,6 +82,12 @@ jobs:
             --sampling '${{ steps.m.outputs.sampling }}'
           echo "{\"llama_cpp\": \"$LLAMA_TAG\", \"weights\": \"${{ steps.m.outputs.repo }}@${{ steps.m.outputs.rev }}/${{ steps.m.outputs.file }}\", \"cost_usd\": 0}" \
             > "eval/results/${{ inputs.run_id }}/provenance.shard${{ matrix.shard }}.json"
+      - name: Server diagnostics
+        if: always()
+        shell: bash
+        run: |
+          free -m; nproc
+          grep -E "prompt eval time|^\s*eval time|total time|mmap|model size|error" /mnt/llama/server.log | tail -40 || true
       - name: Commit results
         if: always()
         run: |
