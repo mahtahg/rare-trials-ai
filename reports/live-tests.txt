@@ -4,7 +4,85 @@ The event loop scope for asynchronous fixtures will default to the fixture scope
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
 .....OT metformin stage: APPROVAL
 .OT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
-.......
+.F.....
+=================================== FAILURES ===================================
+____________________________ test_chembl_metformin _____________________________
+
+    async def test_chembl_metformin():
+>       s = await chembl.search_molecules("metformin", 5)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_sources_live.py:77: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/raremcp/sources/chembl.py:55: in search_molecules
+    r = await _get("molecule/search.json", {"q": query, "limit": max(1, min(limit, 50))}, client)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/raremcp/sources/chembl.py:29: in _get
+    r.provenance.source_version = await db_version(client)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+src/raremcp/sources/chembl.py:21: in db_version
+    r = await (client or shared_client()).get_json(SOURCE, f"{BASE}/status.json")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src/raremcp/core/http.py:253: in get_json
+    return await self.request(source, "GET", url, params=params, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <raremcp.core.http.HttpClient object at 0x777310ceb470>
+source = 'chembl', method = 'GET'
+url = 'https://www.ebi.ac.uk/chembl/api/data/status.json', params = None
+json_body = None, headers = None, ok_statuses = frozenset({200})
+
+    async def request(
+        self,
+        source: str,
+        method: str,
+        url: str,
+        *,
+        params: dict[str, Any] | None = None,
+        json_body: Any = None,
+        headers: dict[str, str] | None = None,
+        ok_statuses: frozenset[int] = frozenset({200}),
+    ) -> Response:
+        full_url = _canonical_url(url, params)
+        key = _cassette_key(method, full_url, json_body)
+    
+        if self.cassette_mode in {"replay", "auto"}:
+            rec = self._load_cassette(source, key)
+            if rec is not None:
+                return self._from_record(source, rec, from_cassette=True)
+            if self.cassette_mode == "replay":
+                raise CassetteMiss(f"no cassette for {method} {full_url}", url=full_url)
+    
+        status, text = await self._fetch(method, url, params, json_body, headers)
+        rec = {
+            "method": method.upper(),
+            "url": full_url,
+            "json_body": json_body,
+            "status": status,
+            "retrieved_at": _now(),
+            "text": text,
+        }
+        if self.cassette_mode in {"record", "auto"} and status in ok_statuses | {404}:
+            self._save_cassette(source, key, rec)
+        resp = self._from_record(source, rec, from_cassette=False)
+        if status not in ok_statuses:
+            msg = text[:500] if isinstance(text, str) else str(text)[:500]
+>           raise SourceError(f"{source} HTTP {status}: {msg}", status=status, url=full_url)
+E           raremcp.core.http.SourceError: chembl HTTP 500: <!doctype html>
+E           <html lang="en" class="vf-no-js">
+E             <head>
+E               <script>
+E           // Detect if JS is on and swap vf-no-js for vf-js on the html element
+E           (function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+E           </script>
+E           
+E               <meta charset="utf-8">
+E               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+E               <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+E               <title>Error: 500 | EMBL’s European Bionformatics Institute</title>
+
+src/raremcp/core/http.py:202: SourceError
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -14,10 +92,21 @@ PASSED tests/test_sources_live.py::test_ctgov_version
 PASSED tests/test_sources_live.py::test_opentargets_search_disease_and_targets
 PASSED tests/test_sources_live.py::test_opentargets_drug_metformin
 PASSED tests/test_sources_live.py::test_opentargets_disease_drugs
-PASSED tests/test_sources_live.py::test_chembl_metformin
 PASSED tests/test_sources_live.py::test_fda_generic_and_label
 PASSED tests/test_sources_live.py::test_fda_finds_applications_without_openfda_block
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
 PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-13 passed, 17 deselected in 25.07s
+FAILED tests/test_sources_live.py::test_chembl_metformin - raremcp.core.http.SourceError: chembl HTTP 500: <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBL’s European Bionformatics Institute</title>
+1 failed, 12 passed, 17 deselected in 89.39s (0:01:29)
