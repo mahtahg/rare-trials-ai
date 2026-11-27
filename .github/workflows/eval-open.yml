@@ -55,7 +55,7 @@ jobs:
       - name: Download weights to /mnt (free; Hugging Face)
         shell: bash
         run: |
-          sudo mkdir -p /mnt/models && sudo chown $USER /mnt/models
+          sudo mkdir -p /mnt/models /mnt/llama && sudo chown $USER /mnt/models /mnt/llama
           python -c "from huggingface_hub import hf_hub_download as d; print(d('${{ steps.m.outputs.repo }}', '${{ steps.m.outputs.file }}', revision='${{ steps.m.outputs.rev }}', local_dir='/mnt/models'))"
           ls -la /mnt/models
       - name: llama.cpp (prebuilt CPU release)
