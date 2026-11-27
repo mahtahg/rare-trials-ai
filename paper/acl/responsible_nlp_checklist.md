@@ -11,7 +11,7 @@ Section references are to `raremcp_acl.tex`. Items still to settle before submis
 - **B2 License or terms discussed?** Yes.
   - All six sources are public and free to use. Each source's terms are cited by its home page.
   - Gemma 4 and gpt-oss-20b are Apache-2.0 (§4).
-  - BioMCP is MIT-licensed. **TO DO:** confirm against the BioMCP repository before submitting.
+  - BioMCP is MIT-licensed (stated in its repository, checked 27 November 2026).
   - Our code and data will be released under MIT (Ethics statement).
 - **B3 Use consistent with intended use?** Yes. All use is read-only look-up through public APIs. The released tools are for research look-up with human checking and not for patient care (Ethics statement).
 - **B4 Personal or offensive content checked?** Yes. There are no personal data. Trial records, drug and disease data are public and contain no patient-level information (Ethics statement).
