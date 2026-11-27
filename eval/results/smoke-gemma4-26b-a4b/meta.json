@@ -1,0 +1,19 @@
+{
+ "run_id": "smoke-gemma4-26b-a4b",
+ "model": "gemma-4-26b-a4b-it-qat-q4_0",
+ "sessions": [
+  {
+   "shard": "0/64",
+   "finished_at": "2026-11-27T18:26:43.137970+00:00",
+   "pending_at_start": 16
+  }
+ ],
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64
+ },
+ "tool_output_chars": 12000,
+ "timeout_s": 1200,
+ "max_turns": 20
+}
