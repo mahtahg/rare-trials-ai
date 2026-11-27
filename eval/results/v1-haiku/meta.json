@@ -189,6 +189,13 @@
    "finished_at": "2026-11-26T04:53:43.209702+00:00",
    "completed_runs": 0,
    "stopped_for_usage_limit": false
+  },
+  {
+   "started_at": "2026-11-27T04:54:58.456831+00:00",
+   "pending_jobs": 0,
+   "finished_at": "2026-11-27T04:54:58.458740+00:00",
+   "completed_runs": 0,
+   "stopped_for_usage_limit": false
   }
  ],
  "args": {
@@ -201,7 +208,7 @@
   "seed": 20261103,
   "concurrency": 2,
   "max_runs": 0,
-  "max_minutes": 101.0,
+  "max_minutes": 100.0,
   "run_id": "v1-haiku"
  },
  "n_questions": 254,
