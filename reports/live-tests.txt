@@ -25,7 +25,7 @@ src/raremcp/core/http.py:253: in get_json
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = <raremcp.core.http.HttpClient object at 0x74d5d6ca87a0>
+self = <raremcp.core.http.HttpClient object at 0x74d3ba49b620>
 source = 'chembl', method = 'GET'
 url = 'https://www.ebi.ac.uk/chembl/api/data/molecule/search.json'
 params = {'q': 'metformin', 'limit': 5}, json_body = None, headers = None
@@ -107,4 +107,4 @@ FAILED tests/test_sources_live.py::test_chembl_metformin - raremcp.core.http.Sou
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
     <title>Error: 500 | EMBL’s European Bionformatics Institute</title>
-1 failed, 12 passed, 17 deselected in 84.83s (0:01:24)
+1 failed, 12 passed, 17 deselected in 66.71s (0:01:06)

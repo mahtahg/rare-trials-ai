@@ -1,7 +1,7 @@
 {
  "json_body": null,
  "method": "GET",
- "retrieved_at": "2026-11-23T17:59:09+00:00",
+ "retrieved_at": "2026-11-27T15:18:37+00:00",
  "status": 404,
  "text": "NCT number NCT99999999 not found",
  "url": "https://clinicaltrials.gov/api/v2/studies/NCT99999999"
