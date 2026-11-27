@@ -5,7 +5,7 @@ name: eval-open
 on:
   workflow_dispatch:
     inputs:
-      model: { description: "gemma4-26b-a4b | gpt-oss-20b", required: true, default: "gemma4-26b-a4b" }
+      model: { description: "gemma4-e4b | gpt-oss-20b | gemma4-26b-a4b (26B needs more than 16 GB RAM)", required: true, default: "gemma4-e4b" }
       questions: { description: "Question file", default: "eval/questions.jsonl" }
       run_id: { description: "Run id (reuse to resume)", required: true, default: "open-gemma4" }
       conditions: { default: "no_tools,web_search,biomcp_go,biomcp" }
@@ -45,6 +45,11 @@ jobs:
                             echo "file=gemma-4-26B_q4_0-it.gguf" >> $GITHUB_OUTPUT
                             echo "label=gemma-4-26b-a4b-it-qat-q4_0" >> $GITHUB_OUTPUT
                             echo 'sampling={"temperature": 1.0, "top_p": 0.95, "top_k": 64}' >> $GITHUB_OUTPUT ;;
+            gemma4-e4b)     echo "repo=google/gemma-4-E4B-it-qat-q4_0-gguf" >> $GITHUB_OUTPUT
+                            echo "rev=main" >> $GITHUB_OUTPUT
+                            echo "file=" >> $GITHUB_OUTPUT
+                            echo "label=gemma-4-e4b-it-qat-q4_0" >> $GITHUB_OUTPUT
+                            echo 'sampling={"temperature": 1.0, "top_p": 0.95, "top_k": 64}' >> $GITHUB_OUTPUT ;;
             gpt-oss-20b)    echo "repo=ggml-org/gpt-oss-20b-GGUF" >> $GITHUB_OUTPUT
                             echo "rev=41e8a94d15d62070b36cf4553a0250717ecf46b8" >> $GITHUB_OUTPUT
                             echo "file=gpt-oss-20b-MXFP4.gguf" >> $GITHUB_OUTPUT
@@ -56,7 +61,17 @@ jobs:
         shell: bash
         run: |
           sudo mkdir -p /mnt/models /mnt/llama && sudo chown $USER /mnt/models /mnt/llama
-          python -c "from huggingface_hub import hf_hub_download as d; print(d('${{ steps.m.outputs.repo }}', '${{ steps.m.outputs.file }}', revision='${{ steps.m.outputs.rev }}', local_dir='/mnt/models'))"
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi, hf_hub_download
+          repo, rev, file = "${{ steps.m.outputs.repo }}", "${{ steps.m.outputs.rev }}", "${{ steps.m.outputs.file }}"
+          info = HfApi().model_info(repo, revision=rev)   # resolves "main" to a commit, recorded below
+          if not file:
+              file = sorted(s.rfilename for s in info.siblings if s.rfilename.endswith(".gguf") and "mmproj" not in s.rfilename.lower())[0]
+          print(hf_hub_download(repo, file, revision=info.sha, local_dir="/mnt/models"))
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"WEIGHTS_FILE={file}\nWEIGHTS_REF={info.id}@{info.sha}/{file}\n")
+          PY
           ls -la /mnt/models
       - name: llama.cpp (prebuilt CPU release)
         shell: bash
@@ -70,7 +85,7 @@ jobs:
         shell: bash
         run: |
           chmod +x "$LLAMA_SERVER"; export LD_LIBRARY_PATH="$(dirname $LLAMA_SERVER):$LD_LIBRARY_PATH"
-          nohup "$LLAMA_SERVER" -m /mnt/models/${{ steps.m.outputs.file }} --jinja -c 32768 -t 4 -np 1 --port 8080 > /mnt/llama/server.log 2>&1 &
+          nohup "$LLAMA_SERVER" -m "/mnt/models/$WEIGHTS_FILE" --jinja -c 32768 -t 4 -np 1 --port 8080 > /mnt/llama/server.log 2>&1 &
           for i in $(seq 1 180); do curl -sf http://127.0.0.1:8080/health && break; sleep 5; done
           curl -sf http://127.0.0.1:8080/health || (tail -50 /mnt/llama/server.log; exit 1)
       - name: Run
@@ -80,7 +95,7 @@ jobs:
             --conditions "${{ inputs.conditions }}" --run-id "${{ inputs.run_id }}" \
             --shard "${{ matrix.shard }}/${{ inputs.n_shards }}" --max-minutes ${{ inputs.max_minutes }} \
             --sampling '${{ steps.m.outputs.sampling }}'
-          echo "{\"llama_cpp\": \"$LLAMA_TAG\", \"weights\": \"${{ steps.m.outputs.repo }}@${{ steps.m.outputs.rev }}/${{ steps.m.outputs.file }}\", \"cost_usd\": 0}" \
+          echo "{\"llama_cpp\": \"$LLAMA_TAG\", \"weights\": \"$WEIGHTS_REF\", \"cost_usd\": 0}" \
             > "eval/results/${{ inputs.run_id }}/provenance.shard${{ matrix.shard }}.json"
       - name: Server diagnostics
         if: always()

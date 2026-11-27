@@ -213,6 +213,8 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
                         messages.append({"role": "tool", "tool_call_id": tc.get("id", ""), "content": out})
                 else:
                     stop = "max_turns"
+    except httpx.TimeoutException:
+        stop = "timeout"  # the model was still generating when the run's time ran out: a model-side stop
     except httpx.HTTPStatusError as e:
         body = e.response.text[:400]
         if e.response.status_code == 400 and re.search(r"context|n_ctx|too long|exceed", body, re.IGNORECASE):
