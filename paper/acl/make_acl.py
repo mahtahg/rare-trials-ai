@@ -32,7 +32,7 @@ GEN = HERE / "generated"
 TIERS = {"base": ("eval/questions.jsonl", 254), "hard": ("eval/questions_hard.jsonl", 60)}
 CONDS = ["no_tools", "web_search", "biomcp_go", "biomcp"]
 CLAUDE = [("sonnet", "claude-sonnet-5-5", "Claude Sonnet 5.5"), ("haiku", "claude-haiku-5-5", "Claude Haiku 5.5")]
-OPEN = [("gemma", "Gemma 4 26B-A4B", {"base": "open-gemma4", "hard": "open-gemma4-hard"}),
+OPEN = [("gemma", "Gemma 4 E4B", {"base": "open-gemma4", "hard": "open-gemma4-hard"}),
         ("gptoss", "gpt-oss-20b", {"base": "open-gptoss", "hard": "open-gptoss-hard"})]
 MARK = {"sonnet": "o", "haiku": "s", "gemma": "^", "gptoss": "D"}
 CLAIM = re.compile(  # same screen as eval/process_fabrication.py

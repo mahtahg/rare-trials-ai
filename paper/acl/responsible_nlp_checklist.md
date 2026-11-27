@@ -22,7 +22,7 @@ Section references are to `raremcp_acl.tex`. Items still to settle before submis
 
 ## C. Did you run computational experiments? Yes
 - **C1 Parameters and compute reported?**
-  - Model sizes: Gemma 4 26B-A4B (25.2B total, 3.8B active) and gpt-oss-20b. Claude model sizes are not public.
+  - Model sizes: Gemma 4 E4B (about 4B effective parameters) and gpt-oss-20b (about 21B total, 3.6B active). Claude model sizes are not public.
   - Compute is in Appendix D, "Compute". **TO DO:** add the open-model runner hours from the run logs.
 - **C2 Experimental setup and hyperparameters?** Yes (§4).
   - Shared system prompt, 20-turn cap and timeouts.
