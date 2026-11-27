@@ -12,7 +12,7 @@ on:
       shards: { description: "JSON list of shard indices to run", default: "[0,1,2,3,4,5,6,7]" }
       n_shards: { default: "8" }
       max_minutes: { default: "320" }
-      llama_tag: { description: "llama.cpp release tag (latest = newest; recorded in the run)", default: "latest" }
+      llama_tag: { description: "llama.cpp build tag with prebuilt CPU binaries (recorded in the run)", default: "b11669" }
       allow_private: { description: "Run even if the repo is private (only if the Actions spending limit is $0)", type: boolean, default: false }
 permissions:
   contents: write
@@ -61,9 +61,10 @@ jobs:
       - name: llama.cpp (prebuilt CPU release)
         shell: bash
         run: |
-          TAG="${{ inputs.llama_tag }}"; [ "$TAG" = "latest" ] && TAG=$(gh release view --repo ggml-org/llama.cpp --json tagName -q .tagName)
-          gh release download "$TAG" --repo ggml-org/llama.cpp --pattern "llama-*-bin-ubuntu-x64.zip" --dir /mnt/llama
-          cd /mnt/llama && unzip -q *.zip && echo "LLAMA_TAG=$TAG" >> $GITHUB_ENV
+          TAG="${{ inputs.llama_tag }}"
+          gh release download "$TAG" --repo ggml-org/llama.cpp --pattern "llama-*-bin-ubuntu-x64.*" --dir /mnt/llama
+          cd /mnt/llama && for f in llama-*-bin-ubuntu-x64.*; do case "$f" in *.zip) unzip -q "$f" ;; *.tar.gz) tar -xzf "$f" ;; esac; done
+          echo "LLAMA_TAG=$TAG" >> $GITHUB_ENV
           echo "LLAMA_SERVER=$(find /mnt/llama -name llama-server -type f | head -1)" >> $GITHUB_ENV
       - name: Start model server
         shell: bash
