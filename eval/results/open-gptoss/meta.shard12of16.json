@@ -1,0 +1,18 @@
+{
+ "run_id": "open-gptoss",
+ "model": "gpt-oss-20b-mxfp4",
+ "sessions": [
+  {
+   "shard": "12/16",
+   "finished_at": "2026-11-28T04:56:44.867605+00:00",
+   "pending_at_start": 64
+  }
+ ],
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 1.0
+ },
+ "tool_output_chars": 12000,
+ "timeout_s": 1200,
+ "max_turns": 20
+}
