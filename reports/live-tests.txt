@@ -4,7 +4,74 @@ The event loop scope for asynchronous fixtures will default to the fixture scope
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
 .....OT metformin stage: APPROVAL
 .OT stage values: ['APPROVAL', 'EARLY_PHASE_1', 'IND', 'PHASE_1', 'PHASE_1_2', 'PHASE_2', 'PHASE_2_3', 'PHASE_3', 'UNKNOWN']
-.......
+.....F.
+=================================== FAILURES ===================================
+________________________ test_europepmc_search_and_get _________________________
+
+    async def test_europepmc_search_and_get():
+>       s = await europepmc.search('"drug repurposing" AND "rare disease"', page_size=3, from_year=2020)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_sources_live.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+src/raremcp/sources/europepmc.py:49: in search
+    r = await c.get_json(
+src/raremcp/core/http.py:253: in get_json
+    return await self.request(source, "GET", url, params=params, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <raremcp.core.http.HttpClient object at 0x7ef4f961b530>
+source = 'europepmc', method = 'GET'
+url = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search'
+params = {'query': '("drug repurposing" AND "rare disease") AND PUB_YEAR:[2020 TO 3000]', 'format': 'json', 'resultType': 'core', 'pageSize': 3, ...}
+json_body = None, headers = None, ok_statuses = frozenset({200})
+
+    async def request(
+        self,
+        source: str,
+        method: str,
+        url: str,
+        *,
+        params: dict[str, Any] | None = None,
+        json_body: Any = None,
+        headers: dict[str, str] | None = None,
+        ok_statuses: frozenset[int] = frozenset({200}),
+    ) -> Response:
+        full_url = _canonical_url(url, params)
+        key = _cassette_key(method, full_url, json_body)
+    
+        if self.cassette_mode in {"replay", "auto"}:
+            rec = self._load_cassette(source, key)
+            if rec is not None:
+                return self._from_record(source, rec, from_cassette=True)
+            if self.cassette_mode == "replay":
+                raise CassetteMiss(f"no cassette for {method} {full_url}", url=full_url)
+    
+        status, text = await self._fetch(method, url, params, json_body, headers)
+        rec = {
+            "method": method.upper(),
+            "url": full_url,
+            "json_body": json_body,
+            "status": status,
+            "retrieved_at": _now(),
+            "text": text,
+        }
+        if self.cassette_mode in {"record", "auto"} and status in ok_statuses | {404}:
+            self._save_cassette(source, key, rec)
+        resp = self._from_record(source, rec, from_cassette=False)
+        if status not in ok_statuses:
+            msg = text[:500] if isinstance(text, str) else str(text)[:500]
+>           raise SourceError(f"{source} HTTP {status}: {msg}", status=status, url=full_url)
+E           raremcp.core.http.SourceError: europepmc HTTP 503: <html>
+E           <head><title>503 Service Temporarily Unavailable</title></head>
+E           <body>
+E           <center><h1>503 Service Temporarily Unavailable</h1></center>
+E           <hr><center>nginx</center>
+E           </body>
+E           </html>
+
+src/raremcp/core/http.py:202: SourceError
 ==================================== PASSES ====================================
 =========================== short test summary info ============================
 PASSED tests/test_sources_live.py::test_ctgov_search_and_get
@@ -18,6 +85,12 @@ PASSED tests/test_sources_live.py::test_chembl_metformin
 PASSED tests/test_sources_live.py::test_fda_generic_and_label
 PASSED tests/test_sources_live.py::test_fda_finds_applications_without_openfda_block
 PASSED tests/test_sources_live.py::test_fda_unknown_ingredient
-PASSED tests/test_sources_live.py::test_europepmc_search_and_get
 PASSED tests/test_sources_live.py::test_orphanet_lookup_and_prevalence
-13 passed, 17 deselected in 21.56s
+FAILED tests/test_sources_live.py::test_europepmc_search_and_get - raremcp.core.http.SourceError: europepmc HTTP 503: <html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+1 failed, 12 passed, 17 deselected in 31.45s
