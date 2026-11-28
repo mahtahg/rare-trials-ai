@@ -1,0 +1,19 @@
+{
+ "run_id": "open-gemma4-hard",
+ "model": "gemma-4-e4b-it-qat-q4_0",
+ "sessions": [
+  {
+   "shard": "0/4",
+   "finished_at": "2026-11-28T03:13:04.374886+00:00",
+   "pending_at_start": 60
+  }
+ ],
+ "sampling": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64
+ },
+ "tool_output_chars": 12000,
+ "timeout_s": 1200,
+ "max_turns": 20
+}
