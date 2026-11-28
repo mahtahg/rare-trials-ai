@@ -155,7 +155,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
     prompt = q["question"] + (f"\n\nAnswer format: {q['answer_format']}" if q.get("answer_format") else "")
     messages = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]
     calls, outputs, served, usage = [], [], set(), {"prompt_tokens": 0, "completion_tokens": 0}
-    final, error, stop, turns, nudges, reasoning = "", None, None, 0, [], ""
+    final, error, stop, turns, nudges, reasoning, resamples = "", None, None, 0, [], "", 0
     t0 = time.monotonic()
     mcp = mcp_for(condition)
     try:
@@ -172,7 +172,21 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
                         stop = "timeout"
                         break
                     turns += 1
-                    resp = await chat(client, base, messages, tools, max(60.0, TIMEOUT_S - (time.monotonic() - t0) + 30))
+                    resp = None
+                    for attempt in range(3):  # llama.cpp returns 500 when the model's tool call breaks its grammar; resample
+                        try:
+                            resp = await chat(client, base, messages, tools, max(60.0, TIMEOUT_S - (time.monotonic() - t0) + 30))
+                            break
+                        except httpx.HTTPStatusError as e:
+                            if e.response.status_code == 500 and "does not match" in e.response.text and attempt < 2:
+                                resamples += 1
+                                continue
+                            if e.response.status_code == 500 and "does not match" in e.response.text:
+                                stop = "malformed_output"
+                                break
+                            raise
+                    if resp is None:
+                        break
                     served.add(resp.get("model") or label)
                     for k in usage:
                         usage[k] += (resp.get("usage") or {}).get(k, 0) or 0
@@ -225,7 +239,7 @@ async def run_one(q: dict, label: str, condition: str, rep: int, base: str) -> d
         error = f"error: {type(e).__name__}: {str(e)[:400]}"
     return {"qid": q["id"], "template": q["template"], "model": label, "condition": condition, "rep": rep,
             "served_models": sorted(served), "parsed": parse_answer(final), "final_text": final[-4000:],
-            "error": error, "stop_reason": stop, "nudges": nudges, "reasoning_tail": reasoning, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
+            "error": error, "stop_reason": stop, "nudges": nudges, "resamples": resamples, "reasoning_tail": reasoning, "usage_limited": False, "tool_calls": calls, "tool_outputs": outputs,
             "n_web_searches": sum(1 for c in calls if c["name"] == "WebSearch"), "num_turns": turns, "usage": usage,
             "api_equivalent_cost_usd": 0.0, "latency_s": round(time.monotonic() - t0, 2),
             "finished_at": datetime.now(timezone.utc).isoformat()}
@@ -273,7 +287,7 @@ async def main() -> int:
             f.flush()
             print(f"{k:4d}/{len(jobs)} {c:<10} {q['id']:<32} parsed={rec['parsed'] is not None} calls={len(rec['tool_calls'])} "
                   f"{rec['latency_s']}s {rec['error'] or ''}", flush=True)
-    meta = out_dir / "meta.json"
+    meta = out_dir / (f"meta.shard{i}of{n}.json" if n > 1 else "meta.json")  # one file per shard: shards commit in parallel
     m = json.loads(meta.read_text()) if meta.exists() else {"run_id": a.run_id, "model": a.model_label, "sessions": []}
     m["sampling"] = SAMPLING
     m["tool_output_chars"], m["timeout_s"], m["max_turns"] = TOOL_OUTPUT_CHARS, TIMEOUT_S, MAX_TURNS

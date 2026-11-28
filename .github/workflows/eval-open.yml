@@ -103,10 +103,22 @@ jobs:
         run: |
           free -m; nproc
           grep -E "prompt eval time|^\s*eval time|total time|mmap|model size|error" /mnt/llama/server.log | tail -40 || true
+      - name: Keep results as an artifact (backup if the push fails)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.run_id }}-shard${{ matrix.shard }}-attempt${{ github.run_attempt }}
+          path: eval/results/${{ inputs.run_id }}/*shard${{ matrix.shard }}of*
+          retention-days: 30
       - name: Commit results
         if: always()
         run: |
           git config user.name "eval-bot"; git config user.email "eval-bot@users.noreply.github.com"
           git add "eval/results/${{ inputs.run_id }}" || true
           git commit -m "eval-open: ${{ inputs.run_id }} shard ${{ matrix.shard }} [skip ci]" || echo "no changes"
-          for i in 1 2 3 4 5 6 7 8; do git pull --rebase origin ${{ github.ref_name }} && git push && break; sleep $((i*7)); done
+          for i in $(seq 1 12); do
+            git pull --rebase origin ${{ github.ref_name }} && git push && { echo pushed; exit 0; }
+            git rebase --abort 2>/dev/null || true
+            sleep $((RANDOM % 20 + i * 5))
+          done
+          echo "push failed after 12 attempts; results are in the run's artifact"; exit 1
